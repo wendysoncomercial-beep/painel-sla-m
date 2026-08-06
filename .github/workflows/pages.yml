@@ -1,0 +1,63 @@
+name: Publicar painel no GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "index.html"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  publicar:
+    name: Publicar painel
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v7
+
+      - name: Validar index.html
+        shell: bash
+        run: |
+          test -f index.html || {
+            echo "ERRO: index.html não encontrado na raiz do repositório."
+            exit 1
+          }
+
+          echo "Arquivo encontrado:"
+          ls -lh index.html
+
+      - name: Preparar site estático
+        shell: bash
+        run: |
+          rm -rf _site
+          mkdir -p _site
+          cp index.html _site/index.html
+          touch _site/.nojekyll
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - name: Enviar arquivos do site
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: "./_site"
+
+      - name: Publicar no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
