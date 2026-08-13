@@ -403,7 +403,7 @@ button.prod-legend-item.off{opacity:.38;text-decoration:line-through}
 let EMBEDDED_MASTER_CSV = '';
 let EMBEDDED_MASTER_CONVENIO_CSV = '';
 const EMBEDDED_MASTER_CONVENIO_BASELINE_CSV = EMBEDDED_MASTER_CONVENIO_CSV;
-const PANEL_UPDATED_AT = `12/08/2026, 21:30:02`;
+const PANEL_UPDATED_AT = `12/08/2026, 23:30:02`;
 
 let EMBEDDED_EXEC_ANALISE = '';
 let EMBEDDED_AGENTES_CANAL_CSV = '';
@@ -24218,17 +24218,17 @@ const __EMBEDDED_GZIP = {
 2026-08-12,REFIN,direto,33,30,0,3,3,27,30,0,3,0,0,29,29,50327,2,13493,33,7,3,0,3,0,1,0,33,0,29,29,63809000,5,,0
 2026-08-12,SEM PRODUTO,concierge,149,4,0,0,145,4,4,0,145,0,0,148,124,114900,3,113477,5,149,145,0,4,0,0,0,149,0,148,124,228377000,8,,0
 2026-08-12,SEM PRODUTO,direto,550,253,27,0,297,226,253,26,285,8,4,521,254,1660968,46,693755,209,426,285,8,102,27,0,0,550,26,521,254,1660968000,62,691430000,42`,
-  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 662684 tickets, com 98.2% resolvidos e 12102 em aberto. O tempo médio de resolução é de 0.1h.
+  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 662684 tickets, com 98.2% resolvidos no total. O atendimento da IA teve 1636842 interações, com 67.5% resolvidos apenas por ela.
 
-- Destaque positivo: A IA atendeu 1636287 interações, com 67.5% resolvidas apenas por ela. Isso demonstra a eficácia do sistema automatizado.
+- Destaque positivo: O funil direto apresenta uma taxa de resolução de 99.2%, superior à média geral. O tempo médio de resolução é consistente em 0.1h para todos os canais.
 
-- Principal ponto de atenção: O FCR do funil Concierge é de 85.9%, enquanto o do Direto é de 66.2%. Essa diferença de 19.8 pontos percentuais indica uma oportunidade de melhoria no atendimento Direto.
+- Principal ponto de atenção: O funil concierge tem um FCR de 85.9%, que é 19.8 pontos percentuais inferior ao do funil direto. Além disso, o SLA do concierge é de 60.6%, 16.9 pontos percentuais abaixo do direto.
 
-- Comparativo Concierge vs Direto: O funil Concierge apresenta 97.6% de tickets resolvidos, enquanto o Direto tem 99.2%. Apesar da alta taxa de resolução, o Concierge ainda apresenta um gap de 1.6 pontos percentuais.
+- Comparativo Concierge vs Direto: O funil concierge tem 434591 tickets, enquanto o direto possui 228093. A taxa de tickets em aberto é de 2.4% no concierge, comparado a 0.8% no direto.
 
-- Hipótese de causa: A diferença no FCR pode ser atribuída à complexidade dos tickets no funil Concierge, que pode exigir mais interação humana. Isso pode impactar a eficiência do atendimento.
+- Hipótese de causa: A diferença no FCR e SLA pode estar relacionada à complexidade dos tickets no concierge. O maior volume de tickets pode impactar a eficiência do atendimento.
 
-- Recomendação prática: Implementar treinamentos focados nas equipes do funil Concierge para melhorar o FCR e reduzir o gap em relação ao Direto. Além disso, avaliar a possibilidade de aumentar a automação em processos mais simples.`,
+- Recomendação prática: Implementar treinamentos focados em resolução rápida para a equipe do concierge. Avaliar a possibilidade de otimizar processos para reduzir o tempo de resposta e melhorar o FCR.`,
   EMBEDDED_AGENTES_CANAL_CSV: ``,
   EMBEDDED_MASTER_HOURLY_CSV: `hora_ref,area_resolvedora,encaminhados,resolvidos,fechados,abandonos,em_aberto,concluidos,fcr_base,fcr_ok,aguardando,em_tratativa,pendente_cliente,sla_base,sla_ok,tempo_tratativa_sum,tempo_tratativa_cnt,tempo_resolucao_sum,tempo_resolucao_cnt
 2026-05-01T00:00:00.000Z,,26,26,26,0,0,0,26,24,0,0,0,9,8,,0,,0
@@ -143878,7 +143878,7 @@ dia,2026-08-12,NEW,35,0,36
 dia,2026-08-12,PORTABILITY,17,0,26
 dia,2026-08-12,PROTECTED_LIFE_INSURANCE,1,0,1
 dia,2026-08-12,REFIN,12,0,20
-dia,2026-08-12,SEM PRODUTO,9000,0,148
+dia,2026-08-12,SEM PRODUTO,9555,0,148
 dia,2026-08-12,__TODOS_PRODUTOS__,0,842,0
 mes,2026-04-01,BENEFIT_CARD_RCC,64,0,254
 mes,2026-04-01,BENEFIT_CARD_RCC_INVOICE_INSTALLMENT,0,0,116
@@ -144000,7 +144000,7 @@ mes,2026-08-01,PORTABILITY,281,0,316
 mes,2026-08-01,PORTABILITYWITHOUTREFIN,1,0,1
 mes,2026-08-01,PROTECTED_LIFE_INSURANCE,6,0,6
 mes,2026-08-01,REFIN,284,0,303
-mes,2026-08-01,SEM PRODUTO,120213,0,710
+mes,2026-08-01,SEM PRODUTO,120768,0,710
 mes,2026-08-01,__TODOS_PRODUTOS__,0,12613,0
 semana,2026-03-30,BENEFIT_CARD_RCC,1,0,27
 semana,2026-03-30,BENEFIT_CARD_RCC_INVOICE_INSTALLMENT,0,0,17
@@ -144414,7 +144414,7 @@ semana,2026-08-10,PAB,1,0,1
 semana,2026-08-10,PORTABILITY,85,0,102
 semana,2026-08-10,PROTECTED_LIFE_INSURANCE,3,0,3
 semana,2026-08-10,REFIN,101,0,111
-semana,2026-08-10,SEM PRODUTO,33115,0,482
+semana,2026-08-10,SEM PRODUTO,33670,0,482
 semana,2026-08-10,__TODOS_PRODUTOS__,0,3172,0`,
   EMBEDDED_CONCIERGE_HOURLY_CSV: `nivel_periodo,hora_ref,convenio,total_atendidos,transbordo_sincrono,transbordo_assincrono
 hora,2026-05-01T00:00:00.000Z,CONSIGPRIV,4,0,26
@@ -166573,8 +166573,9 @@ hora,2026-08-12T18:00:00.000Z,FUTUREMARGIN,1,0,1
 hora,2026-08-12T18:00:00.000Z,INSURANCE,0,0,1
 hora,2026-08-12T18:00:00.000Z,NEW,1,0,2
 hora,2026-08-12T18:00:00.000Z,PORTABILITY,0,0,1
-hora,2026-08-12T18:00:00.000Z,SEM PRODUTO,497,0,10
-hora,2026-08-12T18:00:00.000Z,__TODOS_PRODUTOS__,0,42,0`,
+hora,2026-08-12T18:00:00.000Z,SEM PRODUTO,501,0,10
+hora,2026-08-12T18:00:00.000Z,__TODOS_PRODUTOS__,0,42,0
+hora,2026-08-12T19:00:00.000Z,SEM PRODUTO,551,0,0`,
   EMBEDDED_CANAL_CSV: `dia,canal,total_tickets
 2026-04-01,0800,263
 2026-04-01,Bacen/RDR,12
@@ -229373,7 +229374,7 @@ mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,3496,95,38,16,8,6,0,1
 mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,324,5,1,2,3,3,9,5,65`,
   EMBEDDED_CSAT_CSV: `tipo_atendimento,total_avaliacoes,avaliacoes_4_5,avaliacoes_3,avaliacoes_1_2,csat_percentual,nota_media
 humano,72679,49340,8059,15280,67.88756036819439,3.76000105586865
-concierge,9858,5331,912,3957,54.07790626902008,3.242256335725316`,
+concierge,9906,5357,915,3977,54.07833636180093,3.241619228336496`,
 };
 
 async function __decodeGzipBase64(embeddedText){
