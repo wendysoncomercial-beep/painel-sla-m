@@ -403,7 +403,7 @@ button.prod-legend-item.off{opacity:.38;text-decoration:line-through}
 let EMBEDDED_MASTER_CSV = '';
 let EMBEDDED_MASTER_CONVENIO_CSV = '';
 const EMBEDDED_MASTER_CONVENIO_BASELINE_CSV = EMBEDDED_MASTER_CONVENIO_CSV;
-const PANEL_UPDATED_AT = `13/08/2026, 01:30:02`;
+const PANEL_UPDATED_AT = `13/08/2026, 03:30:02`;
 
 let EMBEDDED_EXEC_ANALISE = '';
 let EMBEDDED_AGENTES_CANAL_CSV = '';
@@ -24218,17 +24218,17 @@ const __EMBEDDED_GZIP = {
 2026-08-12,REFIN,direto,33,30,0,3,3,27,30,0,3,0,0,29,29,50327,2,13493,33,7,3,0,3,0,1,0,33,0,29,29,63809000,5,,0
 2026-08-12,SEM PRODUTO,concierge,149,4,0,0,145,4,4,0,145,0,0,148,124,114900,3,113477,5,149,145,0,4,0,0,0,149,0,148,124,228377000,8,,0
 2026-08-12,SEM PRODUTO,direto,550,253,27,0,297,226,253,26,285,8,4,521,254,1660968,46,693755,209,426,285,8,102,27,0,0,550,26,521,254,1660968000,62,691430000,42`,
-  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 662684 tickets, com 434591 (65.6%) oriundos do Concierge e 228093 (34.4%) do Direto. A taxa de resolução geral é de 98.2%, com 12102 tickets em aberto.
+  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 662684 tickets, com 98.2% resolvidos e um tempo médio de resolução de 0.1h. O atendimento da IA teve 1636842 interações, com 67.5% resolvidos apenas por ela.
 
-- Destaque positivo: A IA atendeu 1636842 interações, com 1105448 (67.5%) resolvidas apenas por ela. O tempo médio de resolução é de apenas 0.1h.
+- Destaque positivo: O funil direto apresenta uma taxa de resolução de 99.2%, superior à do concierge, que é de 97.6%. Isso demonstra uma eficiência notável no atendimento direto.
 
-- Principal ponto de atenção: O FCR do Concierge é de 85.9%, enquanto o do Direto é de 66.2%, apresentando uma diferença de 19.8 pontos percentuais. O SLA do Concierge é de 60.6%, inferior ao do Direto, que é de 77.5%.
+- Principal ponto de atenção: O FCR do funil concierge é de 85.9%, enquanto o do funil direto é de 66.2%. Essa diferença de 19.8 pontos percentuais indica uma oportunidade de melhoria no concierge.
 
-- Comparativo Concierge vs Direto: O Concierge apresenta uma taxa de resolução de 97.6%, enquanto o Direto tem 99.2%. Além disso, o Concierge tem 10330 tickets em aberto, contra 1772 do Direto.
+- Comparativo Concierge vs Direto: O funil concierge tem 434591 tickets, representando 65.6% do total, mas apresenta um SLA de 60.6%, inferior ao SLA de 77.5% do funil direto. Além disso, 1.6% dos tickets do concierge permanecem em aberto, contra 0.8% do direto.
 
-- Hipótese de causa: A diferença no FCR e SLA pode estar relacionada à complexidade dos tickets gerados pelo Concierge, que tende a ser maior. Isso pode impactar a eficiência do atendimento e a satisfação do cliente.
+- Hipótese de causa: A diferença no FCR e SLA pode estar relacionada à complexidade dos tickets no funil concierge, que pode demandar mais tempo e recursos. Isso sugere que os atendimentos no concierge são mais desafiadores.
 
-- Recomendação prática: Implementar treinamentos específicos para a equipe do Concierge visando aumentar o FCR e melhorar o SLA. Além disso, considerar a revisão dos processos para otimizar o atendimento e reduzir o número de tickets em aberto.`,
+- Recomendação prática: Implementar treinamentos focados em resolução rápida para a equipe do concierge pode melhorar o FCR e o SLA. Além disso, revisar processos e categorizações de tickets pode ajudar a reduzir a complexidade e o tempo de atendimento.`,
   EMBEDDED_AGENTES_CANAL_CSV: ``,
   EMBEDDED_MASTER_HOURLY_CSV: `hora_ref,area_resolvedora,encaminhados,resolvidos,fechados,abandonos,em_aberto,concluidos,fcr_base,fcr_ok,aguardando,em_tratativa,pendente_cliente,sla_base,sla_ok,tempo_tratativa_sum,tempo_tratativa_cnt,tempo_resolucao_sum,tempo_resolucao_cnt
 2026-05-01T00:00:00.000Z,,26,26,26,0,0,0,26,24,0,0,0,9,8,,0,,0
@@ -228656,7 +228656,7 @@ mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,3496,95,38,16,8,6,0,1
 mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,324,5,1,2,3,3,9,5,65`,
   EMBEDDED_CSAT_CSV: `tipo_atendimento,total_avaliacoes,avaliacoes_4_5,avaliacoes_3,avaliacoes_1_2,csat_percentual,nota_media
 humano,72679,49340,8059,15280,67.88756036819439,3.76000105586865
-concierge,9926,5373,915,3983,54.130566189804554,3.24278759466282`,
+concierge,9930,5374,915,3986,54.11883182275932,3.2423177435342887`,
 };
 
 async function __decodeGzipBase64(embeddedText){
