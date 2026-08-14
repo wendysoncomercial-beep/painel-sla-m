@@ -403,7 +403,7 @@ button.prod-legend-item.off{opacity:.38;text-decoration:line-through}
 let EMBEDDED_MASTER_CSV = '';
 let EMBEDDED_MASTER_CONVENIO_CSV = '';
 const EMBEDDED_MASTER_CONVENIO_BASELINE_CSV = EMBEDDED_MASTER_CONVENIO_CSV;
-const PANEL_UPDATED_AT = `13/08/2026, 23:30:02`;
+const PANEL_UPDATED_AT = `14/08/2026, 01:30:03`;
 
 let EMBEDDED_EXEC_ANALISE = '';
 let EMBEDDED_AGENTES_CANAL_CSV = '';
@@ -24443,17 +24443,17 @@ const __EMBEDDED_GZIP = {
 2026-08-13,REFIN,direto,31,30,0,2,1,28,30,0,1,0,0,28,28,,0,3,24,5,1,0,3,0,1,0,31,0,28,28,,0,,0
 2026-08-13,SEM PRODUTO,concierge,158,4,0,0,154,4,4,0,154,0,0,158,132,91193,3,70988,3,158,154,0,4,0,0,0,158,0,158,132,162181000,6,,0
 2026-08-13,SEM PRODUTO,direto,498,280,16,0,218,264,280,16,198,20,0,449,187,2217405,63,342401,169,383,198,20,149,16,0,0,498,16,449,187,2220255000,70,315227000,15`,
-  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 667587 tickets, com uma taxa de resolução geral de 98.2%. O atendimento da IA teve 1649131 interações, com 67.5% resolvidas apenas por ela.
+  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 667587 tickets, com 98.2% resolvidos no total. O atendimento da IA gerou 1649131 interações, das quais 1113968 foram resolvidas apenas por ela.
 
-- Destaque positivo: O funil direto apresentou uma taxa de resolução de 99.4%, a mais alta entre os canais. O tempo médio de resolução se manteve em 0.1h para todos os funis.
+- Destaque positivo: O funil direto apresentou uma taxa de resolução de 99.4%, superior à média geral. O FCR do funil concierge é de 86.2%, indicando um bom desempenho em resoluções na primeira interação.
 
-- Principal ponto de atenção: O funil concierge teve uma taxa de resolução de 97.6%, 1.7 pontos percentuais abaixo do funil direto. Além disso, o FCR do concierge é 19.9 pontos percentuais inferior ao do direto.
+- Principal ponto de atenção: O funil concierge tem uma taxa de SLA de 60.0%, abaixo do funil direto que alcançou 77.2%. Além disso, 10294 tickets permanecem em aberto no funil concierge.
 
-- Comparativo Concierge vs Direto: O funil concierge possui 10294 tickets em aberto, enquanto o direto tem apenas 1485. O SLA do concierge é de 60.0%, comparado a 77.2% do direto, apresentando uma diferença de 17.2 pontos percentuais.
+- Comparativo Concierge vs Direto: O funil concierge apresenta uma diferença de 1.7 pontos percentuais na taxa de resolução em relação ao funil direto. O gap no FCR é de 19.9 pontos percentuais, evidenciando uma oportunidade de melhoria.
 
-- Hipótese de causa: A diferença no FCR e SLA pode estar relacionada à complexidade dos tickets no funil concierge. A maior quantidade de tickets pode impactar a eficiência do atendimento.
+- Hipótese de causa: A diferença no desempenho pode estar relacionada à complexidade dos tickets no funil concierge, que pode demandar mais tempo e recursos. A maior quantidade de tickets no concierge (437664) também pode impactar a eficiência.
 
-- Recomendação prática: Implementar treinamentos focados para a equipe do concierge visando aumentar o FCR e reduzir o SLA. Avaliar a possibilidade de otimizar processos para melhorar a eficiência no atendimento.`,
+- Recomendação prática: Focar em treinamentos específicos para a equipe do funil concierge pode melhorar o FCR e a taxa de SLA. Além disso, revisar processos e categorizar tickets pode ajudar a reduzir o número de tickets em aberto.`,
   EMBEDDED_AGENTES_CANAL_CSV: ``,
   EMBEDDED_MASTER_HOURLY_CSV: `hora_ref,area_resolvedora,encaminhados,resolvidos,fechados,abandonos,em_aberto,concluidos,fcr_base,fcr_ok,aguardando,em_tratativa,pendente_cliente,sla_base,sla_ok,tempo_tratativa_sum,tempo_tratativa_cnt,tempo_resolucao_sum,tempo_resolucao_cnt
 2026-05-01T00:00:00.000Z,,26,26,26,0,0,0,26,24,0,0,0,9,8,,0,,0
@@ -45303,131 +45303,6 @@ const __EMBEDDED_GZIP = {
 2026-08-13,Tratamento em lote,38,21,17,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 2026-08-13,Triagem,285,0,285,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0`,
   EMBEDDED_COHORT_HOURLY_CSV: `hora_abertura,area_resolvedora,encaminhado,resolvido,aberto,h0,h1,h2,h3,h4,h5,h6,h7,h8,h9,h10,h11,h12,h13,h14,h15,h16,h17,h18,h19,h20,h21,h22,h23,h24
-2026-06-14T00:00:00.000Z,Conciliação,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T00:00:00.000Z,Nível 1,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
-2026-06-14T00:00:00.000Z,Nível 2,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
-2026-06-14T01:00:00.000Z,Conciliação,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T01:00:00.000Z,Nível 1,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
-2026-06-14T01:00:00.000Z,Nível 2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
-2026-06-14T01:00:00.000Z,Nível 3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
-2026-06-14T01:00:00.000Z,Tratamento em lote,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
-2026-06-14T02:00:00.000Z,Cobrança,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T02:00:00.000Z,Nível 1,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
-2026-06-14T02:00:00.000Z,Nível 2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
-2026-06-14T02:00:00.000Z,Tratamento em lote,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T03:00:00.000Z,Nível 1,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
-2026-06-14T03:00:00.000Z,Nível 2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T04:00:00.000Z,Nível 1,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
-2026-06-14T04:00:00.000Z,Nível 2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T04:00:00.000Z,Tratamento em lote,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T05:00:00.000Z,Conciliação,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T05:00:00.000Z,Nível 1,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
-2026-06-14T05:00:00.000Z,Tratamento em lote,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
-2026-06-14T06:00:00.000Z,Nível 1,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
-2026-06-14T06:00:00.000Z,Nível 2,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
-2026-06-14T06:00:00.000Z,Tratamento em lote,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T07:00:00.000Z,Cobrança,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
-2026-06-14T07:00:00.000Z,Conciliação,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T07:00:00.000Z,Nível 1,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
-2026-06-14T07:00:00.000Z,Nível 2,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
-2026-06-14T07:00:00.000Z,Nível 3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
-2026-06-14T07:00:00.000Z,Sem area,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2026-06-14T07:00:00.000Z,Tratamento em lote,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
-2026-06-14T08:00:00.000Z,Cobrança,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
-2026-06-14T08:00:00.000Z,Nível 1,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
-2026-06-14T08:00:00.000Z,Nível 2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T08:00:00.000Z,Ouvidoria,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T08:00:00.000Z,Segurança,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T08:00:00.000Z,Tratamento em lote,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
-2026-06-14T09:00:00.000Z,Cobrança,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
-2026-06-14T09:00:00.000Z,Nível 1,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20
-2026-06-14T09:00:00.000Z,Nível 2,13,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13
-2026-06-14T09:00:00.000Z,Nível 3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
-2026-06-14T09:00:00.000Z,Tratamento em lote,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
-2026-06-14T10:00:00.000Z,Cobrança,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T10:00:00.000Z,Nível 1,24,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24
-2026-06-14T10:00:00.000Z,Nível 2,11,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11
-2026-06-14T10:00:00.000Z,Nível 3,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
-2026-06-14T10:00:00.000Z,Sem area,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2026-06-14T10:00:00.000Z,Tratamento em lote,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
-2026-06-14T11:00:00.000Z,Cobrança,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
-2026-06-14T11:00:00.000Z,Nível 1,16,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16
-2026-06-14T11:00:00.000Z,Nível 2,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10
-2026-06-14T11:00:00.000Z,Nível 3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
-2026-06-14T11:00:00.000Z,Performance de pagamento,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T11:00:00.000Z,Sem area,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2026-06-14T11:00:00.000Z,Tratamento em lote,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
-2026-06-14T12:00:00.000Z,Cobrança,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
-2026-06-14T12:00:00.000Z,Conciliação,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
-2026-06-14T12:00:00.000Z,Nível 1,26,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26
-2026-06-14T12:00:00.000Z,Nível 2,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7
-2026-06-14T12:00:00.000Z,Tratamento em lote,11,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11
-2026-06-14T13:00:00.000Z,Cobrança,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
-2026-06-14T13:00:00.000Z,Conciliação,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T13:00:00.000Z,Nível 1,21,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21
-2026-06-14T13:00:00.000Z,Nível 2,12,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12
-2026-06-14T13:00:00.000Z,Nível 3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T13:00:00.000Z,Pagamento,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T13:00:00.000Z,Tratamento em lote,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T14:00:00.000Z,Conciliação,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T14:00:00.000Z,Nível 1,30,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30
-2026-06-14T14:00:00.000Z,Nível 2,13,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,12
-2026-06-14T14:00:00.000Z,Nível 3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T14:00:00.000Z,Sem area,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2026-06-14T14:00:00.000Z,Tratamento em lote,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
-2026-06-14T15:00:00.000Z,Cobrança,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0
-2026-06-14T15:00:00.000Z,Nível 1,23,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,12,10
-2026-06-14T15:00:00.000Z,Nível 2,11,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,6
-2026-06-14T15:00:00.000Z,Nível 3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
-2026-06-14T15:00:00.000Z,Pagamento,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T15:00:00.000Z,Segurança,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T15:00:00.000Z,Sem area,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2026-06-14T15:00:00.000Z,Tratamento em lote,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T16:00:00.000Z,Cobrança,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-2026-06-14T16:00:00.000Z,Nível 1,22,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,6,3,12
-2026-06-14T16:00:00.000Z,Nível 2,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,8,4
-2026-06-14T16:00:00.000Z,Nível 3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
-2026-06-14T16:00:00.000Z,Sem area,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2026-06-14T16:00:00.000Z,Tratamento em lote,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
-2026-06-14T17:00:00.000Z,Cobrança,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
-2026-06-14T17:00:00.000Z,Nível 1,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,4,5,7
-2026-06-14T17:00:00.000Z,Nível 2,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,3
-2026-06-14T17:00:00.000Z,Nível 3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
-2026-06-14T17:00:00.000Z,Sem area,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2026-06-14T17:00:00.000Z,Tratamento em lote,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
-2026-06-14T18:00:00.000Z,Cobrança,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0,0,0,0
-2026-06-14T18:00:00.000Z,Conciliação,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T18:00:00.000Z,Nível 1,21,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,5,6,0,4
-2026-06-14T18:00:00.000Z,Nível 2,16,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5,0,7,0,3
-2026-06-14T18:00:00.000Z,Nível 3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
-2026-06-14T18:00:00.000Z,Sem area,3,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2026-06-14T18:00:00.000Z,Tratamento em lote,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
-2026-06-14T19:00:00.000Z,Cobrança,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0
-2026-06-14T19:00:00.000Z,Conciliação,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T19:00:00.000Z,Nível 1,16,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,5,8,0,0,0
-2026-06-14T19:00:00.000Z,Nível 2,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,3,2,2,0
-2026-06-14T19:00:00.000Z,Nível 3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
-2026-06-14T19:00:00.000Z,Tratamento em lote,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T20:00:00.000Z,Conciliação,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T20:00:00.000Z,Nível 1,12,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,4,5,0,0,0,1
-2026-06-14T20:00:00.000Z,Nível 2,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,1,2,0,0,0,2
-2026-06-14T20:00:00.000Z,Nível 3,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,3
-2026-06-14T20:00:00.000Z,Ouvidoria,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-2026-06-14T20:00:00.000Z,Sem area,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2026-06-14T20:00:00.000Z,Tratamento em lote,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-2026-06-14T21:00:00.000Z,Cobrança,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,0,0,0,0
-2026-06-14T21:00:00.000Z,Conciliação,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-2026-06-14T21:00:00.000Z,Nível 1,24,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,4,6,7,0,0,0,4
-2026-06-14T21:00:00.000Z,Nível 2,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,2,0,0,0,1
-2026-06-14T21:00:00.000Z,Nível 3,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
-2026-06-14T21:00:00.000Z,Tratamento em lote,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
-2026-06-14T22:00:00.000Z,Nível 1,13,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,1,4,2,0,0,0,2
-2026-06-14T22:00:00.000Z,Nível 2,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1
-2026-06-14T22:00:00.000Z,Nível 3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
-2026-06-14T22:00:00.000Z,Tratamento em lote,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
-2026-06-14T23:00:00.000Z,Cobrança,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
-2026-06-14T23:00:00.000Z,Nível 1,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,1,0,0,0,0,0,1
-2026-06-14T23:00:00.000Z,Nível 2,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2,1,0,0,0,0,0,0
 2026-06-15T00:00:00.000Z,Cobrança,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
 2026-06-15T00:00:00.000Z,Nível 1,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,1,0,0,0,0,0,0,0
 2026-06-15T00:00:00.000Z,Nível 2,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,0,1,0,0,0,0,0,0,1
@@ -56137,393 +56012,6 @@ Triagem,sincrono,349`,
 6583236,Conciliação,Alocação de parcelas,2026-07-02,Aguardando tratativa,,7304206,
 6583768,Conciliação,Alocação de parcelas,2026-07-02,Aguardando tratativa,,17122863,`,
   EMBEDDED_MOTIVO_HOURLY_CSV: `hora_ref,area_resolvedora,motivo,encaminhados
-2026-06-14T00:00:00.000Z,Conciliação,Reembolso,1
-2026-06-14T00:00:00.000Z,Nível 1,Acompanhamento de proposta/Status,3
-2026-06-14T00:00:00.000Z,Nível 1,Desistência e devolução,3
-2026-06-14T00:00:00.000Z,Nível 1,Dúvidas gerais,1
-2026-06-14T00:00:00.000Z,Nível 1,Exclusão de cadastro,1
-2026-06-14T00:00:00.000Z,Nível 2,Acompanhamento de proposta/Status,1
-2026-06-14T00:00:00.000Z,Nível 2,Dúvidas sobre um contrato,2
-2026-06-14T01:00:00.000Z,Conciliação,Desaverbação,1
-2026-06-14T01:00:00.000Z,Nível 1,Desistência e devolução,2
-2026-06-14T01:00:00.000Z,Nível 1,Dúvidas/Suporte para contratação,1
-2026-06-14T01:00:00.000Z,Nível 1,Exclusão de cadastro,1
-2026-06-14T01:00:00.000Z,Nível 1,Não reconhece contrato,2
-2026-06-14T01:00:00.000Z,Nível 2,Alocação de parcelas,1
-2026-06-14T01:00:00.000Z,Nível 2,Reembolso,1
-2026-06-14T01:00:00.000Z,Nível 3,Desaverbação,1
-2026-06-14T01:00:00.000Z,Nível 3,Quitação,1
-2026-06-14T01:00:00.000Z,Tratamento em lote,Desaverbação,1
-2026-06-14T01:00:00.000Z,Tratamento em lote,Quitação,1
-2026-06-14T02:00:00.000Z,Cobrança,Falha ao pagar boleto/Fatura,1
-2026-06-14T02:00:00.000Z,Nível 1,Alteração de dados bancários,1
-2026-06-14T02:00:00.000Z,Nível 1,Cancelamento de contrato,1
-2026-06-14T02:00:00.000Z,Nível 1,Desistência e devolução,1
-2026-06-14T02:00:00.000Z,Nível 2,Alocação de parcelas,1
-2026-06-14T02:00:00.000Z,Nível 2,Divergência de valores/contrato,1
-2026-06-14T02:00:00.000Z,Tratamento em lote,Quitação,1
-2026-06-14T03:00:00.000Z,Nível 1,Acompanhamento de proposta/Status,1
-2026-06-14T03:00:00.000Z,Nível 1,Dúvidas gerais,1
-2026-06-14T03:00:00.000Z,Nível 2,Dúvidas/Suporte para contratação,1
-2026-06-14T04:00:00.000Z,Nível 1,Desistência e devolução,2
-2026-06-14T04:00:00.000Z,Nível 2,Acompanhamento de proposta/Status,1
-2026-06-14T04:00:00.000Z,Tratamento em lote,Quitação,1
-2026-06-14T05:00:00.000Z,Conciliação,Desaverbação,1
-2026-06-14T05:00:00.000Z,Nível 1,Alteração de dados bancários,1
-2026-06-14T05:00:00.000Z,Nível 1,Desistência e devolução,1
-2026-06-14T05:00:00.000Z,Nível 1,Não reconhece contrato,1
-2026-06-14T05:00:00.000Z,Nível 1,Outros motivos,1
-2026-06-14T05:00:00.000Z,Tratamento em lote,Quitação,3
-2026-06-14T06:00:00.000Z,Nível 1,Acompanhamento de proposta/Status,1
-2026-06-14T06:00:00.000Z,Nível 1,Dúvidas gerais,2
-2026-06-14T06:00:00.000Z,Nível 1,Exclusão de cadastro,1
-2026-06-14T06:00:00.000Z,Nível 2,Acompanhamento de proposta/Status,1
-2026-06-14T06:00:00.000Z,Nível 2,Cancelamento de contrato,1
-2026-06-14T06:00:00.000Z,Nível 2,Desaverbação,1
-2026-06-14T06:00:00.000Z,Nível 2,Divergência de valores/contrato,2
-2026-06-14T06:00:00.000Z,Nível 2,Reembolso,1
-2026-06-14T06:00:00.000Z,Tratamento em lote,Quitação,1
-2026-06-14T07:00:00.000Z,,Outros motivos,1
-2026-06-14T07:00:00.000Z,Cobrança,Falha ao pagar boleto/Fatura,1
-2026-06-14T07:00:00.000Z,Cobrança,Regularizar pagamento parcial,1
-2026-06-14T07:00:00.000Z,Conciliação,Baixa de parcela pendente,1
-2026-06-14T07:00:00.000Z,Nível 1,Acompanhamento de proposta/Status,1
-2026-06-14T07:00:00.000Z,Nível 1,Dúvidas sobre um contrato,2
-2026-06-14T07:00:00.000Z,Nível 1,Exclusão de cadastro,2
-2026-06-14T07:00:00.000Z,Nível 2,Acompanhamento de proposta/Status,1
-2026-06-14T07:00:00.000Z,Nível 2,Reembolso,1
-2026-06-14T07:00:00.000Z,Nível 2,Regularizar pagamento,1
-2026-06-14T07:00:00.000Z,Nível 2,Regularizar pagamento parcial,1
-2026-06-14T07:00:00.000Z,Nível 3,Quitação,2
-2026-06-14T07:00:00.000Z,Tratamento em lote,Baixa de parcela pendente,1
-2026-06-14T07:00:00.000Z,Tratamento em lote,Quitação,2
-2026-06-14T08:00:00.000Z,Cobrança,Outros motivos,1
-2026-06-14T08:00:00.000Z,Cobrança,Regularizar pagamento parcial,2
-2026-06-14T08:00:00.000Z,Nível 1,Alteração de dados bancários,1
-2026-06-14T08:00:00.000Z,Nível 1,Desistência e devolução,2
-2026-06-14T08:00:00.000Z,Nível 1,Dúvidas gerais,1
-2026-06-14T08:00:00.000Z,Nível 1,Dúvidas sobre um contrato,2
-2026-06-14T08:00:00.000Z,Nível 1,Dúvidas/Suporte para contratação,1
-2026-06-14T08:00:00.000Z,Nível 1,Exclusão de cadastro,2
-2026-06-14T08:00:00.000Z,Nível 2,Dúvidas gerais,1
-2026-06-14T08:00:00.000Z,Ouvidoria,Não reconhece contrato,1
-2026-06-14T08:00:00.000Z,Segurança,Acompanhamento de proposta/Status,1
-2026-06-14T08:00:00.000Z,Tratamento em lote,Quitação,3
-2026-06-14T09:00:00.000Z,Cobrança,Falha ao pagar boleto/Fatura,6
-2026-06-14T09:00:00.000Z,Cobrança,Outros motivos,1
-2026-06-14T09:00:00.000Z,Cobrança,Regularizar pagamento,2
-2026-06-14T09:00:00.000Z,Nível 1,Acompanhamento de proposta/Status,3
-2026-06-14T09:00:00.000Z,Nível 1,Alteração de dados bancários,3
-2026-06-14T09:00:00.000Z,Nível 1,Cancelamento de contrato,1
-2026-06-14T09:00:00.000Z,Nível 1,Desistência e devolução,3
-2026-06-14T09:00:00.000Z,Nível 1,Dúvidas gerais,2
-2026-06-14T09:00:00.000Z,Nível 1,Dúvidas sobre um contrato,3
-2026-06-14T09:00:00.000Z,Nível 1,Exclusão de cadastro,3
-2026-06-14T09:00:00.000Z,Nível 1,Reembolso,1
-2026-06-14T09:00:00.000Z,Nível 1,Regularizar pagamento,1
-2026-06-14T09:00:00.000Z,Nível 2,Acompanhamento de proposta/Status,1
-2026-06-14T09:00:00.000Z,Nível 2,Cancelamento de contrato,2
-2026-06-14T09:00:00.000Z,Nível 2,Desaverbação,1
-2026-06-14T09:00:00.000Z,Nível 2,Dúvidas gerais,1
-2026-06-14T09:00:00.000Z,Nível 2,Dúvidas sobre um contrato,1
-2026-06-14T09:00:00.000Z,Nível 2,Dúvidas/Suporte para contratação,1
-2026-06-14T09:00:00.000Z,Nível 2,Pagamento devolvido,1
-2026-06-14T09:00:00.000Z,Nível 2,Reembolso,2
-2026-06-14T09:00:00.000Z,Nível 2,Regularizar dívida PJ,2
-2026-06-14T09:00:00.000Z,Nível 2,Regularizar pagamento,1
-2026-06-14T09:00:00.000Z,Nível 3,Desaverbação,1
-2026-06-14T09:00:00.000Z,Nível 3,Quitação,1
-2026-06-14T09:00:00.000Z,Nível 3,Solicitações de Seguros,1
-2026-06-14T09:00:00.000Z,Tratamento em lote,Baixa de parcela pendente,1
-2026-06-14T09:00:00.000Z,Tratamento em lote,Quitação,3
-2026-06-14T10:00:00.000Z,,Outros motivos,1
-2026-06-14T10:00:00.000Z,Cobrança,Regularizar pagamento,1
-2026-06-14T10:00:00.000Z,Nível 1,Alteração de dados bancários,3
-2026-06-14T10:00:00.000Z,Nível 1,Cancelamento de contrato,1
-2026-06-14T10:00:00.000Z,Nível 1,Desacordo comercial/meutudo,1
-2026-06-14T10:00:00.000Z,Nível 1,Desistência e devolução,7
-2026-06-14T10:00:00.000Z,Nível 1,Dúvidas gerais,4
-2026-06-14T10:00:00.000Z,Nível 1,Dúvidas sobre um contrato,3
-2026-06-14T10:00:00.000Z,Nível 1,Não reconhece contrato,2
-2026-06-14T10:00:00.000Z,Nível 1,Reembolso,3
-2026-06-14T10:00:00.000Z,Nível 2,Acompanhamento de proposta/Status,1
-2026-06-14T10:00:00.000Z,Nível 2,Desistência e devolução,1
-2026-06-14T10:00:00.000Z,Nível 2,Divergência de valores/contrato,2
-2026-06-14T10:00:00.000Z,Nível 2,Dúvidas gerais,1
-2026-06-14T10:00:00.000Z,Nível 2,Dúvidas sobre um contrato,2
-2026-06-14T10:00:00.000Z,Nível 2,Reembolso,1
-2026-06-14T10:00:00.000Z,Nível 2,Regularizar pagamento,2
-2026-06-14T10:00:00.000Z,Nível 2,Regularizar pagamento parcial,1
-2026-06-14T10:00:00.000Z,Nível 3,Desaverbação,1
-2026-06-14T10:00:00.000Z,Nível 3,Outros motivos,1
-2026-06-14T10:00:00.000Z,Nível 3,Quitação,1
-2026-06-14T10:00:00.000Z,Nível 3,Reembolso,1
-2026-06-14T10:00:00.000Z,Nível 3,Solicitações de Seguros,1
-2026-06-14T10:00:00.000Z,Tratamento em lote,Quitação,3
-2026-06-14T11:00:00.000Z,,Outros motivos,2
-2026-06-14T11:00:00.000Z,Cobrança,Falha ao pagar boleto/Fatura,2
-2026-06-14T11:00:00.000Z,Cobrança,Regularizar pagamento,1
-2026-06-14T11:00:00.000Z,Nível 1,Acompanhamento de proposta/Status,3
-2026-06-14T11:00:00.000Z,Nível 1,Alteração dados cadastrais,1
-2026-06-14T11:00:00.000Z,Nível 1,Desistência e devolução,2
-2026-06-14T11:00:00.000Z,Nível 1,Divergência de valores/contrato,1
-2026-06-14T11:00:00.000Z,Nível 1,Dúvidas sobre um contrato,5
-2026-06-14T11:00:00.000Z,Nível 1,Exclusão de cadastro,3
-2026-06-14T11:00:00.000Z,Nível 1,Pagamento devolvido,1
-2026-06-14T11:00:00.000Z,Nível 2,Acompanhamento de proposta/Status,1
-2026-06-14T11:00:00.000Z,Nível 2,Alocação de parcelas,1
-2026-06-14T11:00:00.000Z,Nível 2,Desistência e devolução,1
-2026-06-14T11:00:00.000Z,Nível 2,Divergência de valores/contrato,3
-2026-06-14T11:00:00.000Z,Nível 2,Dúvidas sobre um contrato,3
-2026-06-14T11:00:00.000Z,Nível 2,Regularizar pagamento,1
-2026-06-14T11:00:00.000Z,Nível 3,Desaverbação,1
-2026-06-14T11:00:00.000Z,Nível 3,Outros motivos,1
-2026-06-14T11:00:00.000Z,Nível 3,Solicitações de Seguros,1
-2026-06-14T11:00:00.000Z,Performance de pagamento,Pagamento devolvido,1
-2026-06-14T11:00:00.000Z,Tratamento em lote,Baixa de parcela pendente,2
-2026-06-14T11:00:00.000Z,Tratamento em lote,Desaverbação,1
-2026-06-14T11:00:00.000Z,Tratamento em lote,Quitação,1
-2026-06-14T12:00:00.000Z,Cobrança,Falha ao pagar boleto/Fatura,1
-2026-06-14T12:00:00.000Z,Cobrança,Regularizar pagamento,1
-2026-06-14T12:00:00.000Z,Cobrança,Regularizar pagamento parcial,1
-2026-06-14T12:00:00.000Z,Conciliação,Alocação de parcelas,1
-2026-06-14T12:00:00.000Z,Conciliação,Desaverbação,1
-2026-06-14T12:00:00.000Z,Nível 1,Acompanhamento de proposta/Status,5
-2026-06-14T12:00:00.000Z,Nível 1,Alteração de dados bancários,2
-2026-06-14T12:00:00.000Z,Nível 1,Cancelamento de contrato,1
-2026-06-14T12:00:00.000Z,Nível 1,Desistência e devolução,7
-2026-06-14T12:00:00.000Z,Nível 1,Dúvidas sobre um contrato,5
-2026-06-14T12:00:00.000Z,Nível 1,Exclusão de cadastro,1
-2026-06-14T12:00:00.000Z,Nível 1,Não reconhece contrato,2
-2026-06-14T12:00:00.000Z,Nível 1,Pagamento devolvido,1
-2026-06-14T12:00:00.000Z,Nível 1,Reembolso,1
-2026-06-14T12:00:00.000Z,Nível 1,Regularizar pagamento parcial,1
-2026-06-14T12:00:00.000Z,Nível 2,Acompanhamento de proposta/Status,3
-2026-06-14T12:00:00.000Z,Nível 2,Dúvidas sobre um contrato,1
-2026-06-14T12:00:00.000Z,Nível 2,Reembolso,1
-2026-06-14T12:00:00.000Z,Nível 2,Regularizar dívida PJ,1
-2026-06-14T12:00:00.000Z,Nível 2,Regularizar pagamento,1
-2026-06-14T12:00:00.000Z,Tratamento em lote,Baixa de parcela pendente,1
-2026-06-14T12:00:00.000Z,Tratamento em lote,Desaverbação,2
-2026-06-14T12:00:00.000Z,Tratamento em lote,Quitação,8
-2026-06-14T13:00:00.000Z,Cobrança,Falha ao pagar boleto/Fatura,1
-2026-06-14T13:00:00.000Z,Cobrança,Regularizar pagamento,1
-2026-06-14T13:00:00.000Z,Conciliação,Desaverbação,1
-2026-06-14T13:00:00.000Z,Nível 1,Acompanhamento de proposta/Status,2
-2026-06-14T13:00:00.000Z,Nível 1,Alteração de dados bancários,2
-2026-06-14T13:00:00.000Z,Nível 1,Cancelamento de contrato,1
-2026-06-14T13:00:00.000Z,Nível 1,Desistência e devolução,6
-2026-06-14T13:00:00.000Z,Nível 1,Dúvidas gerais,1
-2026-06-14T13:00:00.000Z,Nível 1,Dúvidas sobre um contrato,2
-2026-06-14T13:00:00.000Z,Nível 1,Dúvidas/Suporte para contratação,1
-2026-06-14T13:00:00.000Z,Nível 1,Exclusão de cadastro,3
-2026-06-14T13:00:00.000Z,Nível 1,Não reconhece contrato,2
-2026-06-14T13:00:00.000Z,Nível 1,Reembolso,1
-2026-06-14T13:00:00.000Z,Nível 2,Acompanhamento de proposta/Status,1
-2026-06-14T13:00:00.000Z,Nível 2,Alocação de parcelas,1
-2026-06-14T13:00:00.000Z,Nível 2,Cancelamento de contrato,2
-2026-06-14T13:00:00.000Z,Nível 2,Desistência e devolução,1
-2026-06-14T13:00:00.000Z,Nível 2,Divergência de valores/contrato,2
-2026-06-14T13:00:00.000Z,Nível 2,Dúvidas gerais,1
-2026-06-14T13:00:00.000Z,Nível 2,Dúvidas sobre um contrato,1
-2026-06-14T13:00:00.000Z,Nível 2,Dúvidas/Suporte para contratação,1
-2026-06-14T13:00:00.000Z,Nível 2,Reembolso,1
-2026-06-14T13:00:00.000Z,Nível 2,Regularizar pagamento,1
-2026-06-14T13:00:00.000Z,Nível 3,Solicitações de Seguros,1
-2026-06-14T13:00:00.000Z,Pagamento,Pagamento devolvido,1
-2026-06-14T13:00:00.000Z,Tratamento em lote,Quitação,1
-2026-06-14T14:00:00.000Z,,Outros motivos,1
-2026-06-14T14:00:00.000Z,Conciliação,Baixa de parcela pendente,1
-2026-06-14T14:00:00.000Z,Nível 1,Acompanhamento de proposta/Status,3
-2026-06-14T14:00:00.000Z,Nível 1,Alteração de dados bancários,2
-2026-06-14T14:00:00.000Z,Nível 1,Cancelamento de contrato,3
-2026-06-14T14:00:00.000Z,Nível 1,Desistência e devolução,9
-2026-06-14T14:00:00.000Z,Nível 1,Dúvidas gerais,1
-2026-06-14T14:00:00.000Z,Nível 1,Dúvidas sobre um contrato,4
-2026-06-14T14:00:00.000Z,Nível 1,Exclusão de cadastro,7
-2026-06-14T14:00:00.000Z,Nível 1,Reembolso,1
-2026-06-14T14:00:00.000Z,Nível 2,Acompanhamento de proposta/Status,1
-2026-06-14T14:00:00.000Z,Nível 2,Cancelamento de contrato,1
-2026-06-14T14:00:00.000Z,Nível 2,Divergência de valores/contrato,2
-2026-06-14T14:00:00.000Z,Nível 2,Dúvidas sobre um contrato,5
-2026-06-14T14:00:00.000Z,Nível 2,Dúvidas/Suporte para contratação,1
-2026-06-14T14:00:00.000Z,Nível 2,Reembolso,1
-2026-06-14T14:00:00.000Z,Nível 2,Regularizar pagamento,2
-2026-06-14T14:00:00.000Z,Nível 3,Quitação,1
-2026-06-14T14:00:00.000Z,Tratamento em lote,Baixa de parcela pendente,2
-2026-06-14T14:00:00.000Z,Tratamento em lote,Quitação,2
-2026-06-14T15:00:00.000Z,,Outros motivos,1
-2026-06-14T15:00:00.000Z,Cobrança,Falha ao pagar boleto/Fatura,2
-2026-06-14T15:00:00.000Z,Nível 1,Alteração de dados bancários,3
-2026-06-14T15:00:00.000Z,Nível 1,Desistência e devolução,10
-2026-06-14T15:00:00.000Z,Nível 1,Divergência de valores/contrato,1
-2026-06-14T15:00:00.000Z,Nível 1,Dúvidas gerais,2
-2026-06-14T15:00:00.000Z,Nível 1,Dúvidas sobre um contrato,1
-2026-06-14T15:00:00.000Z,Nível 1,Dúvidas/Suporte para contratação,1
-2026-06-14T15:00:00.000Z,Nível 1,Exclusão de cadastro,3
-2026-06-14T15:00:00.000Z,Nível 1,Pagamento devolvido,2
-2026-06-14T15:00:00.000Z,Nível 2,Acompanhamento de proposta/Status,1
-2026-06-14T15:00:00.000Z,Nível 2,Baixa de parcela pendente,1
-2026-06-14T15:00:00.000Z,Nível 2,Cancelamento de contrato,1
-2026-06-14T15:00:00.000Z,Nível 2,Divergência de valores/contrato,2
-2026-06-14T15:00:00.000Z,Nível 2,Dúvidas gerais,3
-2026-06-14T15:00:00.000Z,Nível 2,Dúvidas sobre um contrato,1
-2026-06-14T15:00:00.000Z,Nível 2,Regularizar dívida PJ,1
-2026-06-14T15:00:00.000Z,Nível 2,Regularizar pagamento,1
-2026-06-14T15:00:00.000Z,Nível 3,Dúvidas/Suporte para contratação,1
-2026-06-14T15:00:00.000Z,Nível 3,Quitação,1
-2026-06-14T15:00:00.000Z,Pagamento,Desistência e devolução,1
-2026-06-14T15:00:00.000Z,Segurança,Cancelamento de contrato,1
-2026-06-14T15:00:00.000Z,Tratamento em lote,Quitação,1
-2026-06-14T16:00:00.000Z,,Motivo inconclusivo/Sem histórico,1
-2026-06-14T16:00:00.000Z,,Outros motivos,1
-2026-06-14T16:00:00.000Z,Cobrança,Regularizar pagamento,1
-2026-06-14T16:00:00.000Z,Nível 1,Acompanhamento de proposta/Status,2
-2026-06-14T16:00:00.000Z,Nível 1,Alteração de dados bancários,1
-2026-06-14T16:00:00.000Z,Nível 1,Desacordo comercial/meutudo,1
-2026-06-14T16:00:00.000Z,Nível 1,Desistência e devolução,7
-2026-06-14T16:00:00.000Z,Nível 1,Dúvidas gerais,2
-2026-06-14T16:00:00.000Z,Nível 1,Dúvidas sobre um contrato,4
-2026-06-14T16:00:00.000Z,Nível 1,Dúvidas/Suporte para contratação,1
-2026-06-14T16:00:00.000Z,Nível 1,Exclusão de cadastro,1
-2026-06-14T16:00:00.000Z,Nível 1,Não reconhece contrato,1
-2026-06-14T16:00:00.000Z,Nível 1,Reembolso,1
-2026-06-14T16:00:00.000Z,Nível 1,Regularizar pagamento,1
-2026-06-14T16:00:00.000Z,Nível 2,Acompanhamento de proposta/Status,2
-2026-06-14T16:00:00.000Z,Nível 2,Alocação de parcelas,2
-2026-06-14T16:00:00.000Z,Nível 2,Cancelamento de contrato,6
-2026-06-14T16:00:00.000Z,Nível 2,Divergência de valores/contrato,2
-2026-06-14T16:00:00.000Z,Nível 2,Dúvidas sobre um contrato,2
-2026-06-14T16:00:00.000Z,Nível 2,Regularizar pagamento,1
-2026-06-14T16:00:00.000Z,Nível 3,Regularizar dívida PJ,1
-2026-06-14T16:00:00.000Z,Nível 3,Solicitações de Seguros,1
-2026-06-14T16:00:00.000Z,Tratamento em lote,Quitação,2
-2026-06-14T17:00:00.000Z,,Motivo inconclusivo/Sem histórico,1
-2026-06-14T17:00:00.000Z,Cobrança,Falha ao pagar boleto/Fatura,2
-2026-06-14T17:00:00.000Z,Nível 1,Acompanhamento de proposta/Status,1
-2026-06-14T17:00:00.000Z,Nível 1,Alteração de dados bancários,3
-2026-06-14T17:00:00.000Z,Nível 1,Cancelamento de contrato,1
-2026-06-14T17:00:00.000Z,Nível 1,Desistência e devolução,9
-2026-06-14T17:00:00.000Z,Nível 1,Dúvidas sobre um contrato,3
-2026-06-14T17:00:00.000Z,Nível 1,Dúvidas/Suporte para contratação,2
-2026-06-14T17:00:00.000Z,Nível 1,Exclusão de cadastro,2
-2026-06-14T17:00:00.000Z,Nível 1,Não reconhece contrato,2
-2026-06-14T17:00:00.000Z,Nível 1,Outros motivos,1
-2026-06-14T17:00:00.000Z,Nível 1,Pagamento devolvido,1
-2026-06-14T17:00:00.000Z,Nível 1,Reembolso,3
-2026-06-14T17:00:00.000Z,Nível 1,Solicitação de DED,1
-2026-06-14T17:00:00.000Z,Nível 2,Divergência de valores/contrato,2
-2026-06-14T17:00:00.000Z,Nível 2,Outros motivos,1
-2026-06-14T17:00:00.000Z,Nível 2,Reembolso,1
-2026-06-14T17:00:00.000Z,Nível 3,Reembolso,2
-2026-06-14T17:00:00.000Z,Tratamento em lote,Quitação,2
-2026-06-14T18:00:00.000Z,,Consulta oportunidade Cons Privado,1
-2026-06-14T18:00:00.000Z,,Motivo inconclusivo/Sem histórico,1
-2026-06-14T18:00:00.000Z,,Outros motivos,1
-2026-06-14T18:00:00.000Z,Cobrança,Falha ao pagar boleto/Fatura,2
-2026-06-14T18:00:00.000Z,Cobrança,Regularizar pagamento parcial,1
-2026-06-14T18:00:00.000Z,Conciliação,Reembolso,1
-2026-06-14T18:00:00.000Z,Nível 1,Acompanhamento de proposta/Status,4
-2026-06-14T18:00:00.000Z,Nível 1,Alteração dados cadastrais,1
-2026-06-14T18:00:00.000Z,Nível 1,Alteração de dados bancários,1
-2026-06-14T18:00:00.000Z,Nível 1,Cancelamento de contrato,3
-2026-06-14T18:00:00.000Z,Nível 1,Desistência e devolução,4
-2026-06-14T18:00:00.000Z,Nível 1,Dúvidas gerais,1
-2026-06-14T18:00:00.000Z,Nível 1,Dúvidas sobre um contrato,3
-2026-06-14T18:00:00.000Z,Nível 1,Exclusão de cadastro,3
-2026-06-14T18:00:00.000Z,Nível 1,Outros motivos,1
-2026-06-14T18:00:00.000Z,Nível 2,Cancelamento de contrato,3
-2026-06-14T18:00:00.000Z,Nível 2,Divergência de valores/contrato,5
-2026-06-14T18:00:00.000Z,Nível 2,Dúvidas gerais,3
-2026-06-14T18:00:00.000Z,Nível 2,Dúvidas sobre um contrato,3
-2026-06-14T18:00:00.000Z,Nível 2,Regularizar pagamento,2
-2026-06-14T18:00:00.000Z,Nível 3,Baixa de parcela pendente,1
-2026-06-14T18:00:00.000Z,Nível 3,Solicitações de Seguros,1
-2026-06-14T18:00:00.000Z,Tratamento em lote,Desaverbação,1
-2026-06-14T18:00:00.000Z,Tratamento em lote,Quitação,2
-2026-06-14T19:00:00.000Z,Cobrança,Falha ao pagar boleto/Fatura,2
-2026-06-14T19:00:00.000Z,Cobrança,Regularizar pagamento,1
-2026-06-14T19:00:00.000Z,Conciliação,Baixa de parcela pendente,1
-2026-06-14T19:00:00.000Z,Nível 1,Acompanhamento de proposta/Status,3
-2026-06-14T19:00:00.000Z,Nível 1,Cancelamento de contrato,1
-2026-06-14T19:00:00.000Z,Nível 1,Desacordo comercial/meutudo,1
-2026-06-14T19:00:00.000Z,Nível 1,Desistência e devolução,5
-2026-06-14T19:00:00.000Z,Nível 1,Dúvidas sobre um contrato,2
-2026-06-14T19:00:00.000Z,Nível 1,Exclusão de cadastro,2
-2026-06-14T19:00:00.000Z,Nível 1,Não reconhece contrato,1
-2026-06-14T19:00:00.000Z,Nível 1,Outros motivos,1
-2026-06-14T19:00:00.000Z,Nível 2,Divergência de valores/contrato,1
-2026-06-14T19:00:00.000Z,Nível 2,Dúvidas sobre um contrato,4
-2026-06-14T19:00:00.000Z,Nível 2,Quitação,1
-2026-06-14T19:00:00.000Z,Nível 2,Regularizar pagamento,2
-2026-06-14T19:00:00.000Z,Nível 3,Quitação,1
-2026-06-14T19:00:00.000Z,Nível 3,Solicitações de Seguros,1
-2026-06-14T19:00:00.000Z,Tratamento em lote,Quitação,1
-2026-06-14T20:00:00.000Z,,Motivo inconclusivo/Sem histórico,1
-2026-06-14T20:00:00.000Z,,Outros motivos,1
-2026-06-14T20:00:00.000Z,Conciliação,Baixa de parcela pendente,1
-2026-06-14T20:00:00.000Z,Nível 1,Acompanhamento de proposta/Status,2
-2026-06-14T20:00:00.000Z,Nível 1,Alteração de dados bancários,1
-2026-06-14T20:00:00.000Z,Nível 1,Desistência e devolução,4
-2026-06-14T20:00:00.000Z,Nível 1,Divergência de valores/contrato,2
-2026-06-14T20:00:00.000Z,Nível 1,Dúvidas sobre um contrato,1
-2026-06-14T20:00:00.000Z,Nível 1,Outros motivos,1
-2026-06-14T20:00:00.000Z,Nível 1,Reembolso,1
-2026-06-14T20:00:00.000Z,Nível 2,Acompanhamento de proposta/Status,4
-2026-06-14T20:00:00.000Z,Nível 2,Alocação de parcelas,1
-2026-06-14T20:00:00.000Z,Nível 2,Dúvidas sobre um contrato,3
-2026-06-14T20:00:00.000Z,Nível 2,Dúvidas/Suporte para contratação,1
-2026-06-14T20:00:00.000Z,Nível 2,Regularizar pagamento,1
-2026-06-14T20:00:00.000Z,Nível 3,Desaverbação,1
-2026-06-14T20:00:00.000Z,Nível 3,Quitação,2
-2026-06-14T20:00:00.000Z,Nível 3,Solicitações de Seguros,2
-2026-06-14T20:00:00.000Z,Ouvidoria,Não reconhece contrato,1
-2026-06-14T20:00:00.000Z,Tratamento em lote,Quitação,1
-2026-06-14T21:00:00.000Z,Cobrança,Falha ao pagar boleto/Fatura,3
-2026-06-14T21:00:00.000Z,Cobrança,Regularizar pagamento,1
-2026-06-14T21:00:00.000Z,Conciliação,Reembolso,1
-2026-06-14T21:00:00.000Z,Nível 1,Alteração dados cadastrais,1
-2026-06-14T21:00:00.000Z,Nível 1,Alteração de dados bancários,3
-2026-06-14T21:00:00.000Z,Nível 1,Cancelamento de contrato,1
-2026-06-14T21:00:00.000Z,Nível 1,Desacordo comercial/meutudo,1
-2026-06-14T21:00:00.000Z,Nível 1,Desistência e devolução,4
-2026-06-14T21:00:00.000Z,Nível 1,Dúvidas sobre um contrato,2
-2026-06-14T21:00:00.000Z,Nível 1,Dúvidas/Suporte para contratação,2
-2026-06-14T21:00:00.000Z,Nível 1,Exclusão de cadastro,5
-2026-06-14T21:00:00.000Z,Nível 1,Não reconhece contrato,2
-2026-06-14T21:00:00.000Z,Nível 1,Outros motivos,1
-2026-06-14T21:00:00.000Z,Nível 1,Quitação,1
-2026-06-14T21:00:00.000Z,Nível 1,Reembolso,1
-2026-06-14T21:00:00.000Z,Nível 2,Acompanhamento de proposta/Status,1
-2026-06-14T21:00:00.000Z,Nível 2,Dúvidas gerais,3
-2026-06-14T21:00:00.000Z,Nível 2,Dúvidas sobre um contrato,1
-2026-06-14T21:00:00.000Z,Nível 2,Reembolso,2
-2026-06-14T21:00:00.000Z,Nível 3,Baixa de parcela pendente,1
-2026-06-14T21:00:00.000Z,Nível 3,Desaverbação,1
-2026-06-14T21:00:00.000Z,Nível 3,Quitação,2
-2026-06-14T21:00:00.000Z,Nível 3,Regularizar dívida PJ,1
-2026-06-14T21:00:00.000Z,Tratamento em lote,Desaverbação,1
-2026-06-14T21:00:00.000Z,Tratamento em lote,Quitação,4
-2026-06-14T22:00:00.000Z,Nível 1,Alteração de dados bancários,1
-2026-06-14T22:00:00.000Z,Nível 1,Desacordo comercial/meutudo,2
-2026-06-14T22:00:00.000Z,Nível 1,Desaverbação,1
-2026-06-14T22:00:00.000Z,Nível 1,Desistência e devolução,2
-2026-06-14T22:00:00.000Z,Nível 1,Exclusão de cadastro,5
-2026-06-14T22:00:00.000Z,Nível 1,Outros motivos,1
-2026-06-14T22:00:00.000Z,Nível 1,Reembolso,1
-2026-06-14T22:00:00.000Z,Nível 2,Acompanhamento de proposta/Status,1
-2026-06-14T22:00:00.000Z,Nível 2,Dúvidas gerais,2
-2026-06-14T22:00:00.000Z,Nível 3,Quitação,2
-2026-06-14T22:00:00.000Z,Tratamento em lote,Desaverbação,2
-2026-06-14T23:00:00.000Z,Cobrança,Falha ao pagar boleto/Fatura,2
-2026-06-14T23:00:00.000Z,Nível 1,Acompanhamento de proposta/Status,1
-2026-06-14T23:00:00.000Z,Nível 1,Desacordo comercial/meutudo,1
-2026-06-14T23:00:00.000Z,Nível 1,Desistência e devolução,6
-2026-06-14T23:00:00.000Z,Nível 1,Outros motivos,1
-2026-06-14T23:00:00.000Z,Nível 2,Dúvidas sobre um contrato,1
-2026-06-14T23:00:00.000Z,Nível 2,Dúvidas/Suporte para contratação,1
-2026-06-14T23:00:00.000Z,Nível 2,Regularizar dívida PJ,1
-2026-06-14T23:00:00.000Z,Nível 2,Regularizar pagamento parcial,1
 2026-06-15T00:00:00.000Z,Cobrança,Falha ao pagar boleto/Fatura,1
 2026-06-15T00:00:00.000Z,Nível 1,Acompanhamento de proposta/Status,1
 2026-06-15T00:00:00.000Z,Nível 1,Desistência e devolução,1
@@ -142427,16 +141915,16 @@ yuri.souza@meutudo.app,Nível 3,2026-07-15,12,Whatsapp,Síncrono,1,1
 yuri.souza@meutudo.app,Nível 3,2026-07-24,9,Whatsapp,Síncrono,1,1
 yuri.souza@meutudo.app,Nível 3,2026-08-04,9,Whatsapp,Síncrono,2,2`,
   EMBEDDED_HEADCOUNT_CSV: `row_number,id,colaborador,status,email,funcao,squad,lider,convenio,turno ,fila,segmento,entrada,saida,ferramenta,time,admissao,tempo_de_casa,Coordenação/Gerencia,range_tempo_de_casa,area,range ,Qtd,Ranking
-2,1,GLAUBER COSTA DA SILVA,Ativo,glauber.costa@meutudo.app,Gerente,Service e Success,-,INSS/FGTS,Integral,Receptivo,Service e Success,09:00,18:00,Liderança,CS- Receptivo,01/02/2021,5 anos e 6 meses,Débora Martins,acima de 5 anos,Service,0 a 3 meses,1,1
-3,2,FERNANDA MORAIS DOS SANTOS,Ativo,fernanda.morais@meutudo.app,Agente N1,Lumus,Anderson,CONSIG PRIVADO,Manhã,Receptivo,Pós-contratação,08:00,15:00,Chat/Whatsapp,CS- Receptivo,17/06/2024,2 anos e 1 meses,Neyane,2 a 3 anos,Service,3 meses a 1 ano,32,2
+2,1,GLAUBER COSTA DA SILVA,Ativo,glauber.costa@meutudo.app,Gerente,Service e Success,-,INSS/FGTS,Integral,Receptivo,Service e Success,09:00,18:00,Liderança,CS- Receptivo,01/02/2021,5 anos e 6 meses,Débora Martins,acima de 5 anos,Service,0 a 3 meses,0,1
+3,2,FERNANDA MORAIS DOS SANTOS,Ativo,fernanda.morais@meutudo.app,Agente N1,Lumus,Anderson,CONSIG PRIVADO,Manhã,Receptivo,Pós-contratação,08:00,15:00,Chat/Whatsapp,CS- Receptivo,17/06/2024,2 anos e 1 meses,Neyane,2 a 3 anos,Service,3 meses a 1 ano,33,2
 4,3,MARNEYANE SILVA DE SOUZA,Ativo,marneyane.souza@meutudo.app,Coordenador N1,Coordenação,-,INSS,Integral,Receptivo,Pós-contratação,09:00,18:00,Coordenação,CS- Receptivo,16/08/2021,4 anos e 11 meses,Glauber,4 a 5 anos,Service,1 a 2 anos,37,3
 5,4,GRAZIELA DE OLIVEIRA CARDOZO TEOTONIO,Férias,graziela.cardozo@meutudo.app,Agente N1,Lumus,Anderson,CONSIG PRIVADO,Manhã,Receptivo,Pós-contratação,08:00,15:00,Chat/Whatsapp,CS- Receptivo,08/07/2024,2 anos e 1 meses,Neyane,2 a 3 anos,Service,2 a 3 anos,19,4
 6,5,WINNIE MARIA TEIXEIRA ALENCAR PITOMBEIRA,Ativo,winnie.alencar@meutudo.app,Coordenador N1,Coordenação,-,INSS/FGTS,Integral,Receptivo,Pós-contratação,08:00,17:00,Coordenação,CS- Receptivo,06/01/2025,1 anos e 7 meses,Glauber,1 a 2 anos,Service,3 a 4 anos,18,5
 7,6,JANAINA ANDRADE DA SILVA LIMA,Ativo,janaina.andrade@meutudo.app,Agente N1,Lumus,Anderson,CONSIG PRIVADO,Manhã,Receptivo,Pós-contratação,08:00,15:00,Chat/Whatsapp,CS-Receptivo,06/05/2024,2 anos e 3 meses,Neyane,2 a 3 anos,Service,4 a 5 anos,26,6
-8,7,CIBELLY DE ARAUJO ALVES,Ativo,cibelly.alves@meutudo.app,Coordenador N2,Coordenação,-,INSS,Integral,Receptivo,Pós-contratação,09:00,18:00,Coordenação,CS- Receptivo,14/06/2021,5 anos e 1 meses,Glauber,acima de 5 anos,Service,acima de 5 anos,20,7
+8,7,CIBELLY DE ARAUJO ALVES,Ativo,cibelly.alves@meutudo.app,Coordenador N2,Coordenação,-,INSS,Integral,Receptivo,Pós-contratação,09:00,18:00,Coordenação,CS- Receptivo,14/06/2021,5 anos e 2 meses,Glauber,acima de 5 anos,Service,acima de 5 anos,20,7
 9,8,JARDENIA FERREIRA SOARES,Ativo,jardenia.soares@meutudo.app,Agente N1,Lumus,Anderson,INSS,Manhã,Receptivo,Cartões,08:00,15:00,Chat/Whatsapp,CS- Receptivo,04/08/2025,1 anos e 0 meses,Neyane,3 meses a 1 ano,Service,,,
 10,9,WILLIAN SILVA MANHOLER,Ativo,willian.manholer@meutudo.app,Coordenador N2,Coordenação,-,INSS/FGTS,Integral,Receptivo,Pré-contratação,09:00,18:00,Coordenação,CS- Receptivo,01/03/2018,8 anos e 5 meses,Glauber,acima de 5 anos,Service,,,
-11,10,JEFFERSON ANDRADE GURGEL,Ativo,jefferson.gurgel@meutudo.app,Agente N1,Lumus,Anderson,CONSIG PRIVADO,Manhã,Receptivo,Pós-contratação,09:00,16:00,Chat/Whatsapp,CS- Receptivo,14/04/2026,0 anos e 3 meses,Neyane,0 a 3 meses,Service,,,
+11,10,JEFFERSON ANDRADE GURGEL,Ativo,jefferson.gurgel@meutudo.app,Agente N1,Lumus,Anderson,CONSIG PRIVADO,Manhã,Receptivo,Pós-contratação,09:00,16:00,Chat/Whatsapp,CS- Receptivo,14/04/2026,0 anos e 4 meses,Neyane,3 meses a 1 ano,Service,,,
 12,11,MANUELA DO NASCIMENTO E SILVA,Ativo,manuela.silva@meutudo.app,Coordenador N3,Coordenação,-,INSS/FGTS,Integral,Receptivo,Coordenação,09:00,18:00,Coordenação,CS- Receptivo,12/04/2021,5 anos e 4 meses,Glauber,acima de 5 anos,Service,,,
 13,12,JESSICA DAMASCENO MACIAL DA CUNHA,Ativo,jessica.cunha@meutudo.app,Agente N1,Lumus,Anderson,CONSIG PRIVADO,Manhã,Receptivo,Pós-contratação,08:00,15:00,Chat/Whatsapp,CS- Receptivo,09/03/2026,0 anos e 5 meses,Neyane,3 meses a 1 ano,Service,,,
 14,13,ALINE SOUSA FERREIRA,Licença,aline.ferreira@meutudo.app,Líder N1,Vortex,Bruna,CONSIG PRIVADO,Integral,Receptivo,Pós-contratação,08:00,17:00,Liderança,CS- Receptivo,09/03/2026,0 anos e 5 meses,Manuela,3 meses a 1 ano,Service,,,
@@ -142478,7 +141966,7 @@ yuri.souza@meutudo.app,Nível 3,2026-08-04,9,Whatsapp,Síncrono,2,2`,
 50,49,ROSANA MAIRA LEMOS DE OLIVEIRA,Ativo,rosana.oliveira@meutudo.app,Agente N1,Vortex,Bruna,CONSIG PRIVADO,Tarde,Receptivo,Pós-contratação,13:00,20:00,Chat/Whatsapp,CS- Receptivo,06/10/2025,0 anos e 10 meses,Manuela,3 meses a 1 ano,Service,,,
 51,50,PEDRO NICOLAS DA SILVA ALVES,Ativo,pedro.alves@meutudo.app,Agente N1,Lumus,Anderson,INSS/CONSIG PRIVADO,Tarde,Ativo,Port out,11:00,18:00,Chat/Whatsapp,CS- Receptivo,18/08/2025,0 anos e 11 meses,Neyane,3 meses a 1 ano,Success,,,
 52,51,SARAH DE FREITAS COSTA,Férias,sarah.costa@meutudo.app,Agente N1,Vortex,Bruna,CONSIG PRIVADO,Manhã,Receptivo,Pré-contratação,09:00,16:00,Chat/Whatsapp,CS- Receptivo,17/06/2024,2 anos e 1 meses,Manuela,2 a 3 anos,Service,,,
-53,52,KAREN DE SOUSA GADELHA,Ativo,karen.gadelha@meutudo.app,Agente N3,Lumus,Anderson,INSS/CONSIG PRIVADO,Integral,Ativo,Port out,09:00,18:00,Chat/Whatsapp,CS- Receptivo,14/06/2021,5 anos e 1 meses,Neyane,acima de 5 anos,Success,,,
+53,52,KAREN DE SOUSA GADELHA,Ativo,karen.gadelha@meutudo.app,Agente N3,Lumus,Anderson,INSS/CONSIG PRIVADO,Integral,Ativo,Port out,09:00,18:00,Chat/Whatsapp,CS- Receptivo,14/06/2021,5 anos e 2 meses,Neyane,acima de 5 anos,Success,,,
 54,53,TAYNA PRIMO DO NASCIMENTO,Ativo,tayna.nascimento@meutudo.app,Agente N1,Vortex,Bruna,CONSIG PRIVADO,Intermediario,Receptivo,Pós-contratação,11:00,18:00,Chat/Whatsapp,CS- Receptivo,02/02/2026,0 anos e 6 meses,Manuela,3 meses a 1 ano,Service,,,
 55,54,FLAVIO AFONSO SOARES DA SILVA,Ativo,flavio.silva@meutudo.app,Agente N1,Triade,Larissa,CONSIG PRIVADO,Manhã,Receptivo,Pós-contratação,08:00,15:00,Chat/Whatsapp,CS- Receptivo,02/12/2024,1 anos e 8 meses,Willian,1 a 2 anos,Service,,,
 56,55,TOM ROMEO DA SILVA OLINDA,Licença,tom.olinda@meutudo.app,Agente N1,Vortex,Bruna,CONSIG PRIVADO,Tarde,Receptivo,Pós-contratação,13:00,20:00,Chat/Whatsapp,CS- Receptivo,19/08/2024,1 anos e 11 meses,Manuela,1 a 2 anos,Service,,,
@@ -142528,7 +142016,7 @@ yuri.souza@meutudo.app,Nível 3,2026-08-04,9,Whatsapp,Síncrono,2,2`,
 100,99,TAYNARA PIRES GOMES,Ativo,taynara.gomes@meutudo.app,Assistente N3,VOC,-,INSS/FGTS,Integral,Receptivo,VOC,09:00,18:00,Híbrido,VOC,19/10/2021,4 anos e 9 meses,Winnie,4 a 5 anos,Service,,,
 101,100,LUCIANA PRISCILA NASCIMENTO DA SILVA,Ativo,luciana.silva@meutudo.app,Assistente N3,VOC,-,INSS/FGTS,Integral,Receptivo,VOC,09:00,18:00,Híbrido,VOC,09/05/2022,4 anos e 3 meses,Winnie,4 a 5 anos,Service,,,
 102,101,CARLOS VICTOR MOREIRA MARINHO,Ativo,carlos.marinho@meutudo.app,Agente N1,Triade,Maria Eduarda,CONSIG PRIVADO,Intermediario,Receptivo,Pré-contratação,09:00,16:00,Telefone,CS- Receptivo,20/05/2024,2 anos e 2 meses,Cibelly,2 a 3 anos,Service,,,
-103,102,JULIANA MARIA LAURENTINO TENORIO,Férias,juliana.tenorio@meutudo.app,Agente N1,Triade,Maria Eduarda,CONSIG PRIVADO,Manhã,Receptivo,Pós-contratação,08:00,15:00,Chat/Whatsapp,CS- Receptivo,14/10/2024,1 anos e 9 meses,Cibelly,1 a 2 anos,Service,,,
+103,102,JULIANA MARIA LAURENTINO TENORIO,Férias,juliana.tenorio@meutudo.app,Agente N1,Triade,Maria Eduarda,CONSIG PRIVADO,Manhã,Receptivo,Pós-contratação,08:00,15:00,Chat/Whatsapp,CS- Receptivo,14/10/2024,1 anos e 10 meses,Cibelly,1 a 2 anos,Service,,,
 104,103,KARLA PATRICIA SOUSA DE LIMA,Ativo,karla.lima@meutudo.app,Agente N1,Triade,Maria Eduarda,CONSIG PRIVADO,Manhã,Receptivo,Cartões,08:00,15:00,Chat/Whatsapp,CS- Cartões,04/11/2024,1 anos e 9 meses,Cibelly,1 a 2 anos,Service,,,
 105,104,ADELAIDE LETICIA COSTA DA SILVA,Ativo,adelaide.silva@meutudo.app,Agente N1,Atena,Maria Eduarda,CONSIG PRIVADO,Manhã,Receptivo,Pós-contratação,08:00,15:00,Chat/Whatsapp,CS- Receptivo,01/08/2025,1 anos e 0 meses,Cibelly,3 meses a 1 ano,Service,,,
 106,105,ALISSON ARAUJO DE SOUSA,Ativo,alisson.sousa@meutudo.app,Agente N1,Atena,Maria Eduarda,CONSIG PRIVADO,Tarde,Receptivo,Pós-contratação,13:00,20:00,Chat/Whatsapp,CS- Receptivo,09/03/2026,0 anos e 5 meses,Cibelly,3 meses a 1 ano,Service,,,
@@ -142562,7 +142050,7 @@ yuri.souza@meutudo.app,Nível 3,2026-08-04,9,Whatsapp,Síncrono,2,2`,
 134,4,THALES CRISON COSTA DA SILVA,Ativo,thales.silva@meutudo.app,Analista N1,Reports & Analises,Gustavo,INSS/FGTS,Integral,CX,Reports & Analises,09:00,18:00,Híbrido,Reports & Analises,23/01/2023,3 anos e 6 meses,Reports & Analises,3 a 4 anos,CX,,,
 135,5,MARCELO MACHADO DE CASTRO,Ativo,marcelo.castro@meutudo.app,Analista N2,Reports & Analises,Gustavo,INSS/FGTS,Integral,CX,Reports & Analises,09:00,18:00,Híbrido,Reports & Analises,12/07/2021,5 anos e 1 meses,Reports & Analises,acima de 5 anos,CX,,,
 136,6,WENDYSON AYRES DA SILVA RIBEIRO,Ativo,wendyson.ribeiro@meutudo.app,Analista N2,Reports & Analises,Gustavo,INSS/FGTS,Integral,CX,Reports & Analises,09:00,18:00,Híbrido,Reports & Analises,04/04/2022,4 anos e 4 meses,Reports & Analises,4 a 5 anos,CX,,,
-137,7,HANNA BARBARA SOARES RODRIGUES,Ativo,hanna.rodrigues@meutudo.app,Analista N2,Reports & Analises,Gustavo,INSS/FGTS,Integral,CX,Reports & Analises,09:00,18:00,Híbrido,Reports & Analises,14/06/2021,5 anos e 1 meses,Reports & Analises,acima de 5 anos,CX,,,
+137,7,HANNA BARBARA SOARES RODRIGUES,Ativo,hanna.rodrigues@meutudo.app,Analista N2,Reports & Analises,Gustavo,INSS/FGTS,Integral,CX,Reports & Analises,09:00,18:00,Híbrido,Reports & Analises,14/06/2021,5 anos e 2 meses,Reports & Analises,acima de 5 anos,CX,,,
 138,8,INGRID HENRIQUE ALVES,Ativo,ingrid.alves@meutudo.app,Analista N1,Quality Control,Nathalia Mapurunga,FGTS,Integral,CX,Quality Control,09:00,18:00,Híbrido,Quality Control,06/04/2020,6 anos e 4 meses,Nathalia Mapurunga,acima de 5 anos,CX,,,
 139,9,CAROLINA FARACHE DA SILVA,Ativo,carolina.farache@meutudo.app,Analista N1,Quality Control,Nathalia Mapurunga,INSS,Integral,CX,Quality Control,09:00,18:00,Híbrido,Quality Control,12/04/2021,5 anos e 4 meses,Nathalia Mapurunga,acima de 5 anos,CX,,,
 140,10,RAFAELA AGUIAR OLIVEIRA,Ativo,rafaela.oliveira@meutudo.app,Aprendiz,Quality Control,Nathalia Mapurunga,INSS/FGTS,Manhã,CX,Quality Control,09:00,13:00,Híbrido,Quality Control,06/01/2025,1 anos e 7 meses,Nathalia Mapurunga,1 a 2 anos,CX,,,
@@ -233247,7 +232735,7 @@ mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,3790,107,38,18,11,7,0
 mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,356,6,1,2,3,3,9,8,72`,
   EMBEDDED_CSAT_CSV: `tipo_atendimento,total_avaliacoes,avaliacoes_4_5,avaliacoes_3,avaliacoes_1_2,csat_percentual,nota_media
 humano,72838,49445,8069,15324,67.88352233724156,3.7596598164799433
-concierge,10388,5642,954,4160,54.31266846361186,3.2470840480274443`,
+concierge,10421,5659,956,4175,54.30380961520007,3.2467932272960494`,
 };
 
 async function __decodeGzipBase64(embeddedText){
