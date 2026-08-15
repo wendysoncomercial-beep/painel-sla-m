@@ -403,7 +403,7 @@ button.prod-legend-item.off{opacity:.38;text-decoration:line-through}
 let EMBEDDED_MASTER_CSV = '';
 let EMBEDDED_MASTER_CONVENIO_CSV = '';
 const EMBEDDED_MASTER_CONVENIO_BASELINE_CSV = EMBEDDED_MASTER_CONVENIO_CSV;
-const PANEL_UPDATED_AT = `14/08/2026, 22:30:02`;
+const PANEL_UPDATED_AT = `14/08/2026, 23:30:02`;
 
 let EMBEDDED_EXEC_ANALISE = '';
 let EMBEDDED_AGENTES_CANAL_CSV = '';
@@ -24639,17 +24639,17 @@ const __EMBEDDED_GZIP = {
 2026-08-14,REFIN,direto,32,31,0,6,1,25,31,0,0,1,0,29,29,232176,8,5,16,8,0,1,6,0,1,0,32,0,29,29,232176000,8,,0
 2026-08-14,SEM PRODUTO,concierge,132,1,0,0,131,1,1,0,130,0,1,132,115,212302,5,28367,1,132,130,0,1,0,0,0,132,0,132,115,240669000,6,,0
 2026-08-14,SEM PRODUTO,direto,635,299,18,0,336,281,299,18,314,21,1,588,240,2980604,81,561612,173,531,312,21,177,18,0,0,635,18,588,240,3071015000,107,435616000,28`,
-  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 672617 tickets, com 65.5% provenientes do Concierge e 34.5% do atendimento Direto. A taxa de resolução geral é de 98.4%, com 11033 tickets ainda em aberto.
+  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 672617 tickets, com 65.5% provenientes do Concierge e 34.5% do atendimento Direto. A taxa de resolução geral é de 98.4%, com um tempo médio de resolução de 0.1h.
 
-- Destaque positivo: A IA atendeu 1660896 interações, com 67.6% resolvidas exclusivamente por ela. O tempo médio de resolução é de apenas 0.1h em todos os canais.
+- Destaque positivo: A IA atendeu 1660896 interações, resolvendo 67.6% delas sem necessidade de transbordo. O FCR geral é de 78.9%, indicando eficiência no atendimento.
 
-- Principal ponto de atenção: O FCR (First Contact Resolution) do Concierge é de 85.9%, enquanto o do Direto é de 66.0%. Isso indica uma diferença significativa na eficiência do atendimento.
+- Principal ponto de atenção: O SLA geral é de 65.8%, com o Concierge apresentando um SLA de 59.5%, abaixo do Direto, que é de 77.0%. Isso pode impactar a satisfação do cliente.
 
-- Comparativo Concierge vs Direto: O Concierge apresenta uma taxa de resolução de 97.9%, 1.4 pontos percentuais abaixo do Direto, que tem 99.3%. Além disso, o SLA do Concierge é 17.4 pontos percentuais inferior ao do Direto.
+- Comparativo Concierge vs Direto: O Concierge tem uma taxa de resolução de 97.9%, enquanto o Direto alcança 99.3%. O FCR do Concierge é 19.8 pontos percentuais inferior ao do Direto.
 
-- Hipótese de causa: A diferença no FCR pode ser atribuída à complexidade dos tickets gerados pelo Concierge, que pode exigir mais interações para resolução. Isso pode impactar negativamente a experiência do cliente.
+- Hipótese de causa: A diferença no FCR e SLA pode estar relacionada à complexidade dos tickets do Concierge, que tende a ser maior. Isso pode resultar em maior tempo de atendimento e necessidade de escalonamento.
 
-- Recomendação prática: Implementar treinamentos focados na equipe do Concierge para melhorar o FCR e reduzir o número de tickets em aberto. Além disso, avaliar a possibilidade de otimizar o fluxo de atendimento para questões mais complexas.`,
+- Recomendação prática: Implementar treinamentos específicos para a equipe do Concierge, visando melhorar o FCR e reduzir o SLA. Além disso, considerar a revisão dos processos para simplificar a resolução de tickets.`,
   EMBEDDED_AGENTES_CANAL_CSV: ``,
   EMBEDDED_MASTER_HOURLY_CSV: `hora_ref,area_resolvedora,encaminhados,resolvidos,fechados,abandonos,em_aberto,concluidos,fcr_base,fcr_ok,aguardando,em_tratativa,pendente_cliente,sla_base,sla_ok,tempo_tratativa_sum,tempo_tratativa_cnt,tempo_resolucao_sum,tempo_resolucao_cnt
 2026-05-01T00:00:00.000Z,,26,26,26,0,0,0,26,24,0,0,0,9,8,,0,,0
@@ -236383,7 +236383,7 @@ mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,4074,108,39,19,11,7,0
 mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,394,7,1,3,3,4,10,10,75`,
   EMBEDDED_CSAT_CSV: `tipo_atendimento,total_avaliacoes,avaliacoes_4_5,avaliacoes_3,avaliacoes_1_2,csat_percentual,nota_media
 humano,73009,49568,8084,15357,67.89299949321317,3.7604637117949795
-concierge,10851,5908,985,4352,54.44659478389089,3.250714810881464`,
+concierge,10880,5922,991,4362,54.43014705882353,3.250040736516213`,
 };
 
 async function __decodeGzipBase64(embeddedText){
