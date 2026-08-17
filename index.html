@@ -403,7 +403,7 @@ button.prod-legend-item.off{opacity:.38;text-decoration:line-through}
 let EMBEDDED_MASTER_CSV = '';
 let EMBEDDED_MASTER_CONVENIO_CSV = '';
 const EMBEDDED_MASTER_CONVENIO_BASELINE_CSV = EMBEDDED_MASTER_CONVENIO_CSV;
-const PANEL_UPDATED_AT = `17/08/2026, 04:30:02`;
+const PANEL_UPDATED_AT = `17/08/2026, 05:30:03`;
 
 let EMBEDDED_EXEC_ANALISE = '';
 let EMBEDDED_AGENTES_CANAL_CSV = '';
@@ -24756,17 +24756,17 @@ const __EMBEDDED_GZIP = {
 2026-08-15,REFIN,direto,10,9,0,0,1,9,9,0,1,0,0,10,10,,0,1,9,1,1,0,0,0,0,0,10,0,10,10,,0,,0
 2026-08-15,SEM PRODUTO,concierge,91,1,0,0,90,1,1,0,87,0,3,90,76,,0,1790,1,91,87,0,1,0,0,0,91,0,90,76,1790000,1,,0
 2026-08-15,SEM PRODUTO,direto,442,27,0,0,415,27,27,0,414,0,1,405,48,23990,1,5218,38,422,414,0,7,0,0,0,442,0,405,48,28941000,4,,0`,
-  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 674990 tickets, com 98.3% resolvidos no total. O atendimento da IA teve 1672761 interações, com 67.7% resolvidos apenas por ela.
+  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 674990 tickets, com 98.3% de resolução total e um tempo médio de resolução de 0.1h. O atendimento da IA teve 1672761 interações, com 67.7% resolvidas apenas por ela.
 
-- Destaque positivo: O funil direto apresentou uma taxa de resolução de 99.1%, a mais alta entre os canais. O tempo médio de resolução em todos os funis foi de apenas 0.1h.
+- Destaque positivo: O funil direto apresenta uma taxa de resolução de 99.1%, superior à média geral. O FCR do funil concierge é de 85.8%, indicando um bom desempenho em resoluções na primeira interação.
 
-- Principal ponto de atenção: O funil concierge teve uma taxa de FCR de 85.8%, significativamente inferior ao funil direto, que registrou 66.1%. Além disso, o SLA do concierge foi de 58.8%, 17.8 pontos percentuais abaixo do direto.
+- Principal ponto de atenção: O SLA do funil concierge é de 58.8%, abaixo do funil direto que é de 76.6%. Isso pode impactar a satisfação do cliente e a eficiência do atendimento.
 
-- Comparativo Concierge vs Direto: O funil concierge teve 442054 tickets, enquanto o direto teve 232936. A diferença na taxa de resolução foi de 1.2 pontos percentuais a favor do direto.
+- Comparativo Concierge vs Direto: O funil concierge tem uma taxa de resolução 1.2 pontos percentuais menor que o direto. Além disso, o gap no FCR é de 19.7 pontos percentuais, evidenciando uma diferença significativa na eficácia.
 
-- Hipótese de causa: A maior complexidade dos tickets no funil concierge pode estar impactando negativamente o FCR e o SLA. A dependência maior de transbordos também sugere que a IA pode não estar atendendo adequadamente a esse canal.
+- Hipótese de causa: A maior complexidade dos tickets no funil concierge pode estar contribuindo para a menor taxa de resolução e FCR. O volume elevado de transbordos assíncronos (26.4%) também pode indicar dificuldades na resolução inicial.
 
-- Recomendação prática: Investir em treinamento da IA para melhorar a resolução de tickets no funil concierge. Além disso, revisar processos para reduzir a necessidade de transbordos e aumentar a eficiência no atendimento.`,
+- Recomendação prática: Implementar treinamentos focados nas demandas do funil concierge para melhorar o FCR e o SLA. Avaliar a possibilidade de otimizar o uso da IA para reduzir o transbordo e aumentar a eficiência no atendimento.`,
   EMBEDDED_AGENTES_CANAL_CSV: ``,
   EMBEDDED_MASTER_HOURLY_CSV: `hora_ref,area_resolvedora,encaminhados,resolvidos,fechados,abandonos,em_aberto,concluidos,fcr_base,fcr_ok,aguardando,em_tratativa,pendente_cliente,sla_base,sla_ok,tempo_tratativa_sum,tempo_tratativa_cnt,tempo_resolucao_sum,tempo_resolucao_cnt
 2026-05-01T00:00:00.000Z,,26,26,26,0,0,0,26,24,0,0,0,9,8,,0,,0
@@ -182797,7 +182797,7 @@ semana,2026-07-27,__TODOS_PRODUTOS__,0,6388,0`,
 21164272,6759512,Reclame aqui,Dúvidas sobre um contrato,Reclame Aqui,WAITING_DEFINITION,Aguardando tratativa,dentro do prazo,2
 17131820,6759513,Reclame aqui,Reembolso,Reclame Aqui,WAITING_DEFINITION,Aguardando tratativa,dentro do prazo,2`,
   EMBEDDED_SCORE_RESUMO_CSV: `tipo,chave,total,clientes_distintos,score_sum,score_medio,alto,medio,baixo,ameacas,criticos
-total,TOTAL,37337,22920,765855.0,20.511958646918607,140,924,36273,2559,2596
+total,TOTAL,38837,24220,787470.0,20.27628292607565,140,924,37773,2560,2728
 dia,2026-07-29,20,10,1320.0,66.0,4,6,10,10,4
 dia,2026-07-30,1926,917,36761.0,19.086708203530634,22,51,1853,123,94
 dia,2026-07-31,5741,2037,139101.0,24.229402543110957,34,202,5505,886,224
@@ -182815,26 +182815,27 @@ dia,2026-08-13,1500,1500,32857.0,21.904666666666667,1,48,1451,108,268
 dia,2026-08-14,1500,1500,32505.0,21.67,6,37,1457,112,297
 dia,2026-08-15,1500,1500,32800.0,21.866666666666667,2,33,1465,100,297
 dia,2026-08-16,1500,1500,27745.0,18.496666666666666,2,12,1486,51,155
+dia,2026-08-17,1500,1500,21615.0,14.41,0,0,1500,1,132
 mes,2026-07,7687,2864,177182.0,23.049564199297514,60,259,7368,1019,322
-mes,2026-08,29650,20587,588673.0,19.85406408094435,80,665,28905,1540,2274
-sentimento,Negativo,9848,0,0.0,0.0,0,0,0,0,0
-sentimento,Neutro,24735,0,0.0,0.0,0,0,0,0,0
+mes,2026-08,31150,21895,610288.0,19.59191011235955,80,665,30405,1541,2406
+sentimento,Negativo,9849,0,0.0,0.0,0,0,0,0,0
+sentimento,Neutro,26234,0,0.0,0.0,0,0,0,0,0
 sentimento,Positivo,2754,0,0.0,0.0,0,0,0,0,0
 motivo,"2ª via, boleto, empréstimo, atraso",1,0,0.0,0.0,0,0,0,0,0
 motivo,Acionar sinistro,1,0,0.0,0.0,0,0,0,0,0
-motivo,Acompanhamento de proposta/Status,422,0,0.0,0.0,0,0,0,0,0
+motivo,Acompanhamento de proposta/Status,446,0,0.0,0.0,0,0,0,0,0
 motivo,Ajuda para autorizar consulta de saldo,3,0,0.0,0.0,0,0,0,0,0
-motivo,Alega desconto em folha,49,0,0.0,0.0,0,0,0,0,0
+motivo,Alega desconto em folha,52,0,0.0,0.0,0,0,0,0,0
 motivo,Alega desconto rescisão,1,0,0.0,0.0,0,0,0,0,0
-motivo,Alocação de parcelas,14,0,0.0,0.0,0,0,0,0,0
-motivo,Alteração dados cadastrais,34,0,0.0,0.0,0,0,0,0,0
+motivo,Alocação de parcelas,17,0,0.0,0.0,0,0,0,0,0
+motivo,Alteração dados cadastrais,37,0,0.0,0.0,0,0,0,0,0
 motivo,Alteração de dados bancários,1,0,0.0,0.0,0,0,0,0,0
 motivo,Análise de reparcelamento,1,0,0.0,0.0,0,0,0,0,0
 motivo,Baixa de parcela pendente,11,0,0.0,0.0,0,0,0,0,0
 motivo,"CPF incompleto, verificação",1,0,0.0,0.0,0,0,0,0,0
 motivo,"CPF inválido, dificuldade, login",1,0,0.0,0.0,0,0,0,0,0
 motivo,"CPF, Banco do Brasil, Pix",1,0,0.0,0.0,0,0,0,0,0
-motivo,Cadastro reprovado,9,0,0.0,0.0,0,0,0,0,0
+motivo,Cadastro reprovado,10,0,0.0,0.0,0,0,0,0,0
 motivo,Cancelamento de contrato,6,0,0.0,0.0,0,0,0,0,0
 motivo,Cancelamento de seguro,1,0,0.0,0.0,0,0,0,0,0
 motivo,Cliente alega fraude,2,0,0.0,0.0,0,0,0,0,0
@@ -182850,15 +182851,15 @@ motivo,Consulta oportunidade Cons Privado,5,0,0.0,0.0,0,0,0,0,0
 motivo,Consulta oportunidade/Oportunidade expirada,1,0,0.0,0.0,0,0,0,0,0
 motivo,Consulta oportunidade/Sem oportunidade,18,0,0.0,0.0,0,0,0,0,0
 motivo,"DED, fatura paga, reclamação",1,0,0.0,0.0,0,0,0,0,0
-motivo,Desaverbação,81,0,0.0,0.0,0,0,0,0,0
+motivo,Desaverbação,83,0,0.0,0.0,0,0,0,0,0
 motivo,Desaverbação em atraso,9,0,0.0,0.0,0,0,0,0,0
 motivo,Desbloqueio de cartão/Ativação,1,0,0.0,0.0,0,0,0,0,0
-motivo,Desconto parcial de valor,21,0,0.0,0.0,0,0,0,0,0
-motivo,Desistência e devolução,40,0,0.0,0.0,0,0,0,0,0
+motivo,Desconto parcial de valor,23,0,0.0,0.0,0,0,0,0,0
+motivo,Desistência e devolução,43,0,0.0,0.0,0,0,0,0,0
 motivo,Dificuldade cadastro cartão,2,0,0.0,0.0,0,0,0,0,0
 motivo,Dificuldade dados bancários,1,0,0.0,0.0,0,0,0,0,0
 motivo,Divergência de valores/Fatura,3,0,0.0,0.0,0,0,0,0,0
-motivo,Divergência de valores/contrato,38,0,0.0,0.0,0,0,0,0,0
+motivo,Divergência de valores/contrato,41,0,0.0,0.0,0,0,0,0,0
 motivo,Dúvidas - Desistência/Devolução,1,0,0.0,0.0,0,0,0,0,0
 motivo,Dúvidas - Valor/Troco recebido,2,0,0.0,0.0,0,0,0,0,0
 motivo,Dúvidas Parcelas,5,0,0.0,0.0,0,0,0,0,0
@@ -182866,18 +182867,18 @@ motivo,Dúvidas Prazos,1,0,0.0,0.0,0,0,0,0,0
 motivo,Dúvidas Repasse de Parcelas,5,0,0.0,0.0,0,0,0,0,0
 motivo,Dúvidas contrato repactuado,3,0,0.0,0.0,0,0,0,0,0
 motivo,Dúvidas de Sinistro,6,0,0.0,0.0,0,0,0,0,0
-motivo,Dúvidas gerais,131,0,0.0,0.0,0,0,0,0,0
+motivo,Dúvidas gerais,136,0,0.0,0.0,0,0,0,0,0
 motivo,Dúvidas sobre Seguros,10,0,0.0,0.0,0,0,0,0,0
-motivo,Dúvidas sobre quitação,35,0,0.0,0.0,0,0,0,0,0
-motivo,Dúvidas sobre um contrato,347,0,0.0,0.0,0,0,0,0,0
+motivo,Dúvidas sobre quitação,37,0,0.0,0.0,0,0,0,0,0
+motivo,Dúvidas sobre um contrato,358,0,0.0,0.0,0,0,0,0,0
 motivo,Dúvidas/Contrato ativo,3,0,0.0,0.0,0,0,0,0,0
 motivo,Dúvidas/Contrato refinanciado,7,0,0.0,0.0,0,0,0,0,0
 motivo,Dúvidas/Desconto em folha,3,0,0.0,0.0,0,0,0,0,0
 motivo,Dúvidas/Prazos e Parcelas,20,0,0.0,0.0,0,0,0,0,0
 motivo,Dúvidas/Seguro prestamista,7,0,0.0,0.0,0,0,0,0,0
-motivo,Dúvidas/Suporte para contratação,87,0,0.0,0.0,0,0,0,0,0
+motivo,Dúvidas/Suporte para contratação,96,0,0.0,0.0,0,0,0,0,0
 motivo,Dúvidas/Valor recebido,2,0,0.0,0.0,0,0,0,0,0
-motivo,Envio de comprovante,3,0,0.0,0.0,0,0,0,0,0
+motivo,Envio de comprovante,4,0,0.0,0.0,0,0,0,0,0
 motivo,Erro digitação automática,1,0,0.0,0.0,0,0,0,0,0
 motivo,Erro no app meutudo/Encerrando,5,0,0.0,0.0,0,0,0,0,0
 motivo,Erro no app meutudo/Proposta e termos sem informações,2,0,0.0,0.0,0,0,0,0,0
@@ -182932,9 +182933,9 @@ motivo,"FGTS, valores, atendimento, telefone",1,0,0.0,0.0,0,0,0,0,0
 motivo,Falha ao pagar boleto/Fatura,1,0,0.0,0.0,0,0,0,0,0
 motivo,Integrado com atualização do hiscon,10,0,0.0,0.0,0,0,0,0,0
 motivo,Mensagem automática de wpp,9,0,0.0,0.0,0,0,0,0,0
-motivo,Motivo inconclusivo/Sem histórico,148,0,0.0,0.0,0,0,0,0,0
+motivo,Motivo inconclusivo/Sem histórico,153,0,0.0,0.0,0,0,0,0,0
 motivo,Não reconhece contrato,11,0,0.0,0.0,0,0,0,0,0
-motivo,Pagamento devolvido,32,0,0.0,0.0,0,0,0,0,0
+motivo,Pagamento devolvido,33,0,0.0,0.0,0,0,0,0,0
 motivo,Pesquisando/analisando propostas,3,0,0.0,0.0,0,0,0,0,0
 motivo,"Pix não recebido, ajuda",1,0,0.0,0.0,0,0,0,0,0
 motivo,"Pix, parcela atrasada, comprovante",1,0,0.0,0.0,0,0,0,0,0
@@ -182943,35 +182944,35 @@ motivo,Port Out/Redução nas parcelas,1,0,0.0,0.0,0,0,0,0,0
 motivo,Port Out/Relacionamento com outra IF,4,0,0.0,0.0,0,0,0,0,0
 motivo,Port Out/Taxas atrativas,1,0,0.0,0.0,0,0,0,0,0
 motivo,Port Out/Troco atrativo,38,0,0.0,0.0,0,0,0,0,0
-motivo,Port_out/Não retido,9,0,0.0,0.0,0,0,0,0,0
-motivo,Problemas com o uso do cartão,3,0,0.0,0.0,0,0,0,0,0
-motivo,Quitação,138,0,0.0,0.0,0,0,0,0,0
-motivo,Reclamação do atendimento,15,0,0.0,0.0,0,0,0,0,0
+motivo,Port_out/Não retido,10,0,0.0,0.0,0,0,0,0,0
+motivo,Problemas com o uso do cartão,4,0,0.0,0.0,0,0,0,0,0
+motivo,Quitação,140,0,0.0,0.0,0,0,0,0,0
+motivo,Reclamação do atendimento,16,0,0.0,0.0,0,0,0,0,0
 motivo,Reclamações gerais,6,0,0.0,0.0,0,0,0,0,0
-motivo,Reembolso,414,0,0.0,0.0,0,0,0,0,0
+motivo,Reembolso,440,0,0.0,0.0,0,0,0,0,0
 motivo,Reembolso/Titular falecido,1,0,0.0,0.0,0,0,0,0,0
-motivo,Regularizar dívida PJ,42,0,0.0,0.0,0,0,0,0,0
-motivo,Regularizar pagamento,202,0,0.0,0.0,0,0,0,0,0
-motivo,Regularizar pagamento parcial,21,0,0.0,0.0,0,0,0,0,0
-motivo,Renegociação,9,0,0.0,0.0,0,0,0,0,0
+motivo,Regularizar dívida PJ,46,0,0.0,0.0,0,0,0,0,0
+motivo,Regularizar pagamento,208,0,0.0,0.0,0,0,0,0,0
+motivo,Regularizar pagamento parcial,27,0,0.0,0.0,0,0,0,0,0
+motivo,Renegociação,10,0,0.0,0.0,0,0,0,0,0
 motivo,Reprovação/Margem excedida,3,0,0.0,0.0,0,0,0,0,0
 motivo,Reprovação/Política interna,3,0,0.0,0.0,0,0,0,0,0
 motivo,Reprovação/Políticas internas,6,0,0.0,0.0,0,0,0,0,0
 motivo,Saldo devedor,9,0,0.0,0.0,0,0,0,0,0
 motivo,"Saque, aniversário, ajuda",1,0,0.0,0.0,0,0,0,0,0
 motivo,Segurança do produto/Dentro do prazo,19,0,0.0,0.0,0,0,0,0,0
-motivo,Sem previsão de pagamento,47,0,0.0,0.0,0,0,0,0,0
-motivo,Solicita renegociação,9,0,0.0,0.0,0,0,0,0,0
+motivo,Sem previsão de pagamento,49,0,0.0,0.0,0,0,0,0,0
+motivo,Solicita renegociação,10,0,0.0,0.0,0,0,0,0,0
 motivo,Solicitação de DED,2,0,0.0,0.0,0,0,0,0,0
-motivo,Solicitação de Reembolso,44,0,0.0,0.0,0,0,0,0,0
-motivo,Solicitação de boleto,407,0,0.0,0.0,0,0,0,0,0
+motivo,Solicitação de Reembolso,45,0,0.0,0.0,0,0,0,0,0
+motivo,Solicitação de boleto,427,0,0.0,0.0,0,0,0,0,0
 motivo,Solicitação de cancelamento /Recebeu proposta melhor,1,0,0.0,0.0,0,0,0,0,0
 motivo,Solicitação de cancelamento/Atraso de pagamento,1,0,0.0,0.0,0,0,0,0,0
 motivo,Solicitação de cancelamento/Não especificou,1,0,0.0,0.0,0,0,0,0,0
 motivo,Solicitação de comprovante de pagamento,2,0,0.0,0.0,0,0,0,0,0
 motivo,Solicitação de contrato,3,0,0.0,0.0,0,0,0,0,0
-motivo,Solicitação de quitação,2,0,0.0,0.0,0,0,0,0,0
-motivo,Solicitação de quitação parcial,3,0,0.0,0.0,0,0,0,0,0
+motivo,Solicitação de quitação,3,0,0.0,0.0,0,0,0,0,0
+motivo,Solicitação de quitação parcial,4,0,0.0,0.0,0,0,0,0,0
 motivo,Solicitação de reembolso/Contrato sucedido,1,0,0.0,0.0,0,0,0,0,0
 motivo,Solicitação de reembolso/Desconto após quitação,7,0,0.0,0.0,0,0,0,0,0
 motivo,Solicitação de reembolso/Parcela em trânsito,12,0,0.0,0.0,0,0,0,0,0
@@ -182980,7 +182981,7 @@ motivo,Status do contrato/Análise Banco,4,0,0.0,0.0,0,0,0,0,0
 motivo,Status do contrato/Em averbação,6,0,0.0,0.0,0,0,0,0,0
 motivo,Status do contrato/Em conferência,1,0,0.0,0.0,0,0,0,0,0
 motivo,Status do contrato/Pendente de averbação,3,0,0.0,0.0,0,0,0,0,0
-motivo,Status/Emissão do cartão físico,4,0,0.0,0.0,0,0,0,0,0
+motivo,Status/Emissão do cartão físico,5,0,0.0,0.0,0,0,0,0,0
 motivo,Transação não reconhecida,1,0,0.0,0.0,0,0,0,0,0
 motivo,Valor não caiu na conta,4,0,0.0,0.0,0,0,0,0,0
 motivo,"abatimento, parcelas, empréstimo",3,0,0.0,0.0,0,0,0,0,0
@@ -184790,7 +184791,7 @@ motivo,"atraso, cobrança, pagamento",1,0,0.0,0.0,0,0,0,0,0
 motivo,"atraso, cobrança, pagamento, juros",1,0,0.0,0.0,0,0,0,0,0
 motivo,"atraso, cobrança, prestação",1,0,0.0,0.0,0,0,0,0,0
 motivo,"atraso, cobrança, quitação, atendimento, insatisfação",1,0,0.0,0.0,0,0,0,0,0
-motivo,"atraso, cobrança, reclamação",193,0,0.0,0.0,0,0,0,0,0
+motivo,"atraso, cobrança, reclamação",194,0,0.0,0.0,0,0,0,0,0
 motivo,"atraso, cobrança, recálculo, juros",1,0,0.0,0.0,0,0,0,0,0
 motivo,"atraso, cobrança, regularização",8,0,0.0,0.0,0,0,0,0,0
 motivo,"atraso, comprovantes, juros, contato, RH",1,0,0.0,0.0,0,0,0,0,0
@@ -190146,11 +190147,12 @@ motivo,"informação, chamado, prazo",1,0,0.0,0.0,0,0,0,0,0
 motivo,"informação, consignado, CLT",1,0,0.0,0.0,0,0,0,0,0
 motivo,"informação, consignado, rescisão",1,0,0.0,0.0,0,0,0,0,0
 motivo,"informação, consulta, atendimento",3,0,0.0,0.0,0,0,0,0,0
-motivo,"informação, consulta, dúvida",35,0,0.0,0.0,0,0,0,0,0
+motivo,"informação, consulta, dúvida",37,0,0.0,0.0,0,0,0,0,0
 motivo,"informação, contato, quitação",1,0,0.0,0.0,0,0,0,0,0
 motivo,"informação, crédito, CLT",1,0,0.0,0.0,0,0,0,0,0
 motivo,"informação, dívida, parcelas, contratos",1,0,0.0,0.0,0,0,0,0,0
-motivo,"informação, dúvida, atendimento",432,0,0.0,0.0,0,0,0,0,0
+motivo,"informação, dúvida, atendimento",447,0,0.0,0.0,0,0,0,0,0
+motivo,"informação, dúvida, consulta",1,0,0.0,0.0,0,0,0,0,0
 motivo,"informação, emprego, situação financeira",1,0,0.0,0.0,0,0,0,0,0
 motivo,"informação, empréstimo, pagamento",1,0,0.0,0.0,0,0,0,0,0
 motivo,"informação, pagamento, Pix",1,0,0.0,0.0,0,0,0,0,0
@@ -195335,7 +195337,7 @@ motivo,"seguro-desemprego, contratação, dúvidas",1,0,0.0,0.0,0,0,0,0,0
 motivo,"seguros, carência, acionamento",4,0,0.0,0.0,0,0,0,0,0
 motivo,"selfie, validação, empréstimo",1,0,0.0,0.0,0,0,0,0,0
 motivo,sem motivo claro,1,0,0.0,0.0,0,0,0,0,0
-motivo,sem reincidência,13769,0,0.0,0.0,0,0,0,0,0
+motivo,sem reincidência,15097,0,0.0,0.0,0,0,0,0,0
 motivo,"senha bloqueada, recuperação, acesso",1,0,0.0,0.0,0,0,0,0,0
 motivo,"senha bloqueada, recuperação, instabilidade",1,0,0.0,0.0,0,0,0,0,0
 motivo,"senha, acesso, formulário",1,0,0.0,0.0,0,0,0,0,0
@@ -195748,21 +195750,21 @@ motivo,"vínculo trabalhista, divergência, app",1,0,0.0,0.0,0,0,0,0,0
 motivo,"vínculo trabalhista, empréstimo, consulta",1,0,0.0,0.0,0,0,0,0,0
 motivo,"vínculo trabalhista, pendência, app",1,0,0.0,0.0,0,0,0,0,0
 sinal,Reclame Aqui,86,0,0.0,0.0,0,0,0,0,0
-sinal,sem reclamação,37251,0,0.0,0.0,0,0,0,0,0`,
+sinal,sem reclamação,38751,0,0.0,0.0,0,0,0,0,0`,
   EMBEDDED_SCORE_ATRITO_CSV: `personid,dt_processamento,qtd_conversas_dia,reclamacao,motivo_recorrente,qtd_motivo_recorrente,motivo_aberto_maior_sla,horas_em_aberto,nota_csat,sinais_experiencia,sentimento_ia,ameaca_canal_oficial,motivo_resumido_ia,score_atrito,score_detalhe,justificativa_ia,ameaca_verbal_sem_registro,person_ocorrencias_periodo
 12940696,2026-08-04,2,Reclame Aqui,Desaverbação,4,sem ticket aberto,,sem avaliação,RECLAMOU EM CANAL EXTERNO | REINCIDENTE (4x mesmo motivo/90d),Negativo,true,"contratos não reconhecidos, contestação, ação judicial",129,SLA:0 | Sentimento:35 | Jurídico:35 | Reincidência:20 | CSAT:9 | AmeaçaCanalOficial:30,O cliente expressou insatisfação e mencionou ação judicial.,false,2
+10289024,2026-07-31,1,Reclame Aqui,Solicitação de Reembolso,3,sem ticket aberto,,sem avaliação,RECLAMOU EM CANAL EXTERNO | REINCIDENTE (3x mesmo motivo/90d),Negativo,true,"ajuda, ação judicial, frustração",129,SLA:0 | Sentimento:35 | Jurídico:35 | Reincidência:20 | CSAT:9 | AmeaçaCanalOficial:30,Cliente expressa frustração e ameaça ação judicial.,false,7
+10289024,2026-07-31,1,Reclame Aqui,Solicitação de Reembolso,3,sem ticket aberto,,sem avaliação,RECLAMOU EM CANAL EXTERNO | REINCIDENTE (3x mesmo motivo/90d),Negativo,true,"ajuda, ação judicial, frustração",129,SLA:0 | Sentimento:35 | Jurídico:35 | Reincidência:20 | CSAT:9 | AmeaçaCanalOficial:30,Cliente expressa frustração e ameaça ação judicial.,false,7
 10289024,2026-07-31,1,Reclame Aqui,Solicitação de Reembolso,3,sem ticket aberto,,sem avaliação,RECLAMOU EM CANAL EXTERNO | REINCIDENTE (3x mesmo motivo/90d),Negativo,true,"ajuda, app, ação judicial",129,SLA:0 | Sentimento:35 | Jurídico:35 | Reincidência:20 | CSAT:9 | AmeaçaCanalOficial:30,Cliente expressa frustração e ameaça ação judicial.,false,7
 10289024,2026-07-31,1,Reclame Aqui,Solicitação de Reembolso,3,sem ticket aberto,,sem avaliação,RECLAMOU EM CANAL EXTERNO | REINCIDENTE (3x mesmo motivo/90d),Negativo,true,"ajuda, ação judicial, frustração",129,SLA:0 | Sentimento:35 | Jurídico:35 | Reincidência:20 | CSAT:9 | AmeaçaCanalOficial:30,Cliente expressa frustração e ameaça ação judicial.,false,7
-10289024,2026-07-31,1,Reclame Aqui,Solicitação de Reembolso,3,sem ticket aberto,,sem avaliação,RECLAMOU EM CANAL EXTERNO | REINCIDENTE (3x mesmo motivo/90d),Negativo,true,"ajuda, ação judicial, frustração",129,SLA:0 | Sentimento:35 | Jurídico:35 | Reincidência:20 | CSAT:9 | AmeaçaCanalOficial:30,Cliente expressa frustração e ameaça ação judicial.,false,7
-10289024,2026-07-31,1,Reclame Aqui,Solicitação de Reembolso,3,sem ticket aberto,,sem avaliação,RECLAMOU EM CANAL EXTERNO | REINCIDENTE (3x mesmo motivo/90d),Negativo,true,"ajuda, ação judicial, frustração",129,SLA:0 | Sentimento:35 | Jurídico:35 | Reincidência:20 | CSAT:9 | AmeaçaCanalOficial:30,Cliente expressa frustração e ameaça ação judicial.,false,7
 3674628,2026-08-02,2,sem reclamação,Desaverbação,3,Desaverbação,200.40,1,REINCIDENTE (3x mesmo motivo/90d) | TICKET ABERTO HÁ 8.4 DIA(S) | CSAT DETRATOR (NOTA 1),Negativo,true,"desaverbação, atraso, ação judicial",115,SLA:15 | Sentimento:35 | Jurídico:0 | Reincidência:20 | CSAT:15 | AmeaçaCanalOficial:30,O cliente expressou forte insatisfação e ameaçou ações legais.,true,15
-3674628,2026-07-30,2,sem reclamação,Quitação,3,Desaverbação,139.70,1,REINCIDENTE (3x mesmo motivo/90d) | TICKET ABERTO HÁ 5.8 DIA(S) | CSAT DETRATOR (NOTA 1),Negativo,true,"desaverbação, contratos, demora, medidas judiciais",115,SLA:15 | Sentimento:35 | Jurídico:0 | Reincidência:20 | CSAT:15 | AmeaçaCanalOficial:30,O cliente expressou forte insatisfação e ameaçou tomar medidas legais.,true,15
 3674628,2026-07-30,2,sem reclamação,Quitação,3,Desaverbação,139.40,1,REINCIDENTE (3x mesmo motivo/90d) | TICKET ABERTO HÁ 5.8 DIA(S) | CSAT DETRATOR (NOTA 1),Negativo,true,"desaverbação, contratos, demora, medidas judiciais",115,SLA:15 | Sentimento:35 | Jurídico:0 | Reincidência:20 | CSAT:15 | AmeaçaCanalOficial:30,O cliente expressou forte insatisfação e ameaçou tomar medidas legais.,true,15
 3674628,2026-07-30,1,sem reclamação,Quitação,3,Desaverbação,138.60,1,REINCIDENTE (3x mesmo motivo/90d) | TICKET ABERTO HÁ 5.8 DIA(S) | CSAT DETRATOR (NOTA 1),Negativo,true,"desaverbação, contratos, demora, reclamação, Procon",115,SLA:15 | Sentimento:35 | Jurídico:0 | Reincidência:20 | CSAT:15 | AmeaçaCanalOficial:30,O cliente expressou forte insatisfação e ameaçou tomar medidas legais.,true,15
-3674628,2026-07-30,1,sem reclamação,Quitação,3,Desaverbação,138.60,1,REINCIDENTE (3x mesmo motivo/90d) | TICKET ABERTO HÁ 5.8 DIA(S) | CSAT DETRATOR (NOTA 1),Negativo,true,"desaverbação, contratos, demora, reclamação, Procon",115,SLA:15 | Sentimento:35 | Jurídico:0 | Reincidência:20 | CSAT:15 | AmeaçaCanalOficial:30,O cliente expressou forte insatisfação e ameaçou tomar medidas legais.,true,15
 3674628,2026-07-30,2,sem reclamação,Quitação,3,Desaverbação,139.60,1,REINCIDENTE (3x mesmo motivo/90d) | TICKET ABERTO HÁ 5.8 DIA(S) | CSAT DETRATOR (NOTA 1),Negativo,true,"desaverbação, contratos, demora, medidas judiciais",115,SLA:15 | Sentimento:35 | Jurídico:0 | Reincidência:20 | CSAT:15 | AmeaçaCanalOficial:30,O cliente expressou forte insatisfação e ameaçou tomar medidas legais.,true,15
-3674628,2026-07-30,1,sem reclamação,Quitação,3,Desaverbação,138.60,1,REINCIDENTE (3x mesmo motivo/90d) | TICKET ABERTO HÁ 5.8 DIA(S) | CSAT DETRATOR (NOTA 1),Negativo,true,"desaverbação, contratos, demora, reclamação, Procon",115,SLA:15 | Sentimento:35 | Jurídico:0 | Reincidência:20 | CSAT:15 | AmeaçaCanalOficial:30,O cliente expressou forte insatisfação e ameaçou tomar medidas legais.,true,15
 3674628,2026-07-30,1,sem reclamação,Quitação,3,Desaverbação,138.70,1,REINCIDENTE (3x mesmo motivo/90d) | TICKET ABERTO HÁ 5.8 DIA(S) | CSAT DETRATOR (NOTA 1),Negativo,true,"desaverbação, contratos, demora, reclamação, Procon",115,SLA:15 | Sentimento:35 | Jurídico:0 | Reincidência:20 | CSAT:15 | AmeaçaCanalOficial:30,O cliente expressou forte insatisfação e ameaçou tomar medidas legais.,true,15
+3674628,2026-07-30,1,sem reclamação,Quitação,3,Desaverbação,138.60,1,REINCIDENTE (3x mesmo motivo/90d) | TICKET ABERTO HÁ 5.8 DIA(S) | CSAT DETRATOR (NOTA 1),Negativo,true,"desaverbação, contratos, demora, reclamação, Procon",115,SLA:15 | Sentimento:35 | Jurídico:0 | Reincidência:20 | CSAT:15 | AmeaçaCanalOficial:30,O cliente expressou forte insatisfação e ameaçou tomar medidas legais.,true,15
+3674628,2026-07-30,2,sem reclamação,Quitação,3,Desaverbação,139.70,1,REINCIDENTE (3x mesmo motivo/90d) | TICKET ABERTO HÁ 5.8 DIA(S) | CSAT DETRATOR (NOTA 1),Negativo,true,"desaverbação, contratos, demora, medidas judiciais",115,SLA:15 | Sentimento:35 | Jurídico:0 | Reincidência:20 | CSAT:15 | AmeaçaCanalOficial:30,O cliente expressou forte insatisfação e ameaçou tomar medidas legais.,true,15
+3674628,2026-07-30,1,sem reclamação,Quitação,3,Desaverbação,138.60,1,REINCIDENTE (3x mesmo motivo/90d) | TICKET ABERTO HÁ 5.8 DIA(S) | CSAT DETRATOR (NOTA 1),Negativo,true,"desaverbação, contratos, demora, reclamação, Procon",115,SLA:15 | Sentimento:35 | Jurídico:0 | Reincidência:20 | CSAT:15 | AmeaçaCanalOficial:30,O cliente expressou forte insatisfação e ameaçou tomar medidas legais.,true,15
 186100,2026-08-12,1,Reclame Aqui,Solicitação de reembolso/Desconto após quitação,4,sem ticket aberto,,sem avaliação,RECLAMOU EM CANAL EXTERNO | REINCIDENTE (4x mesmo motivo/90d),Negativo,true,"reembolso, reclamação, atendimento",109,SLA:0 | Sentimento:15 | Jurídico:35 | Reincidência:20 | CSAT:9 | AmeaçaCanalOficial:30,Cliente expressou insatisfação com o atendimento e mencionou reclamações no Reclame Aqui.,false,6
 20687453,2026-08-07,2,sem reclamação,Reembolso,4,Reembolso,248.10,sem avaliação,REINCIDENTE (4x mesmo motivo/90d) | TICKET ABERTO HÁ 10.3 DIA(S),Negativo,true,"não recebimento, parcelas, processo",109,SLA:15 | Sentimento:35 | Jurídico:0 | Reincidência:20 | CSAT:9 | AmeaçaCanalOficial:30,Cliente expressou intenção de processar a empresa.,true,5
 17135226,2026-08-04,2,sem reclamação,Reembolso,4,Reembolso,493.50,sem avaliação,REINCIDENTE (4x mesmo motivo/90d) | TICKET ABERTO HÁ 20.6 DIA(S),Negativo,true,"reembolso, atraso, reclamação, advogado",109,SLA:15 | Sentimento:35 | Jurídico:0 | Reincidência:20 | CSAT:9 | AmeaçaCanalOficial:30,Cliente expressou forte insatisfação e ameaçou processar a empresa.,true,4
@@ -195781,6 +195783,1506 @@ sinal,sem reclamação,37251,0,0.0,0.0,0,0,0,0,0`,
 17125988,2026-07-30,1,sem reclamação,Reembolso,4,Reembolso,48.60,sem avaliação,REINCIDENTE (4x mesmo motivo/90d) | TICKET ABERTO HÁ 2.0 DIA(S),Negativo,true,"atraso, reembolso, atendimento, reclamação",104,SLA:10 | Sentimento:35 | Jurídico:0 | Reincidência:20 | CSAT:9 | AmeaçaCanalOficial:30,Cliente expressou insatisfação e ameaçou processar devido à falta de retorno.,true,10
 17127938,2026-08-14,2,sem reclamação,Solicitação de boleto,3,sem ticket aberto,,1,REINCIDENTE (3x mesmo motivo/90d) | CSAT DETRATOR (NOTA 1),Negativo,true,"parcela em atraso, Serasa, renegociação",100,SLA:0 | Sentimento:35 | Jurídico:0 | Reincidência:20 | CSAT:15 | AmeaçaCanalOficial:30,Cliente expressou insatisfação e ameaçou ações legais.,true,11`,
   EMBEDDED_SCORE_MES_ATUAL_CSV: `personid,dt_processamento,score_atrito,sentimento_ia,ameaca
+16203699,2026-08-17,54.0,Negativo,1
+21642742,2026-08-17,39.0,Neutro,0
+10429215,2026-08-17,34.0,Neutro,0
+10531600,2026-08-17,34.0,Neutro,0
+12782655,2026-08-17,34.0,Neutro,0
+12996703,2026-08-17,34.0,Neutro,0
+13770188,2026-08-17,34.0,Neutro,0
+13907418,2026-08-17,34.0,Neutro,0
+15940283,2026-08-17,34.0,Neutro,0
+22212089,2026-08-17,34.0,Neutro,0
+4714616,2026-08-17,34.0,Neutro,0
+19249488,2026-08-17,29.0,Neutro,0
+21794398,2026-08-17,29.0,Neutro,0
+10241506,2026-08-17,24.0,Neutro,0
+10283367,2026-08-17,24.0,Neutro,0
+10728991,2026-08-17,24.0,Neutro,0
+11162217,2026-08-17,24.0,Neutro,0
+12427780,2026-08-17,24.0,Neutro,0
+13400092,2026-08-17,24.0,Neutro,0
+13452399,2026-08-17,24.0,Neutro,0
+13791634,2026-08-17,24.0,Neutro,0
+13801466,2026-08-17,24.0,Neutro,0
+14296536,2026-08-17,24.0,Neutro,0
+16947575,2026-08-17,24.0,Neutro,0
+17122219,2026-08-17,24.0,Neutro,0
+17176035,2026-08-17,24.0,Neutro,0
+17225560,2026-08-17,24.0,Neutro,0
+17377563,2026-08-17,24.0,Neutro,0
+18188035,2026-08-17,24.0,Neutro,0
+18612558,2026-08-17,24.0,Neutro,0
+20042264,2026-08-17,24.0,Neutro,0
+20393111,2026-08-17,24.0,Neutro,0
+21088449,2026-08-17,24.0,Neutro,0
+22234935,2026-08-17,24.0,Neutro,0
+22265483,2026-08-17,24.0,Neutro,0
+22726749,2026-08-17,24.0,Neutro,0
+22815574,2026-08-17,24.0,Neutro,0
+23185477,2026-08-17,24.0,Neutro,0
+3482272,2026-08-17,24.0,Neutro,0
+3507449,2026-08-17,24.0,Neutro,0
+3952025,2026-08-17,24.0,Neutro,0
+5485947,2026-08-17,24.0,Neutro,0
+6257178,2026-08-17,24.0,Neutro,0
+6818273,2026-08-17,24.0,Neutro,0
+7196023,2026-08-17,24.0,Neutro,0
+9487140,2026-08-17,24.0,Neutro,0
+9593883,2026-08-17,24.0,Neutro,0
+14378395,2026-08-17,14.0,Neutro,0
+10009196,2026-08-17,14.0,Neutro,0
+10032752,2026-08-17,14.0,Neutro,0
+10048459,2026-08-17,14.0,Neutro,0
+16103194,2026-08-17,14.0,Neutro,0
+16120630,2026-08-17,14.0,Neutro,0
+16124347,2026-08-17,14.0,Neutro,0
+16134088,2026-08-17,14.0,Neutro,0
+16151350,2026-08-17,14.0,Neutro,0
+16158718,2026-08-17,14.0,Neutro,0
+16161447,2026-08-17,14.0,Neutro,0
+16164369,2026-08-17,14.0,Neutro,0
+16170600,2026-08-17,14.0,Neutro,0
+16171493,2026-08-17,14.0,Neutro,0
+16186239,2026-08-17,14.0,Neutro,0
+16186881,2026-08-17,14.0,Neutro,0
+16234235,2026-08-17,14.0,Neutro,0
+16235752,2026-08-17,14.0,Neutro,0
+16240851,2026-08-17,14.0,Neutro,0
+16247251,2026-08-17,14.0,Neutro,0
+16259291,2026-08-17,14.0,Neutro,0
+16272745,2026-08-17,14.0,Neutro,0
+16274628,2026-08-17,14.0,Neutro,0
+16279996,2026-08-17,14.0,Neutro,0
+16284075,2026-08-17,14.0,Neutro,0
+16294010,2026-08-17,14.0,Neutro,0
+16298682,2026-08-17,14.0,Neutro,0
+16326145,2026-08-17,14.0,Neutro,0
+16335203,2026-08-17,14.0,Neutro,0
+16341845,2026-08-17,14.0,Neutro,0
+16343145,2026-08-17,14.0,Neutro,0
+16363033,2026-08-17,14.0,Neutro,0
+16363952,2026-08-17,14.0,Neutro,0
+16375844,2026-08-17,14.0,Neutro,0
+16388066,2026-08-17,14.0,Neutro,0
+16394542,2026-08-17,14.0,Neutro,0
+16407075,2026-08-17,14.0,Neutro,0
+16410465,2026-08-17,14.0,Neutro,0
+16412043,2026-08-17,14.0,Neutro,0
+16412847,2026-08-17,14.0,Neutro,0
+16424401,2026-08-17,14.0,Neutro,0
+16424476,2026-08-17,14.0,Neutro,0
+16425292,2026-08-17,14.0,Neutro,0
+16432889,2026-08-17,14.0,Neutro,0
+16449742,2026-08-17,14.0,Neutro,0
+16452049,2026-08-17,14.0,Neutro,0
+16452077,2026-08-17,14.0,Neutro,0
+16455107,2026-08-17,14.0,Neutro,0
+16459801,2026-08-17,14.0,Neutro,0
+16470145,2026-08-17,14.0,Neutro,0
+16475722,2026-08-17,14.0,Neutro,0
+16482640,2026-08-17,14.0,Neutro,0
+16487717,2026-08-17,14.0,Neutro,0
+13360626,2026-08-17,14.0,Neutro,0
+13362741,2026-08-17,14.0,Neutro,0
+13366759,2026-08-17,14.0,Neutro,0
+13373759,2026-08-17,14.0,Neutro,0
+13377926,2026-08-17,14.0,Neutro,0
+13388293,2026-08-17,14.0,Neutro,0
+13396057,2026-08-17,14.0,Neutro,0
+13420515,2026-08-17,14.0,Neutro,0
+13422229,2026-08-17,14.0,Neutro,0
+13424376,2026-08-17,14.0,Neutro,0
+13431709,2026-08-17,14.0,Neutro,0
+13483783,2026-08-17,14.0,Neutro,0
+13485051,2026-08-17,14.0,Neutro,0
+13487826,2026-08-17,14.0,Neutro,0
+13489009,2026-08-17,14.0,Neutro,0
+13490519,2026-08-17,14.0,Neutro,0
+13503749,2026-08-17,14.0,Neutro,0
+13507796,2026-08-17,14.0,Neutro,0
+13511340,2026-08-17,14.0,Neutro,0
+13511657,2026-08-17,14.0,Neutro,0
+13513989,2026-08-17,14.0,Neutro,0
+13534117,2026-08-17,14.0,Neutro,0
+13544248,2026-08-17,14.0,Neutro,0
+13554276,2026-08-17,14.0,Neutro,0
+13554653,2026-08-17,14.0,Neutro,0
+13563457,2026-08-17,14.0,Neutro,0
+13564535,2026-08-17,14.0,Neutro,0
+13569016,2026-08-17,14.0,Neutro,0
+13582083,2026-08-17,14.0,Neutro,0
+13584948,2026-08-17,14.0,Neutro,0
+13600648,2026-08-17,14.0,Neutro,0
+13618165,2026-08-17,14.0,Neutro,0
+13622738,2026-08-17,14.0,Neutro,0
+13632763,2026-08-17,14.0,Neutro,0
+13646885,2026-08-17,14.0,Neutro,0
+13654176,2026-08-17,14.0,Neutro,0
+13663262,2026-08-17,14.0,Neutro,0
+13668021,2026-08-17,14.0,Neutro,0
+13670360,2026-08-17,14.0,Neutro,0
+13670517,2026-08-17,14.0,Neutro,0
+13671334,2026-08-17,14.0,Neutro,0
+13678814,2026-08-17,14.0,Neutro,0
+13684626,2026-08-17,14.0,Neutro,0
+13699706,2026-08-17,14.0,Neutro,0
+13700587,2026-08-17,14.0,Neutro,0
+13700615,2026-08-17,14.0,Neutro,0
+13702046,2026-08-17,14.0,Neutro,0
+13723676,2026-08-17,14.0,Neutro,0
+13724921,2026-08-17,14.0,Neutro,0
+13735022,2026-08-17,14.0,Neutro,0
+10058802,2026-08-17,14.0,Neutro,0
+10096607,2026-08-17,14.0,Neutro,0
+10097916,2026-08-17,14.0,Neutro,0
+10102691,2026-08-17,14.0,Neutro,0
+10112753,2026-08-17,14.0,Neutro,0
+10130056,2026-08-17,14.0,Neutro,0
+10146551,2026-08-17,14.0,Neutro,0
+10149951,2026-08-17,14.0,Neutro,0
+10159038,2026-08-17,14.0,Neutro,0
+10168864,2026-08-17,14.0,Neutro,0
+10173760,2026-08-17,14.0,Neutro,0
+10198354,2026-08-17,14.0,Neutro,0
+10210521,2026-08-17,14.0,Neutro,0
+10211437,2026-08-17,14.0,Neutro,0
+10218795,2026-08-17,14.0,Neutro,0
+10224499,2026-08-17,14.0,Neutro,0
+10234096,2026-08-17,14.0,Neutro,0
+10239693,2026-08-17,14.0,Neutro,0
+10252732,2026-08-17,14.0,Neutro,0
+10283219,2026-08-17,14.0,Neutro,0
+10300812,2026-08-17,14.0,Neutro,0
+10313262,2026-08-17,14.0,Neutro,0
+10324650,2026-08-17,14.0,Neutro,0
+10329805,2026-08-17,14.0,Neutro,0
+10349918,2026-08-17,14.0,Neutro,0
+10375938,2026-08-17,14.0,Neutro,0
+10401468,2026-08-17,14.0,Neutro,0
+10425267,2026-08-17,14.0,Neutro,0
+10430774,2026-08-17,14.0,Neutro,0
+10436458,2026-08-17,14.0,Neutro,0
+10448475,2026-08-17,14.0,Neutro,0
+10453626,2026-08-17,14.0,Neutro,0
+10472462,2026-08-17,14.0,Neutro,0
+10472577,2026-08-17,14.0,Neutro,0
+10490964,2026-08-17,14.0,Neutro,0
+10499202,2026-08-17,14.0,Neutro,0
+10506616,2026-08-17,14.0,Neutro,0
+10515550,2026-08-17,14.0,Neutro,0
+10517505,2026-08-17,14.0,Neutro,0
+10531920,2026-08-17,14.0,Neutro,0
+10532747,2026-08-17,14.0,Neutro,0
+10541930,2026-08-17,14.0,Neutro,0
+10571819,2026-08-17,14.0,Neutro,0
+10575018,2026-08-17,14.0,Neutro,0
+10577036,2026-08-17,14.0,Neutro,0
+10582474,2026-08-17,14.0,Neutro,0
+10593485,2026-08-17,14.0,Neutro,0
+10596796,2026-08-17,14.0,Neutro,0
+10626465,2026-08-17,14.0,Neutro,0
+10627419,2026-08-17,14.0,Neutro,0
+16864921,2026-08-17,14.0,Neutro,0
+16869557,2026-08-17,14.0,Neutro,0
+16885412,2026-08-17,14.0,Neutro,0
+16886134,2026-08-17,14.0,Neutro,0
+16927139,2026-08-17,14.0,Neutro,0
+16931380,2026-08-17,14.0,Neutro,0
+16947231,2026-08-17,14.0,Neutro,0
+16948228,2026-08-17,14.0,Neutro,0
+16948632,2026-08-17,14.0,Neutro,0
+16950572,2026-08-17,14.0,Neutro,0
+16950718,2026-08-17,14.0,Neutro,0
+16951456,2026-08-17,14.0,Neutro,0
+16952579,2026-08-17,14.0,Neutro,0
+16957795,2026-08-17,14.0,Neutro,0
+16958874,2026-08-17,14.0,Neutro,0
+16959667,2026-08-17,14.0,Neutro,0
+16960945,2026-08-17,14.0,Neutro,0
+16963496,2026-08-17,14.0,Neutro,0
+16963555,2026-08-17,14.0,Neutro,0
+16964716,2026-08-17,14.0,Neutro,0
+16965470,2026-08-17,14.0,Neutro,0
+16966580,2026-08-17,14.0,Neutro,0
+16967262,2026-08-17,14.0,Neutro,0
+16972117,2026-08-17,14.0,Neutro,0
+16973218,2026-08-17,14.0,Neutro,0
+16976407,2026-08-17,14.0,Neutro,0
+16976653,2026-08-17,14.0,Neutro,0
+16976811,2026-08-17,14.0,Neutro,0
+16977185,2026-08-17,14.0,Neutro,0
+16985973,2026-08-17,14.0,Neutro,0
+16986754,2026-08-17,14.0,Neutro,0
+16989015,2026-08-17,14.0,Neutro,0
+16991685,2026-08-17,14.0,Neutro,0
+16992545,2026-08-17,14.0,Neutro,0
+16993172,2026-08-17,14.0,Neutro,0
+16994106,2026-08-17,14.0,Neutro,0
+16994337,2026-08-17,14.0,Neutro,0
+16996442,2026-08-17,14.0,Neutro,0
+16996879,2026-08-17,14.0,Neutro,0
+16997838,2026-08-17,14.0,Neutro,0
+16998094,2026-08-17,14.0,Neutro,0
+16998213,2026-08-17,14.0,Neutro,0
+17001504,2026-08-17,14.0,Neutro,0
+17004017,2026-08-17,14.0,Neutro,0
+17005270,2026-08-17,14.0,Neutro,0
+17011771,2026-08-17,14.0,Neutro,0
+17020241,2026-08-17,14.0,Neutro,0
+17021475,2026-08-17,14.0,Neutro,0
+17022144,2026-08-17,14.0,Neutro,0
+17022260,2026-08-17,14.0,Neutro,0
+11693447,2026-08-17,14.0,Neutro,0
+11695407,2026-08-17,14.0,Neutro,0
+11709815,2026-08-17,14.0,Neutro,0
+11724093,2026-08-17,14.0,Neutro,0
+11733198,2026-08-17,14.0,Neutro,0
+11742622,2026-08-17,14.0,Neutro,0
+11773692,2026-08-17,14.0,Neutro,0
+11779542,2026-08-17,14.0,Neutro,0
+11783709,2026-08-17,14.0,Neutro,0
+11793322,2026-08-17,14.0,Neutro,0
+11809231,2026-08-17,14.0,Neutro,0
+1181363,2026-08-17,14.0,Neutro,0
+11816029,2026-08-17,14.0,Neutro,0
+11839413,2026-08-17,14.0,Neutro,0
+11851053,2026-08-17,14.0,Neutro,0
+11862690,2026-08-17,14.0,Neutro,0
+11907757,2026-08-17,14.0,Neutro,0
+11921960,2026-08-17,14.0,Neutro,0
+11922378,2026-08-17,14.0,Neutro,0
+11934852,2026-08-17,14.0,Neutro,0
+11947855,2026-08-17,14.0,Neutro,0
+11948303,2026-08-17,14.0,Neutro,0
+11958785,2026-08-17,14.0,Neutro,0
+11964010,2026-08-17,14.0,Neutro,0
+11975981,2026-08-17,14.0,Neutro,0
+11976755,2026-08-17,14.0,Neutro,0
+11996304,2026-08-17,14.0,Neutro,0
+11999991,2026-08-17,14.0,Neutro,0
+12006302,2026-08-17,14.0,Neutro,0
+12011652,2026-08-17,14.0,Neutro,0
+12018702,2026-08-17,14.0,Neutro,0
+12033983,2026-08-17,14.0,Neutro,0
+12042845,2026-08-17,14.0,Neutro,0
+12046338,2026-08-17,14.0,Neutro,0
+12053020,2026-08-17,14.0,Neutro,0
+12060591,2026-08-17,14.0,Neutro,0
+12064821,2026-08-17,14.0,Neutro,0
+12068699,2026-08-17,14.0,Neutro,0
+12071533,2026-08-17,14.0,Neutro,0
+12077509,2026-08-17,14.0,Neutro,0
+12082620,2026-08-17,14.0,Neutro,0
+12085369,2026-08-17,14.0,Neutro,0
+12086091,2026-08-17,14.0,Neutro,0
+12086630,2026-08-17,14.0,Neutro,0
+12094017,2026-08-17,14.0,Neutro,0
+12097200,2026-08-17,14.0,Neutro,0
+12113856,2026-08-17,14.0,Neutro,0
+12157046,2026-08-17,14.0,Neutro,0
+12163282,2026-08-17,14.0,Neutro,0
+12181643,2026-08-17,14.0,Neutro,0
+12563779,2026-08-17,14.0,Neutro,0
+12569640,2026-08-17,14.0,Neutro,0
+12584798,2026-08-17,14.0,Neutro,0
+12601098,2026-08-17,14.0,Neutro,0
+12603706,2026-08-17,14.0,Neutro,0
+12611286,2026-08-17,14.0,Neutro,0
+12615299,2026-08-17,14.0,Neutro,0
+12616823,2026-08-17,14.0,Neutro,0
+12632119,2026-08-17,14.0,Neutro,0
+12649807,2026-08-17,14.0,Neutro,0
+12651635,2026-08-17,14.0,Neutro,0
+12654301,2026-08-17,14.0,Neutro,0
+12655298,2026-08-17,14.0,Neutro,0
+12656496,2026-08-17,14.0,Neutro,0
+12659638,2026-08-17,14.0,Neutro,0
+12660506,2026-08-17,14.0,Neutro,0
+12664072,2026-08-17,14.0,Neutro,0
+12666526,2026-08-17,14.0,Neutro,0
+12669912,2026-08-17,14.0,Neutro,0
+12674829,2026-08-17,14.0,Neutro,0
+12677650,2026-08-17,14.0,Neutro,0
+12681913,2026-08-17,14.0,Neutro,0
+12684083,2026-08-17,14.0,Neutro,0
+12694929,2026-08-17,14.0,Neutro,0
+12701582,2026-08-17,14.0,Neutro,0
+12717746,2026-08-17,14.0,Neutro,0
+12722040,2026-08-17,14.0,Neutro,0
+12727849,2026-08-17,14.0,Neutro,0
+12744022,2026-08-17,14.0,Neutro,0
+12745777,2026-08-17,14.0,Neutro,0
+12754129,2026-08-17,14.0,Neutro,0
+12754358,2026-08-17,14.0,Neutro,0
+12755596,2026-08-17,14.0,Neutro,0
+12766350,2026-08-17,14.0,Neutro,0
+12775923,2026-08-17,14.0,Neutro,0
+12776643,2026-08-17,14.0,Neutro,0
+12801341,2026-08-17,14.0,Neutro,0
+12824424,2026-08-17,14.0,Neutro,0
+12829067,2026-08-17,14.0,Neutro,0
+12834836,2026-08-17,14.0,Neutro,0
+12843241,2026-08-17,14.0,Neutro,0
+12844649,2026-08-17,14.0,Neutro,0
+12845143,2026-08-17,14.0,Neutro,0
+12848245,2026-08-17,14.0,Neutro,0
+12849196,2026-08-17,14.0,Neutro,0
+12868328,2026-08-17,14.0,Neutro,0
+12868599,2026-08-17,14.0,Neutro,0
+12869697,2026-08-17,14.0,Neutro,0
+12870062,2026-08-17,14.0,Neutro,0
+12886480,2026-08-17,14.0,Neutro,0
+15766015,2026-08-17,14.0,Neutro,0
+15781586,2026-08-17,14.0,Neutro,0
+15785554,2026-08-17,14.0,Neutro,0
+15794064,2026-08-17,14.0,Neutro,0
+15795746,2026-08-17,14.0,Neutro,0
+15797929,2026-08-17,14.0,Neutro,0
+15798418,2026-08-17,14.0,Neutro,0
+15799115,2026-08-17,14.0,Neutro,0
+15811312,2026-08-17,14.0,Neutro,0
+15811345,2026-08-17,14.0,Neutro,0
+15813646,2026-08-17,14.0,Neutro,0
+15813829,2026-08-17,14.0,Neutro,0
+15820697,2026-08-17,14.0,Neutro,0
+15823221,2026-08-17,14.0,Neutro,0
+15823277,2026-08-17,14.0,Neutro,0
+15823513,2026-08-17,14.0,Neutro,0
+15835349,2026-08-17,14.0,Neutro,0
+15848457,2026-08-17,14.0,Neutro,0
+15852070,2026-08-17,14.0,Neutro,0
+15855799,2026-08-17,14.0,Neutro,0
+15860532,2026-08-17,14.0,Neutro,0
+15870346,2026-08-17,14.0,Neutro,0
+15884916,2026-08-17,14.0,Neutro,0
+15896217,2026-08-17,14.0,Neutro,0
+15903373,2026-08-17,14.0,Neutro,0
+15904525,2026-08-17,14.0,Neutro,0
+15905108,2026-08-17,14.0,Neutro,0
+15905354,2026-08-17,14.0,Neutro,0
+15908682,2026-08-17,14.0,Neutro,0
+15919275,2026-08-17,14.0,Neutro,0
+15922736,2026-08-17,14.0,Neutro,0
+15929195,2026-08-17,14.0,Neutro,0
+15929962,2026-08-17,14.0,Neutro,0
+15932355,2026-08-17,14.0,Neutro,0
+15942808,2026-08-17,14.0,Neutro,0
+15951833,2026-08-17,14.0,Neutro,0
+15984077,2026-08-17,14.0,Neutro,0
+15984189,2026-08-17,14.0,Neutro,0
+15989825,2026-08-17,14.0,Neutro,0
+15998938,2026-08-17,14.0,Neutro,0
+16000648,2026-08-17,14.0,Neutro,0
+16006007,2026-08-17,14.0,Neutro,0
+16014386,2026-08-17,14.0,Neutro,0
+16059009,2026-08-17,14.0,Neutro,0
+16064676,2026-08-17,14.0,Neutro,0
+16071136,2026-08-17,14.0,Neutro,0
+16078761,2026-08-17,14.0,Neutro,0
+16082293,2026-08-17,14.0,Neutro,0
+16092454,2026-08-17,14.0,Neutro,0
+16102054,2026-08-17,14.0,Neutro,0
+17662149,2026-08-17,14.0,Neutro,0
+17668502,2026-08-17,14.0,Neutro,0
+17669573,2026-08-17,14.0,Neutro,0
+17673521,2026-08-17,14.0,Neutro,0
+17675126,2026-08-17,14.0,Neutro,0
+17681927,2026-08-17,14.0,Neutro,0
+17683284,2026-08-17,14.0,Neutro,0
+17686821,2026-08-17,14.0,Neutro,0
+17689844,2026-08-17,14.0,Neutro,0
+17691298,2026-08-17,14.0,Neutro,0
+17693689,2026-08-17,14.0,Neutro,0
+17697898,2026-08-17,14.0,Neutro,0
+17700346,2026-08-17,14.0,Neutro,0
+17706190,2026-08-17,14.0,Neutro,0
+17706987,2026-08-17,14.0,Neutro,0
+17707031,2026-08-17,14.0,Neutro,0
+17719499,2026-08-17,14.0,Neutro,0
+17721954,2026-08-17,14.0,Neutro,0
+17727651,2026-08-17,14.0,Neutro,0
+17736055,2026-08-17,14.0,Neutro,0
+17742514,2026-08-17,14.0,Neutro,0
+17745676,2026-08-17,14.0,Neutro,0
+17752643,2026-08-17,14.0,Neutro,0
+17755099,2026-08-17,14.0,Neutro,0
+17760856,2026-08-17,14.0,Neutro,0
+17768644,2026-08-17,14.0,Neutro,0
+17775406,2026-08-17,14.0,Neutro,0
+17780153,2026-08-17,14.0,Neutro,0
+17782422,2026-08-17,14.0,Neutro,0
+17796685,2026-08-17,14.0,Neutro,0
+17800065,2026-08-17,14.0,Neutro,0
+17803093,2026-08-17,14.0,Neutro,0
+17804019,2026-08-17,14.0,Neutro,0
+17805989,2026-08-17,14.0,Neutro,0
+17819063,2026-08-17,14.0,Neutro,0
+17819829,2026-08-17,14.0,Neutro,0
+17819923,2026-08-17,14.0,Neutro,0
+17826968,2026-08-17,14.0,Neutro,0
+17831801,2026-08-17,14.0,Neutro,0
+17837220,2026-08-17,14.0,Neutro,0
+17843031,2026-08-17,14.0,Neutro,0
+17843292,2026-08-17,14.0,Neutro,0
+17843929,2026-08-17,14.0,Neutro,0
+17844777,2026-08-17,14.0,Neutro,0
+17850506,2026-08-17,14.0,Neutro,0
+17851170,2026-08-17,14.0,Neutro,0
+17851249,2026-08-17,14.0,Neutro,0
+17851945,2026-08-17,14.0,Neutro,0
+17858936,2026-08-17,14.0,Neutro,0
+17866733,2026-08-17,14.0,Neutro,0
+13736174,2026-08-17,14.0,Neutro,0
+13745254,2026-08-17,14.0,Neutro,0
+13748119,2026-08-17,14.0,Neutro,0
+13748844,2026-08-17,14.0,Neutro,0
+13768002,2026-08-17,14.0,Neutro,0
+13776403,2026-08-17,14.0,Neutro,0
+13786259,2026-08-17,14.0,Neutro,0
+13793392,2026-08-17,14.0,Neutro,0
+13793451,2026-08-17,14.0,Neutro,0
+13793971,2026-08-17,14.0,Neutro,0
+13794156,2026-08-17,14.0,Neutro,0
+13797986,2026-08-17,14.0,Neutro,0
+13802129,2026-08-17,14.0,Neutro,0
+13806614,2026-08-17,14.0,Neutro,0
+13812320,2026-08-17,14.0,Neutro,0
+13821870,2026-08-17,14.0,Neutro,0
+13824524,2026-08-17,14.0,Neutro,0
+13825846,2026-08-17,14.0,Neutro,0
+13828919,2026-08-17,14.0,Neutro,0
+13831981,2026-08-17,14.0,Neutro,0
+13843871,2026-08-17,14.0,Neutro,0
+13846812,2026-08-17,14.0,Neutro,0
+13848722,2026-08-17,14.0,Neutro,0
+13851517,2026-08-17,14.0,Neutro,0
+13851571,2026-08-17,14.0,Neutro,0
+13859557,2026-08-17,14.0,Neutro,0
+13881765,2026-08-17,14.0,Neutro,0
+13884156,2026-08-17,14.0,Neutro,0
+13886077,2026-08-17,14.0,Neutro,0
+13890884,2026-08-17,14.0,Neutro,0
+13902291,2026-08-17,14.0,Neutro,0
+13924819,2026-08-17,14.0,Neutro,0
+13946441,2026-08-17,14.0,Neutro,0
+13948943,2026-08-17,14.0,Neutro,0
+13960105,2026-08-17,14.0,Neutro,0
+13991729,2026-08-17,14.0,Neutro,0
+13992326,2026-08-17,14.0,Neutro,0
+13996253,2026-08-17,14.0,Neutro,0
+14002125,2026-08-17,14.0,Neutro,0
+14004293,2026-08-17,14.0,Neutro,0
+14034450,2026-08-17,14.0,Neutro,0
+14041254,2026-08-17,14.0,Neutro,0
+14075397,2026-08-17,14.0,Neutro,0
+14076335,2026-08-17,14.0,Neutro,0
+14077534,2026-08-17,14.0,Neutro,0
+14085859,2026-08-17,14.0,Neutro,0
+14087898,2026-08-17,14.0,Neutro,0
+14094273,2026-08-17,14.0,Neutro,0
+14110045,2026-08-17,14.0,Neutro,0
+14114701,2026-08-17,14.0,Neutro,0
+18083722,2026-08-17,14.0,Neutro,0
+18087192,2026-08-17,14.0,Neutro,0
+18093674,2026-08-17,14.0,Neutro,0
+18094320,2026-08-17,14.0,Neutro,0
+18095974,2026-08-17,14.0,Neutro,0
+18095993,2026-08-17,14.0,Neutro,0
+18116719,2026-08-17,14.0,Neutro,0
+18117187,2026-08-17,14.0,Neutro,0
+18120207,2026-08-17,14.0,Neutro,0
+18128579,2026-08-17,14.0,Neutro,0
+18130715,2026-08-17,14.0,Neutro,0
+18135545,2026-08-17,14.0,Neutro,0
+18137287,2026-08-17,14.0,Neutro,0
+18151030,2026-08-17,14.0,Neutro,0
+18154101,2026-08-17,14.0,Neutro,0
+18160818,2026-08-17,14.0,Neutro,0
+18161381,2026-08-17,14.0,Neutro,0
+18167163,2026-08-17,14.0,Neutro,0
+18169824,2026-08-17,14.0,Neutro,0
+18170520,2026-08-17,14.0,Neutro,0
+18178230,2026-08-17,14.0,Neutro,0
+18178663,2026-08-17,14.0,Neutro,0
+18180658,2026-08-17,14.0,Neutro,0
+18186204,2026-08-17,14.0,Neutro,0
+18187518,2026-08-17,14.0,Neutro,0
+18193005,2026-08-17,14.0,Neutro,0
+18193485,2026-08-17,14.0,Neutro,0
+18193977,2026-08-17,14.0,Neutro,0
+18194609,2026-08-17,14.0,Neutro,0
+18196465,2026-08-17,14.0,Neutro,0
+18197066,2026-08-17,14.0,Neutro,0
+18199482,2026-08-17,14.0,Neutro,0
+18199836,2026-08-17,14.0,Neutro,0
+18203573,2026-08-17,14.0,Neutro,0
+18203712,2026-08-17,14.0,Neutro,0
+18205509,2026-08-17,14.0,Neutro,0
+18212884,2026-08-17,14.0,Neutro,0
+18213347,2026-08-17,14.0,Neutro,0
+18214250,2026-08-17,14.0,Neutro,0
+18219830,2026-08-17,14.0,Neutro,0
+18224602,2026-08-17,14.0,Neutro,0
+18227185,2026-08-17,14.0,Neutro,0
+18233460,2026-08-17,14.0,Neutro,0
+18252727,2026-08-17,14.0,Neutro,0
+18262415,2026-08-17,14.0,Neutro,0
+18263213,2026-08-17,14.0,Neutro,0
+18276035,2026-08-17,14.0,Neutro,0
+18277688,2026-08-17,14.0,Neutro,0
+18280865,2026-08-17,14.0,Neutro,0
+18288956,2026-08-17,14.0,Neutro,0
+19017232,2026-08-17,14.0,Neutro,0
+19017259,2026-08-17,14.0,Neutro,0
+19019508,2026-08-17,14.0,Neutro,0
+19022851,2026-08-17,14.0,Neutro,0
+19047902,2026-08-17,14.0,Neutro,0
+19051552,2026-08-17,14.0,Neutro,0
+19060442,2026-08-17,14.0,Neutro,0
+19066884,2026-08-17,14.0,Neutro,0
+19067794,2026-08-17,14.0,Neutro,0
+19070403,2026-08-17,14.0,Neutro,0
+19082746,2026-08-17,14.0,Neutro,0
+19084063,2026-08-17,14.0,Neutro,0
+19086253,2026-08-17,14.0,Neutro,0
+19087697,2026-08-17,14.0,Neutro,0
+19093722,2026-08-17,14.0,Neutro,0
+19104277,2026-08-17,14.0,Neutro,0
+19108389,2026-08-17,14.0,Neutro,0
+19109246,2026-08-17,14.0,Neutro,0
+19110435,2026-08-17,14.0,Neutro,0
+19112505,2026-08-17,14.0,Neutro,0
+19115137,2026-08-17,14.0,Neutro,0
+19119505,2026-08-17,14.0,Neutro,0
+19120363,2026-08-17,14.0,Neutro,0
+19120934,2026-08-17,14.0,Neutro,0
+19123190,2026-08-17,14.0,Neutro,0
+19123998,2026-08-17,14.0,Neutro,0
+19124329,2026-08-17,14.0,Neutro,0
+19126769,2026-08-17,14.0,Neutro,0
+19129766,2026-08-17,14.0,Neutro,0
+19140680,2026-08-17,14.0,Neutro,0
+19143019,2026-08-17,14.0,Neutro,0
+19153169,2026-08-17,14.0,Neutro,0
+19178514,2026-08-17,14.0,Neutro,0
+19187860,2026-08-17,14.0,Neutro,0
+19190994,2026-08-17,14.0,Neutro,0
+19192151,2026-08-17,14.0,Neutro,0
+19194412,2026-08-17,14.0,Neutro,0
+19197011,2026-08-17,14.0,Neutro,0
+19201004,2026-08-17,14.0,Neutro,0
+19201489,2026-08-17,14.0,Neutro,0
+19202156,2026-08-17,14.0,Neutro,0
+19203973,2026-08-17,14.0,Neutro,0
+19207082,2026-08-17,14.0,Neutro,0
+19207124,2026-08-17,14.0,Neutro,0
+19208027,2026-08-17,14.0,Neutro,0
+19211919,2026-08-17,14.0,Neutro,0
+19215421,2026-08-17,14.0,Neutro,0
+19220639,2026-08-17,14.0,Neutro,0
+19229202,2026-08-17,14.0,Neutro,0
+19231258,2026-08-17,14.0,Neutro,0
+12195515,2026-08-17,14.0,Neutro,0
+12196272,2026-08-17,14.0,Neutro,0
+12201733,2026-08-17,14.0,Neutro,0
+12207272,2026-08-17,14.0,Neutro,0
+12212560,2026-08-17,14.0,Neutro,0
+12236445,2026-08-17,14.0,Neutro,0
+12239741,2026-08-17,14.0,Neutro,0
+12241721,2026-08-17,14.0,Neutro,0
+12244484,2026-08-17,14.0,Neutro,0
+12255646,2026-08-17,14.0,Neutro,0
+12261052,2026-08-17,14.0,Neutro,0
+12269363,2026-08-17,14.0,Neutro,0
+12270067,2026-08-17,14.0,Neutro,0
+12279079,2026-08-17,14.0,Neutro,0
+12294269,2026-08-17,14.0,Neutro,0
+12294848,2026-08-17,14.0,Neutro,0
+12298682,2026-08-17,14.0,Neutro,0
+12302460,2026-08-17,14.0,Neutro,0
+12313897,2026-08-17,14.0,Neutro,0
+12318235,2026-08-17,14.0,Neutro,0
+12333270,2026-08-17,14.0,Neutro,0
+12337392,2026-08-17,14.0,Neutro,0
+12405068,2026-08-17,14.0,Neutro,0
+12406021,2026-08-17,14.0,Neutro,0
+12406548,2026-08-17,14.0,Neutro,0
+12408144,2026-08-17,14.0,Neutro,0
+12421474,2026-08-17,14.0,Neutro,0
+12429028,2026-08-17,14.0,Neutro,0
+12437476,2026-08-17,14.0,Neutro,0
+12439445,2026-08-17,14.0,Neutro,0
+12449663,2026-08-17,14.0,Neutro,0
+12456147,2026-08-17,14.0,Neutro,0
+12461571,2026-08-17,14.0,Neutro,0
+12464024,2026-08-17,14.0,Neutro,0
+12469500,2026-08-17,14.0,Neutro,0
+12471038,2026-08-17,14.0,Neutro,0
+12495855,2026-08-17,14.0,Neutro,0
+12507202,2026-08-17,14.0,Neutro,0
+12520145,2026-08-17,14.0,Neutro,0
+12520506,2026-08-17,14.0,Neutro,0
+12523390,2026-08-17,14.0,Neutro,0
+12529550,2026-08-17,14.0,Neutro,0
+12529726,2026-08-17,14.0,Neutro,0
+12533906,2026-08-17,14.0,Neutro,0
+12534343,2026-08-17,14.0,Neutro,0
+12545538,2026-08-17,14.0,Neutro,0
+12549515,2026-08-17,14.0,Neutro,0
+12555276,2026-08-17,14.0,Neutro,0
+12558427,2026-08-17,14.0,Neutro,0
+12560195,2026-08-17,14.0,Neutro,0
+15408252,2026-08-17,14.0,Neutro,0
+15434047,2026-08-17,14.0,Neutro,0
+15434169,2026-08-17,14.0,Neutro,0
+15435933,2026-08-17,14.0,Neutro,0
+15438715,2026-08-17,14.0,Neutro,0
+15443524,2026-08-17,14.0,Neutro,0
+15449813,2026-08-17,14.0,Neutro,0
+15450079,2026-08-17,14.0,Neutro,0
+15457797,2026-08-17,14.0,Neutro,0
+15463105,2026-08-17,14.0,Neutro,0
+15463184,2026-08-17,14.0,Neutro,0
+15472625,2026-08-17,14.0,Neutro,0
+15491751,2026-08-17,14.0,Neutro,0
+15501919,2026-08-17,14.0,Neutro,0
+15523489,2026-08-17,14.0,Neutro,0
+15534042,2026-08-17,14.0,Neutro,0
+15538374,2026-08-17,14.0,Neutro,0
+15546336,2026-08-17,14.0,Neutro,0
+15547124,2026-08-17,14.0,Neutro,0
+15579961,2026-08-17,14.0,Neutro,0
+15580436,2026-08-17,14.0,Neutro,0
+15582568,2026-08-17,14.0,Neutro,0
+15585129,2026-08-17,14.0,Neutro,0
+15585184,2026-08-17,14.0,Neutro,0
+15586785,2026-08-17,14.0,Neutro,0
+15589410,2026-08-17,14.0,Neutro,0
+15591305,2026-08-17,14.0,Neutro,0
+15591311,2026-08-17,14.0,Neutro,0
+15598741,2026-08-17,14.0,Neutro,0
+15609028,2026-08-17,14.0,Neutro,0
+15613597,2026-08-17,14.0,Neutro,0
+15615932,2026-08-17,14.0,Neutro,0
+15617154,2026-08-17,14.0,Neutro,0
+15646841,2026-08-17,14.0,Neutro,0
+15647842,2026-08-17,14.0,Neutro,0
+15647974,2026-08-17,14.0,Neutro,0
+15660340,2026-08-17,14.0,Neutro,0
+15660965,2026-08-17,14.0,Neutro,0
+15662059,2026-08-17,14.0,Neutro,0
+15662084,2026-08-17,14.0,Neutro,0
+15683183,2026-08-17,14.0,Neutro,0
+15687755,2026-08-17,14.0,Neutro,0
+15695436,2026-08-17,14.0,Neutro,0
+15699123,2026-08-17,14.0,Neutro,0
+15702962,2026-08-17,14.0,Neutro,0
+15715786,2026-08-17,14.0,Neutro,0
+15723127,2026-08-17,14.0,Neutro,0
+15728516,2026-08-17,14.0,Neutro,0
+15731951,2026-08-17,14.0,Neutro,0
+15735284,2026-08-17,14.0,Neutro,0
+15081070,2026-08-17,14.0,Neutro,0
+15081485,2026-08-17,14.0,Neutro,0
+15081659,2026-08-17,14.0,Neutro,0
+15085448,2026-08-17,14.0,Neutro,0
+15089163,2026-08-17,14.0,Neutro,0
+15099163,2026-08-17,14.0,Neutro,0
+15102772,2026-08-17,14.0,Neutro,0
+15104321,2026-08-17,14.0,Neutro,0
+15114805,2026-08-17,14.0,Neutro,0
+15124475,2026-08-17,14.0,Neutro,0
+15125992,2026-08-17,14.0,Neutro,0
+15127783,2026-08-17,14.0,Neutro,0
+15134673,2026-08-17,14.0,Neutro,0
+15137594,2026-08-17,14.0,Neutro,0
+15151765,2026-08-17,14.0,Neutro,0
+15152061,2026-08-17,14.0,Neutro,0
+15164031,2026-08-17,14.0,Neutro,0
+15171311,2026-08-17,14.0,Neutro,0
+15181144,2026-08-17,14.0,Neutro,0
+15184961,2026-08-17,14.0,Neutro,0
+15188046,2026-08-17,14.0,Neutro,0
+15197763,2026-08-17,14.0,Neutro,0
+15199749,2026-08-17,14.0,Neutro,0
+15203544,2026-08-17,14.0,Neutro,0
+15203863,2026-08-17,14.0,Neutro,0
+15204322,2026-08-17,14.0,Neutro,0
+15204862,2026-08-17,14.0,Neutro,0
+15207867,2026-08-17,14.0,Neutro,0
+15221578,2026-08-17,14.0,Neutro,0
+15248939,2026-08-17,14.0,Neutro,0
+15252730,2026-08-17,14.0,Neutro,0
+15262503,2026-08-17,14.0,Neutro,0
+15271781,2026-08-17,14.0,Neutro,0
+15276936,2026-08-17,14.0,Neutro,0
+15301247,2026-08-17,14.0,Neutro,0
+15303386,2026-08-17,14.0,Neutro,0
+15305234,2026-08-17,14.0,Neutro,0
+15309381,2026-08-17,14.0,Neutro,0
+15320689,2026-08-17,14.0,Neutro,0
+15334234,2026-08-17,14.0,Neutro,0
+15346813,2026-08-17,14.0,Neutro,0
+15350304,2026-08-17,14.0,Neutro,0
+15354944,2026-08-17,14.0,Neutro,0
+15359705,2026-08-17,14.0,Neutro,0
+15365004,2026-08-17,14.0,Neutro,0
+15372876,2026-08-17,14.0,Neutro,0
+15372905,2026-08-17,14.0,Neutro,0
+15377610,2026-08-17,14.0,Neutro,0
+15388620,2026-08-17,14.0,Neutro,0
+15392425,2026-08-17,14.0,Neutro,0
+17871826,2026-08-17,14.0,Neutro,0
+17881840,2026-08-17,14.0,Neutro,0
+17883489,2026-08-17,14.0,Neutro,0
+17884789,2026-08-17,14.0,Neutro,0
+17886555,2026-08-17,14.0,Neutro,0
+17886737,2026-08-17,14.0,Neutro,0
+17891011,2026-08-17,14.0,Neutro,0
+17893277,2026-08-17,14.0,Neutro,0
+17894976,2026-08-17,14.0,Neutro,0
+17901252,2026-08-17,14.0,Neutro,0
+17903268,2026-08-17,14.0,Neutro,0
+17907273,2026-08-17,14.0,Neutro,0
+17909673,2026-08-17,14.0,Neutro,0
+17912045,2026-08-17,14.0,Neutro,0
+17916944,2026-08-17,14.0,Neutro,0
+17921826,2026-08-17,14.0,Neutro,0
+17923058,2026-08-17,14.0,Neutro,0
+17923090,2026-08-17,14.0,Neutro,0
+17923325,2026-08-17,14.0,Neutro,0
+17927906,2026-08-17,14.0,Neutro,0
+17931139,2026-08-17,14.0,Neutro,0
+17941759,2026-08-17,14.0,Neutro,0
+17946980,2026-08-17,14.0,Neutro,0
+17953482,2026-08-17,14.0,Neutro,0
+17953648,2026-08-17,14.0,Neutro,0
+17955235,2026-08-17,14.0,Neutro,0
+17958732,2026-08-17,14.0,Neutro,0
+17959115,2026-08-17,14.0,Neutro,0
+17959819,2026-08-17,14.0,Neutro,0
+17960340,2026-08-17,14.0,Neutro,0
+17980550,2026-08-17,14.0,Neutro,0
+17986562,2026-08-17,14.0,Neutro,0
+17991423,2026-08-17,14.0,Neutro,0
+17996552,2026-08-17,14.0,Neutro,0
+18002834,2026-08-17,14.0,Neutro,0
+18005019,2026-08-17,14.0,Neutro,0
+18005711,2026-08-17,14.0,Neutro,0
+18015384,2026-08-17,14.0,Neutro,0
+18029109,2026-08-17,14.0,Neutro,0
+18036447,2026-08-17,14.0,Neutro,0
+18037286,2026-08-17,14.0,Neutro,0
+18042122,2026-08-17,14.0,Neutro,0
+18045817,2026-08-17,14.0,Neutro,0
+18049910,2026-08-17,14.0,Neutro,0
+18054090,2026-08-17,14.0,Neutro,0
+18054188,2026-08-17,14.0,Neutro,0
+18057284,2026-08-17,14.0,Neutro,0
+18061440,2026-08-17,14.0,Neutro,0
+18064886,2026-08-17,14.0,Neutro,0
+18082298,2026-08-17,14.0,Neutro,0
+10640364,2026-08-17,14.0,Neutro,0
+10642898,2026-08-17,14.0,Neutro,0
+10651171,2026-08-17,14.0,Neutro,0
+10686104,2026-08-17,14.0,Neutro,0
+10687521,2026-08-17,14.0,Neutro,0
+10710653,2026-08-17,14.0,Neutro,0
+10724911,2026-08-17,14.0,Neutro,0
+10744708,2026-08-17,14.0,Neutro,0
+10749414,2026-08-17,14.0,Neutro,0
+10764208,2026-08-17,14.0,Neutro,0
+10781271,2026-08-17,14.0,Neutro,0
+10792914,2026-08-17,14.0,Neutro,0
+10811311,2026-08-17,14.0,Neutro,0
+10815878,2026-08-17,14.0,Neutro,0
+10820219,2026-08-17,14.0,Neutro,0
+10841800,2026-08-17,14.0,Neutro,0
+10850320,2026-08-17,14.0,Neutro,0
+10854674,2026-08-17,14.0,Neutro,0
+10867028,2026-08-17,14.0,Neutro,0
+10882590,2026-08-17,14.0,Neutro,0
+10888377,2026-08-17,14.0,Neutro,0
+10892203,2026-08-17,14.0,Neutro,0
+10905255,2026-08-17,14.0,Neutro,0
+10933988,2026-08-17,14.0,Neutro,0
+10951204,2026-08-17,14.0,Neutro,0
+10961963,2026-08-17,14.0,Neutro,0
+10979981,2026-08-17,14.0,Neutro,0
+11001329,2026-08-17,14.0,Neutro,0
+11005731,2026-08-17,14.0,Neutro,0
+11010093,2026-08-17,14.0,Neutro,0
+11014069,2026-08-17,14.0,Neutro,0
+11022002,2026-08-17,14.0,Neutro,0
+11029548,2026-08-17,14.0,Neutro,0
+11034734,2026-08-17,14.0,Neutro,0
+11035779,2026-08-17,14.0,Neutro,0
+11041693,2026-08-17,14.0,Neutro,0
+11066886,2026-08-17,14.0,Neutro,0
+11077756,2026-08-17,14.0,Neutro,0
+11080972,2026-08-17,14.0,Neutro,0
+11119081,2026-08-17,14.0,Neutro,0
+11121836,2026-08-17,14.0,Neutro,0
+11132145,2026-08-17,14.0,Neutro,0
+11132567,2026-08-17,14.0,Neutro,0
+11158772,2026-08-17,14.0,Neutro,0
+11170977,2026-08-17,14.0,Neutro,0
+11177526,2026-08-17,14.0,Neutro,0
+11195971,2026-08-17,14.0,Neutro,0
+11197537,2026-08-17,14.0,Neutro,0
+11201569,2026-08-17,14.0,Neutro,0
+11202128,2026-08-17,14.0,Neutro,0
+17022766,2026-08-17,14.0,Neutro,0
+17026895,2026-08-17,14.0,Neutro,0
+17029539,2026-08-17,14.0,Neutro,0
+17032389,2026-08-17,14.0,Neutro,0
+17038582,2026-08-17,14.0,Neutro,0
+17039794,2026-08-17,14.0,Neutro,0
+17040132,2026-08-17,14.0,Neutro,0
+17042803,2026-08-17,14.0,Neutro,0
+17043053,2026-08-17,14.0,Neutro,0
+17047764,2026-08-17,14.0,Neutro,0
+17052444,2026-08-17,14.0,Neutro,0
+17053171,2026-08-17,14.0,Neutro,0
+17053268,2026-08-17,14.0,Neutro,0
+17054703,2026-08-17,14.0,Neutro,0
+17057774,2026-08-17,14.0,Neutro,0
+17058503,2026-08-17,14.0,Neutro,0
+17062569,2026-08-17,14.0,Neutro,0
+17062843,2026-08-17,14.0,Neutro,0
+17066662,2026-08-17,14.0,Neutro,0
+17068088,2026-08-17,14.0,Neutro,0
+17073789,2026-08-17,14.0,Neutro,0
+17075839,2026-08-17,14.0,Neutro,0
+17076968,2026-08-17,14.0,Neutro,0
+17080196,2026-08-17,14.0,Neutro,0
+17084213,2026-08-17,14.0,Neutro,0
+17084980,2026-08-17,14.0,Neutro,0
+17091957,2026-08-17,14.0,Neutro,0
+17093340,2026-08-17,14.0,Neutro,0
+17097657,2026-08-17,14.0,Neutro,0
+17099613,2026-08-17,14.0,Neutro,0
+17106052,2026-08-17,14.0,Neutro,0
+17106406,2026-08-17,14.0,Neutro,0
+17107054,2026-08-17,14.0,Neutro,0
+17107384,2026-08-17,14.0,Neutro,0
+17114853,2026-08-17,14.0,Neutro,0
+17117894,2026-08-17,14.0,Neutro,0
+17125852,2026-08-17,14.0,Neutro,0
+17133082,2026-08-17,14.0,Neutro,0
+17139075,2026-08-17,14.0,Neutro,0
+17141333,2026-08-17,14.0,Neutro,0
+17144589,2026-08-17,14.0,Neutro,0
+17145655,2026-08-17,14.0,Neutro,0
+17149456,2026-08-17,14.0,Neutro,0
+17151316,2026-08-17,14.0,Neutro,0
+17156490,2026-08-17,14.0,Neutro,0
+17157952,2026-08-17,14.0,Neutro,0
+17162682,2026-08-17,14.0,Neutro,0
+17167686,2026-08-17,14.0,Neutro,0
+17168822,2026-08-17,14.0,Neutro,0
+17168976,2026-08-17,14.0,Neutro,0
+14449383,2026-08-17,14.0,Neutro,0
+14456017,2026-08-17,14.0,Neutro,0
+14458864,2026-08-17,14.0,Neutro,0
+14471745,2026-08-17,14.0,Neutro,0
+14471783,2026-08-17,14.0,Neutro,0
+14473306,2026-08-17,14.0,Neutro,0
+14507720,2026-08-17,14.0,Neutro,0
+14511149,2026-08-17,14.0,Neutro,0
+14519536,2026-08-17,14.0,Neutro,0
+14527344,2026-08-17,14.0,Neutro,0
+14538225,2026-08-17,14.0,Neutro,0
+14547751,2026-08-17,14.0,Neutro,0
+14547836,2026-08-17,14.0,Neutro,0
+14552937,2026-08-17,14.0,Neutro,0
+14573938,2026-08-17,14.0,Neutro,0
+14581531,2026-08-17,14.0,Neutro,0
+14586820,2026-08-17,14.0,Neutro,0
+14600282,2026-08-17,14.0,Neutro,0
+14601951,2026-08-17,14.0,Neutro,0
+14606169,2026-08-17,14.0,Neutro,0
+14611322,2026-08-17,14.0,Neutro,0
+14615707,2026-08-17,14.0,Neutro,0
+14617753,2026-08-17,14.0,Neutro,0
+14622351,2026-08-17,14.0,Neutro,0
+14627292,2026-08-17,14.0,Neutro,0
+14627492,2026-08-17,14.0,Neutro,0
+14629179,2026-08-17,14.0,Neutro,0
+14630222,2026-08-17,14.0,Neutro,0
+14630771,2026-08-17,14.0,Neutro,0
+14637944,2026-08-17,14.0,Neutro,0
+14640801,2026-08-17,14.0,Neutro,0
+14652798,2026-08-17,14.0,Neutro,0
+14663926,2026-08-17,14.0,Neutro,0
+14673086,2026-08-17,14.0,Neutro,0
+14673758,2026-08-17,14.0,Neutro,0
+14677892,2026-08-17,14.0,Neutro,0
+14704890,2026-08-17,14.0,Neutro,0
+14706405,2026-08-17,14.0,Neutro,0
+14707093,2026-08-17,14.0,Neutro,0
+14710689,2026-08-17,14.0,Neutro,0
+14718100,2026-08-17,14.0,Neutro,0
+14729516,2026-08-17,14.0,Neutro,0
+14735172,2026-08-17,14.0,Neutro,0
+14737396,2026-08-17,14.0,Neutro,0
+14739595,2026-08-17,14.0,Neutro,0
+14740809,2026-08-17,14.0,Neutro,0
+14745252,2026-08-17,14.0,Neutro,0
+14750431,2026-08-17,14.0,Neutro,0
+14753097,2026-08-17,14.0,Neutro,0
+14761013,2026-08-17,14.0,Neutro,0
+12895063,2026-08-17,14.0,Neutro,0
+12895278,2026-08-17,14.0,Neutro,0
+12895647,2026-08-17,14.0,Neutro,0
+12902293,2026-08-17,14.0,Neutro,0
+12903673,2026-08-17,14.0,Neutro,0
+12911004,2026-08-17,14.0,Neutro,0
+12912881,2026-08-17,14.0,Neutro,0
+12928931,2026-08-17,14.0,Neutro,0
+12936702,2026-08-17,14.0,Neutro,0
+12961173,2026-08-17,14.0,Neutro,0
+12961736,2026-08-17,14.0,Neutro,0
+12963314,2026-08-17,14.0,Neutro,0
+12963915,2026-08-17,14.0,Neutro,0
+12973870,2026-08-17,14.0,Neutro,0
+12976838,2026-08-17,14.0,Neutro,0
+12983419,2026-08-17,14.0,Neutro,0
+12989357,2026-08-17,14.0,Neutro,0
+12992088,2026-08-17,14.0,Neutro,0
+12994794,2026-08-17,14.0,Neutro,0
+12995979,2026-08-17,14.0,Neutro,0
+13007912,2026-08-17,14.0,Neutro,0
+13011817,2026-08-17,14.0,Neutro,0
+13017060,2026-08-17,14.0,Neutro,0
+13025699,2026-08-17,14.0,Neutro,0
+13027085,2026-08-17,14.0,Neutro,0
+13028683,2026-08-17,14.0,Neutro,0
+13057451,2026-08-17,14.0,Neutro,0
+13060725,2026-08-17,14.0,Neutro,0
+13069696,2026-08-17,14.0,Neutro,0
+13073788,2026-08-17,14.0,Neutro,0
+13084933,2026-08-17,14.0,Neutro,0
+13120955,2026-08-17,14.0,Neutro,0
+13159679,2026-08-17,14.0,Neutro,0
+13160233,2026-08-17,14.0,Neutro,0
+13161989,2026-08-17,14.0,Neutro,0
+13184349,2026-08-17,14.0,Neutro,0
+13218407,2026-08-17,14.0,Neutro,0
+13228761,2026-08-17,14.0,Neutro,0
+13237006,2026-08-17,14.0,Neutro,0
+13256991,2026-08-17,14.0,Neutro,0
+13261420,2026-08-17,14.0,Neutro,0
+13265344,2026-08-17,14.0,Neutro,0
+13266539,2026-08-17,14.0,Neutro,0
+13275398,2026-08-17,14.0,Neutro,0
+13317446,2026-08-17,14.0,Neutro,0
+13333992,2026-08-17,14.0,Neutro,0
+13345591,2026-08-17,14.0,Neutro,0
+13346755,2026-08-17,14.0,Neutro,0
+13350352,2026-08-17,14.0,Neutro,0
+13354184,2026-08-17,14.0,Neutro,0
+18522060,2026-08-17,14.0,Neutro,0
+18523535,2026-08-17,14.0,Neutro,0
+18523637,2026-08-17,14.0,Neutro,0
+18532425,2026-08-17,14.0,Neutro,0
+18534527,2026-08-17,14.0,Neutro,0
+18536001,2026-08-17,14.0,Neutro,0
+18536962,2026-08-17,14.0,Neutro,0
+18537473,2026-08-17,14.0,Neutro,0
+18538280,2026-08-17,14.0,Neutro,0
+18539036,2026-08-17,14.0,Neutro,0
+18544173,2026-08-17,14.0,Neutro,0
+18546984,2026-08-17,14.0,Neutro,0
+18552452,2026-08-17,14.0,Neutro,0
+18563635,2026-08-17,14.0,Neutro,0
+18565071,2026-08-17,14.0,Neutro,0
+18565516,2026-08-17,14.0,Neutro,0
+18570289,2026-08-17,14.0,Neutro,0
+18580184,2026-08-17,14.0,Neutro,0
+18582811,2026-08-17,14.0,Neutro,0
+18584853,2026-08-17,14.0,Neutro,0
+18589185,2026-08-17,14.0,Neutro,0
+18595075,2026-08-17,14.0,Neutro,0
+18599456,2026-08-17,14.0,Neutro,0
+18611530,2026-08-17,14.0,Neutro,0
+18613823,2026-08-17,14.0,Neutro,0
+18620211,2026-08-17,14.0,Neutro,0
+18621403,2026-08-17,14.0,Neutro,0
+18626546,2026-08-17,14.0,Neutro,0
+18628054,2026-08-17,14.0,Neutro,0
+18630841,2026-08-17,14.0,Neutro,0
+18636891,2026-08-17,14.0,Neutro,0
+18645157,2026-08-17,14.0,Neutro,0
+18646546,2026-08-17,14.0,Neutro,0
+18651256,2026-08-17,14.0,Neutro,0
+18656119,2026-08-17,14.0,Neutro,0
+18658727,2026-08-17,14.0,Neutro,0
+18663320,2026-08-17,14.0,Neutro,0
+18669225,2026-08-17,14.0,Neutro,0
+18682521,2026-08-17,14.0,Neutro,0
+18704037,2026-08-17,14.0,Neutro,0
+18709315,2026-08-17,14.0,Neutro,0
+18711375,2026-08-17,14.0,Neutro,0
+18715512,2026-08-17,14.0,Neutro,0
+18717452,2026-08-17,14.0,Neutro,0
+18726402,2026-08-17,14.0,Neutro,0
+18731988,2026-08-17,14.0,Neutro,0
+18735014,2026-08-17,14.0,Neutro,0
+18739463,2026-08-17,14.0,Neutro,0
+18749910,2026-08-17,14.0,Neutro,0
+18756844,2026-08-17,14.0,Neutro,0
+16497270,2026-08-17,14.0,Neutro,0
+16498702,2026-08-17,14.0,Neutro,0
+16505260,2026-08-17,14.0,Neutro,0
+16513422,2026-08-17,14.0,Neutro,0
+16521916,2026-08-17,14.0,Neutro,0
+165236,2026-08-17,14.0,Neutro,0
+16531612,2026-08-17,14.0,Neutro,0
+16549020,2026-08-17,14.0,Neutro,0
+16555427,2026-08-17,14.0,Neutro,0
+16566508,2026-08-17,14.0,Neutro,0
+16569585,2026-08-17,14.0,Neutro,0
+16578505,2026-08-17,14.0,Neutro,0
+16580614,2026-08-17,14.0,Neutro,0
+16589035,2026-08-17,14.0,Neutro,0
+16605140,2026-08-17,14.0,Neutro,0
+16605232,2026-08-17,14.0,Neutro,0
+16617420,2026-08-17,14.0,Neutro,0
+16618703,2026-08-17,14.0,Neutro,0
+16620373,2026-08-17,14.0,Neutro,0
+16625888,2026-08-17,14.0,Neutro,0
+16626407,2026-08-17,14.0,Neutro,0
+16629531,2026-08-17,14.0,Neutro,0
+16633547,2026-08-17,14.0,Neutro,0
+16636696,2026-08-17,14.0,Neutro,0
+16637526,2026-08-17,14.0,Neutro,0
+16642832,2026-08-17,14.0,Neutro,0
+16661184,2026-08-17,14.0,Neutro,0
+16680047,2026-08-17,14.0,Neutro,0
+16692263,2026-08-17,14.0,Neutro,0
+16703525,2026-08-17,14.0,Neutro,0
+16704523,2026-08-17,14.0,Neutro,0
+16713523,2026-08-17,14.0,Neutro,0
+16721134,2026-08-17,14.0,Neutro,0
+16722224,2026-08-17,14.0,Neutro,0
+16728199,2026-08-17,14.0,Neutro,0
+16728373,2026-08-17,14.0,Neutro,0
+16731197,2026-08-17,14.0,Neutro,0
+16731521,2026-08-17,14.0,Neutro,0
+16736156,2026-08-17,14.0,Neutro,0
+16736460,2026-08-17,14.0,Neutro,0
+16748730,2026-08-17,14.0,Neutro,0
+16760840,2026-08-17,14.0,Neutro,0
+16779135,2026-08-17,14.0,Neutro,0
+16812099,2026-08-17,14.0,Neutro,0
+16822652,2026-08-17,14.0,Neutro,0
+16830848,2026-08-17,14.0,Neutro,0
+16835711,2026-08-17,14.0,Neutro,0
+16838792,2026-08-17,14.0,Neutro,0
+16847962,2026-08-17,14.0,Neutro,0
+16852754,2026-08-17,14.0,Neutro,0
+11216904,2026-08-17,14.0,Neutro,0
+11221775,2026-08-17,14.0,Neutro,0
+11235535,2026-08-17,14.0,Neutro,0
+11246699,2026-08-17,14.0,Neutro,0
+11248078,2026-08-17,14.0,Neutro,0
+11257774,2026-08-17,14.0,Neutro,0
+11286525,2026-08-17,14.0,Neutro,0
+11293023,2026-08-17,14.0,Neutro,0
+11302642,2026-08-17,14.0,Neutro,0
+11343395,2026-08-17,14.0,Neutro,0
+11345201,2026-08-17,14.0,Neutro,0
+11387461,2026-08-17,14.0,Neutro,0
+11392083,2026-08-17,14.0,Neutro,0
+11394913,2026-08-17,14.0,Neutro,0
+11397098,2026-08-17,14.0,Neutro,0
+11403011,2026-08-17,14.0,Neutro,0
+11420802,2026-08-17,14.0,Neutro,0
+11421261,2026-08-17,14.0,Neutro,0
+11427185,2026-08-17,14.0,Neutro,0
+11428096,2026-08-17,14.0,Neutro,0
+11451335,2026-08-17,14.0,Neutro,0
+11451646,2026-08-17,14.0,Neutro,0
+11459996,2026-08-17,14.0,Neutro,0
+11461184,2026-08-17,14.0,Neutro,0
+11462597,2026-08-17,14.0,Neutro,0
+11473828,2026-08-17,14.0,Neutro,0
+11483133,2026-08-17,14.0,Neutro,0
+11485732,2026-08-17,14.0,Neutro,0
+11503550,2026-08-17,14.0,Neutro,0
+11520907,2026-08-17,14.0,Neutro,0
+11560862,2026-08-17,14.0,Neutro,0
+11564629,2026-08-17,14.0,Neutro,0
+11572700,2026-08-17,14.0,Neutro,0
+11579059,2026-08-17,14.0,Neutro,0
+11583608,2026-08-17,14.0,Neutro,0
+11614514,2026-08-17,14.0,Neutro,0
+11626728,2026-08-17,14.0,Neutro,0
+11632495,2026-08-17,14.0,Neutro,0
+11643949,2026-08-17,14.0,Neutro,0
+11645923,2026-08-17,14.0,Neutro,0
+11646467,2026-08-17,14.0,Neutro,0
+11647595,2026-08-17,14.0,Neutro,0
+11648703,2026-08-17,14.0,Neutro,0
+11661835,2026-08-17,14.0,Neutro,0
+11664111,2026-08-17,14.0,Neutro,0
+11665439,2026-08-17,14.0,Neutro,0
+11668154,2026-08-17,14.0,Neutro,0
+11669658,2026-08-17,14.0,Neutro,0
+11679993,2026-08-17,14.0,Neutro,0
+11681686,2026-08-17,14.0,Neutro,0
+18771681,2026-08-17,14.0,Neutro,0
+18789668,2026-08-17,14.0,Neutro,0
+18790254,2026-08-17,14.0,Neutro,0
+18790889,2026-08-17,14.0,Neutro,0
+18806429,2026-08-17,14.0,Neutro,0
+18809818,2026-08-17,14.0,Neutro,0
+18813009,2026-08-17,14.0,Neutro,0
+18819362,2026-08-17,14.0,Neutro,0
+18832333,2026-08-17,14.0,Neutro,0
+18835461,2026-08-17,14.0,Neutro,0
+18835806,2026-08-17,14.0,Neutro,0
+18837446,2026-08-17,14.0,Neutro,0
+18840163,2026-08-17,14.0,Neutro,0
+18846486,2026-08-17,14.0,Neutro,0
+18858076,2026-08-17,14.0,Neutro,0
+18860997,2026-08-17,14.0,Neutro,0
+18867418,2026-08-17,14.0,Neutro,0
+18867708,2026-08-17,14.0,Neutro,0
+18871541,2026-08-17,14.0,Neutro,0
+18872582,2026-08-17,14.0,Neutro,0
+18876945,2026-08-17,14.0,Neutro,0
+18883708,2026-08-17,14.0,Neutro,0
+18887421,2026-08-17,14.0,Neutro,0
+18888590,2026-08-17,14.0,Neutro,0
+18894737,2026-08-17,14.0,Neutro,0
+18899306,2026-08-17,14.0,Neutro,0
+18901377,2026-08-17,14.0,Neutro,0
+18901716,2026-08-17,14.0,Neutro,0
+18908711,2026-08-17,14.0,Neutro,0
+18931434,2026-08-17,14.0,Neutro,0
+18933212,2026-08-17,14.0,Neutro,0
+18934100,2026-08-17,14.0,Neutro,0
+18939747,2026-08-17,14.0,Neutro,0
+18942533,2026-08-17,14.0,Neutro,0
+18953534,2026-08-17,14.0,Neutro,0
+18956954,2026-08-17,14.0,Neutro,0
+18957686,2026-08-17,14.0,Neutro,0
+18962599,2026-08-17,14.0,Neutro,0
+18967217,2026-08-17,14.0,Neutro,0
+18974360,2026-08-17,14.0,Neutro,0
+18974616,2026-08-17,14.0,Neutro,0
+18977141,2026-08-17,14.0,Neutro,0
+18980009,2026-08-17,14.0,Neutro,0
+18990931,2026-08-17,14.0,Neutro,0
+18993181,2026-08-17,14.0,Neutro,0
+19005899,2026-08-17,14.0,Neutro,0
+19007355,2026-08-17,14.0,Neutro,0
+19008385,2026-08-17,14.0,Neutro,0
+19016202,2026-08-17,14.0,Neutro,0
+19016968,2026-08-17,14.0,Neutro,0
+14119078,2026-08-17,14.0,Neutro,0
+14119248,2026-08-17,14.0,Neutro,0
+14130080,2026-08-17,14.0,Neutro,0
+14133975,2026-08-17,14.0,Neutro,0
+14136343,2026-08-17,14.0,Neutro,0
+14159197,2026-08-17,14.0,Neutro,0
+14166401,2026-08-17,14.0,Neutro,0
+14169422,2026-08-17,14.0,Neutro,0
+14169681,2026-08-17,14.0,Neutro,0
+14173862,2026-08-17,14.0,Neutro,0
+14174920,2026-08-17,14.0,Neutro,0
+14177162,2026-08-17,14.0,Neutro,0
+14186519,2026-08-17,14.0,Neutro,0
+14192809,2026-08-17,14.0,Neutro,0
+14195529,2026-08-17,14.0,Neutro,0
+14197486,2026-08-17,14.0,Neutro,0
+14200245,2026-08-17,14.0,Neutro,0
+14203214,2026-08-17,14.0,Neutro,0
+14214177,2026-08-17,14.0,Neutro,0
+14215094,2026-08-17,14.0,Neutro,0
+14216538,2026-08-17,14.0,Neutro,0
+14233779,2026-08-17,14.0,Neutro,0
+14235827,2026-08-17,14.0,Neutro,0
+14241842,2026-08-17,14.0,Neutro,0
+14245303,2026-08-17,14.0,Neutro,0
+14247714,2026-08-17,14.0,Neutro,0
+14250287,2026-08-17,14.0,Neutro,0
+14252374,2026-08-17,14.0,Neutro,0
+14316611,2026-08-17,14.0,Neutro,0
+14323110,2026-08-17,14.0,Neutro,0
+14324672,2026-08-17,14.0,Neutro,0
+14326445,2026-08-17,14.0,Neutro,0
+14327752,2026-08-17,14.0,Neutro,0
+14331109,2026-08-17,14.0,Neutro,0
+14350238,2026-08-17,14.0,Neutro,0
+14358037,2026-08-17,14.0,Neutro,0
+14359481,2026-08-17,14.0,Neutro,0
+14360678,2026-08-17,14.0,Neutro,0
+14361211,2026-08-17,14.0,Neutro,0
+14361824,2026-08-17,14.0,Neutro,0
+14371209,2026-08-17,14.0,Neutro,0
+14373067,2026-08-17,14.0,Neutro,0
+14382407,2026-08-17,14.0,Neutro,0
+14390378,2026-08-17,14.0,Neutro,0
+14411961,2026-08-17,14.0,Neutro,0
+14421014,2026-08-17,14.0,Neutro,0
+14421800,2026-08-17,14.0,Neutro,0
+14423847,2026-08-17,14.0,Neutro,0
+14437177,2026-08-17,14.0,Neutro,0
+14441198,2026-08-17,14.0,Neutro,0
+18290458,2026-08-17,14.0,Neutro,0
+18314992,2026-08-17,14.0,Neutro,0
+18316157,2026-08-17,14.0,Neutro,0
+18323420,2026-08-17,14.0,Neutro,0
+18324802,2026-08-17,14.0,Neutro,0
+18327885,2026-08-17,14.0,Neutro,0
+18342982,2026-08-17,14.0,Neutro,0
+18350129,2026-08-17,14.0,Neutro,0
+18355858,2026-08-17,14.0,Neutro,0
+18358142,2026-08-17,14.0,Neutro,0
+18359054,2026-08-17,14.0,Neutro,0
+18360160,2026-08-17,14.0,Neutro,0
+18366595,2026-08-17,14.0,Neutro,0
+18366899,2026-08-17,14.0,Neutro,0
+18376678,2026-08-17,14.0,Neutro,0
+18376892,2026-08-17,14.0,Neutro,0
+18380504,2026-08-17,14.0,Neutro,0
+18380604,2026-08-17,14.0,Neutro,0
+18382748,2026-08-17,14.0,Neutro,0
+18390108,2026-08-17,14.0,Neutro,0
+18391974,2026-08-17,14.0,Neutro,0
+18395170,2026-08-17,14.0,Neutro,0
+18395181,2026-08-17,14.0,Neutro,0
+18397546,2026-08-17,14.0,Neutro,0
+18397991,2026-08-17,14.0,Neutro,0
+18404420,2026-08-17,14.0,Neutro,0
+18408687,2026-08-17,14.0,Neutro,0
+18411066,2026-08-17,14.0,Neutro,0
+18411827,2026-08-17,14.0,Neutro,0
+18430132,2026-08-17,14.0,Neutro,0
+18433191,2026-08-17,14.0,Neutro,0
+18445528,2026-08-17,14.0,Neutro,0
+18455173,2026-08-17,14.0,Neutro,0
+18470096,2026-08-17,14.0,Neutro,0
+18473777,2026-08-17,14.0,Neutro,0
+18474762,2026-08-17,14.0,Neutro,0
+18480111,2026-08-17,14.0,Neutro,0
+18486525,2026-08-17,14.0,Neutro,0
+18487380,2026-08-17,14.0,Neutro,0
+18491602,2026-08-17,14.0,Neutro,0
+18499187,2026-08-17,14.0,Neutro,0
+18501442,2026-08-17,14.0,Neutro,0
+18502606,2026-08-17,14.0,Neutro,0
+18504413,2026-08-17,14.0,Neutro,0
+18505597,2026-08-17,14.0,Neutro,0
+18506010,2026-08-17,14.0,Neutro,0
+18514040,2026-08-17,14.0,Neutro,0
+18517370,2026-08-17,14.0,Neutro,0
+18518420,2026-08-17,14.0,Neutro,0
+18521311,2026-08-17,14.0,Neutro,0
+14775998,2026-08-17,14.0,Neutro,0
+14780765,2026-08-17,14.0,Neutro,0
+14787483,2026-08-17,14.0,Neutro,0
+14791527,2026-08-17,14.0,Neutro,0
+14797822,2026-08-17,14.0,Neutro,0
+14798779,2026-08-17,14.0,Neutro,0
+14805906,2026-08-17,14.0,Neutro,0
+14832720,2026-08-17,14.0,Neutro,0
+14834300,2026-08-17,14.0,Neutro,0
+14835616,2026-08-17,14.0,Neutro,0
+14841167,2026-08-17,14.0,Neutro,0
+14842102,2026-08-17,14.0,Neutro,0
+14862125,2026-08-17,14.0,Neutro,0
+14868437,2026-08-17,14.0,Neutro,0
+14869020,2026-08-17,14.0,Neutro,0
+14872013,2026-08-17,14.0,Neutro,0
+14874819,2026-08-17,14.0,Neutro,0
+14876250,2026-08-17,14.0,Neutro,0
+14876328,2026-08-17,14.0,Neutro,0
+14879862,2026-08-17,14.0,Neutro,0
+14885045,2026-08-17,14.0,Neutro,0
+14890195,2026-08-17,14.0,Neutro,0
+14896206,2026-08-17,14.0,Neutro,0
+14906811,2026-08-17,14.0,Neutro,0
+14908635,2026-08-17,14.0,Neutro,0
+14909146,2026-08-17,14.0,Neutro,0
+14915125,2026-08-17,14.0,Neutro,0
+14917001,2026-08-17,14.0,Neutro,0
+14928283,2026-08-17,14.0,Neutro,0
+14941136,2026-08-17,14.0,Neutro,0
+14945387,2026-08-17,14.0,Neutro,0
+14947263,2026-08-17,14.0,Neutro,0
+14952814,2026-08-17,14.0,Neutro,0
+14969817,2026-08-17,14.0,Neutro,0
+14970691,2026-08-17,14.0,Neutro,0
+14974354,2026-08-17,14.0,Neutro,0
+14984849,2026-08-17,14.0,Neutro,0
+14985024,2026-08-17,14.0,Neutro,0
+14994108,2026-08-17,14.0,Neutro,0
+14995506,2026-08-17,14.0,Neutro,0
+14999207,2026-08-17,14.0,Neutro,0
+15009482,2026-08-17,14.0,Neutro,0
+15013227,2026-08-17,14.0,Neutro,0
+15016995,2026-08-17,14.0,Neutro,0
+15026040,2026-08-17,14.0,Neutro,0
+15026570,2026-08-17,14.0,Neutro,0
+15056748,2026-08-17,14.0,Neutro,0
+15056993,2026-08-17,14.0,Neutro,0
+15073921,2026-08-17,14.0,Neutro,0
+15079790,2026-08-17,14.0,Neutro,0
+17478394,2026-08-17,14.0,Neutro,0
+17479073,2026-08-17,14.0,Neutro,0
+17484715,2026-08-17,14.0,Neutro,0
+17492885,2026-08-17,14.0,Neutro,0
+17496118,2026-08-17,14.0,Neutro,0
+17497254,2026-08-17,14.0,Neutro,0
+17500820,2026-08-17,14.0,Neutro,0
+17502027,2026-08-17,14.0,Neutro,0
+17507367,2026-08-17,14.0,Neutro,0
+17508279,2026-08-17,14.0,Neutro,0
+17517623,2026-08-17,14.0,Neutro,0
+17524429,2026-08-17,14.0,Neutro,0
+17526813,2026-08-17,14.0,Neutro,0
+17529730,2026-08-17,14.0,Neutro,0
+17530824,2026-08-17,14.0,Neutro,0
+17535549,2026-08-17,14.0,Neutro,0
+17539457,2026-08-17,14.0,Neutro,0
+17539518,2026-08-17,14.0,Neutro,0
+17542185,2026-08-17,14.0,Neutro,0
+17543491,2026-08-17,14.0,Neutro,0
+17545255,2026-08-17,14.0,Neutro,0
+17549908,2026-08-17,14.0,Neutro,0
+17551638,2026-08-17,14.0,Neutro,0
+17552973,2026-08-17,14.0,Neutro,0
+17553039,2026-08-17,14.0,Neutro,0
+17556122,2026-08-17,14.0,Neutro,0
+17557506,2026-08-17,14.0,Neutro,0
+17559661,2026-08-17,14.0,Neutro,0
+17564129,2026-08-17,14.0,Neutro,0
+17573345,2026-08-17,14.0,Neutro,0
+17573703,2026-08-17,14.0,Neutro,0
+17574202,2026-08-17,14.0,Neutro,0
+17576802,2026-08-17,14.0,Neutro,0
+17577676,2026-08-17,14.0,Neutro,0
+17580886,2026-08-17,14.0,Neutro,0
+17586440,2026-08-17,14.0,Neutro,0
+17593401,2026-08-17,14.0,Neutro,0
+17601381,2026-08-17,14.0,Neutro,0
+17609763,2026-08-17,14.0,Neutro,0
+17610387,2026-08-17,14.0,Neutro,0
+17611698,2026-08-17,14.0,Neutro,0
+17622958,2026-08-17,14.0,Neutro,0
+17628702,2026-08-17,14.0,Neutro,0
+17629994,2026-08-17,14.0,Neutro,0
+17640959,2026-08-17,14.0,Neutro,0
+17643331,2026-08-17,14.0,Neutro,0
+17651367,2026-08-17,14.0,Neutro,0
+17656063,2026-08-17,14.0,Neutro,0
+17658091,2026-08-17,14.0,Neutro,0
+17661891,2026-08-17,14.0,Neutro,0
+17317257,2026-08-17,14.0,Neutro,0
+17317931,2026-08-17,14.0,Neutro,0
+17323026,2026-08-17,14.0,Neutro,0
+17324077,2026-08-17,14.0,Neutro,0
+17324497,2026-08-17,14.0,Neutro,0
+17325777,2026-08-17,14.0,Neutro,0
+17327688,2026-08-17,14.0,Neutro,0
+17330375,2026-08-17,14.0,Neutro,0
+17330997,2026-08-17,14.0,Neutro,0
+17336100,2026-08-17,14.0,Neutro,0
+17336851,2026-08-17,14.0,Neutro,0
+17345112,2026-08-17,14.0,Neutro,0
+17348924,2026-08-17,14.0,Neutro,0
+17351561,2026-08-17,14.0,Neutro,0
+17356007,2026-08-17,14.0,Neutro,0
+17356151,2026-08-17,14.0,Neutro,0
+17358287,2026-08-17,14.0,Neutro,0
+17359195,2026-08-17,14.0,Neutro,0
+17360322,2026-08-17,14.0,Neutro,0
+17361036,2026-08-17,14.0,Neutro,0
+17364529,2026-08-17,14.0,Neutro,0
+17367490,2026-08-17,14.0,Neutro,0
+17376337,2026-08-17,14.0,Neutro,0
+17379922,2026-08-17,14.0,Neutro,0
+17383943,2026-08-17,14.0,Neutro,0
+17386795,2026-08-17,14.0,Neutro,0
+17390627,2026-08-17,14.0,Neutro,0
+17390712,2026-08-17,14.0,Neutro,0
+17392228,2026-08-17,14.0,Neutro,0
+17392624,2026-08-17,14.0,Neutro,0
+17393181,2026-08-17,14.0,Neutro,0
+17393866,2026-08-17,14.0,Neutro,0
+17394890,2026-08-17,14.0,Neutro,0
+17395388,2026-08-17,14.0,Neutro,0
+17410852,2026-08-17,14.0,Neutro,0
+17411461,2026-08-17,14.0,Neutro,0
+17411761,2026-08-17,14.0,Neutro,0
+17415352,2026-08-17,14.0,Neutro,0
+17421855,2026-08-17,14.0,Neutro,0
+17423232,2026-08-17,14.0,Neutro,0
+17426360,2026-08-17,14.0,Neutro,0
+17429778,2026-08-17,14.0,Neutro,0
+17432018,2026-08-17,14.0,Neutro,0
+17433792,2026-08-17,14.0,Neutro,0
+17445858,2026-08-17,14.0,Neutro,0
+17447012,2026-08-17,14.0,Neutro,0
+17457769,2026-08-17,14.0,Neutro,0
+17464262,2026-08-17,14.0,Neutro,0
+17468773,2026-08-17,14.0,Neutro,0
+17473132,2026-08-17,14.0,Neutro,0
+17177446,2026-08-17,14.0,Neutro,0
+17179820,2026-08-17,14.0,Neutro,0
+17182902,2026-08-17,14.0,Neutro,0
+17184748,2026-08-17,14.0,Neutro,0
+17186671,2026-08-17,14.0,Neutro,0
+17187867,2026-08-17,14.0,Neutro,0
+17189349,2026-08-17,14.0,Neutro,0
+17191112,2026-08-17,14.0,Neutro,0
+17196098,2026-08-17,14.0,Neutro,0
+17198199,2026-08-17,14.0,Neutro,0
+17201463,2026-08-17,14.0,Neutro,0
+17201656,2026-08-17,14.0,Neutro,0
+17203175,2026-08-17,14.0,Neutro,0
+17203626,2026-08-17,14.0,Neutro,0
+17209656,2026-08-17,14.0,Neutro,0
+17216285,2026-08-17,14.0,Neutro,0
+17216892,2026-08-17,14.0,Neutro,0
+17218505,2026-08-17,14.0,Neutro,0
+17220720,2026-08-17,14.0,Neutro,0
+17220971,2026-08-17,14.0,Neutro,0
+17226100,2026-08-17,14.0,Neutro,0
+17229454,2026-08-17,14.0,Neutro,0
+17230243,2026-08-17,14.0,Neutro,0
+17230272,2026-08-17,14.0,Neutro,0
+17230420,2026-08-17,14.0,Neutro,0
+17233108,2026-08-17,14.0,Neutro,0
+17235229,2026-08-17,14.0,Neutro,0
+17238044,2026-08-17,14.0,Neutro,0
+17239078,2026-08-17,14.0,Neutro,0
+17243190,2026-08-17,14.0,Neutro,0
+17246043,2026-08-17,14.0,Neutro,0
+17254100,2026-08-17,14.0,Neutro,0
+17261161,2026-08-17,14.0,Neutro,0
+17263364,2026-08-17,14.0,Neutro,0
+17265872,2026-08-17,14.0,Neutro,0
+17269095,2026-08-17,14.0,Neutro,0
+17269306,2026-08-17,14.0,Neutro,0
+17270511,2026-08-17,14.0,Neutro,0
+17274208,2026-08-17,14.0,Neutro,0
+17278285,2026-08-17,14.0,Neutro,0
+17278659,2026-08-17,14.0,Neutro,0
+17278907,2026-08-17,14.0,Neutro,0
+17282990,2026-08-17,14.0,Neutro,0
+17283178,2026-08-17,14.0,Neutro,0
+17283458,2026-08-17,14.0,Neutro,0
+17289102,2026-08-17,14.0,Neutro,0
+17296786,2026-08-17,14.0,Neutro,0
+17299273,2026-08-17,14.0,Neutro,0
+17302171,2026-08-17,14.0,Neutro,0
+17304321,2026-08-17,14.0,Neutro,0
 18823566,2026-08-16,90.0,Negativo,1
 21038008,2026-08-16,90.0,Negativo,1
 11344214,2026-08-16,84.0,Negativo,1
