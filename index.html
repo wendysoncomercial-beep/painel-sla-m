@@ -394,7 +394,7 @@ button.prod-legend-item.off{opacity:.38;text-decoration:line-through}
 let EMBEDDED_MASTER_CSV = '';
 let EMBEDDED_MASTER_CONVENIO_CSV = '';
 const EMBEDDED_MASTER_CONVENIO_BASELINE_CSV = EMBEDDED_MASTER_CONVENIO_CSV;
-const PANEL_UPDATED_AT = `18/08/2026, 05:30:32`;
+const PANEL_UPDATED_AT = `18/08/2026, 06:30:32`;
 
 let EMBEDDED_EXEC_ANALISE = '';
 let EMBEDDED_AGENTES_CANAL_CSV = '';
@@ -24953,17 +24953,17 @@ const __EMBEDDED_GZIP = {
 2026-08-17,REFIN,direto,50,41,0,4,9,37,41,0,9,0,0,42,42,155919,7,10,36,16,9,0,7,0,0,0,50,0,42,42,155919000,7,,0
 2026-08-17,SEM PRODUTO,concierge,166,7,0,0,159,7,7,0,149,0,10,166,136,38988,1,25040,3,166,149,0,7,0,0,0,166,0,166,136,64028000,4,,0
 2026-08-17,SEM PRODUTO,direto,1390,1079,9,0,311,1070,1079,9,291,16,4,1352,1028,1918094,55,392595,214,1254,291,16,934,9,0,0,1390,9,1353,1028,2083449000,88,176056000,13`,
-  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 681791 tickets, com 98.4% resolvidos e um tempo médio de resolução de 0.1h. O atendimento da IA teve 1686942 interações, com 67.7% resolvidos apenas por ela.
+  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 681791 tickets, com uma taxa de resolução geral de 98.4% e um FCR de 79.5%. O tempo médio de resolução é de 0.1h.
 
-- Destaque positivo: O funil direto apresentou uma taxa de resolução de 99.2%, a mais alta entre os canais. O FCR do funil concierge foi de 86.6%, evidenciando um bom desempenho.
+- Destaque positivo: A IA atendeu 1686942 interações, com 67.7% dos casos resolvidos exclusivamente por ela. O FCR do funil Concierge é de 86.6%, superior ao do Direto.
 
-- Principal ponto de atenção: O SLA do funil concierge é de 58.2%, significativamente abaixo do funil direto, que é de 76.4%. Isso pode impactar a satisfação do cliente.
+- Principal ponto de atenção: O SLA do funil Concierge é de 58.2%, significativamente abaixo do SLA do funil Direto, que é de 76.4%. Além disso, o número de tickets em aberto no Concierge é maior, com 9398 tickets.
 
-- Comparativo Concierge vs Direto: O funil concierge teve 445474 tickets, com 97.9% resolvidos, enquanto o funil direto teve 236317 tickets e 99.2% resolvidos. Há uma diferença de 20.3 pontos percentuais no FCR entre os dois.
+- Comparativo Concierge vs Direto: O funil Concierge apresenta uma taxa de resolução de 97.9%, enquanto o Direto tem 99.2%. O gap no FCR é de 20.3 pontos percentuais, favorecendo o Direto.
 
-- Hipótese de causa: A maior taxa de transbordo no funil concierge, com 26.4%, pode estar contribuindo para o desempenho inferior em SLA e FCR. A complexidade dos tickets no concierge pode ser maior, exigindo mais atenção.
+- Hipótese de causa: A diferença no desempenho pode estar relacionada ao volume maior de tickets no Concierge, que representa 65.3% do total. Isso pode impactar a eficiência e a capacidade de atendimento.
 
-- Recomendação prática: Melhorar o treinamento da equipe no funil concierge para reduzir o transbordo e aumentar o FCR. Considerar a revisão dos processos para otimizar o tempo de resposta e o SLA.`,
+- Recomendação prática: Implementar melhorias no processo de atendimento do Concierge para aumentar o SLA e o FCR. Avaliar a possibilidade de treinamento adicional para a equipe que lida com tickets do Concierge.`,
   EMBEDDED_AGENTES_CANAL_CSV: ``,
   EMBEDDED_MASTER_HOURLY_CSV: `hora_ref,area_resolvedora,encaminhados,resolvidos,fechados,abandonos,em_aberto,concluidos,fcr_base,fcr_ok,aguardando,em_tratativa,pendente_cliente,sla_base,sla_ok,tempo_tratativa_sum,tempo_tratativa_cnt,tempo_resolucao_sum,tempo_resolucao_cnt
 2026-05-01T00:00:00.000Z,,26,26,26,0,0,0,26,24,0,0,0,9,8,,0,,0
@@ -231128,7 +231128,7 @@ mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,4497,114,46,19,11,7,0
 mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,452,8,2,3,3,4,10,11,88`,
   EMBEDDED_CSAT_CSV: `tipo_atendimento,total_avaliacoes,avaliacoes_4_5,avaliacoes_3,avaliacoes_1_2,csat_percentual,nota_media
 humano,73384,49827,8112,15445,67.89899705657909,3.760563564190954
-concierge,11857,6458,1095,4753,54.465716454415116,3.2525907701483634`,
+concierge,11858,6458,1096,4753,54.46112329229212,3.252571939764425`,
 };
 
 async function __decodeGzipBase64(embeddedText){
