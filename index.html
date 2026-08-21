@@ -440,7 +440,7 @@ button.prod-legend-item.off{opacity:.38;text-decoration:line-through}
 let EMBEDDED_MASTER_CSV = '';
 let EMBEDDED_MASTER_CONVENIO_CSV = '';
 const EMBEDDED_MASTER_CONVENIO_BASELINE_CSV = EMBEDDED_MASTER_CONVENIO_CSV;
-const PANEL_UPDATED_AT = `20/08/2026, 21:30:35`;
+const PANEL_UPDATED_AT = `20/08/2026, 22:30:35`;
 
 let EMBEDDED_EXEC_ANALISE = '';
 let EMBEDDED_AGENTES_CANAL_CSV = '';
@@ -25617,13 +25617,13 @@ const __EMBEDDED_GZIP = {
 
 - Destaque positivo: A IA atendeu 1725078 interações, com 67.7% resolvidas apenas por ela. O FCR geral é de 79.2%.
 
-- Principal ponto de atenção: O SLA geral é de 64.3%, indicando que há espaço para melhorias na eficiência do atendimento. O funil Concierge apresenta um SLA de 57.4%, abaixo do Direto.
+- Principal ponto de atenção: O SLA geral é de 64.3%, indicando que há espaço para melhorias no tempo de resposta. O transbordo total da IA é de 32.3%, o que pode impactar a eficiência.
 
-- Comparativo Concierge vs Direto: O funil Concierge tem 98.2% de tickets resolvidos, enquanto o Direto alcança 99.6%. O FCR do Concierge é 20.6 pontos percentuais inferior ao do Direto.
+- Comparativo Concierge vs Direto: O Concierge apresenta 98.2% de tickets resolvidos, enquanto o Direto tem 99.6%. No entanto, o FCR do Concierge é 20.6 pontos percentuais inferior ao do Direto.
 
-- Hipótese de causa: A diferença no FCR pode estar relacionada à complexidade dos tickets no Concierge, que pode demandar mais tempo e recursos. O maior volume de tickets no Concierge também pode impactar a eficiência.
+- Hipótese de causa: A diferença no FCR pode estar relacionada à complexidade dos tickets no Concierge, que tende a ser mais desafiadora. Além disso, o SLA do Concierge é 18.8 pontos percentuais menor que o do Direto.
 
-- Recomendação prática: Implementar treinamentos focados na equipe do Concierge para aumentar a taxa de resolução e melhorar o FCR. Avaliar a possibilidade de otimizar processos para reduzir o SLA no atendimento.`,
+- Recomendação prática: Implementar treinamentos específicos para a equipe do Concierge visando aumentar o FCR e melhorar o SLA. Avaliar a possibilidade de otimizar processos para reduzir o transbordo da IA.`,
   EMBEDDED_AGENTES_CANAL_CSV: ``,
   EMBEDDED_MASTER_HOURLY_CSV: `hora_ref,area_resolvedora,encaminhados,resolvidos,fechados,abandonos,em_aberto,concluidos,fcr_base,fcr_ok,aguardando,em_tratativa,pendente_cliente,sla_base,sla_ok,tempo_tratativa_sum,tempo_tratativa_cnt,tempo_resolucao_sum,tempo_resolucao_cnt
 2026-05-01T00:00:00.000Z,,26,26,26,0,0,0,26,24,0,0,0,9,8,,0,,0
@@ -59262,18 +59262,18 @@ Triagem,sincrono,356`,
 6587833,Conciliação,Alocação de parcelas,2026-07-03,Aguardando tratativa,,18042246,
 6589579,Conciliação,Alocação de parcelas,2026-07-04,Aguardando tratativa,,17016103,
 6596397,Nível 3,Quitação,2026-07-06,Em tratativa,,8022029,
-6595052,Conciliação,Alocação de parcelas,2026-07-06,Aguardando tratativa,,6887446,
 6596002,Conciliação,Alocação de parcelas,2026-07-06,Aguardando tratativa,,13210856,
-6599490,Conciliação,Alocação de parcelas,2026-07-07,Aguardando tratativa,,17099571,
-6597621,Conciliação,Alocação de parcelas,2026-07-07,Aguardando tratativa,,17361486,
+6595052,Conciliação,Alocação de parcelas,2026-07-06,Aguardando tratativa,,6887446,
 6601181,Conciliação,Alocação de parcelas,2026-07-07,Aguardando tratativa,,19601561,
+6597621,Conciliação,Alocação de parcelas,2026-07-07,Aguardando tratativa,,17361486,
+6599490,Conciliação,Alocação de parcelas,2026-07-07,Aguardando tratativa,,17099571,
 6605095,Conciliação,Alocação de parcelas,2026-07-08,Aguardando tratativa,,6347922,
 6606662,Conciliação,Alocação de parcelas,2026-07-08,Aguardando tratativa,,19782881,
 6606992,Conciliação,Alocação de parcelas,2026-07-08,Aguardando tratativa,,13066472,
-6608600,Conciliação,Reembolso,2026-07-09,Em tratativa,,3543059,
+6610302,Conciliação,Alocação de parcelas,2026-07-09,Em tratativa,,19292524,https://services.twilio.com/flex-insights-drilldown/accounts/A\u00433ffc27bf978915f32d620fe71ef50086/segments/93975ceb-80c9-5afa-b3cf-63642d9387d8
 6610379,Operações e Customer,Baixa de parcela pendente,2026-07-09,Aguardando tratativa,,8280837,
-6609251,CRM,Bloquear comunicação,2026-07-09,Aguardando tratativa,,22544212,
-6610302,Conciliação,Alocação de parcelas,2026-07-09,Em tratativa,,19292524,https://services.twilio.com/flex-insights-drilldown/accounts/A\u00433ffc27bf978915f32d620fe71ef50086/segments/93975ceb-80c9-5afa-b3cf-63642d9387d8`,
+6608600,Conciliação,Reembolso,2026-07-09,Em tratativa,,3543059,
+6608343,Conciliação,Alocação de parcelas,2026-07-09,Aguardando tratativa,,17424030,`,
   EMBEDDED_MOTIVO_HOURLY_CSV: `hora_ref,area_resolvedora,motivo,encaminhados
 2026-06-21T00:00:00.000Z,Cobrança,Dúvidas sobre um contrato,1
 2026-06-21T00:00:00.000Z,Conciliação,Reembolso,1
@@ -235686,7 +235686,7 @@ mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,5378,132,46,19,12,7,0
 mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,509,8,2,4,6,6,11,12,107`,
   EMBEDDED_CSAT_CSV: `tipo_atendimento,total_avaliacoes,avaliacoes_4_5,avaliacoes_3,avaliacoes_1_2,csat_percentual,nota_media
 humano,74007,50250,8157,15600,67.89898252867972,3.760426506554174
-concierge,12868,6998,1223,5177,54.382965495803546,3.244979919678715`,
+concierge,12887,7010,1224,5185,54.395902847831145,3.2450047573739296`,
 };
 
 async function __decodeGzipBase64(embeddedText){
