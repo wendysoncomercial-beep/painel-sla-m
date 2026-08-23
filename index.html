@@ -441,7 +441,7 @@ button.prod-legend-item.off{opacity:.38;text-decoration:line-through}
 let EMBEDDED_MASTER_CSV = '';
 let EMBEDDED_MASTER_CONVENIO_CSV = '';
 const EMBEDDED_MASTER_CONVENIO_BASELINE_CSV = EMBEDDED_MASTER_CONVENIO_CSV;
-const PANEL_UPDATED_AT = `23/08/2026, 18:30:05`;
+const PANEL_UPDATED_AT = `23/08/2026, 19:30:05`;
 
 let EMBEDDED_EXEC_ANALISE = '';
 let EMBEDDED_AGENTES_CANAL_CSV = '';
@@ -25937,15 +25937,15 @@ const __EMBEDDED_GZIP = {
 2026-08-22,SEM PRODUTO,direto,177,21,0,0,156,21,21,0,156,0,0,151,45,,0,12747,18,161,156,0,5,0,0,0,177,0,151,45,,0,,0`,
   EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 706470 tickets, com 98.5% resolvidos e um tempo médio de resolução de 0.1h. O atendimento da IA teve 1733548 interações, com 80% resolvidos apenas por ela.
 
-- Destaque positivo: O funil direto apresentou uma taxa de resolução de 99.5%, superior à média geral. O FCR do funil concierge foi de 86.0%, indicando um bom desempenho.
+- Destaque positivo: O funil Direto apresenta uma taxa de resolução de 99.5%, superior à média geral. O FCR do Direto é de 65.8%, o que demonstra eficiência no atendimento.
 
-- Principal ponto de atenção: O SLA do funil concierge é de 56.8%, abaixo do funil direto que alcançou 76.0%. Além disso, o funil concierge tem 9204 tickets em aberto, representando 2.0% do total.
+- Principal ponto de atenção: O funil Concierge tem um FCR de 86.0%, mas apresenta um SLA de apenas 56.8%. Isso indica que, apesar de uma boa taxa de resolução, o tempo de resposta pode ser um problema.
 
-- Comparativo Concierge vs Direto: O funil concierge tem uma taxa de resolução 1.5 pontos percentuais menor que o direto. O gap no FCR é de 20.2 pontos percentuais, evidenciando uma diferença significativa na eficiência.
+- Comparativo Concierge vs Direto: O Concierge tem uma taxa de resolução 1.5 pontos percentuais inferior ao Direto. Além disso, o SLA do Concierge é 19.2 pontos percentuais menor que o do Direto.
 
-- Hipótese de causa: A menor eficiência do funil concierge pode estar relacionada a processos mais complexos ou maior volume de tickets. A diferença no SLA sugere que o concierge enfrenta desafios operacionais.
+- Hipótese de causa: A diferença no FCR e SLA pode estar relacionada à complexidade dos tickets no Concierge. A maior quantidade de tickets pode impactar a eficiência do atendimento.
 
-- Recomendação prática: Melhorar o SLA do funil concierge deve ser uma prioridade, com foco em processos e treinamento. Avaliar a possibilidade de aumentar a automação no atendimento para reduzir o transbordo.`,
+- Recomendação prática: Melhorar o treinamento da equipe do Concierge para aumentar o FCR e reduzir o SLA. Considerar a implementação de mais automações para otimizar o fluxo de atendimento.`,
   EMBEDDED_AGENTES_CANAL_CSV: ``,
   EMBEDDED_MASTER_HOURLY_CSV: `hora_ref,area_resolvedora,encaminhados,resolvidos,fechados,abandonos,em_aberto,concluidos,fcr_base,fcr_ok,aguardando,em_tratativa,pendente_cliente,sla_base,sla_ok,tempo_tratativa_sum,tempo_tratativa_cnt,tempo_resolucao_sum,tempo_resolucao_cnt
 2026-05-01T00:00:00.000Z,,26,26,26,0,0,0,26,24,0,0,0,9,8,,0,,0
@@ -231509,7 +231509,7 @@ mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,5733,133,46,19,12,7,0
 mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,550,9,2,4,7,7,15,13,113`,
   EMBEDDED_CSAT_CSV: `tipo_atendimento,total_avaliacoes,avaliacoes_4_5,avaliacoes_3,avaliacoes_1_2,csat_percentual,nota_media
 humano,74213,50391,8171,15651,67.9005026073599,3.760600079976265
-concierge,13615,7402,1284,5490,54.36650752846126,3.2423037455105184`,
+concierge,13628,7408,1285,5496,54.35867331963604,3.2424553085154098`,
 };
 
 async function __decodeGzipBase64(embeddedText){
