@@ -441,7 +441,7 @@ button.prod-legend-item.off{opacity:.38;text-decoration:line-through}
 let EMBEDDED_MASTER_CSV = '';
 let EMBEDDED_MASTER_CONVENIO_CSV = '';
 const EMBEDDED_MASTER_CONVENIO_BASELINE_CSV = EMBEDDED_MASTER_CONVENIO_CSV;
-const PANEL_UPDATED_AT = `23/08/2026, 19:30:05`;
+const PANEL_UPDATED_AT = `23/08/2026, 20:30:05`;
 
 let EMBEDDED_EXEC_ANALISE = '';
 let EMBEDDED_AGENTES_CANAL_CSV = '';
@@ -25935,17 +25935,17 @@ const __EMBEDDED_GZIP = {
 2026-08-22,REFIN,direto,9,6,0,1,3,5,6,0,3,0,0,9,9,,0,4,7,5,3,0,1,0,1,0,9,0,9,9,,0,,0
 2026-08-22,SEM PRODUTO,concierge,207,0,0,0,207,0,0,0,190,0,17,169,136,,0,,0,207,190,0,0,0,0,0,207,0,169,136,,0,,0
 2026-08-22,SEM PRODUTO,direto,177,21,0,0,156,21,21,0,156,0,0,151,45,,0,12747,18,161,156,0,5,0,0,0,177,0,151,45,,0,,0`,
-  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 706470 tickets, com 98.5% resolvidos e um tempo médio de resolução de 0.1h. O atendimento da IA teve 1733548 interações, com 80% resolvidos apenas por ela.
+  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 706470 tickets, com 98.5% resolvidos no total. O tempo médio de resolução é de 0.1h.
 
-- Destaque positivo: O funil Direto apresenta uma taxa de resolução de 99.5%, superior à média geral. O FCR do Direto é de 65.8%, o que demonstra eficiência no atendimento.
+- Destaque positivo: A IA atendeu 1733548 interações, com 80.0% resolvidas apenas por ela. Isso demonstra a eficiência do sistema automatizado.
 
-- Principal ponto de atenção: O funil Concierge tem um FCR de 86.0%, mas apresenta um SLA de apenas 56.8%. Isso indica que, apesar de uma boa taxa de resolução, o tempo de resposta pode ser um problema.
+- Principal ponto de atenção: O FCR no funil Concierge é de 86.0%, enquanto no Direto é de 65.8%. Essa diferença de 20.2 pontos percentuais indica uma oportunidade de melhoria.
 
-- Comparativo Concierge vs Direto: O Concierge tem uma taxa de resolução 1.5 pontos percentuais inferior ao Direto. Além disso, o SLA do Concierge é 19.2 pontos percentuais menor que o do Direto.
+- Comparativo Concierge vs Direto: O funil Concierge apresenta 98.0% de tickets resolvidos, contra 99.5% do Direto. Além disso, o SLA do Concierge é de 56.8%, inferior ao 76.0% do Direto.
 
-- Hipótese de causa: A diferença no FCR e SLA pode estar relacionada à complexidade dos tickets no Concierge. A maior quantidade de tickets pode impactar a eficiência do atendimento.
+- Hipótese de causa: A maior complexidade dos tickets no Concierge pode estar impactando negativamente o FCR e o SLA. Isso sugere que os atendimentos podem exigir mais tempo e recursos.
 
-- Recomendação prática: Melhorar o treinamento da equipe do Concierge para aumentar o FCR e reduzir o SLA. Considerar a implementação de mais automações para otimizar o fluxo de atendimento.`,
+- Recomendação prática: Investir em treinamento para a equipe do Concierge pode ajudar a aumentar o FCR e melhorar o SLA. Além disso, revisar processos pode reduzir a quantidade de tickets em aberto.`,
   EMBEDDED_AGENTES_CANAL_CSV: ``,
   EMBEDDED_MASTER_HOURLY_CSV: `hora_ref,area_resolvedora,encaminhados,resolvidos,fechados,abandonos,em_aberto,concluidos,fcr_base,fcr_ok,aguardando,em_tratativa,pendente_cliente,sla_base,sla_ok,tempo_tratativa_sum,tempo_tratativa_cnt,tempo_resolucao_sum,tempo_resolucao_cnt
 2026-05-01T00:00:00.000Z,,26,26,26,0,0,0,26,24,0,0,0,9,8,,0,,0
@@ -231509,7 +231509,7 @@ mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,5733,133,46,19,12,7,0
 mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,550,9,2,4,7,7,15,13,113`,
   EMBEDDED_CSAT_CSV: `tipo_atendimento,total_avaliacoes,avaliacoes_4_5,avaliacoes_3,avaliacoes_1_2,csat_percentual,nota_media
 humano,74213,50391,8171,15651,67.9005026073599,3.760600079976265
-concierge,13628,7408,1285,5496,54.35867331963604,3.2424553085154098`,
+concierge,13639,7415,1286,5499,54.36615587653054,3.2426550598476607`,
 };
 
 async function __decodeGzipBase64(embeddedText){
