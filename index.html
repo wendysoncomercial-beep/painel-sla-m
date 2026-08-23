@@ -441,7 +441,7 @@ button.prod-legend-item.off{opacity:.38;text-decoration:line-through}
 let EMBEDDED_MASTER_CSV = '';
 let EMBEDDED_MASTER_CONVENIO_CSV = '';
 const EMBEDDED_MASTER_CONVENIO_BASELINE_CSV = EMBEDDED_MASTER_CONVENIO_CSV;
-const PANEL_UPDATED_AT = `23/08/2026, 15:30:05`;
+const PANEL_UPDATED_AT = `23/08/2026, 16:30:05`;
 
 let EMBEDDED_EXEC_ANALISE = '';
 let EMBEDDED_AGENTES_CANAL_CSV = '';
@@ -25935,17 +25935,17 @@ const __EMBEDDED_GZIP = {
 2026-08-22,REFIN,direto,9,6,0,1,3,5,6,0,3,0,0,9,9,,0,4,7,5,3,0,1,0,1,0,9,0,9,9,,0,,0
 2026-08-22,SEM PRODUTO,concierge,207,0,0,0,207,0,0,0,190,0,17,169,136,,0,,0,207,190,0,0,0,0,0,207,0,169,136,,0,,0
 2026-08-22,SEM PRODUTO,direto,177,21,0,0,156,21,21,0,156,0,0,151,45,,0,12747,18,161,156,0,5,0,0,0,177,0,151,45,,0,,0`,
-  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 706470 tickets, com 98.5% resolvidos no total. O atendimento da IA gerou 1733548 interações, com 80% resolvidos apenas por ela.
+  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 706470 tickets, com 98.5% resolvidos no total. O atendimento da IA teve 1733548 interações, com 80% resolvidos apenas por ela.
 
-- Destaque positivo: O funil direto apresenta uma taxa de resolução de 99.5%, superior à média geral. O tempo médio de resolução é consistente em 0.1h para todos os canais.
+- Destaque positivo: O funil direto apresenta uma taxa de resolução de 99.5%, superior à média geral. O FCR do funil concierge é de 86.0%, indicando um bom desempenho.
 
-- Principal ponto de atenção: O funil concierge tem um FCR de 86.0%, que é 20.2 pontos percentuais inferior ao funil direto. Além disso, o SLA do concierge é de 56.8%, bem abaixo dos 76.0% do direto.
+- Principal ponto de atenção: O SLA do funil concierge é de 56.8%, abaixo do funil direto, que é de 76.0%. Isso pode impactar a satisfação do cliente.
 
-- Comparativo Concierge vs Direto: O funil concierge possui 461038 tickets, enquanto o direto tem 245432. A taxa de tickets em aberto é de 9204 no concierge, comparado a apenas 1202 no direto.
+- Comparativo Concierge vs Direto: O funil concierge tem uma taxa de resolução 1.5 p.p. inferior ao funil direto. Além disso, o FCR do concierge é 20.2 p.p. menor que o do direto.
 
-- Hipótese de causa: A diferença no FCR e SLA pode indicar que o concierge enfrenta questões mais complexas ou que a IA não está otimizando adequadamente esses atendimentos. A maior carga de tickets no concierge pode estar impactando a eficiência.
+- Hipótese de causa: A diferença no desempenho pode estar relacionada ao volume maior de tickets no funil concierge, que representa 65.3% do total. Isso pode gerar sobrecarga e afetar a eficiência do atendimento.
 
-- Recomendação prática: Implementar treinamentos específicos para a equipe do concierge visando melhorar o FCR e o SLA. Avaliar a possibilidade de ajustar a IA para lidar melhor com os tickets mais complexos do concierge.`,
+- Recomendação prática: Implementar treinamentos focados para a equipe do funil concierge visando melhorar o SLA e o FCR. Avaliar a possibilidade de aumentar a automação no atendimento para reduzir a carga de tickets.`,
   EMBEDDED_AGENTES_CANAL_CSV: ``,
   EMBEDDED_MASTER_HOURLY_CSV: `hora_ref,area_resolvedora,encaminhados,resolvidos,fechados,abandonos,em_aberto,concluidos,fcr_base,fcr_ok,aguardando,em_tratativa,pendente_cliente,sla_base,sla_ok,tempo_tratativa_sum,tempo_tratativa_cnt,tempo_resolucao_sum,tempo_resolucao_cnt
 2026-05-01T00:00:00.000Z,,26,26,26,0,0,0,26,24,0,0,0,9,8,,0,,0
@@ -231509,7 +231509,7 @@ mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,5733,133,46,19,12,7,0
 mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,550,9,2,4,7,7,15,13,113`,
   EMBEDDED_CSAT_CSV: `tipo_atendimento,total_avaliacoes,avaliacoes_4_5,avaliacoes_3,avaliacoes_1_2,csat_percentual,nota_media
 humano,74213,50391,8171,15651,67.9005026073599,3.760600079976265
-concierge,13572,7382,1281,5469,54.39139404656647,3.2430345537610195`,
+concierge,13588,7389,1282,5477,54.37886370326759,3.242704717830055`,
 };
 
 async function __decodeGzipBase64(embeddedText){
