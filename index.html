@@ -441,7 +441,7 @@ button.prod-legend-item.off{opacity:.38;text-decoration:line-through}
 let EMBEDDED_MASTER_CSV = '';
 let EMBEDDED_MASTER_CONVENIO_CSV = '';
 const EMBEDDED_MASTER_CONVENIO_BASELINE_CSV = EMBEDDED_MASTER_CONVENIO_CSV;
-const PANEL_UPDATED_AT = `23/08/2026, 20:30:05`;
+const PANEL_UPDATED_AT = `23/08/2026, 21:30:06`;
 
 let EMBEDDED_EXEC_ANALISE = '';
 let EMBEDDED_AGENTES_CANAL_CSV = '';
@@ -25935,17 +25935,17 @@ const __EMBEDDED_GZIP = {
 2026-08-22,REFIN,direto,9,6,0,1,3,5,6,0,3,0,0,9,9,,0,4,7,5,3,0,1,0,1,0,9,0,9,9,,0,,0
 2026-08-22,SEM PRODUTO,concierge,207,0,0,0,207,0,0,0,190,0,17,169,136,,0,,0,207,190,0,0,0,0,0,207,0,169,136,,0,,0
 2026-08-22,SEM PRODUTO,direto,177,21,0,0,156,21,21,0,156,0,0,151,45,,0,12747,18,161,156,0,5,0,0,0,177,0,151,45,,0,,0`,
-  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 706470 tickets, com 98.5% resolvidos no total. O tempo médio de resolução é de 0.1h.
+  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 706470 tickets, com 98.5% resolvidos no total. O atendimento da IA gerou 1733548 interações, com 80% resolvidos apenas por ela.
 
-- Destaque positivo: A IA atendeu 1733548 interações, com 80.0% resolvidas apenas por ela. Isso demonstra a eficiência do sistema automatizado.
+- Destaque positivo: O funil direto apresentou uma taxa de resolução de 99.5%, superior à média geral. O FCR do funil concierge foi de 86.0%, indicando um bom desempenho.
 
-- Principal ponto de atenção: O FCR no funil Concierge é de 86.0%, enquanto no Direto é de 65.8%. Essa diferença de 20.2 pontos percentuais indica uma oportunidade de melhoria.
+- Principal ponto de atenção: O SLA do funil concierge é de 56.8%, abaixo do funil direto, que é de 76.0%. Isso pode impactar a satisfação do cliente.
 
-- Comparativo Concierge vs Direto: O funil Concierge apresenta 98.0% de tickets resolvidos, contra 99.5% do Direto. Além disso, o SLA do Concierge é de 56.8%, inferior ao 76.0% do Direto.
+- Comparativo Concierge vs Direto: O funil concierge tem 1.5 p.p. a menos em % resolvido em comparação ao funil direto. Além disso, há uma diferença de 20.2 p.p. no FCR entre os dois.
 
-- Hipótese de causa: A maior complexidade dos tickets no Concierge pode estar impactando negativamente o FCR e o SLA. Isso sugere que os atendimentos podem exigir mais tempo e recursos.
+- Hipótese de causa: A diferença no desempenho pode estar relacionada ao volume maior de tickets no funil concierge, que representa 65.3% do total. Isso pode gerar sobrecarga e impactar a eficiência.
 
-- Recomendação prática: Investir em treinamento para a equipe do Concierge pode ajudar a aumentar o FCR e melhorar o SLA. Além disso, revisar processos pode reduzir a quantidade de tickets em aberto.`,
+- Recomendação prática: Investir em treinamento e recursos para a equipe do funil concierge pode melhorar o SLA e o FCR. Avaliar a possibilidade de otimizar processos na triagem de tickets também é essencial.`,
   EMBEDDED_AGENTES_CANAL_CSV: ``,
   EMBEDDED_MASTER_HOURLY_CSV: `hora_ref,area_resolvedora,encaminhados,resolvidos,fechados,abandonos,em_aberto,concluidos,fcr_base,fcr_ok,aguardando,em_tratativa,pendente_cliente,sla_base,sla_ok,tempo_tratativa_sum,tempo_tratativa_cnt,tempo_resolucao_sum,tempo_resolucao_cnt
 2026-05-01T00:00:00.000Z,,26,26,26,0,0,0,26,24,0,0,0,9,8,,0,,0
@@ -131374,7 +131374,6 @@ dia,adelaide.silva@meutudo.app,Nível 2,2026-08-21,,Whatsapp,Síncrono,1,0
 dia,adelaide.silva@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,30,0
 dia,adelaide.silva@meutudo.app,Sem area,2026-08-21,,Whatsapp,Síncrono,11,8
 dia,adelaide.silva@meutudo.app,Tratamento em lote,2026-08-21,,Whatsapp,Síncrono,4,0
-dia,adriel.santos@meutudo.app,Cobrança,2026-07-25,,Whatsapp,Assíncrono,1,0
 dia,adriel.santos@meutudo.app,Cobrança,2026-07-27,,0800,Assíncrono,1,0
 dia,adriel.santos@meutudo.app,Cobrança,2026-07-27,,Whatsapp,Assíncrono,1,0
 dia,adriel.santos@meutudo.app,Conciliação,2026-07-27,,Whatsapp,Assíncrono,1,0
@@ -131436,9 +131435,6 @@ dia,adriel.santos@meutudo.app,Nível 1,2026-08-20,,Whatsapp,Assíncrono,4,0
 dia,adriel.santos@meutudo.app,Sem area,2026-08-20,,Sem canal,Síncrono,35,0
 dia,adriel.santos@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,36,0
 dia,adriel.santos@meutudo.app,Sem area,2026-08-21,,Whatsapp,Síncrono,5,2
-dia,aline.nobre@meutudo.app,Nível 1,2026-07-25,,0800,Assíncrono,4,3
-dia,aline.nobre@meutudo.app,Nível 1,2026-07-25,,Canal App,Assíncrono,16,15
-dia,aline.nobre@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,53,45
 dia,aline.nobre@meutudo.app,Conciliação,2026-07-27,,Whatsapp,Assíncrono,1,0
 dia,aline.nobre@meutudo.app,Nível 1,2026-07-27,,Canal App,Assíncrono,13,13
 dia,aline.nobre@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,24,24
@@ -131581,7 +131577,6 @@ dia,amanda.cavalcante@meutudo.app,Nível 3,2026-08-19,,Whatsapp,Assíncrono,6,5
 dia,amanda.cavalcante@meutudo.app,Nível 2,2026-08-21,,0800,Assíncrono,1,1
 dia,amanda.cavalcante@meutudo.app,Nível 2,2026-08-21,,Whatsapp,Assíncrono,10,10
 dia,amanda.cavalcante@meutudo.app,Nível 3,2026-08-21,,Whatsapp,Assíncrono,1,0
-dia,amanda.fortaleza@meutudo.app,Conciliação,2026-07-25,,Whatsapp,Assíncrono,1,0
 dia,amanda.fortaleza@meutudo.app,Cobrança,2026-07-27,,Whatsapp,Assíncrono,1,1
 dia,amanda.fortaleza@meutudo.app,Conciliação,2026-07-27,,Reclame Aqui,Assíncrono,2,1
 dia,amanda.fortaleza@meutudo.app,Conciliação,2026-07-27,,Whatsapp,Assíncrono,1,1
@@ -131719,8 +131714,6 @@ dia,amanda.nogueira@meutudo.app,Pagamento,2026-08-14,,Whatsapp,Assíncrono,1,1
 dia,amanda.nogueira@meutudo.app,Pagamento,2026-08-17,,Whatsapp,Assíncrono,1,1
 dia,amanda.nogueira@meutudo.app,Operações e Customer,2026-08-19,,Whatsapp,Assíncrono,1,0
 dia,amanda.nogueira@meutudo.app,Pagamento,2026-08-19,,Whatsapp,Assíncrono,2,1
-dia,ana.bezerra@meutudo.app,Sem area,2026-07-25,,Sem canal,Síncrono,6,0
-dia,ana.bezerra@meutudo.app,Sem area,2026-07-25,,Whatsapp,Síncrono,29,28
 dia,ana.bezerra@meutudo.app,Cobrança,2026-07-27,,Whatsapp,Síncrono,6,3
 dia,ana.bezerra@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Síncrono,4,2
 dia,ana.bezerra@meutudo.app,Nível 2,2026-07-27,,Whatsapp,Síncrono,6,3
@@ -131984,10 +131977,6 @@ dia,ana.dourado@meutudo.app,Nível 3,2026-08-21,,0800,Assíncrono,2,2
 dia,ana.dourado@meutudo.app,Nível 3,2026-08-21,,Canal App,Assíncrono,1,1
 dia,ana.dourado@meutudo.app,Nível 3,2026-08-21,,Whatsapp,Assíncrono,11,10
 dia,ana.dourado@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,3,0
-dia,ana.justiniano@meutudo.app,Conciliação,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,ana.justiniano@meutudo.app,Nível 1,2026-07-25,,0800,Assíncrono,2,2
-dia,ana.justiniano@meutudo.app,Nível 1,2026-07-25,,Canal App,Assíncrono,12,12
-dia,ana.justiniano@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,33,30
 dia,ana.justiniano@meutudo.app,Nível 1,2026-07-27,,Canal App,Assíncrono,1,0
 dia,ana.justiniano@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Síncrono,2,1
 dia,ana.justiniano@meutudo.app,Nível 2,2026-07-27,,Whatsapp,Assíncrono,1,0
@@ -132185,7 +132174,6 @@ dia,ana.nogueira@meutudo.app,Triagem,2026-08-20,,Whatsapp,Assíncrono,1,1
 dia,ana.nogueira@meutudo.app,Conciliação,2026-08-21,,Whatsapp,Assíncrono,1,0
 dia,ana.nogueira@meutudo.app,Nível 3,2026-08-21,,0800,Assíncrono,1,1
 dia,ana.nogueira@meutudo.app,Nível 3,2026-08-21,,Whatsapp,Assíncrono,27,26
-dia,analia.januario@meutudo.app,Conciliação,2026-07-25,,Chat,Assíncrono,1,0
 dia,analia.januario@meutudo.app,Cobrança,2026-07-27,,Chat,Síncrono,6,3
 dia,analia.januario@meutudo.app,Nível 1,2026-07-27,,Chat,Síncrono,8,4
 dia,analia.januario@meutudo.app,Nível 3,2026-07-27,,Chat,Assíncrono,1,0
@@ -132321,9 +132309,6 @@ dia,analia.januario@meutudo.app,Sem area,2026-08-21,,Canal App,Síncrono,1,0
 dia,analia.januario@meutudo.app,Sem area,2026-08-21,,Chat,Síncrono,20,17
 dia,analia.januario@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,33,0
 dia,analia.januario@meutudo.app,Nível 2,2026-08-22,,Chat,Assíncrono,1,0
-dia,andre.alves@meutudo.app,Cobrança,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,andre.alves@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,andre.alves@meutudo.app,Ouvidoria,2026-07-25,,Whatsapp,Assíncrono,1,0
 dia,andre.alves@meutudo.app,Conciliação,2026-07-28,,Whatsapp,Assíncrono,1,0
 dia,andre.alves@meutudo.app,Nível 2,2026-07-28,,0800,Assíncrono,1,1
 dia,andre.alves@meutudo.app,Nível 2,2026-07-28,,Whatsapp,Assíncrono,20,20
@@ -132408,10 +132393,6 @@ dia,andre.alves@meutudo.app,Conciliação,2026-08-21,,Whatsapp,Assíncrono,3,0
 dia,andre.alves@meutudo.app,Customer Atendimento,2026-08-21,,Whatsapp,Assíncrono,4,2
 dia,andre.alves@meutudo.app,Nível 2,2026-08-21,,Chat,Assíncrono,1,1
 dia,andre.alves@meutudo.app,Nível 2,2026-08-21,,Whatsapp,Assíncrono,1,0
-dia,andressa.antunes@meutudo.app,Conciliação,2026-07-25,,Whatsapp,Assíncrono,2,0
-dia,andressa.antunes@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,andressa.antunes@meutudo.app,Nível 2,2026-07-25,,0800,Assíncrono,1,1
-dia,andressa.antunes@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,29,29
 dia,andressa.antunes@meutudo.app,Sem area,2026-07-27,,Sem canal,Síncrono,6,0
 dia,andressa.antunes@meutudo.app,Sem area,2026-07-27,,Whatsapp,Síncrono,40,7
 dia,andressa.antunes@meutudo.app,Sem area,2026-07-28,,Sem canal,Síncrono,4,0
@@ -132659,7 +132640,6 @@ dia,antonia.santos@meutudo.app,Sem area,2026-08-08,,Whatsapp,Síncrono,15,9
 dia,antonia.santos@meutudo.app,Cobrança,2026-08-11,,Whatsapp,Síncrono,2,1
 dia,antonia.santos@meutudo.app,Sem area,2026-08-11,,Sem canal,Síncrono,8,0
 dia,antonia.santos@meutudo.app,Sem area,2026-08-11,,Whatsapp,Síncrono,1,1
-dia,ariany.azevedo@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,1,0
 dia,ariany.azevedo@meutudo.app,Conciliação,2026-07-27,,0800,Assíncrono,1,1
 dia,ariany.azevedo@meutudo.app,Conciliação,2026-07-27,,Whatsapp,Assíncrono,1,0
 dia,ariany.azevedo@meutudo.app,Nível 2,2026-07-27,,0800,Assíncrono,2,2
@@ -132760,11 +132740,6 @@ dia,ariany.azevedo@meutudo.app,Nível 2,2026-08-21,,Whatsapp,Assíncrono,40,40
 dia,ariany.azevedo@meutudo.app,Nível 3,2026-08-21,,Whatsapp,Assíncrono,1,0
 dia,ariany.azevedo@meutudo.app,Nível 1,2026-08-22,,0800,Assíncrono,1,0
 dia,ariany.azevedo@meutudo.app,Nível 2,2026-08-22,,Whatsapp,Assíncrono,1,0
-dia,artur.aquino@meutudo.app,Cobrança,2026-07-25,,0800,Assíncrono,3,3
-dia,artur.aquino@meutudo.app,Cobrança,2026-07-25,,Whatsapp,Assíncrono,41,40
-dia,artur.aquino@meutudo.app,Conciliação,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,artur.aquino@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,artur.aquino@meutudo.app,Nível 2,2026-07-25,,0800,Assíncrono,1,0
 dia,artur.aquino@meutudo.app,Cobrança,2026-07-26,,Whatsapp,Assíncrono,2,0
 dia,artur.aquino@meutudo.app,Cobrança,2026-07-27,,0800,Assíncrono,3,3
 dia,artur.aquino@meutudo.app,Cobrança,2026-07-27,,Whatsapp,Assíncrono,62,62
@@ -133074,9 +133049,6 @@ dia,brena.lopes@meutudo.app,Nível 2,2026-08-21,,Whatsapp,Assíncrono,10,10
 dia,brena.lopes@meutudo.app,Nível 2,2026-08-21,,Whatsapp,Síncrono,3,1
 dia,brena.lopes@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,5,0
 dia,brena.lopes@meutudo.app,Sem area,2026-08-21,,Whatsapp,Síncrono,8,8
-dia,brenda.gomes@meutudo.app,Conciliação,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,brenda.gomes@meutudo.app,Nível 1,2026-07-25,,Canal App,Assíncrono,9,9
-dia,brenda.gomes@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,41,40
 dia,brenda.gomes@meutudo.app,Nível 1,2026-07-27,,0800,Assíncrono,2,2
 dia,brenda.gomes@meutudo.app,Nível 1,2026-07-27,,Canal App,Assíncrono,4,4
 dia,brenda.gomes@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,39,39
@@ -133762,7 +133734,6 @@ dia,carlos.almada@meutudo.app,Conciliação,2026-08-21,,0800,Assíncrono,3,3
 dia,carlos.almada@meutudo.app,Conciliação,2026-08-21,,Chat,Assíncrono,2,1
 dia,carlos.almada@meutudo.app,Conciliação,2026-08-21,,Whatsapp,Assíncrono,9,4
 dia,carlos.almada@meutudo.app,Operações e Customer,2026-08-21,,Whatsapp,Assíncrono,1,0
-dia,carlos.marinho@meutudo.app,Sem area,2026-07-25,,Sem canal,Síncrono,7,0
 dia,carlos.marinho@meutudo.app,Nível 3,2026-07-27,,0800,Assíncrono,1,0
 dia,carlos.marinho@meutudo.app,Sem area,2026-07-27,,Sem canal,Síncrono,21,0
 dia,carlos.marinho@meutudo.app,Sem area,2026-07-28,,0800,Assíncrono,1,0
@@ -133858,7 +133829,6 @@ dia,carlos.marinho@meutudo.app,Sem area,2026-08-22,,Sem canal,Síncrono,4,0
 dia,carlos.marinho@meutudo.app,Sem area,2026-08-22,,Whatsapp,Síncrono,9,9
 dia,carlos.rossatti@meutudo.app,Nível 2,2026-08-19,,Whatsapp,Assíncrono,1,1
 dia,carlos.severo@meutudo.app,Sem area,2026-08-03,,Sem canal,Síncrono,1,0
-dia,cassia.nobre@meutudo.app,Ouvidoria,2026-07-25,,Reclame Aqui,Assíncrono,1,0
 dia,cassia.nobre@meutudo.app,Nível 3,2026-07-27,,Reclame Aqui,Assíncrono,8,2
 dia,cassia.nobre@meutudo.app,Reclame aqui,2026-07-27,,Reclame Aqui,Assíncrono,1,0
 dia,cassia.nobre@meutudo.app,Nível 3,2026-07-28,,Reclame Aqui,Assíncrono,4,0
@@ -134378,7 +134348,6 @@ dia,cristian.mateus@meutudo.app,Sem area,2026-08-21,,Canal App,Síncrono,1,1
 dia,cristian.mateus@meutudo.app,Sem area,2026-08-21,,Chat,Síncrono,12,12
 dia,cristian.mateus@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,23,0
 dia,cristian.mateus@meutudo.app,Nível 1,2026-08-22,,Chat,Assíncrono,1,0
-dia,cristiane.alves@meutudo.app,Sem area,2026-07-25,,Sem canal,Síncrono,8,0
 dia,cristiane.alves@meutudo.app,Nível 3,2026-07-27,,0800,Assíncrono,1,0
 dia,cristiane.alves@meutudo.app,Ouvidoria,2026-07-27,,0800,Assíncrono,1,1
 dia,cristiane.alves@meutudo.app,Sem area,2026-07-27,,Sem canal,Síncrono,18,0
@@ -134404,7 +134373,6 @@ dia,cristina.gomes@meutudo.app,Pagamento,2026-07-31,,Whatsapp,Assíncrono,1,1
 dia,cristina.gomes@meutudo.app,Performance de pagamento,2026-07-31,,Whatsapp,Assíncrono,1,1
 dia,cristina.gomes@meutudo.app,Pagamento,2026-08-03,,Whatsapp,Assíncrono,1,1
 dia,cristina.gomes@meutudo.app,Pagamento,2026-08-05,,Whatsapp,Assíncrono,1,1
-dia,daniel.sobrinho@meutudo.app,Cobrança,2026-07-25,,Whatsapp,Assíncrono,1,0
 dia,daniel.sobrinho@meutudo.app,Cobrança,2026-07-26,,Whatsapp,Assíncrono,1,0
 dia,daniel.sobrinho@meutudo.app,Cobrança,2026-07-27,,0800,Assíncrono,1,1
 dia,daniel.sobrinho@meutudo.app,Cobrança,2026-07-27,,Whatsapp,Assíncrono,29,26
@@ -134908,7 +134876,6 @@ dia,eduarda.moreira@meutudo.app,Ouvidoria,2026-08-10,,Reclame Aqui,Assíncrono,1
 dia,eduarda.moreira@meutudo.app,Operações e Customer,2026-08-17,,Whatsapp,Assíncrono,1,0
 dia,eduarda.moreira@meutudo.app,Customer Atendimento,2026-08-19,,Whatsapp,Assíncrono,1,0
 dia,eduarda.moreira@meutudo.app,Customer Atendimento,2026-08-21,,Chat,Assíncrono,1,0
-dia,elandia.rocha@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,1,0
 dia,elandia.rocha@meutudo.app,Nível 1,2026-07-27,,0800,Assíncrono,3,3
 dia,elandia.rocha@meutudo.app,Nível 1,2026-07-27,,Canal App,Assíncrono,13,13
 dia,elandia.rocha@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,65,62
@@ -135050,7 +135017,6 @@ dia,eleneide.bastos@meutudo.app,Conciliação,2026-08-13,,Chat,Assíncrono,1,0
 dia,eleneide.bastos@meutudo.app,Reclame aqui,2026-08-13,,Reclame Aqui,Assíncrono,1,0
 dia,eleneide.bastos@meutudo.app,Sem area,2026-08-13,,Sem canal,Síncrono,2,0
 dia,eleneide.bastos@meutudo.app,Sem area,2026-08-14,,Sem canal,Síncrono,1,0
-dia,eliane.gois@meutudo.app,Cobrança,2026-07-25,,Whatsapp,Assíncrono,1,0
 dia,eliane.gois@meutudo.app,Cobrança,2026-07-27,,0800,Assíncrono,1,1
 dia,eliane.gois@meutudo.app,Cobrança,2026-07-27,,Whatsapp,Assíncrono,55,51
 dia,eliane.gois@meutudo.app,Conciliação,2026-07-27,,Whatsapp,Assíncrono,1,0
@@ -135110,8 +135076,6 @@ dia,eliane.gois@meutudo.app,Cobrança,2026-08-21,,0800,Assíncrono,1,1
 dia,eliane.gois@meutudo.app,Cobrança,2026-08-21,,Whatsapp,Assíncrono,80,74
 dia,eliane.gois@meutudo.app,Nível 1,2026-08-21,,Whatsapp,Assíncrono,1,0
 dia,eliane.gois@meutudo.app,Cobrança,2026-08-22,,Whatsapp,Assíncrono,2,0
-dia,ellen.vaz@meutudo.app,Cobrança,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,ellen.vaz@meutudo.app,Nível 1,2026-07-25,,0800,Assíncrono,1,0
 dia,ellen.vaz@meutudo.app,Cobrança,2026-07-27,,0800,Assíncrono,3,3
 dia,ellen.vaz@meutudo.app,Cobrança,2026-07-27,,Whatsapp,Assíncrono,37,36
 dia,ellen.vaz@meutudo.app,Nível 2,2026-07-27,,Whatsapp,Assíncrono,1,0
@@ -135274,12 +135238,6 @@ dia,erika.moraes@meutudo.app,Conciliação,2026-08-08,,Whatsapp,Assíncrono,1,0
 dia,erika.moraes@meutudo.app,Nível 2,2026-08-08,,Whatsapp,Assíncrono,55,54
 dia,erika.moraes@meutudo.app,Nível 1,2026-08-13,,Whatsapp,Assíncrono,1,1
 dia,erika.moraes@meutudo.app,Nível 2,2026-08-13,,Whatsapp,Assíncrono,8,8
-dia,fabricio.cruz@meutudo.app,Conciliação,2026-07-25,,Canal App,Assíncrono,1,0
-dia,fabricio.cruz@meutudo.app,Conciliação,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,fabricio.cruz@meutudo.app,Nível 2,2026-07-25,,0800,Assíncrono,2,2
-dia,fabricio.cruz@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,18,17
-dia,fabricio.cruz@meutudo.app,Sem area,2026-07-25,,Chat,Síncrono,3,3
-dia,fabricio.cruz@meutudo.app,Sem area,2026-07-25,,Sem canal,Síncrono,1,0
 dia,fabricio.cruz@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Síncrono,2,1
 dia,fabricio.cruz@meutudo.app,Nível 2,2026-07-27,,Whatsapp,Assíncrono,10,9
 dia,fabricio.cruz@meutudo.app,Nível 3,2026-07-27,,Whatsapp,Síncrono,4,2
@@ -135390,7 +135348,6 @@ dia,fabricio.cruz@meutudo.app,Reclame aqui,2026-08-21,,Whatsapp,Assíncrono,1,0
 dia,fabricio.cruz@meutudo.app,Conciliação,2026-08-22,,Whatsapp,Assíncrono,2,0
 dia,fabricio.cruz@meutudo.app,Nível 2,2026-08-22,,0800,Assíncrono,1,1
 dia,fabricio.cruz@meutudo.app,Nível 2,2026-08-22,,Whatsapp,Assíncrono,12,12
-dia,fabricio.pereira@meutudo.app,Sem area,2026-07-25,,Whatsapp,Assíncrono,1,1
 dia,fabricio.pereira@meutudo.app,Sem area,2026-07-27,,Sem canal,Síncrono,11,0
 dia,fabricio.pereira@meutudo.app,Sem area,2026-07-27,,Whatsapp,Assíncrono,1,1
 dia,fabricio.pereira@meutudo.app,Sem area,2026-07-27,,Whatsapp,Síncrono,6,4
@@ -135996,7 +135953,6 @@ dia,gabriela.bandeira@meutudo.app,Tratamento em lote,2026-08-21,,0800,Assíncron
 dia,gabriela.bandeira@meutudo.app,Nível 1,2026-08-22,,0800,Assíncrono,1,0
 dia,gabriela.bandeira@meutudo.app,Sem area,2026-08-22,,Sem canal,Síncrono,3,0
 dia,georgia.sales@meutudo.app,Sem area,2026-08-03,,Chat,Assíncrono,1,0
-dia,gilvana.lopes@meutudo.app,Conciliação,2026-07-25,,Whatsapp,Assíncrono,1,0
 dia,gilvana.lopes@meutudo.app,Sem area,2026-07-27,,Sem canal,Síncrono,103,0
 dia,gilvana.lopes@meutudo.app,Sem area,2026-07-27,,Whatsapp,Síncrono,48,21
 dia,gilvana.lopes@meutudo.app,Sem area,2026-07-28,,Sem canal,Síncrono,63,0
@@ -136059,10 +136015,6 @@ dia,giovana.portela@meutudo.app,Pagamento,2026-08-21,,Whatsapp,Assíncrono,5,0
 dia,giovana.portela@meutudo.app,Performance de pagamento,2026-08-21,,Whatsapp,Assíncrono,1,0
 dia,giovana.portela@meutudo.app,Portabilidade,2026-08-21,,Whatsapp,Assíncrono,1,0
 dia,giovana.portela@meutudo.app,Triagem,2026-08-21,,Whatsapp,Assíncrono,1,0
-dia,giovanna.oliveira@meutudo.app,Cobrança,2026-07-25,,Whatsapp,Síncrono,2,1
-dia,giovanna.oliveira@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Síncrono,2,1
-dia,giovanna.oliveira@meutudo.app,Sem area,2026-07-25,,Sem canal,Síncrono,12,0
-dia,giovanna.oliveira@meutudo.app,Sem area,2026-07-25,,Whatsapp,Síncrono,23,21
 dia,giovanna.oliveira@meutudo.app,Cobrança,2026-07-27,,Whatsapp,Síncrono,10,5
 dia,giovanna.oliveira@meutudo.app,Conciliação,2026-07-27,,Whatsapp,Assíncrono,2,0
 dia,giovanna.oliveira@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Síncrono,6,2
@@ -136175,8 +136127,6 @@ dia,giovanna.oliveira@meutudo.app,Nível 2,2026-08-21,,0800,Assíncrono,1,1
 dia,giovanna.oliveira@meutudo.app,Nível 2,2026-08-21,,Whatsapp,Assíncrono,27,26
 dia,giovanna.oliveira@meutudo.app,Nível 2,2026-08-22,,0800,Assíncrono,4,3
 dia,giovanna.oliveira@meutudo.app,Nível 2,2026-08-22,,Whatsapp,Assíncrono,30,29
-dia,gpt.bot@meutudo.app,Sem area,2026-07-25,,Sem canal,Síncrono,10,0
-dia,gpt.bot@meutudo.app,Sem area,2026-07-25,,Whatsapp,Síncrono,8,8
 dia,gpt.bot@meutudo.app,Sem area,2026-07-27,,Sem canal,Síncrono,11,0
 dia,gpt.bot@meutudo.app,Sem area,2026-07-27,,Whatsapp,Síncrono,32,32
 dia,gpt.bot@meutudo.app,Sem area,2026-07-28,,Sem canal,Síncrono,15,0
@@ -136207,12 +136157,6 @@ dia,gpt.bot@meutudo.app,Sem area,2026-08-17,,Sem canal,Síncrono,59,0
 dia,gpt.bot@meutudo.app,Sem area,2026-08-18,,Sem canal,Síncrono,49,0
 dia,gpt.bot@meutudo.app,Sem area,2026-08-19,,Sem canal,Síncrono,42,0
 dia,gpt.bot@meutudo.app,Sem area,2026-08-20,,Sem canal,Síncrono,6,0
-dia,graziela.cardozo@meutudo.app,Conciliação,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,graziela.cardozo@meutudo.app,Nível 1,2026-07-25,,0800,Assíncrono,1,1
-dia,graziela.cardozo@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,graziela.cardozo@meutudo.app,Nível 2,2026-07-25,,0800,Assíncrono,8,7
-dia,graziela.cardozo@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,33,33
-dia,graziela.cardozo@meutudo.app,Prevenção a Fraude,2026-07-25,,Whatsapp,Assíncrono,1,0
 dia,graziela.cardozo@meutudo.app,Cobrança,2026-07-27,,Whatsapp,Assíncrono,1,1
 dia,graziela.cardozo@meutudo.app,Nível 1,2026-07-27,,Canal App,Assíncrono,7,7
 dia,graziela.cardozo@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,40,39
@@ -136609,8 +136553,6 @@ dia,hanna.rodrigues@meutudo.app,Operações e Customer,2026-08-22,,0800,Assíncr
 dia,hanna.rodrigues@meutudo.app,Operações e Customer,2026-08-22,,Whatsapp,Assíncrono,1,0
 dia,hanna.rodrigues@meutudo.app,Tratamento em lote,2026-08-22,,Whatsapp,Assíncrono,1,0
 dia,hanna.rodrigues@meutudo.app,Triagem,2026-08-22,,Whatsapp,Assíncrono,1,0
-dia,henrique.souza@meutudo.app,Cobrança,2026-07-25,,Whatsapp,Assíncrono,26,26
-dia,henrique.souza@meutudo.app,Sem area,2026-07-25,,Whatsapp,Síncrono,22,10
 dia,henrique.souza@meutudo.app,Sem area,2026-07-27,,Sem canal,Síncrono,34,0
 dia,henrique.souza@meutudo.app,Sem area,2026-07-27,,Whatsapp,Síncrono,60,33
 dia,henrique.souza@meutudo.app,Sem area,2026-07-28,,Sem canal,Síncrono,46,0
@@ -136671,7 +136613,6 @@ dia,henrique.souza@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,41,0
 dia,henrique.souza@meutudo.app,Sem area,2026-08-21,,Whatsapp,Síncrono,55,31
 dia,isabelle.fonteles@meutudo.app,Pagamento,2026-08-03,,Chat,Assíncrono,1,1
 dia,isabelle.fonteles@meutudo.app,Performance de pagamento,2026-08-03,,Whatsapp,Assíncrono,1,1
-dia,itala.sousa@meutudo.app,Ouvidoria,2026-07-25,,Whatsapp,Assíncrono,1,0
 dia,itala.sousa@meutudo.app,Conciliação,2026-07-27,,Chat,Assíncrono,1,0
 dia,itala.sousa@meutudo.app,Ouvidoria,2026-07-27,,0800,Assíncrono,2,1
 dia,itala.sousa@meutudo.app,Ouvidoria,2026-07-27,,Bacen/RDR,Assíncrono,1,0
@@ -137056,10 +136997,6 @@ dia,jamille.silva@meutudo.app,Reclame aqui,2026-08-20,,Reclame Aqui,Assíncrono,
 dia,jamille.silva@meutudo.app,Reclame aqui,2026-08-20,,Whatsapp,Assíncrono,2,1
 dia,jamille.silva@meutudo.app,Operações e Customer,2026-08-21,,Reclame Aqui,Assíncrono,1,0
 dia,jamille.silva@meutudo.app,Reclame aqui,2026-08-21,,Reclame Aqui,Assíncrono,10,8
-dia,janaina.andrade@meutudo.app,Nível 1,2026-07-25,,0800,Assíncrono,3,3
-dia,janaina.andrade@meutudo.app,Nível 1,2026-07-25,,Canal App,Assíncrono,6,6
-dia,janaina.andrade@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,56,56
-dia,janaina.andrade@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,1,1
 dia,janaina.andrade@meutudo.app,Nível 1,2026-07-27,,Canal App,Assíncrono,3,3
 dia,janaina.andrade@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,61,61
 dia,janaina.andrade@meutudo.app,Nível 1,2026-07-28,,0800,Assíncrono,2,2
@@ -137171,13 +137108,6 @@ dia,janaina.pereira@meutudo.app,Prevenção a Fraude,2026-08-08,,Whatsapp,Assín
 dia,janaina.pereira@meutudo.app,Sem area,2026-08-08,,Sem canal,Síncrono,1,0
 dia,janaina.pereira@meutudo.app,Prevenção a Fraude,2026-08-10,,Reclame Aqui,Assíncrono,1,1
 dia,janaina.pereira@meutudo.app,Prevenção a Fraude,2026-08-10,,Whatsapp,Assíncrono,1,1
-dia,jardenia.soares@meutudo.app,Nível 1,2026-07-25,,0800,Assíncrono,1,1
-dia,jardenia.soares@meutudo.app,Nível 1,2026-07-25,,Canal App,Assíncrono,22,22
-dia,jardenia.soares@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,41,38
-dia,jardenia.soares@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,1,1
-dia,jardenia.soares@meutudo.app,Nível 3,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,jardenia.soares@meutudo.app,Sem area,2026-07-25,,Chat,Síncrono,11,10
-dia,jardenia.soares@meutudo.app,Sem area,2026-07-25,,Sem canal,Síncrono,1,0
 dia,jardenia.soares@meutudo.app,Nível 1,2026-07-27,,0800,Assíncrono,1,1
 dia,jardenia.soares@meutudo.app,Nível 1,2026-07-27,,Canal App,Assíncrono,21,21
 dia,jardenia.soares@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,85,81
@@ -137365,7 +137295,6 @@ dia,jessica.melo+twilio@meutudo.app,Sem area,2026-08-14,,Sem canal,Síncrono,1,0
 dia,jessica.melo+twilio@meutudo.app,Sem area,2026-08-17,,Sem canal,Síncrono,2,0
 dia,jessica.melo+twilio@meutudo.app,Sem area,2026-08-18,,Sem canal,Síncrono,2,0
 dia,jessica.melo+twilio@meutudo.app,Sem area,2026-08-20,,Sem canal,Síncrono,4,0
-dia,jessica.melo@meutudo.app,Reclame aqui,2026-07-25,,Reclame Aqui,Assíncrono,1,0
 dia,jessica.melo@meutudo.app,Reclame aqui,2026-07-26,,Reclame Aqui,Assíncrono,1,0
 dia,jessica.melo@meutudo.app,Reclame aqui,2026-07-27,,Reclame Aqui,Assíncrono,13,10
 dia,jessica.melo@meutudo.app,Sem area,2026-07-27,,Sem canal,Síncrono,1,0
@@ -137711,8 +137640,6 @@ dia,joana.cruz@meutudo.app,Ouvidoria,2026-08-21,,Bacen/RDR,Assíncrono,6,3
 dia,joana.cruz@meutudo.app,Ouvidoria,2026-08-21,,ConsumidorGOV,Assíncrono,2,2
 dia,joana.cruz@meutudo.app,Sem area,2026-08-21,,ConsumidorGOV,Assíncrono,1,0
 dia,joana.cruz@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,1,0
-dia,joao.victor@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,joao.victor@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,2,0
 dia,joao.victor@meutudo.app,Nível 1,2026-07-27,,0800,Assíncrono,1,1
 dia,joao.victor@meutudo.app,Nível 1,2026-07-27,,Canal App,Assíncrono,15,3
 dia,joao.victor@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,78,75
@@ -137832,7 +137759,6 @@ dia,joao.victor@meutudo.app,Nível 1,2026-08-21,,0800,Assíncrono,1,1
 dia,joao.victor@meutudo.app,Nível 1,2026-08-21,,Whatsapp,Assíncrono,33,31
 dia,joao.victor@meutudo.app,Nível 3,2026-08-21,,0800,Assíncrono,1,0
 dia,joao.victor@meutudo.app,Nível 1,2026-08-22,,Whatsapp,Assíncrono,1,0
-dia,joicyane.cruz@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,1,0
 dia,joicyane.cruz@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,1,0
 dia,joicyane.cruz@meutudo.app,Nível 2,2026-07-27,,Whatsapp,Assíncrono,47,47
 dia,joicyane.cruz@meutudo.app,Nível 3,2026-07-27,,Whatsapp,Assíncrono,1,0
@@ -137999,10 +137925,6 @@ dia,jose.andrade@meutudo.app,Sem area,2026-08-21,,Whatsapp,Síncrono,53,13
 dia,jose.andrade@meutudo.app,Cobrança,2026-08-22,,0800,Assíncrono,2,2
 dia,jose.andrade@meutudo.app,Cobrança,2026-08-22,,Whatsapp,Assíncrono,11,11
 dia,jose.andrade@meutudo.app,Sem area,2026-08-22,,Whatsapp,Síncrono,48,14
-dia,jose.freitas@meutudo.app,Averbação,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,jose.freitas@meutudo.app,Conciliação,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,jose.freitas@meutudo.app,Nível 2,2026-07-25,,0800,Assíncrono,1,1
-dia,jose.freitas@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,8,8
 dia,jose.freitas@meutudo.app,Sem area,2026-07-27,,Sem canal,Síncrono,5,0
 dia,jose.freitas@meutudo.app,Sem area,2026-07-27,,Whatsapp,Síncrono,32,4
 dia,jose.freitas@meutudo.app,Reclame aqui,2026-07-28,,Whatsapp,Síncrono,1,0
@@ -138281,9 +138203,6 @@ dia,juliana.tenorio@meutudo.app,Nível 2,2026-08-20,,Chat,Assíncrono,1,1
 dia,juliana.tenorio@meutudo.app,Nível 2,2026-08-20,,Whatsapp,Assíncrono,48,45
 dia,juliana.tenorio@meutudo.app,Nível 2,2026-08-21,,0800,Assíncrono,1,1
 dia,juliana.tenorio@meutudo.app,Nível 2,2026-08-21,,Whatsapp,Assíncrono,35,33
-dia,julio.lopes@meutudo.app,Conciliação,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,julio.lopes@meutudo.app,Nível 2,2026-07-25,,0800,Assíncrono,4,4
-dia,julio.lopes@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,43,43
 dia,julio.lopes@meutudo.app,Nível 2,2026-07-26,,Whatsapp,Assíncrono,1,0
 dia,julio.lopes@meutudo.app,Conciliação,2026-07-27,,Whatsapp,Assíncrono,1,0
 dia,julio.lopes@meutudo.app,Nível 2,2026-07-27,,0800,Assíncrono,3,3
@@ -138399,7 +138318,6 @@ dia,julio.lopes@meutudo.app,Nível 1,2026-08-22,,Whatsapp,Assíncrono,1,0
 dia,julio.lopes@meutudo.app,Nível 2,2026-08-22,,0800,Assíncrono,3,3
 dia,julio.lopes@meutudo.app,Nível 2,2026-08-22,,Whatsapp,Assíncrono,39,39
 dia,julio.lopes@meutudo.app,Tratamento em lote,2026-08-22,,Whatsapp,Assíncrono,1,0
-dia,kamilla.lopes@meutudo.app,Sem area,2026-07-25,,Sem canal,Síncrono,13,0
 dia,kamilla.lopes@meutudo.app,Nível 2,2026-07-27,,0800,Assíncrono,1,0
 dia,kamilla.lopes@meutudo.app,Nível 2,2026-07-27,,Whatsapp,Assíncrono,1,0
 dia,kamilla.lopes@meutudo.app,Nível 3,2026-07-27,,0800,Assíncrono,1,0
@@ -138505,8 +138423,6 @@ dia,kamilla.lopes@meutudo.app,Nível 2,2026-08-21,,0800,Assíncrono,1,0
 dia,kamilla.lopes@meutudo.app,Nível 2,2026-08-22,,0800,Assíncrono,1,0
 dia,kamilla.lopes@meutudo.app,Sem area,2026-08-22,,0800,Assíncrono,1,0
 dia,kamilla.lopes@meutudo.app,Sem area,2026-08-22,,Sem canal,Síncrono,5,0
-dia,kamilly.sales@meutudo.app,Nível 2,2026-07-25,,0800,Assíncrono,3,3
-dia,kamilly.sales@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,16,16
 dia,kamilly.sales@meutudo.app,Nível 1,2026-07-27,,Canal App,Assíncrono,1,1
 dia,kamilly.sales@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,31,30
 dia,kamilly.sales@meutudo.app,Nível 1,2026-07-28,,0800,Assíncrono,2,2
@@ -138624,11 +138540,6 @@ dia,karen.gadelha@meutudo.app,Sem area,2026-08-19,,Whatsapp,Síncrono,73,36
 dia,karen.gadelha@meutudo.app,Sem area,2026-08-20,,Whatsapp,Síncrono,82,35
 dia,karen.gadelha@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,22,0
 dia,karen.gadelha@meutudo.app,Sem area,2026-08-21,,Whatsapp,Síncrono,47,20
-dia,karla.layane@meutudo.app,Nível 1,2026-07-25,,0800,Assíncrono,2,2
-dia,karla.layane@meutudo.app,Nível 1,2026-07-25,,Canal App,Assíncrono,16,16
-dia,karla.layane@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,58,55
-dia,karla.layane@meutudo.app,Nível 3,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,karla.layane@meutudo.app,Triagem,2026-07-25,,Whatsapp,Assíncrono,2,2
 dia,karla.layane@meutudo.app,Nível 1,2026-07-27,,0800,Assíncrono,2,2
 dia,karla.layane@meutudo.app,Nível 1,2026-07-27,,Canal App,Assíncrono,13,13
 dia,karla.layane@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,73,69
@@ -138873,10 +138784,6 @@ dia,karla.lima@meutudo.app,Nível 1,2026-08-21,,Whatsapp,Síncrono,2,1
 dia,karla.lima@meutudo.app,Nível 2,2026-08-21,,Whatsapp,Síncrono,3,1
 dia,karla.lima@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,13,0
 dia,karla.lima@meutudo.app,Sem area,2026-08-21,,Whatsapp,Síncrono,15,13
-dia,kyara.pessoas@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,1,1
-dia,kyara.pessoas@meutudo.app,Nível 2,2026-07-25,,0800,Assíncrono,3,3
-dia,kyara.pessoas@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,38,37
-dia,kyara.pessoas@meutudo.app,Prevenção a Fraude,2026-07-25,,Whatsapp,Assíncrono,1,0
 dia,kyara.pessoas@meutudo.app,Nível 2,2026-07-26,,Whatsapp,Assíncrono,1,0
 dia,kyara.pessoas@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,1,1
 dia,kyara.pessoas@meutudo.app,Nível 2,2026-07-27,,0800,Assíncrono,1,0
@@ -139107,7 +139014,6 @@ dia,larissa.barbosa@meutudo.app,Nível 2,2026-08-21,,0800,Assíncrono,2,2
 dia,larissa.barbosa@meutudo.app,Nível 2,2026-08-21,,Whatsapp,Assíncrono,62,60
 dia,larissa.barbosa@meutudo.app,Nível 3,2026-08-21,,Whatsapp,Assíncrono,1,0
 dia,larissa.barbosa@meutudo.app,Nível 2,2026-08-22,,Whatsapp,Assíncrono,1,0
-dia,lauane.caze@meutudo.app,Cobrança,2026-07-25,,Whatsapp,Assíncrono,3,0
 dia,lauane.caze@meutudo.app,Cobrança,2026-07-26,,Whatsapp,Assíncrono,2,0
 dia,lauane.caze@meutudo.app,Cobrança,2026-07-27,,0800,Assíncrono,1,1
 dia,lauane.caze@meutudo.app,Cobrança,2026-07-27,,Whatsapp,Assíncrono,49,47
@@ -139357,8 +139263,6 @@ dia,lincoln.oliveira@meutudo.app,Sem area,2026-08-21,,Whatsapp,Síncrono,44,12
 dia,lincoln.oliveira@meutudo.app,Cobrança,2026-08-22,,0800,Assíncrono,1,0
 dia,lincoln.oliveira@meutudo.app,Cobrança,2026-08-22,,Whatsapp,Assíncrono,45,40
 dia,lincoln.oliveira@meutudo.app,Sem area,2026-08-22,,Whatsapp,Síncrono,5,2
-dia,livia.silva@meutudo.app,Nível 1,2026-07-25,,Canal App,Assíncrono,13,5
-dia,livia.silva@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,31,30
 dia,livia.silva@meutudo.app,Nível 1,2026-07-26,,Whatsapp,Assíncrono,2,0
 dia,livia.silva@meutudo.app,Nível 1,2026-07-27,,0800,Assíncrono,1,0
 dia,livia.silva@meutudo.app,Nível 1,2026-07-27,,Canal App,Assíncrono,10,7
@@ -139508,10 +139412,6 @@ dia,lourenza.damiao@meutudo.app,Nível 1,2026-08-20,,Whatsapp,Assíncrono,4,4
 dia,lourenza.damiao@meutudo.app,Sem area,2026-08-20,,Sem canal,Síncrono,17,0
 dia,lourenza.damiao@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,10,0
 dia,lourenza.damiao@meutudo.app,Sem area,2026-08-22,,Sem canal,Síncrono,5,0
-dia,luana.alencar@meutudo.app,Nível 1,2026-07-25,,0800,Assíncrono,3,3
-dia,luana.alencar@meutudo.app,Nível 1,2026-07-25,,Canal App,Assíncrono,18,18
-dia,luana.alencar@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,61,58
-dia,luana.alencar@meutudo.app,Operações e Customer,2026-07-25,,Whatsapp,Assíncrono,1,0
 dia,luana.alencar@meutudo.app,Nível 1,2026-07-27,,Canal App,Assíncrono,23,23
 dia,luana.alencar@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,64,58
 dia,luana.alencar@meutudo.app,Conciliação,2026-07-28,,Whatsapp,Assíncrono,1,0
@@ -139644,9 +139544,6 @@ dia,lucas.azevedo@meutudo.app,Sem area,2026-08-19,,Sem canal,Síncrono,7,0
 dia,lucas.azevedo@meutudo.app,Nível 3,2026-08-20,,Whatsapp,Assíncrono,2,1
 dia,lucas.azevedo@meutudo.app,Nível 3,2026-08-21,,Chat,Assíncrono,1,1
 dia,lucas.azevedo@meutudo.app,Nível 3,2026-08-21,,Whatsapp,Assíncrono,1,1
-dia,lucas.leal@meutudo.app,Nível 1,2026-07-25,,0800,Assíncrono,1,1
-dia,lucas.leal@meutudo.app,Nível 1,2026-07-25,,Canal App,Assíncrono,9,9
-dia,lucas.leal@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,29,25
 dia,lucas.leal@meutudo.app,Nível 1,2026-07-27,,Canal App,Assíncrono,10,10
 dia,lucas.leal@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,37,32
 dia,lucas.leal@meutudo.app,Sem area,2026-07-27,,Whatsapp,Síncrono,2,1
@@ -139873,7 +139770,6 @@ dia,luiza.ponte@meutudo.app,Nível 1,2026-08-19,,Canal App,Assíncrono,1,1
 dia,luiza.ponte@meutudo.app,Nível 1,2026-08-19,,Whatsapp,Assíncrono,20,20
 dia,luiza.ponte@meutudo.app,Nível 1,2026-08-21,,Whatsapp,Assíncrono,23,22
 dia,luiza.ponte@meutudo.app,Nível 1,2026-08-22,,Whatsapp,Assíncrono,17,17
-dia,magna.silva@meutudo.app,Nível 2,2026-07-25,,0800,Assíncrono,1,0
 dia,magna.silva@meutudo.app,Conciliação,2026-07-27,,Whatsapp,Assíncrono,2,0
 dia,magna.silva@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,2,2
 dia,magna.silva@meutudo.app,Nível 2,2026-07-27,,0800,Assíncrono,7,7
@@ -140216,10 +140112,6 @@ dia,manuela.rodrigues@meutudo.app,Ouvidoria,2026-08-20,,Ouvidoria 0800,Assíncro
 dia,manuela.rodrigues@meutudo.app,Ouvidoria,2026-08-21,,Bacen/RDR,Assíncrono,2,2
 dia,manuela.rodrigues@meutudo.app,Ouvidoria,2026-08-21,,ConsumidorGOV,Assíncrono,2,0
 dia,manuela.silva@meutudo.app,Sem area,2026-08-04,,Whatsapp,Assíncrono,1,0
-dia,maria.clara@meutudo.app,Conciliação,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,maria.clara@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,87,0
-dia,maria.clara@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,20,0
-dia,maria.clara@meutudo.app,Operações e Customer,2026-07-25,,Whatsapp,Assíncrono,1,0
 dia,maria.clara@meutudo.app,Cobrança,2026-07-27,,Whatsapp,Assíncrono,5,0
 dia,maria.clara@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,402,0
 dia,maria.clara@meutudo.app,Nível 2,2026-07-27,,Whatsapp,Assíncrono,168,0
@@ -140348,13 +140240,6 @@ dia,maria.clara@meutudo.app,Nível 2,2026-08-21,,0800,Assíncrono,1,1
 dia,maria.clara@meutudo.app,Nível 2,2026-08-21,,Whatsapp,Assíncrono,2,2
 dia,maria.clara@meutudo.app,Sem area,2026-08-21,,Whatsapp,Assíncrono,4,4
 dia,maria.clara@meutudo.app,Nível 1,2026-08-22,,Whatsapp,Assíncrono,6,0
-dia,maria.costa@meutudo.app,Nível 1,2026-07-25,,0800,Assíncrono,2,1
-dia,maria.costa@meutudo.app,Nível 1,2026-07-25,,Canal App,Assíncrono,1,1
-dia,maria.costa@meutudo.app,Nível 1,2026-07-25,,Chat,Síncrono,1,0
-dia,maria.costa@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,39,34
-dia,maria.costa@meutudo.app,Ouvidoria,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,maria.costa@meutudo.app,Sem area,2026-07-25,,Chat,Síncrono,2,2
-dia,maria.costa@meutudo.app,Sem area,2026-07-25,,Sem canal,Síncrono,6,0
 dia,maria.costa@meutudo.app,Cobrança,2026-07-27,,Chat,Síncrono,3,1
 dia,maria.costa@meutudo.app,Nível 1,2026-07-27,,Canal App,Assíncrono,11,8
 dia,maria.costa@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,40,36
@@ -140505,11 +140390,6 @@ dia,maria.eloisa@meutudo.app,Nível 1,2026-08-20,,Canal App,Assíncrono,1,1
 dia,maria.eloisa@meutudo.app,Nível 1,2026-08-20,,Whatsapp,Assíncrono,35,35
 dia,maria.eloisa@meutudo.app,Nível 2,2026-08-20,,Whatsapp,Assíncrono,4,3
 dia,maria.eloisa@meutudo.app,Nível 3,2026-08-20,,Whatsapp,Assíncrono,1,0
-dia,maria.sousa@meutudo.app,Cobrança,2026-07-25,,Whatsapp,Síncrono,1,0
-dia,maria.sousa@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Síncrono,1,0
-dia,maria.sousa@meutudo.app,Nível 3,2026-07-25,,Whatsapp,Síncrono,1,0
-dia,maria.sousa@meutudo.app,Sem area,2026-07-25,,Sem canal,Síncrono,17,0
-dia,maria.sousa@meutudo.app,Sem area,2026-07-25,,Whatsapp,Síncrono,22,13
 dia,maria.sousa@meutudo.app,Conciliação,2026-07-27,,Whatsapp,Assíncrono,1,0
 dia,maria.sousa@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,1,0
 dia,maria.sousa@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Síncrono,3,1
@@ -140731,8 +140611,6 @@ dia,maria.viana@meutudo.app,Nível 2,2026-08-21,,Whatsapp,Assíncrono,3,3
 dia,maria.viana@meutudo.app,Reclame aqui,2026-08-21,,Reclame Aqui,Assíncrono,1,0
 dia,maria.viana@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,6,0
 dia,maria.viana@meutudo.app,Sem area,2026-08-21,,Whatsapp,Síncrono,26,6
-dia,mariaeduarda.farias@meutudo.app,Sem area,2026-07-25,,Sem canal,Síncrono,11,0
-dia,mariaeduarda.farias@meutudo.app,Sem area,2026-07-25,,Whatsapp,Síncrono,1,1
 dia,mariaeduarda.farias@meutudo.app,Sem area,2026-07-27,,Sem canal,Síncrono,46,0
 dia,mariaeduarda.farias@meutudo.app,Sem area,2026-07-27,,Whatsapp,Síncrono,29,16
 dia,mariaeduarda.farias@meutudo.app,Sem area,2026-07-28,,Sem canal,Síncrono,21,0
@@ -140770,12 +140648,6 @@ dia,mariaeduarda.farias@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,14,
 dia,mariaeduarda.farias@meutudo.app,Sem area,2026-08-21,,Whatsapp,Síncrono,19,11
 dia,mariaeduarda.farias@meutudo.app,Sem area,2026-08-22,,Sem canal,Síncrono,5,0
 dia,mariaeduarda.farias@meutudo.app,Sem area,2026-08-22,,Whatsapp,Síncrono,6,3
-dia,mariana.rodrigues@meutudo.app,Cobrança,2026-07-25,,Whatsapp,Assíncrono,27,12
-dia,mariana.rodrigues@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,mariana.rodrigues@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,mariana.rodrigues@meutudo.app,Nível 3,2026-07-25,,0800,Assíncrono,2,0
-dia,mariana.rodrigues@meutudo.app,Nível 3,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,mariana.rodrigues@meutudo.app,Sem area,2026-07-25,,Sem canal,Síncrono,2,0
 dia,mariana.rodrigues@meutudo.app,Sem area,2026-07-27,,Sem canal,Síncrono,69,0
 dia,mariana.rodrigues@meutudo.app,Sem area,2026-07-27,,Whatsapp,Síncrono,51,25
 dia,mariana.rodrigues@meutudo.app,Cobrança,2026-07-28,,Whatsapp,Assíncrono,1,0
@@ -141236,9 +141108,6 @@ dia,matheus.carvalho@meutudo.app,Conciliação,2026-08-21,,Whatsapp,Síncrono,1,
 dia,matheus.carvalho@meutudo.app,Nível 2,2026-08-21,,Whatsapp,Assíncrono,6,6
 dia,matheus.carvalho@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,13,0
 dia,matheus.carvalho@meutudo.app,Sem area,2026-08-21,,Whatsapp,Síncrono,24,14
-dia,matheus.sales@meutudo.app,Nível 2,2026-07-25,,0800,Assíncrono,6,6
-dia,matheus.sales@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,54,54
-dia,matheus.sales@meutudo.app,Sem area,2026-07-25,,0800,Assíncrono,1,0
 dia,matheus.sales@meutudo.app,Conciliação,2026-07-27,,Whatsapp,Assíncrono,1,0
 dia,matheus.sales@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,5,5
 dia,matheus.sales@meutudo.app,Nível 2,2026-07-27,,0800,Assíncrono,5,5
@@ -141397,7 +141266,6 @@ dia,mauricyo.furtado@meutudo.app,Sem area,2026-08-20,,Sem canal,Síncrono,23,0
 dia,mauricyo.furtado@meutudo.app,Nível 2,2026-08-21,,Faleconosco,Síncrono,11,3
 dia,mauricyo.furtado@meutudo.app,Sem area,2026-08-21,,Faleconosco,Síncrono,16,11
 dia,mauricyo.furtado@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,29,0
-dia,mayane.santana@meutudo.app,Reclame aqui,2026-07-25,,Reclame Aqui,Assíncrono,3,0
 dia,mayane.santana@meutudo.app,Reclame aqui,2026-07-26,,Reclame Aqui,Assíncrono,1,0
 dia,mayane.santana@meutudo.app,Reclame aqui,2026-07-27,,Reclame Aqui,Assíncrono,3,0
 dia,mayane.santana@meutudo.app,Nível 3,2026-07-28,,0800,Assíncrono,1,1
@@ -142013,8 +141881,6 @@ dia,nataniel.pereira@meutudo.app,Cobrança,2026-08-21,,0800,Assíncrono,3,3
 dia,nataniel.pereira@meutudo.app,Cobrança,2026-08-21,,Whatsapp,Assíncrono,58,58
 dia,nataniel.pereira@meutudo.app,Nível 2,2026-08-21,,Whatsapp,Assíncrono,1,0
 dia,nataniel.pereira@meutudo.app,Tratamento em lote,2026-08-21,,Whatsapp,Assíncrono,2,1
-dia,paulo.andrade@meutudo.app,Cobrança,2026-07-25,,0800,Assíncrono,1,1
-dia,paulo.andrade@meutudo.app,Cobrança,2026-07-25,,Whatsapp,Assíncrono,30,21
 dia,paulo.andrade@meutudo.app,Cobrança,2026-07-26,,Whatsapp,Assíncrono,1,0
 dia,paulo.andrade@meutudo.app,Cobrança,2026-07-27,,0800,Assíncrono,1,0
 dia,paulo.andrade@meutudo.app,Cobrança,2026-07-27,,Whatsapp,Assíncrono,34,28
@@ -142092,10 +141958,6 @@ dia,paulo.andrade@meutudo.app,Customer Atendimento,2026-08-21,,Chat,Assíncrono,
 dia,paulo.andrade@meutudo.app,Nível 1,2026-08-21,,Whatsapp,Assíncrono,4,0
 dia,paulo.andrade@meutudo.app,Cobrança,2026-08-22,,0800,Assíncrono,1,1
 dia,paulo.andrade@meutudo.app,Cobrança,2026-08-22,,Whatsapp,Assíncrono,36,29
-dia,pedro.alves@meutudo.app,Cobrança,2026-07-25,,0800,Assíncrono,1,0
-dia,pedro.alves@meutudo.app,Cobrança,2026-07-25,,Whatsapp,Assíncrono,36,36
-dia,pedro.alves@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,1,1
-dia,pedro.alves@meutudo.app,Sem area,2026-07-25,,Whatsapp,Síncrono,4,1
 dia,pedro.alves@meutudo.app,Cobrança,2026-07-26,,Whatsapp,Assíncrono,1,0
 dia,pedro.alves@meutudo.app,Cobrança,2026-07-27,,Whatsapp,Assíncrono,3,1
 dia,pedro.alves@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,1,0
@@ -142363,7 +142225,6 @@ dia,rafael.ramos@meutudo.app,Nível 3,2026-08-21,,Chat,Síncrono,2,1
 dia,rafael.ramos@meutudo.app,Sem area,2026-08-21,,Chat,Síncrono,14,12
 dia,rafael.ramos@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,26,0
 dia,rafael.ramos@meutudo.app,Conciliação,2026-08-22,,Chat,Assíncrono,1,0
-dia,rafaela.carneiro@meutudo.app,Reclame aqui,2026-07-25,,Reclame Aqui,Assíncrono,1,0
 dia,rafaela.carneiro@meutudo.app,Nível 3,2026-07-27,,Canal App,Assíncrono,1,1
 dia,rafaela.carneiro@meutudo.app,Nível 3,2026-07-27,,Whatsapp,Assíncrono,16,16
 dia,rafaela.carneiro@meutudo.app,Reclame aqui,2026-07-27,,Reclame Aqui,Assíncrono,14,9
@@ -142453,7 +142314,6 @@ dia,rafaela.carneiro@meutudo.app,Reclame aqui,2026-08-20,,Reclame Aqui,Assíncro
 dia,rafaela.carneiro@meutudo.app,Operações e Customer,2026-08-21,,Reclame Aqui,Assíncrono,1,0
 dia,rafaela.carneiro@meutudo.app,Pagamento,2026-08-21,,Reclame Aqui,Assíncrono,1,0
 dia,rafaela.carneiro@meutudo.app,Reclame aqui,2026-08-21,,Reclame Aqui,Assíncrono,12,12
-dia,rafaele.santos@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,1,0
 dia,rafaele.santos@meutudo.app,Nível 2,2026-07-27,,0800,Assíncrono,4,4
 dia,rafaele.santos@meutudo.app,Nível 2,2026-07-27,,Whatsapp,Assíncrono,72,72
 dia,rafaele.santos@meutudo.app,Nível 3,2026-07-27,,Whatsapp,Assíncrono,2,0
@@ -142586,8 +142446,6 @@ dia,railson.freitas@meutudo.app,Averbação,2026-08-17,,Whatsapp,Assíncrono,1,1
 dia,railson.freitas@meutudo.app,Pagamento,2026-08-18,,Whatsapp,Assíncrono,1,1
 dia,railson.freitas@meutudo.app,Averbação,2026-08-19,,Whatsapp,Assíncrono,3,3
 dia,railson.freitas@meutudo.app,Triagem,2026-08-21,,Whatsapp,Assíncrono,3,0
-dia,renata.barros@meutudo.app,Averbação,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,renata.barros@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,1,0
 dia,renata.barros@meutudo.app,Nível 2,2026-07-27,,0800,Assíncrono,3,3
 dia,renata.barros@meutudo.app,Nível 2,2026-07-27,,Whatsapp,Assíncrono,59,48
 dia,renata.barros@meutudo.app,Conciliação,2026-07-28,,0800,Assíncrono,1,0
@@ -142689,9 +142547,6 @@ dia,renata.barros@meutudo.app,Conciliação,2026-08-22,,0800,Assíncrono,1,0
 dia,renata.barros@meutudo.app,Conciliação,2026-08-22,,Whatsapp,Assíncrono,1,0
 dia,renata.barros@meutudo.app,Nível 2,2026-08-22,,0800,Assíncrono,3,0
 dia,renata.barros@meutudo.app,Nível 2,2026-08-22,,Whatsapp,Assíncrono,14,0
-dia,renata.cavalcante@meutudo.app,Nível 2,2026-07-25,,0800,Assíncrono,4,3
-dia,renata.cavalcante@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,31,31
-dia,renata.cavalcante@meutudo.app,Sem area,2026-07-25,,Whatsapp,Síncrono,3,2
 dia,renata.cavalcante@meutudo.app,Cobrança,2026-07-27,,Whatsapp,Síncrono,2,1
 dia,renata.cavalcante@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Síncrono,4,2
 dia,renata.cavalcante@meutudo.app,Nível 3,2026-07-27,,Whatsapp,Assíncrono,1,0
@@ -142778,8 +142633,6 @@ dia,renata.cavalcante@meutudo.app,Nível 1,2026-08-14,,Whatsapp,Síncrono,4,2
 dia,renata.cavalcante@meutudo.app,Nível 2,2026-08-14,,Whatsapp,Assíncrono,1,0
 dia,renata.cavalcante@meutudo.app,Sem area,2026-08-14,,Sem canal,Síncrono,14,0
 dia,renata.cavalcante@meutudo.app,Sem area,2026-08-14,,Whatsapp,Síncrono,18,16
-dia,renata.serpa@meutudo.app,Sem area,2026-07-25,,Sem canal,Síncrono,22,0
-dia,renata.serpa@meutudo.app,Sem area,2026-07-25,,Whatsapp,Síncrono,12,7
 dia,renata.serpa@meutudo.app,Sem area,2026-07-27,,Sem canal,Síncrono,45,0
 dia,renata.serpa@meutudo.app,Sem area,2026-07-27,,Whatsapp,Síncrono,16,10
 dia,renata.serpa@meutudo.app,Sem area,2026-07-28,,Sem canal,Síncrono,26,0
@@ -142817,7 +142670,6 @@ dia,renata.serpa@meutudo.app,Sem area,2026-08-18,,Whatsapp,Síncrono,1,1
 dia,renata.serpa@meutudo.app,Sem area,2026-08-19,,Sem canal,Síncrono,8,0
 dia,renata.serpa@meutudo.app,Sem area,2026-08-22,,Sem canal,Síncrono,13,0
 dia,renata.serpa@meutudo.app,Sem area,2026-08-22,,Whatsapp,Síncrono,4,3
-dia,ricardo.batalha@meutudo.app,Conciliação,2026-07-25,,Whatsapp,Assíncrono,1,0
 dia,ricardo.batalha@meutudo.app,Conciliação,2026-07-27,,Whatsapp,Assíncrono,1,0
 dia,ricardo.batalha@meutudo.app,Nível 3,2026-07-27,,0800,Assíncrono,10,10
 dia,ricardo.batalha@meutudo.app,Nível 3,2026-07-27,,Whatsapp,Assíncrono,17,16
@@ -142959,9 +142811,6 @@ dia,ronaldo.ferreira@meutudo.app,Sem area,2026-08-18,,Whatsapp,Síncrono,51,22
 dia,ronaldo.ferreira@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,19,0
 dia,ronaldo.ferreira@meutudo.app,Sem area,2026-08-21,,Whatsapp,Síncrono,63,31
 dia,ronaldo.ferreira@meutudo.app,Cobrança,2026-08-22,,Whatsapp,Assíncrono,27,21
-dia,rosana.oliveira@meutudo.app,Nível 1,2026-07-25,,Canal App,Assíncrono,10,10
-dia,rosana.oliveira@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,27,26
-dia,rosana.oliveira@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,1,1
 dia,rosana.oliveira@meutudo.app,Nível 1,2026-07-27,,0800,Assíncrono,1,1
 dia,rosana.oliveira@meutudo.app,Nível 1,2026-07-27,,Canal App,Assíncrono,4,3
 dia,rosana.oliveira@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,37,35
@@ -143046,9 +142895,6 @@ dia,rosana.oliveira@meutudo.app,Sem area,2026-08-21,,Whatsapp,Síncrono,15,12
 dia,rosana.oliveira@meutudo.app,Cobrança,2026-08-22,,0800,Assíncrono,1,0
 dia,rosana.oliveira@meutudo.app,Nível 2,2026-08-22,,0800,Assíncrono,3,2
 dia,rosana.oliveira@meutudo.app,Nível 2,2026-08-22,,Whatsapp,Assíncrono,18,17
-dia,sabrina.cunha@meutudo.app,Cobrança,2026-07-25,,Whatsapp,Assíncrono,43,39
-dia,sabrina.cunha@meutudo.app,Sem area,2026-07-25,,Sem canal,Síncrono,8,0
-dia,sabrina.cunha@meutudo.app,Sem area,2026-07-25,,Whatsapp,Síncrono,2,1
 dia,sabrina.cunha@meutudo.app,Sem area,2026-07-27,,Sem canal,Síncrono,60,0
 dia,sabrina.cunha@meutudo.app,Sem area,2026-07-27,,Whatsapp,Síncrono,66,26
 dia,sabrina.cunha@meutudo.app,Sem area,2026-07-28,,Sem canal,Síncrono,71,0
@@ -143273,7 +143119,6 @@ dia,sarah.viana@meutudo.app,Nível 2,2026-08-21,,0800,Assíncrono,1,0
 dia,sarah.viana@meutudo.app,Nível 2,2026-08-21,,Whatsapp,Assíncrono,11,11
 dia,sarah.viana@meutudo.app,Sem area,2026-08-21,,Chat,Síncrono,10,10
 dia,sarah.viana@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,9,0
-dia,shamylle.lima@meutudo.app,Sem area,2026-07-25,,Sem canal,Síncrono,11,0
 dia,shamylle.lima@meutudo.app,Nível 3,2026-07-28,,0800,Assíncrono,1,0
 dia,shamylle.lima@meutudo.app,Ouvidoria,2026-07-28,,0800,Assíncrono,1,0
 dia,shamylle.lima@meutudo.app,Sem area,2026-07-28,,Sem canal,Síncrono,16,0
@@ -143739,7 +143584,6 @@ dia,taynara.freitas@meutudo.app,Sem area,2026-08-07,,Sem canal,Síncrono,54,0
 dia,taynara.freitas@meutudo.app,Sem area,2026-08-07,,Whatsapp,Síncrono,78,34
 dia,taynara.freitas@meutudo.app,Cobrança,2026-08-12,,0800,Assíncrono,1,1
 dia,taynara.freitas@meutudo.app,Cobrança,2026-08-12,,Whatsapp,Assíncrono,5,5
-dia,taynara.gomes@meutudo.app,Customer Atendimento,2026-07-25,,0800,Assíncrono,1,0
 dia,taynara.gomes@meutudo.app,Conciliação,2026-07-27,,Whatsapp,Assíncrono,3,0
 dia,taynara.gomes@meutudo.app,Customer Atendimento,2026-07-27,,0800,Assíncrono,1,1
 dia,taynara.gomes@meutudo.app,Customer Atendimento,2026-07-27,,Whatsapp,Assíncrono,1,1
@@ -143876,7 +143720,6 @@ dia,teste.teste@meutudo.app,Customer Atendimento,2026-08-21,,Whatsapp,Assíncron
 dia,teste.teste@meutudo.app,Nível 2,2026-08-21,,Whatsapp,Assíncrono,179,0
 dia,teste.teste@meutudo.app,Nível 2,2026-08-22,,0800,Assíncrono,1,0
 dia,teste.teste@meutudo.app,Nível 2,2026-08-22,,Whatsapp,Assíncrono,74,0
-dia,thays.oliveira@meutudo.app,Cobrança,2026-07-25,,Whatsapp,Assíncrono,2,0
 dia,thays.oliveira@meutudo.app,Cobrança,2026-07-27,,Whatsapp,Assíncrono,163,152
 dia,thays.oliveira@meutudo.app,Cobrança,2026-07-28,,Whatsapp,Assíncrono,4,0
 dia,thays.oliveira@meutudo.app,Cobrança,2026-07-29,,Whatsapp,Assíncrono,3,0
@@ -143985,9 +143828,6 @@ dia,thiago.cavalcante@meutudo.app,Sem area,2026-08-19,,Sem canal,Síncrono,8,0
 dia,thiago.cavalcante@meutudo.app,Sem area,2026-08-19,,Whatsapp,Síncrono,3,3
 dia,thiago.cavalcante@meutudo.app,Sem area,2026-08-20,,Sem canal,Síncrono,5,0
 dia,thiago.cavalcante@meutudo.app,Sem area,2026-08-20,,Whatsapp,Síncrono,5,5
-dia,thiago.silva@meutudo.app,Conciliação,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,thiago.silva@meutudo.app,Nível 2,2026-07-25,,0800,Assíncrono,6,4
-dia,thiago.silva@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,53,50
 dia,thiago.silva@meutudo.app,Cobrança,2026-07-27,,Chat,Síncrono,2,1
 dia,thiago.silva@meutudo.app,Conciliação,2026-07-27,,Whatsapp,Assíncrono,1,0
 dia,thiago.silva@meutudo.app,Nível 2,2026-07-27,,0800,Assíncrono,2,2
@@ -144144,12 +143984,6 @@ dia,thiago.silva@meutudo.app,Sem area,2026-08-22,,Whatsapp,Síncrono,16,16
 dia,thiago.silva@meutudo.app,Tratamento em lote,2026-08-22,,Whatsapp,Assíncrono,1,0
 dia,tom.olinda@meutudo.app,Ouvidoria,2026-07-30,,Whatsapp,Assíncrono,1,0
 dia,tom.olinda@meutudo.app,Conciliação,2026-08-01,,Whatsapp,Assíncrono,1,1
-dia,valeria.portela@meutudo.app,Cobrança,2026-07-25,,Chat,Síncrono,3,1
-dia,valeria.portela@meutudo.app,Conciliação,2026-07-25,,Chat,Assíncrono,1,0
-dia,valeria.portela@meutudo.app,Nível 1,2026-07-25,,Chat,Síncrono,6,1
-dia,valeria.portela@meutudo.app,Nível 2,2026-07-25,,Chat,Síncrono,4,2
-dia,valeria.portela@meutudo.app,Sem area,2026-07-25,,Chat,Síncrono,16,6
-dia,valeria.portela@meutudo.app,Sem area,2026-07-25,,Sem canal,Síncrono,17,0
 dia,valeria.portela@meutudo.app,Cobrança,2026-07-27,,Chat,Síncrono,2,2
 dia,valeria.portela@meutudo.app,Nível 1,2026-07-27,,Chat,Síncrono,7,3
 dia,valeria.portela@meutudo.app,Nível 2,2026-07-27,,Chat,Síncrono,1,0
@@ -144278,9 +144112,6 @@ dia,valeria.portela@meutudo.app,Conciliação,2026-08-22,,Chat,Síncrono,2,0
 dia,valeria.portela@meutudo.app,Nível 1,2026-08-22,,Chat,Síncrono,2,1
 dia,valeria.portela@meutudo.app,Sem area,2026-08-22,,Chat,Síncrono,19,18
 dia,valeria.portela@meutudo.app,Sem area,2026-08-22,,Sem canal,Síncrono,6,0
-dia,vanessa.maneco@meutudo.app,Nível 2,2026-07-25,,0800,Assíncrono,3,3
-dia,vanessa.maneco@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,30,30
-dia,vanessa.maneco@meutudo.app,Performance de pagamento,2026-07-25,,0800,Assíncrono,1,0
 dia,vanessa.maneco@meutudo.app,Nível 2,2026-07-26,,Whatsapp,Assíncrono,1,0
 dia,vanessa.maneco@meutudo.app,Nível 2,2026-07-27,,0800,Assíncrono,5,5
 dia,vanessa.maneco@meutudo.app,Nível 2,2026-07-27,,Whatsapp,Assíncrono,35,35
@@ -144479,7 +144310,6 @@ dia,vitoria.coelho@meutudo.app,Sem area,2026-08-18,,Sem canal,Síncrono,52,0
 dia,vitoria.coelho@meutudo.app,Sem area,2026-08-19,,Sem canal,Síncrono,34,0
 dia,vitoria.coelho@meutudo.app,Sem area,2026-08-20,,Sem canal,Síncrono,60,0
 dia,vitoria.coelho@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,41,0
-dia,wellerson.freitas@meutudo.app,Sem area,2026-07-25,,Sem canal,Síncrono,60,0
 dia,wellerson.freitas@meutudo.app,Sem area,2026-07-27,,Sem canal,Síncrono,55,0
 dia,wellerson.freitas@meutudo.app,Sem area,2026-07-28,,Sem canal,Síncrono,60,0
 dia,wellerson.freitas@meutudo.app,Sem area,2026-07-29,,Sem canal,Síncrono,45,0
@@ -144578,9 +144408,6 @@ dia,wellington.santos@meutudo.app,Nível 1,2026-08-21,,0800,Assíncrono,1,0
 dia,wellington.santos@meutudo.app,Nível 3,2026-08-21,,0800,Assíncrono,1,0
 dia,wellington.santos@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,12,0
 dia,wellington.santos@meutudo.app,Nível 1,2026-08-22,,0800,Assíncrono,1,0
-dia,wellington.silva@meutudo.app,Cobrança,2026-07-25,,0800,Assíncrono,1,1
-dia,wellington.silva@meutudo.app,Cobrança,2026-07-25,,Whatsapp,Assíncrono,42,38
-dia,wellington.silva@meutudo.app,Sem area,2026-07-25,,Whatsapp,Síncrono,4,0
 dia,wellington.silva@meutudo.app,Cobrança,2026-07-26,,Whatsapp,Assíncrono,1,0
 dia,wellington.silva@meutudo.app,Cobrança,2026-07-27,,Whatsapp,Assíncrono,2,0
 dia,wellington.silva@meutudo.app,Nível 2,2026-07-27,,Whatsapp,Assíncrono,1,0
@@ -144726,10 +144553,6 @@ dia,winnie.alencar@meutudo.app,Cobrança,2026-08-07,,Whatsapp,Assíncrono,1,0
 dia,winnie.alencar@meutudo.app,Conciliação,2026-08-07,,Whatsapp,Assíncrono,1,0
 dia,winnie.alencar@meutudo.app,Nível 2,2026-08-07,,Whatsapp,Assíncrono,2,0
 dia,winnie.alencar@meutudo.app,Nível 3,2026-08-11,,Whatsapp,Assíncrono,1,0
-dia,yaskara.nascimento@meutudo.app,Conciliação,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,yaskara.nascimento@meutudo.app,Nível 1,2026-07-25,,0800,Assíncrono,4,4
-dia,yaskara.nascimento@meutudo.app,Nível 1,2026-07-25,,Canal App,Assíncrono,11,11
-dia,yaskara.nascimento@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,36,33
 dia,yaskara.nascimento@meutudo.app,Nível 1,2026-07-27,,Canal App,Assíncrono,11,11
 dia,yaskara.nascimento@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,54,50
 dia,yaskara.nascimento@meutudo.app,Conciliação,2026-07-28,,Whatsapp,Assíncrono,1,1
@@ -144817,9 +144640,6 @@ dia,yaskara.nascimento@meutudo.app,Nível 1,2026-08-22,,Whatsapp,Assíncrono,49,
 dia,yaskara.nascimento@meutudo.app,Nível 3,2026-08-22,,Whatsapp,Assíncrono,1,0
 dia,yaskara.nascimento@meutudo.app,Prevenção a Fraude,2026-08-22,,Whatsapp,Assíncrono,1,0
 dia,yaskara.nascimento@meutudo.app,Pós-transacional,2026-08-22,,Whatsapp,Assíncrono,1,0
-dia,yharla.matos@meutudo.app,Conciliação,2026-07-25,,Whatsapp,Assíncrono,2,0
-dia,yharla.matos@meutudo.app,Nível 2,2026-07-25,,0800,Assíncrono,9,9
-dia,yharla.matos@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,49,48
 dia,yharla.matos@meutudo.app,Conciliação,2026-07-27,,Whatsapp,Assíncrono,1,0
 dia,yharla.matos@meutudo.app,Nível 2,2026-07-27,,0800,Assíncrono,2,2
 dia,yharla.matos@meutudo.app,Nível 2,2026-07-27,,Whatsapp,Assíncrono,53,51
@@ -144938,11 +144758,6 @@ dia,yharla.matos@meutudo.app,Nível 1,2026-08-22,,Whatsapp,Assíncrono,34,32
 dia,yharla.matos@meutudo.app,Nível 2,2026-08-22,,Whatsapp,Assíncrono,1,0
 dia,yharla.matos@meutudo.app,Sem area,2026-08-22,,Sem canal,Síncrono,1,0
 dia,yharla.matos@meutudo.app,Sem area,2026-08-22,,Whatsapp,Síncrono,3,3
-dia,yuri.souza@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,yuri.souza@meutudo.app,Nível 1,2026-07-25,,Whatsapp,Síncrono,8,4
-dia,yuri.souza@meutudo.app,Nível 2,2026-07-25,,Whatsapp,Assíncrono,1,0
-dia,yuri.souza@meutudo.app,Sem area,2026-07-25,,Sem canal,Síncrono,8,0
-dia,yuri.souza@meutudo.app,Sem area,2026-07-25,,Whatsapp,Síncrono,29,27
 dia,yuri.souza@meutudo.app,Cobrança,2026-07-27,,Whatsapp,Síncrono,6,3
 dia,yuri.souza@meutudo.app,Conciliação,2026-07-27,,Whatsapp,Assíncrono,1,0
 dia,yuri.souza@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Síncrono,4,2
@@ -145418,7 +145233,6 @@ hora,adelaide.silva@meutudo.app,Sem area,2026-08-21,11,Sem canal,Síncrono,5,0
 hora,adelaide.silva@meutudo.app,Sem area,2026-08-21,13,Sem canal,Síncrono,10,0
 hora,adelaide.silva@meutudo.app,Sem area,2026-08-21,14,Sem canal,Síncrono,7,0
 hora,adelaide.silva@meutudo.app,Customer Atendimento,2026-08-21,17,Whatsapp,Assíncrono,1,0
-hora,adriel.santos@meutudo.app,Cobrança,2026-07-25,8,Whatsapp,Assíncrono,1,0
 hora,adriel.santos@meutudo.app,Sem area,2026-07-27,8,Sem canal,Síncrono,34,0
 hora,adriel.santos@meutudo.app,Cobrança,2026-07-27,9,0800,Assíncrono,1,0
 hora,adriel.santos@meutudo.app,Cobrança,2026-07-27,9,Whatsapp,Assíncrono,1,0
@@ -145570,21 +145384,6 @@ hora,adriel.santos@meutudo.app,Sem area,2026-08-21,10,Sem canal,Síncrono,6,0
 hora,adriel.santos@meutudo.app,Sem area,2026-08-21,12,Sem canal,Síncrono,6,0
 hora,adriel.santos@meutudo.app,Sem area,2026-08-21,13,Sem canal,Síncrono,4,0
 hora,adriel.santos@meutudo.app,Sem area,2026-08-21,14,Sem canal,Síncrono,1,0
-hora,aline.nobre@meutudo.app,Nível 1,2026-07-25,9,0800,Assíncrono,1,1
-hora,aline.nobre@meutudo.app,Nível 1,2026-07-25,9,Whatsapp,Assíncrono,3,2
-hora,aline.nobre@meutudo.app,Nível 1,2026-07-25,10,Whatsapp,Assíncrono,9,8
-hora,aline.nobre@meutudo.app,Nível 1,2026-07-25,11,Canal App,Assíncrono,1,1
-hora,aline.nobre@meutudo.app,Nível 1,2026-07-25,11,Whatsapp,Assíncrono,11,10
-hora,aline.nobre@meutudo.app,Nível 1,2026-07-25,12,0800,Assíncrono,1,1
-hora,aline.nobre@meutudo.app,Nível 1,2026-07-25,12,Whatsapp,Assíncrono,1,1
-hora,aline.nobre@meutudo.app,Nível 1,2026-07-25,13,0800,Assíncrono,2,1
-hora,aline.nobre@meutudo.app,Nível 1,2026-07-25,13,Canal App,Assíncrono,6,6
-hora,aline.nobre@meutudo.app,Nível 1,2026-07-25,13,Whatsapp,Assíncrono,7,7
-hora,aline.nobre@meutudo.app,Nível 1,2026-07-25,14,Canal App,Assíncrono,6,5
-hora,aline.nobre@meutudo.app,Nível 1,2026-07-25,14,Whatsapp,Assíncrono,8,8
-hora,aline.nobre@meutudo.app,Nível 1,2026-07-25,15,Canal App,Assíncrono,3,3
-hora,aline.nobre@meutudo.app,Nível 1,2026-07-25,15,Whatsapp,Assíncrono,11,8
-hora,aline.nobre@meutudo.app,Nível 1,2026-07-25,16,Whatsapp,Assíncrono,3,1
 hora,aline.nobre@meutudo.app,Nível 1,2026-07-27,10,Canal App,Assíncrono,13,13
 hora,aline.nobre@meutudo.app,Nível 1,2026-07-27,10,Whatsapp,Assíncrono,1,1
 hora,aline.nobre@meutudo.app,Nível 1,2026-07-27,11,Whatsapp,Assíncrono,2,2
@@ -145964,7 +145763,6 @@ hora,amanda.cavalcante@meutudo.app,Nível 3,2026-08-21,15,Whatsapp,Assíncrono,1
 hora,amanda.cavalcante@meutudo.app,Nível 2,2026-08-21,16,Whatsapp,Assíncrono,2,2
 hora,amanda.cavalcante@meutudo.app,Nível 2,2026-08-21,17,0800,Assíncrono,1,1
 hora,amanda.cavalcante@meutudo.app,Nível 2,2026-08-21,17,Whatsapp,Assíncrono,1,1
-hora,amanda.fortaleza@meutudo.app,Conciliação,2026-07-25,10,Whatsapp,Assíncrono,1,0
 hora,amanda.fortaleza@meutudo.app,Nível 3,2026-07-27,9,Whatsapp,Assíncrono,3,3
 hora,amanda.fortaleza@meutudo.app,Reclame aqui,2026-07-27,9,Whatsapp,Assíncrono,1,0
 hora,amanda.fortaleza@meutudo.app,Conciliação,2026-07-27,10,Reclame Aqui,Assíncrono,1,1
@@ -146260,17 +146058,6 @@ hora,amanda.nogueira@meutudo.app,Pagamento,2026-08-17,9,Whatsapp,Assíncrono,1,1
 hora,amanda.nogueira@meutudo.app,Operações e Customer,2026-08-19,11,Whatsapp,Assíncrono,1,0
 hora,amanda.nogueira@meutudo.app,Pagamento,2026-08-19,11,Whatsapp,Assíncrono,1,1
 hora,amanda.nogueira@meutudo.app,Pagamento,2026-08-19,14,Whatsapp,Assíncrono,1,0
-hora,ana.bezerra@meutudo.app,Sem area,2026-07-25,9,Sem canal,Síncrono,1,0
-hora,ana.bezerra@meutudo.app,Sem area,2026-07-25,9,Whatsapp,Síncrono,5,5
-hora,ana.bezerra@meutudo.app,Sem area,2026-07-25,10,Sem canal,Síncrono,1,0
-hora,ana.bezerra@meutudo.app,Sem area,2026-07-25,10,Whatsapp,Síncrono,7,7
-hora,ana.bezerra@meutudo.app,Sem area,2026-07-25,11,Sem canal,Síncrono,1,0
-hora,ana.bezerra@meutudo.app,Sem area,2026-07-25,11,Whatsapp,Síncrono,4,3
-hora,ana.bezerra@meutudo.app,Sem area,2026-07-25,12,Whatsapp,Síncrono,9,9
-hora,ana.bezerra@meutudo.app,Sem area,2026-07-25,13,Sem canal,Síncrono,2,0
-hora,ana.bezerra@meutudo.app,Sem area,2026-07-25,13,Whatsapp,Síncrono,1,1
-hora,ana.bezerra@meutudo.app,Sem area,2026-07-25,15,Sem canal,Síncrono,1,0
-hora,ana.bezerra@meutudo.app,Sem area,2026-07-25,15,Whatsapp,Síncrono,3,3
 hora,ana.bezerra@meutudo.app,Cobrança,2026-07-27,13,Whatsapp,Síncrono,2,1
 hora,ana.bezerra@meutudo.app,Nível 1,2026-07-27,13,Whatsapp,Síncrono,4,2
 hora,ana.bezerra@meutudo.app,Nível 2,2026-07-27,13,Whatsapp,Síncrono,6,3
@@ -147023,18 +146810,6 @@ hora,ana.dourado@meutudo.app,Sem area,2026-08-21,15,Sem canal,Síncrono,1,0
 hora,ana.dourado@meutudo.app,Nível 3,2026-08-21,16,Whatsapp,Assíncrono,2,2
 hora,ana.dourado@meutudo.app,Nível 3,2026-08-21,17,0800,Assíncrono,1,1
 hora,ana.dourado@meutudo.app,Nível 3,2026-08-21,17,Whatsapp,Assíncrono,2,2
-hora,ana.justiniano@meutudo.app,Nível 1,2026-07-25,9,Whatsapp,Assíncrono,7,7
-hora,ana.justiniano@meutudo.app,Nível 1,2026-07-25,10,Whatsapp,Assíncrono,6,5
-hora,ana.justiniano@meutudo.app,Conciliação,2026-07-25,11,Whatsapp,Assíncrono,1,0
-hora,ana.justiniano@meutudo.app,Nível 1,2026-07-25,11,Whatsapp,Assíncrono,4,4
-hora,ana.justiniano@meutudo.app,Nível 1,2026-07-25,12,0800,Assíncrono,1,1
-hora,ana.justiniano@meutudo.app,Nível 1,2026-07-25,12,Whatsapp,Assíncrono,8,7
-hora,ana.justiniano@meutudo.app,Nível 1,2026-07-25,13,Whatsapp,Assíncrono,1,1
-hora,ana.justiniano@meutudo.app,Nível 1,2026-07-25,14,0800,Assíncrono,1,1
-hora,ana.justiniano@meutudo.app,Nível 1,2026-07-25,14,Canal App,Assíncrono,4,4
-hora,ana.justiniano@meutudo.app,Nível 1,2026-07-25,14,Whatsapp,Assíncrono,4,3
-hora,ana.justiniano@meutudo.app,Nível 1,2026-07-25,15,Canal App,Assíncrono,8,8
-hora,ana.justiniano@meutudo.app,Nível 1,2026-07-25,15,Whatsapp,Assíncrono,3,3
 hora,ana.justiniano@meutudo.app,Nível 1,2026-07-27,8,Canal App,Assíncrono,1,0
 hora,ana.justiniano@meutudo.app,Nível 2,2026-07-27,10,Whatsapp,Assíncrono,1,0
 hora,ana.justiniano@meutudo.app,Nível 2,2026-07-27,13,Whatsapp,Síncrono,2,1
@@ -147563,7 +147338,6 @@ hora,ana.nogueira@meutudo.app,Nível 3,2026-08-21,15,Whatsapp,Assíncrono,2,2
 hora,ana.nogueira@meutudo.app,Nível 3,2026-08-21,16,0800,Assíncrono,1,1
 hora,ana.nogueira@meutudo.app,Nível 3,2026-08-21,16,Whatsapp,Assíncrono,3,2
 hora,ana.nogueira@meutudo.app,Nível 3,2026-08-21,17,Whatsapp,Assíncrono,5,5
-hora,analia.januario@meutudo.app,Conciliação,2026-07-25,15,Chat,Assíncrono,1,0
 hora,analia.januario@meutudo.app,Sem area,2026-07-27,10,Chat,Síncrono,7,7
 hora,analia.januario@meutudo.app,Sem area,2026-07-27,10,Sem canal,Síncrono,5,0
 hora,analia.januario@meutudo.app,Nível 1,2026-07-27,11,Chat,Síncrono,4,2
@@ -147938,9 +147712,6 @@ hora,analia.januario@meutudo.app,Sem area,2026-08-21,16,Sem canal,Síncrono,5,0
 hora,analia.januario@meutudo.app,Sem area,2026-08-21,17,Chat,Síncrono,4,4
 hora,analia.januario@meutudo.app,Sem area,2026-08-21,17,Sem canal,Síncrono,4,0
 hora,analia.januario@meutudo.app,Nível 2,2026-08-22,11,Chat,Assíncrono,1,0
-hora,andre.alves@meutudo.app,Cobrança,2026-07-25,13,Whatsapp,Assíncrono,1,0
-hora,andre.alves@meutudo.app,Nível 2,2026-07-25,15,Whatsapp,Assíncrono,1,0
-hora,andre.alves@meutudo.app,Ouvidoria,2026-07-25,15,Whatsapp,Assíncrono,1,0
 hora,andre.alves@meutudo.app,Conciliação,2026-07-28,11,Whatsapp,Assíncrono,1,0
 hora,andre.alves@meutudo.app,Nível 2,2026-07-28,11,Whatsapp,Assíncrono,2,2
 hora,andre.alves@meutudo.app,Nível 2,2026-07-28,12,0800,Assíncrono,1,1
@@ -148191,17 +147962,6 @@ hora,andre.alves@meutudo.app,Conciliação,2026-08-21,16,Reclame Aqui,Assíncron
 hora,andre.alves@meutudo.app,Customer Atendimento,2026-08-21,17,Whatsapp,Assíncrono,1,1
 hora,andre.alves@meutudo.app,Nível 2,2026-08-21,17,Chat,Assíncrono,1,1
 hora,andre.alves@meutudo.app,Conciliação,2026-08-21,18,Whatsapp,Assíncrono,1,0
-hora,andressa.antunes@meutudo.app,Nível 2,2026-07-25,9,Whatsapp,Assíncrono,2,2
-hora,andressa.antunes@meutudo.app,Nível 1,2026-07-25,10,Whatsapp,Assíncrono,1,0
-hora,andressa.antunes@meutudo.app,Nível 2,2026-07-25,10,Whatsapp,Assíncrono,4,4
-hora,andressa.antunes@meutudo.app,Nível 2,2026-07-25,11,Whatsapp,Assíncrono,5,5
-hora,andressa.antunes@meutudo.app,Nível 2,2026-07-25,12,Whatsapp,Assíncrono,7,7
-hora,andressa.antunes@meutudo.app,Conciliação,2026-07-25,13,Whatsapp,Assíncrono,1,0
-hora,andressa.antunes@meutudo.app,Nível 2,2026-07-25,13,Whatsapp,Assíncrono,4,4
-hora,andressa.antunes@meutudo.app,Nível 2,2026-07-25,15,0800,Assíncrono,1,1
-hora,andressa.antunes@meutudo.app,Nível 2,2026-07-25,15,Whatsapp,Assíncrono,6,6
-hora,andressa.antunes@meutudo.app,Conciliação,2026-07-25,16,Whatsapp,Assíncrono,1,0
-hora,andressa.antunes@meutudo.app,Nível 2,2026-07-25,16,Whatsapp,Assíncrono,1,1
 hora,andressa.antunes@meutudo.app,Sem area,2026-07-27,9,Whatsapp,Síncrono,5,3
 hora,andressa.antunes@meutudo.app,Sem area,2026-07-27,10,Whatsapp,Síncrono,9,0
 hora,andressa.antunes@meutudo.app,Sem area,2026-07-27,11,Whatsapp,Síncrono,11,2
@@ -148877,7 +148637,6 @@ hora,antonia.santos@meutudo.app,Sem area,2026-08-08,15,Whatsapp,Síncrono,3,2
 hora,antonia.santos@meutudo.app,Cobrança,2026-08-11,13,Whatsapp,Síncrono,2,1
 hora,antonia.santos@meutudo.app,Sem area,2026-08-11,13,Sem canal,Síncrono,8,0
 hora,antonia.santos@meutudo.app,Sem area,2026-08-11,13,Whatsapp,Síncrono,1,1
-hora,ariany.azevedo@meutudo.app,Nível 2,2026-07-25,9,Whatsapp,Assíncrono,1,0
 hora,ariany.azevedo@meutudo.app,Nível 2,2026-07-27,8,Whatsapp,Assíncrono,11,11
 hora,ariany.azevedo@meutudo.app,Nível 2,2026-07-27,9,Whatsapp,Assíncrono,9,9
 hora,ariany.azevedo@meutudo.app,Conciliação,2026-07-27,10,0800,Assíncrono,1,1
@@ -149153,18 +148912,6 @@ hora,ariany.azevedo@meutudo.app,Nível 2,2026-08-21,16,0800,Assíncrono,2,2
 hora,ariany.azevedo@meutudo.app,Nível 2,2026-08-21,16,Whatsapp,Assíncrono,10,10
 hora,ariany.azevedo@meutudo.app,Nível 1,2026-08-22,11,0800,Assíncrono,1,0
 hora,ariany.azevedo@meutudo.app,Nível 2,2026-08-22,12,Whatsapp,Assíncrono,1,0
-hora,artur.aquino@meutudo.app,Cobrança,2026-07-25,8,0800,Assíncrono,1,1
-hora,artur.aquino@meutudo.app,Cobrança,2026-07-25,8,Whatsapp,Assíncrono,5,5
-hora,artur.aquino@meutudo.app,Cobrança,2026-07-25,9,0800,Assíncrono,2,2
-hora,artur.aquino@meutudo.app,Cobrança,2026-07-25,9,Whatsapp,Assíncrono,7,6
-hora,artur.aquino@meutudo.app,Cobrança,2026-07-25,10,Whatsapp,Assíncrono,6,6
-hora,artur.aquino@meutudo.app,Nível 2,2026-07-25,10,0800,Assíncrono,1,0
-hora,artur.aquino@meutudo.app,Cobrança,2026-07-25,11,Whatsapp,Assíncrono,2,2
-hora,artur.aquino@meutudo.app,Cobrança,2026-07-25,12,Whatsapp,Assíncrono,4,4
-hora,artur.aquino@meutudo.app,Conciliação,2026-07-25,12,Whatsapp,Assíncrono,1,0
-hora,artur.aquino@meutudo.app,Cobrança,2026-07-25,13,Whatsapp,Assíncrono,7,7
-hora,artur.aquino@meutudo.app,Cobrança,2026-07-25,14,Whatsapp,Assíncrono,10,10
-hora,artur.aquino@meutudo.app,Nível 1,2026-07-25,15,Whatsapp,Assíncrono,1,0
 hora,artur.aquino@meutudo.app,Cobrança,2026-07-26,11,Whatsapp,Assíncrono,1,0
 hora,artur.aquino@meutudo.app,Cobrança,2026-07-26,12,Whatsapp,Assíncrono,1,0
 hora,artur.aquino@meutudo.app,Cobrança,2026-07-27,8,Whatsapp,Assíncrono,1,1
@@ -149971,17 +149718,6 @@ hora,brena.lopes@meutudo.app,Sem area,2026-08-21,17,Whatsapp,Síncrono,5,5
 hora,brena.lopes@meutudo.app,Sem area,2026-08-21,18,Sem canal,Síncrono,2,0
 hora,brena.lopes@meutudo.app,Sem area,2026-08-21,18,Whatsapp,Síncrono,3,3
 hora,brena.lopes@meutudo.app,Nível 2,2026-08-21,19,Whatsapp,Síncrono,2,1
-hora,brenda.gomes@meutudo.app,Nível 1,2026-07-25,8,Whatsapp,Assíncrono,5,5
-hora,brenda.gomes@meutudo.app,Nível 1,2026-07-25,9,Whatsapp,Assíncrono,10,10
-hora,brenda.gomes@meutudo.app,Nível 1,2026-07-25,10,Whatsapp,Assíncrono,9,9
-hora,brenda.gomes@meutudo.app,Nível 1,2026-07-25,11,Canal App,Assíncrono,1,1
-hora,brenda.gomes@meutudo.app,Nível 1,2026-07-25,11,Whatsapp,Assíncrono,7,7
-hora,brenda.gomes@meutudo.app,Nível 1,2026-07-25,13,Canal App,Assíncrono,1,1
-hora,brenda.gomes@meutudo.app,Nível 1,2026-07-25,13,Whatsapp,Assíncrono,3,3
-hora,brenda.gomes@meutudo.app,Conciliação,2026-07-25,14,Whatsapp,Assíncrono,1,0
-hora,brenda.gomes@meutudo.app,Nível 1,2026-07-25,14,Canal App,Assíncrono,4,4
-hora,brenda.gomes@meutudo.app,Nível 1,2026-07-25,14,Whatsapp,Assíncrono,7,6
-hora,brenda.gomes@meutudo.app,Nível 1,2026-07-25,15,Canal App,Assíncrono,3,3
 hora,brenda.gomes@meutudo.app,Nível 1,2026-07-27,11,Whatsapp,Assíncrono,5,5
 hora,brenda.gomes@meutudo.app,Nível 1,2026-07-27,12,Whatsapp,Assíncrono,8,8
 hora,brenda.gomes@meutudo.app,Nível 1,2026-07-27,13,Whatsapp,Assíncrono,5,5
@@ -151654,9 +151390,6 @@ hora,carlos.almada@meutudo.app,Conciliação,2026-08-21,16,Chat,Assíncrono,1,1
 hora,carlos.almada@meutudo.app,Conciliação,2026-08-21,17,0800,Assíncrono,1,1
 hora,carlos.almada@meutudo.app,Conciliação,2026-08-21,17,Chat,Assíncrono,1,0
 hora,carlos.almada@meutudo.app,Conciliação,2026-08-21,17,Whatsapp,Assíncrono,2,1
-hora,carlos.marinho@meutudo.app,Sem area,2026-07-25,9,Sem canal,Síncrono,1,0
-hora,carlos.marinho@meutudo.app,Sem area,2026-07-25,10,Sem canal,Síncrono,4,0
-hora,carlos.marinho@meutudo.app,Sem area,2026-07-25,11,Sem canal,Síncrono,2,0
 hora,carlos.marinho@meutudo.app,Sem area,2026-07-27,9,Sem canal,Síncrono,5,0
 hora,carlos.marinho@meutudo.app,Nível 3,2026-07-27,10,0800,Assíncrono,1,0
 hora,carlos.marinho@meutudo.app,Sem area,2026-07-27,10,Sem canal,Síncrono,5,0
@@ -151895,7 +151628,6 @@ hora,carlos.marinho@meutudo.app,Cobrança,2026-08-22,15,Whatsapp,Síncrono,2,1
 hora,carlos.marinho@meutudo.app,Sem area,2026-08-22,15,Whatsapp,Síncrono,1,1
 hora,carlos.rossatti@meutudo.app,Nível 2,2026-08-19,11,Whatsapp,Assíncrono,1,1
 hora,carlos.severo@meutudo.app,Sem area,2026-08-03,13,Sem canal,Síncrono,1,0
-hora,cassia.nobre@meutudo.app,Ouvidoria,2026-07-25,10,Reclame Aqui,Assíncrono,1,0
 hora,cassia.nobre@meutudo.app,Nível 3,2026-07-27,9,Reclame Aqui,Assíncrono,1,0
 hora,cassia.nobre@meutudo.app,Nível 3,2026-07-27,10,Reclame Aqui,Assíncrono,1,0
 hora,cassia.nobre@meutudo.app,Nível 3,2026-07-27,11,Reclame Aqui,Assíncrono,2,1
@@ -153455,11 +153187,6 @@ hora,cristian.mateus@meutudo.app,Sem area,2026-08-21,13,Sem canal,Síncrono,1,0
 hora,cristian.mateus@meutudo.app,Sem area,2026-08-21,14,Sem canal,Síncrono,5,0
 hora,cristian.mateus@meutudo.app,Nível 2,2026-08-21,17,Whatsapp,Assíncrono,1,0
 hora,cristian.mateus@meutudo.app,Nível 1,2026-08-22,12,Chat,Assíncrono,1,0
-hora,cristiane.alves@meutudo.app,Sem area,2026-07-25,8,Sem canal,Síncrono,1,0
-hora,cristiane.alves@meutudo.app,Sem area,2026-07-25,9,Sem canal,Síncrono,2,0
-hora,cristiane.alves@meutudo.app,Sem area,2026-07-25,10,Sem canal,Síncrono,3,0
-hora,cristiane.alves@meutudo.app,Sem area,2026-07-25,12,Sem canal,Síncrono,1,0
-hora,cristiane.alves@meutudo.app,Sem area,2026-07-25,14,Sem canal,Síncrono,1,0
 hora,cristiane.alves@meutudo.app,Sem area,2026-07-27,8,Sem canal,Síncrono,3,0
 hora,cristiane.alves@meutudo.app,Ouvidoria,2026-07-27,9,0800,Assíncrono,1,1
 hora,cristiane.alves@meutudo.app,Sem area,2026-07-27,9,Sem canal,Síncrono,5,0
@@ -153530,7 +153257,6 @@ hora,cristina.gomes@meutudo.app,Pagamento,2026-07-31,17,Whatsapp,Assíncrono,1,1
 hora,cristina.gomes@meutudo.app,Performance de pagamento,2026-07-31,17,Whatsapp,Assíncrono,1,1
 hora,cristina.gomes@meutudo.app,Pagamento,2026-08-03,14,Whatsapp,Assíncrono,1,1
 hora,cristina.gomes@meutudo.app,Pagamento,2026-08-05,9,Whatsapp,Assíncrono,1,1
-hora,daniel.sobrinho@meutudo.app,Cobrança,2026-07-25,10,Whatsapp,Assíncrono,1,0
 hora,daniel.sobrinho@meutudo.app,Cobrança,2026-07-26,16,Whatsapp,Assíncrono,1,0
 hora,daniel.sobrinho@meutudo.app,Cobrança,2026-07-27,11,Whatsapp,Assíncrono,1,1
 hora,daniel.sobrinho@meutudo.app,Cobrança,2026-07-27,12,Whatsapp,Assíncrono,6,4
@@ -154884,7 +154610,6 @@ hora,eduarda.moreira@meutudo.app,Ouvidoria,2026-08-10,9,Reclame Aqui,Assíncrono
 hora,eduarda.moreira@meutudo.app,Operações e Customer,2026-08-17,9,Whatsapp,Assíncrono,1,0
 hora,eduarda.moreira@meutudo.app,Customer Atendimento,2026-08-19,16,Whatsapp,Assíncrono,1,0
 hora,eduarda.moreira@meutudo.app,Customer Atendimento,2026-08-21,15,Chat,Assíncrono,1,0
-hora,elandia.rocha@meutudo.app,Nível 1,2026-07-25,12,Whatsapp,Assíncrono,1,0
 hora,elandia.rocha@meutudo.app,Nível 1,2026-07-27,8,Canal App,Assíncrono,1,1
 hora,elandia.rocha@meutudo.app,Nível 1,2026-07-27,8,Whatsapp,Assíncrono,8,7
 hora,elandia.rocha@meutudo.app,Nível 1,2026-07-27,9,0800,Assíncrono,1,1
@@ -155289,7 +155014,6 @@ hora,eleneide.bastos@meutudo.app,Conciliação,2026-08-13,14,Chat,Assíncrono,1,
 hora,eleneide.bastos@meutudo.app,Reclame aqui,2026-08-13,14,Reclame Aqui,Assíncrono,1,0
 hora,eleneide.bastos@meutudo.app,Sem area,2026-08-13,14,Sem canal,Síncrono,1,0
 hora,eleneide.bastos@meutudo.app,Sem area,2026-08-14,9,Sem canal,Síncrono,1,0
-hora,eliane.gois@meutudo.app,Cobrança,2026-07-25,10,Whatsapp,Assíncrono,1,0
 hora,eliane.gois@meutudo.app,Cobrança,2026-07-27,8,Whatsapp,Assíncrono,1,1
 hora,eliane.gois@meutudo.app,Cobrança,2026-07-27,9,Whatsapp,Assíncrono,6,5
 hora,eliane.gois@meutudo.app,Cobrança,2026-07-27,10,0800,Assíncrono,1,1
@@ -155524,8 +155248,6 @@ hora,eliane.gois@meutudo.app,Cobrança,2026-08-21,17,Whatsapp,Assíncrono,1,1
 hora,eliane.gois@meutudo.app,Cobrança,2026-08-21,19,Whatsapp,Assíncrono,1,0
 hora,eliane.gois@meutudo.app,Cobrança,2026-08-22,8,Whatsapp,Assíncrono,1,0
 hora,eliane.gois@meutudo.app,Cobrança,2026-08-22,12,Whatsapp,Assíncrono,1,0
-hora,ellen.vaz@meutudo.app,Cobrança,2026-07-25,8,Whatsapp,Assíncrono,1,0
-hora,ellen.vaz@meutudo.app,Nível 1,2026-07-25,8,0800,Assíncrono,1,0
 hora,ellen.vaz@meutudo.app,Cobrança,2026-07-27,8,Whatsapp,Assíncrono,1,1
 hora,ellen.vaz@meutudo.app,Cobrança,2026-07-27,9,0800,Assíncrono,1,1
 hora,ellen.vaz@meutudo.app,Cobrança,2026-07-27,9,Whatsapp,Assíncrono,5,5
@@ -156018,18 +155740,6 @@ hora,erika.moraes@meutudo.app,Nível 2,2026-08-08,14,Whatsapp,Assíncrono,7,7
 hora,erika.moraes@meutudo.app,Nível 2,2026-08-08,15,Whatsapp,Assíncrono,6,6
 hora,erika.moraes@meutudo.app,Nível 1,2026-08-13,9,Whatsapp,Assíncrono,1,1
 hora,erika.moraes@meutudo.app,Nível 2,2026-08-13,9,Whatsapp,Assíncrono,8,8
-hora,fabricio.cruz@meutudo.app,Nível 2,2026-07-25,9,Whatsapp,Assíncrono,1,1
-hora,fabricio.cruz@meutudo.app,Sem area,2026-07-25,9,Chat,Síncrono,3,3
-hora,fabricio.cruz@meutudo.app,Sem area,2026-07-25,9,Sem canal,Síncrono,1,0
-hora,fabricio.cruz@meutudo.app,Nível 2,2026-07-25,10,Whatsapp,Assíncrono,4,4
-hora,fabricio.cruz@meutudo.app,Conciliação,2026-07-25,11,Canal App,Assíncrono,1,0
-hora,fabricio.cruz@meutudo.app,Nível 2,2026-07-25,11,Whatsapp,Assíncrono,3,3
-hora,fabricio.cruz@meutudo.app,Conciliação,2026-07-25,12,Whatsapp,Assíncrono,1,0
-hora,fabricio.cruz@meutudo.app,Nível 2,2026-07-25,12,Whatsapp,Assíncrono,4,4
-hora,fabricio.cruz@meutudo.app,Nível 2,2026-07-25,14,0800,Assíncrono,1,1
-hora,fabricio.cruz@meutudo.app,Nível 2,2026-07-25,14,Whatsapp,Assíncrono,2,2
-hora,fabricio.cruz@meutudo.app,Nível 2,2026-07-25,15,0800,Assíncrono,1,1
-hora,fabricio.cruz@meutudo.app,Nível 2,2026-07-25,15,Whatsapp,Assíncrono,4,3
 hora,fabricio.cruz@meutudo.app,Sem area,2026-07-27,9,Sem canal,Síncrono,11,0
 hora,fabricio.cruz@meutudo.app,Sem area,2026-07-27,9,Whatsapp,Síncrono,2,2
 hora,fabricio.cruz@meutudo.app,Sem area,2026-07-27,10,Sem canal,Síncrono,11,0
@@ -156283,7 +155993,6 @@ hora,fabricio.cruz@meutudo.app,Nível 2,2026-08-22,9,Whatsapp,Assíncrono,6,6
 hora,fabricio.cruz@meutudo.app,Conciliação,2026-08-22,10,Whatsapp,Assíncrono,1,0
 hora,fabricio.cruz@meutudo.app,Nível 2,2026-08-22,10,0800,Assíncrono,1,1
 hora,fabricio.cruz@meutudo.app,Nível 2,2026-08-22,10,Whatsapp,Assíncrono,6,6
-hora,fabricio.pereira@meutudo.app,Sem area,2026-07-25,11,Whatsapp,Assíncrono,1,1
 hora,fabricio.pereira@meutudo.app,Sem area,2026-07-27,9,Sem canal,Síncrono,4,0
 hora,fabricio.pereira@meutudo.app,Sem area,2026-07-27,9,Whatsapp,Síncrono,1,1
 hora,fabricio.pereira@meutudo.app,Sem area,2026-07-27,11,Whatsapp,Assíncrono,1,1
@@ -157935,7 +157644,6 @@ hora,gabriela.bandeira@meutudo.app,Sem area,2026-08-22,11,Sem canal,Síncrono,2,
 hora,gabriela.bandeira@meutudo.app,Sem area,2026-08-22,12,Sem canal,Síncrono,1,0
 hora,gabriela.bandeira@meutudo.app,Nível 1,2026-08-22,15,0800,Assíncrono,1,0
 hora,georgia.sales@meutudo.app,Sem area,2026-08-03,15,Chat,Assíncrono,1,0
-hora,gilvana.lopes@meutudo.app,Conciliação,2026-07-25,11,Whatsapp,Assíncrono,1,0
 hora,gilvana.lopes@meutudo.app,Sem area,2026-07-27,9,Sem canal,Síncrono,20,0
 hora,gilvana.lopes@meutudo.app,Sem area,2026-07-27,9,Whatsapp,Síncrono,8,5
 hora,gilvana.lopes@meutudo.app,Sem area,2026-07-27,10,Sem canal,Síncrono,36,0
@@ -158229,18 +157937,6 @@ hora,giovana.portela@meutudo.app,Pagamento,2026-08-21,14,Whatsapp,Assíncrono,5,
 hora,giovana.portela@meutudo.app,Performance de pagamento,2026-08-21,14,Whatsapp,Assíncrono,1,0
 hora,giovana.portela@meutudo.app,Portabilidade,2026-08-21,14,Whatsapp,Assíncrono,1,0
 hora,giovana.portela@meutudo.app,Triagem,2026-08-21,14,Whatsapp,Assíncrono,1,0
-hora,giovanna.oliveira@meutudo.app,Sem area,2026-07-25,9,Whatsapp,Síncrono,3,3
-hora,giovanna.oliveira@meutudo.app,Sem area,2026-07-25,10,Sem canal,Síncrono,4,0
-hora,giovanna.oliveira@meutudo.app,Sem area,2026-07-25,10,Whatsapp,Síncrono,6,6
-hora,giovanna.oliveira@meutudo.app,Sem area,2026-07-25,11,Whatsapp,Síncrono,6,5
-hora,giovanna.oliveira@meutudo.app,Sem area,2026-07-25,12,Sem canal,Síncrono,6,0
-hora,giovanna.oliveira@meutudo.app,Sem area,2026-07-25,12,Whatsapp,Síncrono,6,5
-hora,giovanna.oliveira@meutudo.app,Cobrança,2026-07-25,14,Whatsapp,Síncrono,2,1
-hora,giovanna.oliveira@meutudo.app,Sem area,2026-07-25,14,Sem canal,Síncrono,1,0
-hora,giovanna.oliveira@meutudo.app,Sem area,2026-07-25,14,Whatsapp,Síncrono,1,1
-hora,giovanna.oliveira@meutudo.app,Nível 1,2026-07-25,15,Whatsapp,Síncrono,2,1
-hora,giovanna.oliveira@meutudo.app,Sem area,2026-07-25,15,Sem canal,Síncrono,1,0
-hora,giovanna.oliveira@meutudo.app,Sem area,2026-07-25,15,Whatsapp,Síncrono,1,1
 hora,giovanna.oliveira@meutudo.app,Conciliação,2026-07-27,9,Whatsapp,Assíncrono,1,0
 hora,giovanna.oliveira@meutudo.app,Nível 3,2026-07-27,11,Whatsapp,Assíncrono,1,0
 hora,giovanna.oliveira@meutudo.app,Sem area,2026-07-27,11,Sem canal,Síncrono,4,0
@@ -158592,18 +158288,6 @@ hora,giovanna.oliveira@meutudo.app,Nível 2,2026-08-22,13,Whatsapp,Assíncrono,5
 hora,giovanna.oliveira@meutudo.app,Nível 2,2026-08-22,15,0800,Assíncrono,1,1
 hora,giovanna.oliveira@meutudo.app,Nível 2,2026-08-22,15,Whatsapp,Assíncrono,6,6
 hora,giovanna.oliveira@meutudo.app,Nível 2,2026-08-22,16,Whatsapp,Assíncrono,2,2
-hora,gpt.bot@meutudo.app,Sem area,2026-07-25,8,Sem canal,Síncrono,1,0
-hora,gpt.bot@meutudo.app,Sem area,2026-07-25,10,Sem canal,Síncrono,1,0
-hora,gpt.bot@meutudo.app,Sem area,2026-07-25,12,Sem canal,Síncrono,1,0
-hora,gpt.bot@meutudo.app,Sem area,2026-07-25,14,Sem canal,Síncrono,1,0
-hora,gpt.bot@meutudo.app,Sem area,2026-07-25,14,Whatsapp,Síncrono,1,1
-hora,gpt.bot@meutudo.app,Sem area,2026-07-25,15,Sem canal,Síncrono,2,0
-hora,gpt.bot@meutudo.app,Sem area,2026-07-25,15,Whatsapp,Síncrono,2,2
-hora,gpt.bot@meutudo.app,Sem area,2026-07-25,16,Sem canal,Síncrono,1,0
-hora,gpt.bot@meutudo.app,Sem area,2026-07-25,16,Whatsapp,Síncrono,2,2
-hora,gpt.bot@meutudo.app,Sem area,2026-07-25,17,Sem canal,Síncrono,2,0
-hora,gpt.bot@meutudo.app,Sem area,2026-07-25,17,Whatsapp,Síncrono,2,2
-hora,gpt.bot@meutudo.app,Sem area,2026-07-25,18,Sem canal,Síncrono,1,0
 hora,gpt.bot@meutudo.app,Sem area,2026-07-27,8,Whatsapp,Síncrono,1,1
 hora,gpt.bot@meutudo.app,Sem area,2026-07-27,11,Whatsapp,Síncrono,1,1
 hora,gpt.bot@meutudo.app,Sem area,2026-07-27,14,Sem canal,Síncrono,1,0
@@ -158726,21 +158410,6 @@ hora,gpt.bot@meutudo.app,Sem area,2026-08-19,20,Sem canal,Síncrono,6,0
 hora,gpt.bot@meutudo.app,Sem area,2026-08-20,8,Sem canal,Síncrono,3,0
 hora,gpt.bot@meutudo.app,Sem area,2026-08-20,10,Sem canal,Síncrono,1,0
 hora,gpt.bot@meutudo.app,Sem area,2026-08-20,12,Sem canal,Síncrono,2,0
-hora,graziela.cardozo@meutudo.app,Nível 1,2026-07-25,8,0800,Assíncrono,1,1
-hora,graziela.cardozo@meutudo.app,Nível 2,2026-07-25,8,Whatsapp,Assíncrono,6,6
-hora,graziela.cardozo@meutudo.app,Nível 2,2026-07-25,9,Whatsapp,Assíncrono,7,7
-hora,graziela.cardozo@meutudo.app,Nível 2,2026-07-25,10,0800,Assíncrono,2,2
-hora,graziela.cardozo@meutudo.app,Nível 2,2026-07-25,10,Whatsapp,Assíncrono,5,5
-hora,graziela.cardozo@meutudo.app,Conciliação,2026-07-25,12,Whatsapp,Assíncrono,1,0
-hora,graziela.cardozo@meutudo.app,Nível 1,2026-07-25,12,Whatsapp,Assíncrono,1,0
-hora,graziela.cardozo@meutudo.app,Nível 2,2026-07-25,12,0800,Assíncrono,2,2
-hora,graziela.cardozo@meutudo.app,Nível 2,2026-07-25,12,Whatsapp,Assíncrono,4,4
-hora,graziela.cardozo@meutudo.app,Nível 2,2026-07-25,13,Whatsapp,Assíncrono,5,5
-hora,graziela.cardozo@meutudo.app,Nível 2,2026-07-25,14,0800,Assíncrono,3,2
-hora,graziela.cardozo@meutudo.app,Nível 2,2026-07-25,14,Whatsapp,Assíncrono,5,5
-hora,graziela.cardozo@meutudo.app,Nível 2,2026-07-25,15,0800,Assíncrono,1,1
-hora,graziela.cardozo@meutudo.app,Nível 2,2026-07-25,15,Whatsapp,Assíncrono,1,1
-hora,graziela.cardozo@meutudo.app,Prevenção a Fraude,2026-07-25,15,Whatsapp,Assíncrono,1,0
 hora,graziela.cardozo@meutudo.app,Nível 1,2026-07-27,8,Whatsapp,Assíncrono,6,6
 hora,graziela.cardozo@meutudo.app,Nível 1,2026-07-27,9,Canal App,Assíncrono,1,1
 hora,graziela.cardozo@meutudo.app,Nível 1,2026-07-27,9,Whatsapp,Assíncrono,8,8
@@ -159906,16 +159575,6 @@ hora,hanna.rodrigues@meutudo.app,Nível 2,2026-08-22,15,Whatsapp,Assíncrono,1,0
 hora,hanna.rodrigues@meutudo.app,Operações e Customer,2026-08-22,17,Whatsapp,Assíncrono,1,0
 hora,hanna.rodrigues@meutudo.app,Nível 1,2026-08-22,18,Whatsapp,Assíncrono,1,0
 hora,hanna.rodrigues@meutudo.app,Triagem,2026-08-22,18,Whatsapp,Assíncrono,1,0
-hora,henrique.souza@meutudo.app,Cobrança,2026-07-25,8,Whatsapp,Assíncrono,1,1
-hora,henrique.souza@meutudo.app,Sem area,2026-07-25,8,Whatsapp,Síncrono,16,7
-hora,henrique.souza@meutudo.app,Cobrança,2026-07-25,9,Whatsapp,Assíncrono,3,3
-hora,henrique.souza@meutudo.app,Sem area,2026-07-25,9,Whatsapp,Síncrono,2,1
-hora,henrique.souza@meutudo.app,Cobrança,2026-07-25,10,Whatsapp,Assíncrono,4,4
-hora,henrique.souza@meutudo.app,Cobrança,2026-07-25,11,Whatsapp,Assíncrono,3,3
-hora,henrique.souza@meutudo.app,Sem area,2026-07-25,11,Whatsapp,Síncrono,4,2
-hora,henrique.souza@meutudo.app,Cobrança,2026-07-25,13,Whatsapp,Assíncrono,3,3
-hora,henrique.souza@meutudo.app,Cobrança,2026-07-25,14,Whatsapp,Assíncrono,11,11
-hora,henrique.souza@meutudo.app,Cobrança,2026-07-25,15,Whatsapp,Assíncrono,1,1
 hora,henrique.souza@meutudo.app,Sem area,2026-07-27,11,Sem canal,Síncrono,16,0
 hora,henrique.souza@meutudo.app,Sem area,2026-07-27,11,Whatsapp,Síncrono,2,2
 hora,henrique.souza@meutudo.app,Sem area,2026-07-27,12,Sem canal,Síncrono,7,0
@@ -160177,7 +159836,6 @@ hora,henrique.souza@meutudo.app,Sem area,2026-08-21,17,Sem canal,Síncrono,1,0
 hora,henrique.souza@meutudo.app,Sem area,2026-08-21,17,Whatsapp,Síncrono,10,7
 hora,isabelle.fonteles@meutudo.app,Pagamento,2026-08-03,11,Chat,Assíncrono,1,1
 hora,isabelle.fonteles@meutudo.app,Performance de pagamento,2026-08-03,11,Whatsapp,Assíncrono,1,1
-hora,itala.sousa@meutudo.app,Ouvidoria,2026-07-25,10,Whatsapp,Assíncrono,1,0
 hora,itala.sousa@meutudo.app,Ouvidoria,2026-07-27,9,0800,Assíncrono,1,1
 hora,itala.sousa@meutudo.app,Ouvidoria,2026-07-27,9,Chat,Assíncrono,1,1
 hora,itala.sousa@meutudo.app,Ouvidoria,2026-07-27,9,Whatsapp,Assíncrono,5,5
@@ -161010,20 +160668,6 @@ hora,jamille.silva@meutudo.app,Reclame aqui,2026-08-21,15,Reclame Aqui,Assíncro
 hora,jamille.silva@meutudo.app,Reclame aqui,2026-08-21,16,Reclame Aqui,Assíncrono,2,0
 hora,jamille.silva@meutudo.app,Operações e Customer,2026-08-21,17,Reclame Aqui,Assíncrono,1,0
 hora,jamille.silva@meutudo.app,Reclame aqui,2026-08-21,17,Reclame Aqui,Assíncrono,1,1
-hora,janaina.andrade@meutudo.app,Nível 1,2026-07-25,8,Whatsapp,Assíncrono,12,12
-hora,janaina.andrade@meutudo.app,Nível 1,2026-07-25,9,0800,Assíncrono,1,1
-hora,janaina.andrade@meutudo.app,Nível 1,2026-07-25,9,Whatsapp,Assíncrono,7,7
-hora,janaina.andrade@meutudo.app,Nível 2,2026-07-25,9,Whatsapp,Assíncrono,1,1
-hora,janaina.andrade@meutudo.app,Nível 1,2026-07-25,10,0800,Assíncrono,1,1
-hora,janaina.andrade@meutudo.app,Nível 1,2026-07-25,10,Canal App,Assíncrono,1,1
-hora,janaina.andrade@meutudo.app,Nível 1,2026-07-25,10,Whatsapp,Assíncrono,9,9
-hora,janaina.andrade@meutudo.app,Nível 1,2026-07-25,11,0800,Assíncrono,1,1
-hora,janaina.andrade@meutudo.app,Nível 1,2026-07-25,11,Canal App,Assíncrono,1,1
-hora,janaina.andrade@meutudo.app,Nível 1,2026-07-25,11,Whatsapp,Assíncrono,8,8
-hora,janaina.andrade@meutudo.app,Nível 1,2026-07-25,12,Canal App,Assíncrono,2,2
-hora,janaina.andrade@meutudo.app,Nível 1,2026-07-25,12,Whatsapp,Assíncrono,11,11
-hora,janaina.andrade@meutudo.app,Nível 1,2026-07-25,14,Canal App,Assíncrono,2,2
-hora,janaina.andrade@meutudo.app,Nível 1,2026-07-25,14,Whatsapp,Assíncrono,9,9
 hora,janaina.andrade@meutudo.app,Nível 1,2026-07-27,8,Canal App,Assíncrono,1,1
 hora,janaina.andrade@meutudo.app,Nível 1,2026-07-27,8,Whatsapp,Assíncrono,4,4
 hora,janaina.andrade@meutudo.app,Nível 1,2026-07-27,9,Canal App,Assíncrono,2,2
@@ -161334,23 +160978,6 @@ hora,janaina.pereira@meutudo.app,Sem area,2026-08-08,10,Sem canal,Síncrono,1,0
 hora,janaina.pereira@meutudo.app,Prevenção a Fraude,2026-08-08,11,Whatsapp,Assíncrono,1,1
 hora,janaina.pereira@meutudo.app,Prevenção a Fraude,2026-08-10,11,Reclame Aqui,Assíncrono,1,1
 hora,janaina.pereira@meutudo.app,Prevenção a Fraude,2026-08-10,11,Whatsapp,Assíncrono,1,1
-hora,jardenia.soares@meutudo.app,Sem area,2026-07-25,8,Chat,Síncrono,9,9
-hora,jardenia.soares@meutudo.app,Sem area,2026-07-25,8,Sem canal,Síncrono,1,0
-hora,jardenia.soares@meutudo.app,Nível 1,2026-07-25,9,Whatsapp,Assíncrono,2,2
-hora,jardenia.soares@meutudo.app,Nível 2,2026-07-25,9,Whatsapp,Assíncrono,1,1
-hora,jardenia.soares@meutudo.app,Sem area,2026-07-25,9,Chat,Síncrono,2,1
-hora,jardenia.soares@meutudo.app,Nível 1,2026-07-25,10,0800,Assíncrono,1,1
-hora,jardenia.soares@meutudo.app,Nível 1,2026-07-25,10,Canal App,Assíncrono,1,1
-hora,jardenia.soares@meutudo.app,Nível 1,2026-07-25,10,Whatsapp,Assíncrono,7,7
-hora,jardenia.soares@meutudo.app,Nível 1,2026-07-25,11,Whatsapp,Assíncrono,4,4
-hora,jardenia.soares@meutudo.app,Nível 1,2026-07-25,12,Whatsapp,Assíncrono,6,6
-hora,jardenia.soares@meutudo.app,Nível 1,2026-07-25,13,Canal App,Assíncrono,1,1
-hora,jardenia.soares@meutudo.app,Nível 1,2026-07-25,13,Whatsapp,Assíncrono,11,9
-hora,jardenia.soares@meutudo.app,Nível 3,2026-07-25,13,Whatsapp,Assíncrono,1,0
-hora,jardenia.soares@meutudo.app,Nível 1,2026-07-25,14,Canal App,Assíncrono,18,18
-hora,jardenia.soares@meutudo.app,Nível 1,2026-07-25,14,Whatsapp,Assíncrono,8,7
-hora,jardenia.soares@meutudo.app,Nível 1,2026-07-25,15,Canal App,Assíncrono,2,2
-hora,jardenia.soares@meutudo.app,Nível 1,2026-07-25,15,Whatsapp,Assíncrono,3,3
 hora,jardenia.soares@meutudo.app,Nível 1,2026-07-27,8,Whatsapp,Assíncrono,11,11
 hora,jardenia.soares@meutudo.app,Nível 1,2026-07-27,9,Canal App,Assíncrono,1,1
 hora,jardenia.soares@meutudo.app,Nível 1,2026-07-27,9,Whatsapp,Assíncrono,18,17
@@ -161952,7 +161579,6 @@ hora,jessica.melo+twilio@meutudo.app,Sem area,2026-08-17,14,Sem canal,Síncrono,
 hora,jessica.melo+twilio@meutudo.app,Sem area,2026-08-18,10,Sem canal,Síncrono,1,0
 hora,jessica.melo+twilio@meutudo.app,Sem area,2026-08-18,16,Sem canal,Síncrono,1,0
 hora,jessica.melo+twilio@meutudo.app,Sem area,2026-08-20,12,Sem canal,Síncrono,4,0
-hora,jessica.melo@meutudo.app,Reclame aqui,2026-07-25,13,Reclame Aqui,Assíncrono,1,0
 hora,jessica.melo@meutudo.app,Reclame aqui,2026-07-26,10,Reclame Aqui,Assíncrono,1,0
 hora,jessica.melo@meutudo.app,Reclame aqui,2026-07-27,9,Reclame Aqui,Assíncrono,2,2
 hora,jessica.melo@meutudo.app,Reclame aqui,2026-07-27,10,Reclame Aqui,Assíncrono,1,0
@@ -162743,9 +162369,6 @@ hora,joana.cruz@meutudo.app,Ouvidoria,2026-08-21,14,ConsumidorGOV,Assíncrono,1,
 hora,joana.cruz@meutudo.app,Ouvidoria,2026-08-21,16,Bacen/RDR,Assíncrono,2,1
 hora,joana.cruz@meutudo.app,Ouvidoria,2026-08-21,16,ConsumidorGOV,Assíncrono,1,1
 hora,joana.cruz@meutudo.app,Sem area,2026-08-21,17,ConsumidorGOV,Assíncrono,1,0
-hora,joao.victor@meutudo.app,Nível 2,2026-07-25,12,Whatsapp,Assíncrono,1,0
-hora,joao.victor@meutudo.app,Nível 2,2026-07-25,15,Whatsapp,Assíncrono,1,0
-hora,joao.victor@meutudo.app,Nível 1,2026-07-25,17,Whatsapp,Assíncrono,1,0
 hora,joao.victor@meutudo.app,Nível 1,2026-07-27,9,Canal App,Assíncrono,2,0
 hora,joao.victor@meutudo.app,Nível 1,2026-07-27,9,Whatsapp,Assíncrono,8,8
 hora,joao.victor@meutudo.app,Nível 2,2026-07-27,9,Whatsapp,Assíncrono,1,0
@@ -163064,7 +162687,6 @@ hora,joao.victor@meutudo.app,Nível 1,2026-08-21,16,0800,Assíncrono,1,1
 hora,joao.victor@meutudo.app,Nível 1,2026-08-21,16,Whatsapp,Assíncrono,5,5
 hora,joao.victor@meutudo.app,Nível 1,2026-08-21,17,Whatsapp,Assíncrono,1,1
 hora,joao.victor@meutudo.app,Nível 1,2026-08-22,9,Whatsapp,Assíncrono,1,0
-hora,joicyane.cruz@meutudo.app,Nível 1,2026-07-25,13,Whatsapp,Assíncrono,1,0
 hora,joicyane.cruz@meutudo.app,Nível 1,2026-07-27,8,Whatsapp,Assíncrono,1,0
 hora,joicyane.cruz@meutudo.app,Nível 2,2026-07-27,9,Whatsapp,Assíncrono,4,4
 hora,joicyane.cruz@meutudo.app,Nível 2,2026-07-27,10,Whatsapp,Assíncrono,7,7
@@ -163675,14 +163297,6 @@ hora,jose.andrade@meutudo.app,Cobrança,2026-08-22,13,Whatsapp,Assíncrono,1,1
 hora,jose.andrade@meutudo.app,Cobrança,2026-08-22,14,Whatsapp,Assíncrono,4,4
 hora,jose.andrade@meutudo.app,Cobrança,2026-08-22,15,0800,Assíncrono,1,1
 hora,jose.andrade@meutudo.app,Cobrança,2026-08-22,15,Whatsapp,Assíncrono,2,2
-hora,jose.freitas@meutudo.app,Nível 2,2026-07-25,9,Whatsapp,Assíncrono,1,1
-hora,jose.freitas@meutudo.app,Averbação,2026-07-25,10,Whatsapp,Assíncrono,1,0
-hora,jose.freitas@meutudo.app,Nível 2,2026-07-25,10,Whatsapp,Assíncrono,2,2
-hora,jose.freitas@meutudo.app,Nível 2,2026-07-25,11,Whatsapp,Assíncrono,2,2
-hora,jose.freitas@meutudo.app,Conciliação,2026-07-25,13,Whatsapp,Assíncrono,1,0
-hora,jose.freitas@meutudo.app,Nível 2,2026-07-25,15,Whatsapp,Assíncrono,2,2
-hora,jose.freitas@meutudo.app,Nível 2,2026-07-25,16,0800,Assíncrono,1,1
-hora,jose.freitas@meutudo.app,Nível 2,2026-07-25,16,Whatsapp,Assíncrono,1,1
 hora,jose.freitas@meutudo.app,Sem area,2026-07-27,10,Whatsapp,Síncrono,5,2
 hora,jose.freitas@meutudo.app,Sem area,2026-07-27,11,Whatsapp,Síncrono,5,0
 hora,jose.freitas@meutudo.app,Sem area,2026-07-27,12,Sem canal,Síncrono,1,0
@@ -164498,17 +164112,6 @@ hora,juliana.tenorio@meutudo.app,Nível 2,2026-08-21,13,Whatsapp,Assíncrono,2,2
 hora,juliana.tenorio@meutudo.app,Nível 2,2026-08-21,14,0800,Assíncrono,1,1
 hora,juliana.tenorio@meutudo.app,Nível 2,2026-08-21,14,Whatsapp,Assíncrono,5,5
 hora,juliana.tenorio@meutudo.app,Nível 2,2026-08-21,15,Whatsapp,Assíncrono,1,1
-hora,julio.lopes@meutudo.app,Nível 2,2026-07-25,9,Whatsapp,Assíncrono,6,6
-hora,julio.lopes@meutudo.app,Nível 2,2026-07-25,10,Whatsapp,Assíncrono,3,3
-hora,julio.lopes@meutudo.app,Nível 2,2026-07-25,11,Whatsapp,Assíncrono,10,10
-hora,julio.lopes@meutudo.app,Nível 2,2026-07-25,12,0800,Assíncrono,1,1
-hora,julio.lopes@meutudo.app,Nível 2,2026-07-25,12,Whatsapp,Assíncrono,8,8
-hora,julio.lopes@meutudo.app,Conciliação,2026-07-25,13,Whatsapp,Assíncrono,1,0
-hora,julio.lopes@meutudo.app,Nível 2,2026-07-25,13,Whatsapp,Assíncrono,4,4
-hora,julio.lopes@meutudo.app,Nível 2,2026-07-25,14,0800,Assíncrono,1,1
-hora,julio.lopes@meutudo.app,Nível 2,2026-07-25,14,Whatsapp,Assíncrono,5,5
-hora,julio.lopes@meutudo.app,Nível 2,2026-07-25,15,0800,Assíncrono,2,2
-hora,julio.lopes@meutudo.app,Nível 2,2026-07-25,15,Whatsapp,Assíncrono,7,7
 hora,julio.lopes@meutudo.app,Nível 2,2026-07-26,12,Whatsapp,Assíncrono,1,0
 hora,julio.lopes@meutudo.app,Nível 2,2026-07-27,13,Whatsapp,Assíncrono,6,6
 hora,julio.lopes@meutudo.app,Conciliação,2026-07-27,14,Whatsapp,Assíncrono,1,0
@@ -164822,12 +164425,6 @@ hora,julio.lopes@meutudo.app,Tratamento em lote,2026-08-22,12,Whatsapp,Assíncro
 hora,julio.lopes@meutudo.app,Nível 2,2026-08-22,13,Whatsapp,Assíncrono,1,1
 hora,julio.lopes@meutudo.app,Nível 2,2026-08-22,14,Whatsapp,Assíncrono,11,11
 hora,julio.lopes@meutudo.app,Nível 2,2026-08-22,15,Whatsapp,Assíncrono,10,10
-hora,kamilla.lopes@meutudo.app,Sem area,2026-07-25,8,Sem canal,Síncrono,2,0
-hora,kamilla.lopes@meutudo.app,Sem area,2026-07-25,9,Sem canal,Síncrono,4,0
-hora,kamilla.lopes@meutudo.app,Sem area,2026-07-25,10,Sem canal,Síncrono,3,0
-hora,kamilla.lopes@meutudo.app,Sem area,2026-07-25,11,Sem canal,Síncrono,2,0
-hora,kamilla.lopes@meutudo.app,Sem area,2026-07-25,13,Sem canal,Síncrono,1,0
-hora,kamilla.lopes@meutudo.app,Sem area,2026-07-25,14,Sem canal,Síncrono,1,0
 hora,kamilla.lopes@meutudo.app,Sem area,2026-07-27,8,Sem canal,Síncrono,4,0
 hora,kamilla.lopes@meutudo.app,Nível 2,2026-07-27,9,0800,Assíncrono,1,0
 hora,kamilla.lopes@meutudo.app,Sem area,2026-07-27,9,Sem canal,Síncrono,6,0
@@ -165079,15 +164676,6 @@ hora,kamilla.lopes@meutudo.app,Sem area,2026-08-22,10,Sem canal,Síncrono,1,0
 hora,kamilla.lopes@meutudo.app,Nível 2,2026-08-22,11,0800,Assíncrono,1,0
 hora,kamilla.lopes@meutudo.app,Sem area,2026-08-22,13,Sem canal,Síncrono,1,0
 hora,kamilla.lopes@meutudo.app,Sem area,2026-08-22,14,Sem canal,Síncrono,1,0
-hora,kamilly.sales@meutudo.app,Nível 2,2026-07-25,8,Whatsapp,Assíncrono,2,2
-hora,kamilly.sales@meutudo.app,Nível 2,2026-07-25,9,0800,Assíncrono,1,1
-hora,kamilly.sales@meutudo.app,Nível 2,2026-07-25,9,Whatsapp,Assíncrono,2,2
-hora,kamilly.sales@meutudo.app,Nível 2,2026-07-25,10,Whatsapp,Assíncrono,2,2
-hora,kamilly.sales@meutudo.app,Nível 2,2026-07-25,11,0800,Assíncrono,1,1
-hora,kamilly.sales@meutudo.app,Nível 2,2026-07-25,11,Whatsapp,Assíncrono,2,2
-hora,kamilly.sales@meutudo.app,Nível 2,2026-07-25,13,Whatsapp,Assíncrono,3,3
-hora,kamilly.sales@meutudo.app,Nível 2,2026-07-25,14,0800,Assíncrono,1,1
-hora,kamilly.sales@meutudo.app,Nível 2,2026-07-25,14,Whatsapp,Assíncrono,5,5
 hora,kamilly.sales@meutudo.app,Nível 1,2026-07-27,11,Whatsapp,Assíncrono,5,5
 hora,kamilly.sales@meutudo.app,Nível 1,2026-07-27,12,Canal App,Assíncrono,1,1
 hora,kamilly.sales@meutudo.app,Nível 1,2026-07-27,12,Whatsapp,Assíncrono,2,2
@@ -165450,21 +165038,6 @@ hora,karen.gadelha@meutudo.app,Sem area,2026-08-21,15,Whatsapp,Síncrono,11,2
 hora,karen.gadelha@meutudo.app,Sem area,2026-08-21,16,Sem canal,Síncrono,4,0
 hora,karen.gadelha@meutudo.app,Sem area,2026-08-21,16,Whatsapp,Síncrono,10,3
 hora,karen.gadelha@meutudo.app,Sem area,2026-08-21,17,Whatsapp,Síncrono,2,0
-hora,karla.layane@meutudo.app,Nível 1,2026-07-25,8,0800,Assíncrono,1,1
-hora,karla.layane@meutudo.app,Nível 1,2026-07-25,8,Whatsapp,Assíncrono,11,10
-hora,karla.layane@meutudo.app,Nível 3,2026-07-25,8,Whatsapp,Assíncrono,1,0
-hora,karla.layane@meutudo.app,Nível 1,2026-07-25,9,Whatsapp,Assíncrono,13,13
-hora,karla.layane@meutudo.app,Nível 1,2026-07-25,10,Canal App,Assíncrono,3,3
-hora,karla.layane@meutudo.app,Nível 1,2026-07-25,10,Whatsapp,Assíncrono,10,10
-hora,karla.layane@meutudo.app,Triagem,2026-07-25,10,Whatsapp,Assíncrono,1,1
-hora,karla.layane@meutudo.app,Nível 1,2026-07-25,11,Whatsapp,Assíncrono,7,7
-hora,karla.layane@meutudo.app,Nível 1,2026-07-25,12,0800,Assíncrono,1,1
-hora,karla.layane@meutudo.app,Nível 1,2026-07-25,12,Whatsapp,Assíncrono,4,3
-hora,karla.layane@meutudo.app,Nível 1,2026-07-25,13,Canal App,Assíncrono,5,5
-hora,karla.layane@meutudo.app,Nível 1,2026-07-25,13,Whatsapp,Assíncrono,9,9
-hora,karla.layane@meutudo.app,Nível 1,2026-07-25,14,Canal App,Assíncrono,8,8
-hora,karla.layane@meutudo.app,Nível 1,2026-07-25,14,Whatsapp,Assíncrono,4,3
-hora,karla.layane@meutudo.app,Triagem,2026-07-25,14,Whatsapp,Assíncrono,1,1
 hora,karla.layane@meutudo.app,Nível 1,2026-07-27,8,Whatsapp,Assíncrono,11,10
 hora,karla.layane@meutudo.app,Nível 2,2026-07-27,8,Whatsapp,Assíncrono,3,3
 hora,karla.layane@meutudo.app,Nível 1,2026-07-27,9,0800,Assíncrono,2,2
@@ -166211,18 +165784,6 @@ hora,karla.lima@meutudo.app,Sem area,2026-08-21,11,Whatsapp,Síncrono,3,3
 hora,karla.lima@meutudo.app,Sem area,2026-08-21,12,Whatsapp,Síncrono,1,0
 hora,karla.lima@meutudo.app,Sem area,2026-08-21,14,Sem canal,Síncrono,2,0
 hora,karla.lima@meutudo.app,Sem area,2026-08-21,14,Whatsapp,Síncrono,1,1
-hora,kyara.pessoas@meutudo.app,Nível 2,2026-07-25,8,Whatsapp,Assíncrono,4,3
-hora,kyara.pessoas@meutudo.app,Nível 2,2026-07-25,9,0800,Assíncrono,1,1
-hora,kyara.pessoas@meutudo.app,Nível 2,2026-07-25,9,Whatsapp,Assíncrono,5,5
-hora,kyara.pessoas@meutudo.app,Prevenção a Fraude,2026-07-25,9,Whatsapp,Assíncrono,1,0
-hora,kyara.pessoas@meutudo.app,Nível 2,2026-07-25,10,Whatsapp,Assíncrono,5,5
-hora,kyara.pessoas@meutudo.app,Nível 2,2026-07-25,11,Whatsapp,Assíncrono,4,4
-hora,kyara.pessoas@meutudo.app,Nível 1,2026-07-25,12,Whatsapp,Assíncrono,1,1
-hora,kyara.pessoas@meutudo.app,Nível 2,2026-07-25,12,Whatsapp,Assíncrono,4,4
-hora,kyara.pessoas@meutudo.app,Nível 2,2026-07-25,13,0800,Assíncrono,1,1
-hora,kyara.pessoas@meutudo.app,Nível 2,2026-07-25,13,Whatsapp,Assíncrono,8,8
-hora,kyara.pessoas@meutudo.app,Nível 2,2026-07-25,14,0800,Assíncrono,1,1
-hora,kyara.pessoas@meutudo.app,Nível 2,2026-07-25,14,Whatsapp,Assíncrono,8,8
 hora,kyara.pessoas@meutudo.app,Nível 2,2026-07-26,16,Whatsapp,Assíncrono,1,0
 hora,kyara.pessoas@meutudo.app,Nível 2,2026-07-27,8,Whatsapp,Assíncrono,5,5
 hora,kyara.pessoas@meutudo.app,Nível 2,2026-07-27,9,Whatsapp,Assíncrono,4,4
@@ -166925,8 +166486,6 @@ hora,larissa.barbosa@meutudo.app,Nível 2,2026-08-21,17,Whatsapp,Assíncrono,5,5
 hora,larissa.barbosa@meutudo.app,Nível 2,2026-08-21,18,Whatsapp,Assíncrono,18,17
 hora,larissa.barbosa@meutudo.app,Nível 2,2026-08-21,19,Whatsapp,Assíncrono,5,5
 hora,larissa.barbosa@meutudo.app,Nível 2,2026-08-22,9,Whatsapp,Assíncrono,1,0
-hora,lauane.caze@meutudo.app,Cobrança,2026-07-25,8,Whatsapp,Assíncrono,1,0
-hora,lauane.caze@meutudo.app,Cobrança,2026-07-25,13,Whatsapp,Assíncrono,2,0
 hora,lauane.caze@meutudo.app,Cobrança,2026-07-26,10,Whatsapp,Assíncrono,1,0
 hora,lauane.caze@meutudo.app,Cobrança,2026-07-26,17,Whatsapp,Assíncrono,1,0
 hora,lauane.caze@meutudo.app,Cobrança,2026-07-27,9,Whatsapp,Assíncrono,8,8
@@ -167818,17 +167377,6 @@ hora,lincoln.oliveira@meutudo.app,Cobrança,2026-08-22,12,Whatsapp,Assíncrono,4
 hora,lincoln.oliveira@meutudo.app,Cobrança,2026-08-22,13,Whatsapp,Assíncrono,4,3
 hora,lincoln.oliveira@meutudo.app,Cobrança,2026-08-22,14,Whatsapp,Assíncrono,8,7
 hora,lincoln.oliveira@meutudo.app,Cobrança,2026-08-22,15,Whatsapp,Assíncrono,8,7
-hora,livia.silva@meutudo.app,Nível 1,2026-07-25,9,Whatsapp,Assíncrono,3,3
-hora,livia.silva@meutudo.app,Nível 1,2026-07-25,10,Canal App,Assíncrono,1,0
-hora,livia.silva@meutudo.app,Nível 1,2026-07-25,10,Whatsapp,Assíncrono,2,2
-hora,livia.silva@meutudo.app,Nível 1,2026-07-25,11,Whatsapp,Assíncrono,1,1
-hora,livia.silva@meutudo.app,Nível 1,2026-07-25,12,Whatsapp,Assíncrono,4,4
-hora,livia.silva@meutudo.app,Nível 1,2026-07-25,13,Canal App,Assíncrono,1,1
-hora,livia.silva@meutudo.app,Nível 1,2026-07-25,13,Whatsapp,Assíncrono,10,10
-hora,livia.silva@meutudo.app,Nível 1,2026-07-25,14,Canal App,Assíncrono,6,2
-hora,livia.silva@meutudo.app,Nível 1,2026-07-25,14,Whatsapp,Assíncrono,4,3
-hora,livia.silva@meutudo.app,Nível 1,2026-07-25,15,Canal App,Assíncrono,5,2
-hora,livia.silva@meutudo.app,Nível 1,2026-07-25,15,Whatsapp,Assíncrono,7,7
 hora,livia.silva@meutudo.app,Nível 1,2026-07-26,9,Whatsapp,Assíncrono,1,0
 hora,livia.silva@meutudo.app,Nível 1,2026-07-26,15,Whatsapp,Assíncrono,1,0
 hora,livia.silva@meutudo.app,Nível 1,2026-07-27,8,Whatsapp,Assíncrono,2,2
@@ -168254,20 +167802,6 @@ hora,lourenza.damiao@meutudo.app,Sem area,2026-08-22,8,Sem canal,Síncrono,1,0
 hora,lourenza.damiao@meutudo.app,Sem area,2026-08-22,9,Sem canal,Síncrono,1,0
 hora,lourenza.damiao@meutudo.app,Sem area,2026-08-22,11,Sem canal,Síncrono,2,0
 hora,lourenza.damiao@meutudo.app,Sem area,2026-08-22,14,Sem canal,Síncrono,1,0
-hora,luana.alencar@meutudo.app,Nível 1,2026-07-25,8,0800,Assíncrono,1,1
-hora,luana.alencar@meutudo.app,Nível 1,2026-07-25,8,Whatsapp,Assíncrono,6,6
-hora,luana.alencar@meutudo.app,Nível 1,2026-07-25,9,0800,Assíncrono,1,1
-hora,luana.alencar@meutudo.app,Nível 1,2026-07-25,9,Whatsapp,Assíncrono,11,10
-hora,luana.alencar@meutudo.app,Nível 1,2026-07-25,10,Whatsapp,Assíncrono,13,13
-hora,luana.alencar@meutudo.app,Nível 1,2026-07-25,11,0800,Assíncrono,1,1
-hora,luana.alencar@meutudo.app,Nível 1,2026-07-25,11,Canal App,Assíncrono,1,1
-hora,luana.alencar@meutudo.app,Nível 1,2026-07-25,11,Whatsapp,Assíncrono,8,7
-hora,luana.alencar@meutudo.app,Nível 1,2026-07-25,13,Whatsapp,Assíncrono,11,11
-hora,luana.alencar@meutudo.app,Nível 1,2026-07-25,14,Canal App,Assíncrono,8,8
-hora,luana.alencar@meutudo.app,Nível 1,2026-07-25,14,Whatsapp,Assíncrono,8,7
-hora,luana.alencar@meutudo.app,Operações e Customer,2026-07-25,14,Whatsapp,Assíncrono,1,0
-hora,luana.alencar@meutudo.app,Nível 1,2026-07-25,15,Canal App,Assíncrono,9,9
-hora,luana.alencar@meutudo.app,Nível 1,2026-07-25,15,Whatsapp,Assíncrono,4,4
 hora,luana.alencar@meutudo.app,Nível 1,2026-07-27,8,Whatsapp,Assíncrono,8,5
 hora,luana.alencar@meutudo.app,Nível 1,2026-07-27,9,Whatsapp,Assíncrono,10,8
 hora,luana.alencar@meutudo.app,Nível 1,2026-07-27,10,Canal App,Assíncrono,6,6
@@ -168658,19 +168192,6 @@ hora,lucas.azevedo@meutudo.app,Nível 3,2026-08-20,10,Whatsapp,Assíncrono,1,1
 hora,lucas.azevedo@meutudo.app,Nível 3,2026-08-20,17,Whatsapp,Assíncrono,1,0
 hora,lucas.azevedo@meutudo.app,Nível 3,2026-08-21,9,Chat,Assíncrono,1,1
 hora,lucas.azevedo@meutudo.app,Nível 3,2026-08-21,10,Whatsapp,Assíncrono,1,1
-hora,lucas.leal@meutudo.app,Nível 1,2026-07-25,8,Whatsapp,Assíncrono,1,0
-hora,lucas.leal@meutudo.app,Nível 1,2026-07-25,9,Whatsapp,Assíncrono,3,3
-hora,lucas.leal@meutudo.app,Nível 1,2026-07-25,10,Canal App,Assíncrono,2,2
-hora,lucas.leal@meutudo.app,Nível 1,2026-07-25,10,Whatsapp,Assíncrono,5,5
-hora,lucas.leal@meutudo.app,Nível 1,2026-07-25,11,0800,Assíncrono,1,1
-hora,lucas.leal@meutudo.app,Nível 1,2026-07-25,11,Canal App,Assíncrono,3,3
-hora,lucas.leal@meutudo.app,Nível 1,2026-07-25,11,Whatsapp,Assíncrono,4,4
-hora,lucas.leal@meutudo.app,Nível 1,2026-07-25,12,Whatsapp,Assíncrono,6,4
-hora,lucas.leal@meutudo.app,Nível 1,2026-07-25,13,Whatsapp,Assíncrono,4,3
-hora,lucas.leal@meutudo.app,Nível 1,2026-07-25,14,Canal App,Assíncrono,3,3
-hora,lucas.leal@meutudo.app,Nível 1,2026-07-25,14,Whatsapp,Assíncrono,4,4
-hora,lucas.leal@meutudo.app,Nível 1,2026-07-25,15,Canal App,Assíncrono,1,1
-hora,lucas.leal@meutudo.app,Nível 1,2026-07-25,15,Whatsapp,Assíncrono,2,2
 hora,lucas.leal@meutudo.app,Nível 1,2026-07-27,8,Whatsapp,Assíncrono,2,0
 hora,lucas.leal@meutudo.app,Nível 1,2026-07-27,9,Whatsapp,Assíncrono,2,2
 hora,lucas.leal@meutudo.app,Sem area,2026-07-27,9,Whatsapp,Síncrono,2,1
@@ -169275,7 +168796,6 @@ hora,luiza.ponte@meutudo.app,Nível 1,2026-08-22,12,Whatsapp,Assíncrono,2,2
 hora,luiza.ponte@meutudo.app,Nível 1,2026-08-22,13,Whatsapp,Assíncrono,3,3
 hora,luiza.ponte@meutudo.app,Nível 1,2026-08-22,14,Whatsapp,Assíncrono,1,1
 hora,luiza.ponte@meutudo.app,Nível 1,2026-08-22,15,Whatsapp,Assíncrono,1,1
-hora,magna.silva@meutudo.app,Nível 2,2026-07-25,10,0800,Assíncrono,1,0
 hora,magna.silva@meutudo.app,Nível 1,2026-07-27,8,Whatsapp,Assíncrono,1,1
 hora,magna.silva@meutudo.app,Nível 2,2026-07-27,8,Whatsapp,Assíncrono,4,2
 hora,magna.silva@meutudo.app,Nível 2,2026-07-27,9,0800,Assíncrono,2,2
@@ -170129,22 +169649,6 @@ hora,manuela.rodrigues@meutudo.app,Ouvidoria,2026-08-21,15,ConsumidorGOV,Assínc
 hora,manuela.rodrigues@meutudo.app,Ouvidoria,2026-08-21,16,Bacen/RDR,Assíncrono,1,1
 hora,manuela.rodrigues@meutudo.app,Ouvidoria,2026-08-21,18,Bacen/RDR,Assíncrono,1,1
 hora,manuela.silva@meutudo.app,Sem area,2026-08-04,16,Whatsapp,Assíncrono,1,0
-hora,maria.clara@meutudo.app,Conciliação,2026-07-25,8,Whatsapp,Assíncrono,1,0
-hora,maria.clara@meutudo.app,Nível 1,2026-07-25,8,Whatsapp,Assíncrono,31,0
-hora,maria.clara@meutudo.app,Nível 1,2026-07-25,9,Whatsapp,Assíncrono,46,0
-hora,maria.clara@meutudo.app,Nível 2,2026-07-25,9,Whatsapp,Assíncrono,2,0
-hora,maria.clara@meutudo.app,Nível 1,2026-07-25,10,Whatsapp,Assíncrono,4,0
-hora,maria.clara@meutudo.app,Nível 2,2026-07-25,10,Whatsapp,Assíncrono,6,0
-hora,maria.clara@meutudo.app,Nível 2,2026-07-25,11,Whatsapp,Assíncrono,4,0
-hora,maria.clara@meutudo.app,Nível 1,2026-07-25,12,Whatsapp,Assíncrono,2,0
-hora,maria.clara@meutudo.app,Nível 2,2026-07-25,12,Whatsapp,Assíncrono,1,0
-hora,maria.clara@meutudo.app,Nível 1,2026-07-25,13,Whatsapp,Assíncrono,1,0
-hora,maria.clara@meutudo.app,Nível 2,2026-07-25,13,Whatsapp,Assíncrono,3,0
-hora,maria.clara@meutudo.app,Operações e Customer,2026-07-25,13,Whatsapp,Assíncrono,1,0
-hora,maria.clara@meutudo.app,Nível 2,2026-07-25,14,Whatsapp,Assíncrono,1,0
-hora,maria.clara@meutudo.app,Nível 1,2026-07-25,15,Whatsapp,Assíncrono,3,0
-hora,maria.clara@meutudo.app,Nível 2,2026-07-25,15,Whatsapp,Assíncrono,2,0
-hora,maria.clara@meutudo.app,Nível 2,2026-07-25,16,Whatsapp,Assíncrono,1,0
 hora,maria.clara@meutudo.app,Nível 1,2026-07-27,8,Whatsapp,Assíncrono,1,0
 hora,maria.clara@meutudo.app,Nível 2,2026-07-27,8,Whatsapp,Assíncrono,1,0
 hora,maria.clara@meutudo.app,Nível 2,2026-07-27,9,Whatsapp,Assíncrono,3,0
@@ -170629,20 +170133,6 @@ hora,maria.clara@meutudo.app,Nível 1,2026-08-22,9,Whatsapp,Assíncrono,1,0
 hora,maria.clara@meutudo.app,Nível 1,2026-08-22,10,Whatsapp,Assíncrono,1,0
 hora,maria.clara@meutudo.app,Nível 1,2026-08-22,13,Whatsapp,Assíncrono,2,0
 hora,maria.clara@meutudo.app,Nível 1,2026-08-22,14,Whatsapp,Assíncrono,2,0
-hora,maria.costa@meutudo.app,Nível 1,2026-07-25,8,0800,Assíncrono,1,0
-hora,maria.costa@meutudo.app,Nível 1,2026-07-25,8,Whatsapp,Assíncrono,6,5
-hora,maria.costa@meutudo.app,Nível 1,2026-07-25,9,0800,Assíncrono,1,1
-hora,maria.costa@meutudo.app,Nível 1,2026-07-25,9,Whatsapp,Assíncrono,7,6
-hora,maria.costa@meutudo.app,Nível 1,2026-07-25,10,Whatsapp,Assíncrono,6,6
-hora,maria.costa@meutudo.app,Nível 1,2026-07-25,11,Whatsapp,Assíncrono,4,3
-hora,maria.costa@meutudo.app,Nível 1,2026-07-25,12,Canal App,Assíncrono,1,1
-hora,maria.costa@meutudo.app,Nível 1,2026-07-25,12,Whatsapp,Assíncrono,4,2
-hora,maria.costa@meutudo.app,Nível 1,2026-07-25,13,Whatsapp,Assíncrono,11,11
-hora,maria.costa@meutudo.app,Nível 1,2026-07-25,14,Chat,Síncrono,1,0
-hora,maria.costa@meutudo.app,Nível 1,2026-07-25,14,Whatsapp,Assíncrono,1,1
-hora,maria.costa@meutudo.app,Ouvidoria,2026-07-25,14,Whatsapp,Assíncrono,1,0
-hora,maria.costa@meutudo.app,Sem area,2026-07-25,14,Chat,Síncrono,2,2
-hora,maria.costa@meutudo.app,Sem area,2026-07-25,14,Sem canal,Síncrono,6,0
 hora,maria.costa@meutudo.app,Nível 1,2026-07-27,8,Canal App,Assíncrono,6,4
 hora,maria.costa@meutudo.app,Nível 1,2026-07-27,8,Whatsapp,Assíncrono,5,4
 hora,maria.costa@meutudo.app,Nível 1,2026-07-27,9,Whatsapp,Assíncrono,10,10
@@ -171084,22 +170574,6 @@ hora,maria.eloisa@meutudo.app,Nível 1,2026-08-20,14,Whatsapp,Assíncrono,5,5
 hora,maria.eloisa@meutudo.app,Nível 2,2026-08-20,14,Whatsapp,Assíncrono,1,1
 hora,maria.eloisa@meutudo.app,Nível 3,2026-08-20,14,Whatsapp,Assíncrono,1,0
 hora,maria.eloisa@meutudo.app,Nível 2,2026-08-20,15,Whatsapp,Assíncrono,3,2
-hora,maria.sousa@meutudo.app,Cobrança,2026-07-25,9,Whatsapp,Síncrono,1,0
-hora,maria.sousa@meutudo.app,Nível 1,2026-07-25,9,Whatsapp,Síncrono,1,0
-hora,maria.sousa@meutudo.app,Sem area,2026-07-25,9,Sem canal,Síncrono,3,0
-hora,maria.sousa@meutudo.app,Sem area,2026-07-25,9,Whatsapp,Síncrono,4,2
-hora,maria.sousa@meutudo.app,Sem area,2026-07-25,10,Sem canal,Síncrono,3,0
-hora,maria.sousa@meutudo.app,Sem area,2026-07-25,10,Whatsapp,Síncrono,4,2
-hora,maria.sousa@meutudo.app,Sem area,2026-07-25,11,Sem canal,Síncrono,6,0
-hora,maria.sousa@meutudo.app,Sem area,2026-07-25,11,Whatsapp,Síncrono,2,0
-hora,maria.sousa@meutudo.app,Sem area,2026-07-25,12,Sem canal,Síncrono,2,0
-hora,maria.sousa@meutudo.app,Sem area,2026-07-25,12,Whatsapp,Síncrono,1,0
-hora,maria.sousa@meutudo.app,Nível 3,2026-07-25,13,Whatsapp,Síncrono,1,0
-hora,maria.sousa@meutudo.app,Sem area,2026-07-25,13,Sem canal,Síncrono,1,0
-hora,maria.sousa@meutudo.app,Sem area,2026-07-25,13,Whatsapp,Síncrono,3,3
-hora,maria.sousa@meutudo.app,Sem area,2026-07-25,14,Sem canal,Síncrono,2,0
-hora,maria.sousa@meutudo.app,Sem area,2026-07-25,14,Whatsapp,Síncrono,4,3
-hora,maria.sousa@meutudo.app,Sem area,2026-07-25,15,Whatsapp,Síncrono,4,3
 hora,maria.sousa@meutudo.app,Conciliação,2026-07-27,9,Whatsapp,Assíncrono,1,0
 hora,maria.sousa@meutudo.app,Port_out,2026-07-27,13,Whatsapp,Síncrono,1,0
 hora,maria.sousa@meutudo.app,Sem area,2026-07-27,13,Sem canal,Síncrono,18,0
@@ -171734,10 +171208,6 @@ hora,maria.viana@meutudo.app,Sem area,2026-08-21,14,Whatsapp,Síncrono,1,0
 hora,maria.viana@meutudo.app,Customer Atendimento,2026-08-21,16,Whatsapp,Assíncrono,1,0
 hora,maria.viana@meutudo.app,Nível 2,2026-08-21,16,0800,Assíncrono,2,2
 hora,maria.viana@meutudo.app,Nível 2,2026-08-21,16,Whatsapp,Assíncrono,3,3
-hora,mariaeduarda.farias@meutudo.app,Sem area,2026-07-25,10,Sem canal,Síncrono,5,0
-hora,mariaeduarda.farias@meutudo.app,Sem area,2026-07-25,11,Sem canal,Síncrono,5,0
-hora,mariaeduarda.farias@meutudo.app,Sem area,2026-07-25,12,Whatsapp,Síncrono,1,1
-hora,mariaeduarda.farias@meutudo.app,Sem area,2026-07-25,13,Sem canal,Síncrono,1,0
 hora,mariaeduarda.farias@meutudo.app,Sem area,2026-07-27,9,Sem canal,Síncrono,1,0
 hora,mariaeduarda.farias@meutudo.app,Sem area,2026-07-27,9,Whatsapp,Síncrono,5,3
 hora,mariaeduarda.farias@meutudo.app,Sem area,2026-07-27,10,Sem canal,Síncrono,5,0
@@ -171904,19 +171374,6 @@ hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-22,11,Sem canal,Síncrono,
 hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-22,11,Whatsapp,Síncrono,2,1
 hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-22,12,Sem canal,Síncrono,3,0
 hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-22,13,Whatsapp,Síncrono,2,1
-hora,mariana.rodrigues@meutudo.app,Cobrança,2026-07-25,8,Whatsapp,Assíncrono,2,2
-hora,mariana.rodrigues@meutudo.app,Sem area,2026-07-25,8,Sem canal,Síncrono,2,0
-hora,mariana.rodrigues@meutudo.app,Cobrança,2026-07-25,9,Whatsapp,Assíncrono,2,2
-hora,mariana.rodrigues@meutudo.app,Nível 3,2026-07-25,9,0800,Assíncrono,2,0
-hora,mariana.rodrigues@meutudo.app,Cobrança,2026-07-25,10,Whatsapp,Assíncrono,6,2
-hora,mariana.rodrigues@meutudo.app,Cobrança,2026-07-25,12,Whatsapp,Assíncrono,2,0
-hora,mariana.rodrigues@meutudo.app,Nível 2,2026-07-25,12,Whatsapp,Assíncrono,1,0
-hora,mariana.rodrigues@meutudo.app,Nível 3,2026-07-25,12,Whatsapp,Assíncrono,1,0
-hora,mariana.rodrigues@meutudo.app,Cobrança,2026-07-25,13,Whatsapp,Assíncrono,4,2
-hora,mariana.rodrigues@meutudo.app,Nível 1,2026-07-25,13,Whatsapp,Assíncrono,1,0
-hora,mariana.rodrigues@meutudo.app,Cobrança,2026-07-25,14,Whatsapp,Assíncrono,4,0
-hora,mariana.rodrigues@meutudo.app,Cobrança,2026-07-25,15,Whatsapp,Assíncrono,5,2
-hora,mariana.rodrigues@meutudo.app,Cobrança,2026-07-25,16,Whatsapp,Assíncrono,2,2
 hora,mariana.rodrigues@meutudo.app,Sem area,2026-07-27,11,Sem canal,Síncrono,16,0
 hora,mariana.rodrigues@meutudo.app,Sem area,2026-07-27,11,Whatsapp,Síncrono,2,2
 hora,mariana.rodrigues@meutudo.app,Sem area,2026-07-27,12,Sem canal,Síncrono,6,0
@@ -173153,18 +172610,6 @@ hora,matheus.carvalho@meutudo.app,Sem area,2026-08-21,14,Sem canal,Síncrono,2,0
 hora,matheus.carvalho@meutudo.app,Sem area,2026-08-21,14,Whatsapp,Síncrono,5,3
 hora,matheus.carvalho@meutudo.app,Sem area,2026-08-21,15,Whatsapp,Síncrono,1,1
 hora,matheus.carvalho@meutudo.app,Sem area,2026-08-21,16,Whatsapp,Síncrono,2,1
-hora,matheus.sales@meutudo.app,Nível 2,2026-07-25,8,Whatsapp,Assíncrono,1,1
-hora,matheus.sales@meutudo.app,Nível 2,2026-07-25,9,Whatsapp,Assíncrono,12,12
-hora,matheus.sales@meutudo.app,Nível 2,2026-07-25,10,0800,Assíncrono,3,3
-hora,matheus.sales@meutudo.app,Nível 2,2026-07-25,10,Whatsapp,Assíncrono,6,6
-hora,matheus.sales@meutudo.app,Nível 2,2026-07-25,11,0800,Assíncrono,1,1
-hora,matheus.sales@meutudo.app,Nível 2,2026-07-25,11,Whatsapp,Assíncrono,4,4
-hora,matheus.sales@meutudo.app,Sem area,2026-07-25,11,0800,Assíncrono,1,0
-hora,matheus.sales@meutudo.app,Nível 2,2026-07-25,12,0800,Assíncrono,2,2
-hora,matheus.sales@meutudo.app,Nível 2,2026-07-25,12,Whatsapp,Assíncrono,8,8
-hora,matheus.sales@meutudo.app,Nível 2,2026-07-25,13,Whatsapp,Assíncrono,8,8
-hora,matheus.sales@meutudo.app,Nível 2,2026-07-25,14,Whatsapp,Assíncrono,12,12
-hora,matheus.sales@meutudo.app,Nível 2,2026-07-25,15,Whatsapp,Assíncrono,3,3
 hora,matheus.sales@meutudo.app,Nível 2,2026-07-27,8,Whatsapp,Assíncrono,1,1
 hora,matheus.sales@meutudo.app,Nível 1,2026-07-27,9,Whatsapp,Assíncrono,1,1
 hora,matheus.sales@meutudo.app,Nível 2,2026-07-27,9,0800,Assíncrono,2,2
@@ -173847,9 +173292,6 @@ hora,mauricyo.furtado@meutudo.app,Sem area,2026-08-21,16,Faleconosco,Síncrono,2
 hora,mauricyo.furtado@meutudo.app,Sem area,2026-08-21,16,Sem canal,Síncrono,1,0
 hora,mauricyo.furtado@meutudo.app,Sem area,2026-08-21,17,Faleconosco,Síncrono,1,1
 hora,mauricyo.furtado@meutudo.app,Sem area,2026-08-21,17,Sem canal,Síncrono,2,0
-hora,mayane.santana@meutudo.app,Reclame aqui,2026-07-25,12,Reclame Aqui,Assíncrono,1,0
-hora,mayane.santana@meutudo.app,Reclame aqui,2026-07-25,14,Reclame Aqui,Assíncrono,1,0
-hora,mayane.santana@meutudo.app,Reclame aqui,2026-07-25,17,Reclame Aqui,Assíncrono,1,0
 hora,mayane.santana@meutudo.app,Reclame aqui,2026-07-26,11,Reclame Aqui,Assíncrono,1,0
 hora,mayane.santana@meutudo.app,Reclame aqui,2026-07-27,16,Reclame Aqui,Assíncrono,2,0
 hora,mayane.santana@meutudo.app,Reclame aqui,2026-07-27,17,Reclame Aqui,Assíncrono,1,0
@@ -175444,15 +174886,6 @@ hora,nataniel.pereira@meutudo.app,Cobrança,2026-08-21,16,Whatsapp,Assíncrono,8
 hora,nataniel.pereira@meutudo.app,Nível 2,2026-08-21,16,Whatsapp,Assíncrono,1,0
 hora,nataniel.pereira@meutudo.app,Cobrança,2026-08-21,17,Whatsapp,Assíncrono,9,9
 hora,nataniel.pereira@meutudo.app,Cobrança,2026-08-21,18,Whatsapp,Assíncrono,1,1
-hora,paulo.andrade@meutudo.app,Cobrança,2026-07-25,8,Whatsapp,Assíncrono,3,3
-hora,paulo.andrade@meutudo.app,Cobrança,2026-07-25,9,0800,Assíncrono,1,1
-hora,paulo.andrade@meutudo.app,Cobrança,2026-07-25,9,Whatsapp,Assíncrono,1,1
-hora,paulo.andrade@meutudo.app,Cobrança,2026-07-25,10,Whatsapp,Assíncrono,3,2
-hora,paulo.andrade@meutudo.app,Cobrança,2026-07-25,11,Whatsapp,Assíncrono,5,3
-hora,paulo.andrade@meutudo.app,Cobrança,2026-07-25,12,Whatsapp,Assíncrono,5,3
-hora,paulo.andrade@meutudo.app,Cobrança,2026-07-25,13,Whatsapp,Assíncrono,3,3
-hora,paulo.andrade@meutudo.app,Cobrança,2026-07-25,14,Whatsapp,Assíncrono,5,3
-hora,paulo.andrade@meutudo.app,Cobrança,2026-07-25,15,Whatsapp,Assíncrono,5,3
 hora,paulo.andrade@meutudo.app,Cobrança,2026-07-26,20,Whatsapp,Assíncrono,1,0
 hora,paulo.andrade@meutudo.app,Cobrança,2026-07-27,9,0800,Assíncrono,1,0
 hora,paulo.andrade@meutudo.app,Cobrança,2026-07-27,9,Whatsapp,Assíncrono,4,2
@@ -175754,16 +175187,6 @@ hora,paulo.andrade@meutudo.app,Cobrança,2026-08-22,11,Whatsapp,Assíncrono,7,6
 hora,paulo.andrade@meutudo.app,Cobrança,2026-08-22,12,Whatsapp,Assíncrono,9,9
 hora,paulo.andrade@meutudo.app,Cobrança,2026-08-22,17,Whatsapp,Assíncrono,1,0
 hora,paulo.andrade@meutudo.app,Cobrança,2026-08-22,18,Whatsapp,Assíncrono,1,0
-hora,pedro.alves@meutudo.app,Cobrança,2026-07-25,8,0800,Assíncrono,1,0
-hora,pedro.alves@meutudo.app,Cobrança,2026-07-25,8,Whatsapp,Assíncrono,4,4
-hora,pedro.alves@meutudo.app,Sem area,2026-07-25,8,Whatsapp,Síncrono,4,1
-hora,pedro.alves@meutudo.app,Cobrança,2026-07-25,9,Whatsapp,Assíncrono,8,8
-hora,pedro.alves@meutudo.app,Cobrança,2026-07-25,10,Whatsapp,Assíncrono,5,5
-hora,pedro.alves@meutudo.app,Cobrança,2026-07-25,11,Whatsapp,Assíncrono,6,6
-hora,pedro.alves@meutudo.app,Nível 1,2026-07-25,11,Whatsapp,Assíncrono,1,1
-hora,pedro.alves@meutudo.app,Cobrança,2026-07-25,12,Whatsapp,Assíncrono,1,1
-hora,pedro.alves@meutudo.app,Cobrança,2026-07-25,13,Whatsapp,Assíncrono,7,7
-hora,pedro.alves@meutudo.app,Cobrança,2026-07-25,14,Whatsapp,Assíncrono,5,5
 hora,pedro.alves@meutudo.app,Cobrança,2026-07-26,13,Whatsapp,Assíncrono,1,0
 hora,pedro.alves@meutudo.app,Cobrança,2026-07-27,9,Whatsapp,Assíncrono,1,1
 hora,pedro.alves@meutudo.app,Cobrança,2026-07-27,10,Whatsapp,Assíncrono,1,0
@@ -176566,7 +175989,6 @@ hora,rafael.ramos@meutudo.app,Nível 3,2026-08-21,14,Chat,Síncrono,2,1
 hora,rafael.ramos@meutudo.app,Sem area,2026-08-21,14,Chat,Síncrono,1,1
 hora,rafael.ramos@meutudo.app,Sem area,2026-08-21,14,Sem canal,Síncrono,8,0
 hora,rafael.ramos@meutudo.app,Conciliação,2026-08-22,9,Chat,Assíncrono,1,0
-hora,rafaela.carneiro@meutudo.app,Reclame aqui,2026-07-25,10,Reclame Aqui,Assíncrono,1,0
 hora,rafaela.carneiro@meutudo.app,Reclame aqui,2026-07-27,9,Reclame Aqui,Assíncrono,5,0
 hora,rafaela.carneiro@meutudo.app,Reclame aqui,2026-07-27,10,Reclame Aqui,Assíncrono,2,2
 hora,rafaela.carneiro@meutudo.app,Nível 3,2026-07-27,11,Canal App,Assíncrono,1,1
@@ -176829,7 +176251,6 @@ hora,rafaela.carneiro@meutudo.app,Reclame aqui,2026-08-21,13,Reclame Aqui,Assín
 hora,rafaela.carneiro@meutudo.app,Reclame aqui,2026-08-21,14,Reclame Aqui,Assíncrono,1,1
 hora,rafaela.carneiro@meutudo.app,Reclame aqui,2026-08-21,16,Reclame Aqui,Assíncrono,2,2
 hora,rafaela.carneiro@meutudo.app,Reclame aqui,2026-08-21,17,Reclame Aqui,Assíncrono,3,3
-hora,rafaele.santos@meutudo.app,Nível 1,2026-07-25,9,Whatsapp,Assíncrono,1,0
 hora,rafaele.santos@meutudo.app,Nível 3,2026-07-27,10,Whatsapp,Assíncrono,2,0
 hora,rafaele.santos@meutudo.app,Nível 2,2026-07-27,11,Whatsapp,Assíncrono,9,9
 hora,rafaele.santos@meutudo.app,Nível 2,2026-07-27,12,Whatsapp,Assíncrono,11,11
@@ -177175,8 +176596,6 @@ hora,railson.freitas@meutudo.app,Averbação,2026-08-17,17,Whatsapp,Assíncrono,
 hora,railson.freitas@meutudo.app,Pagamento,2026-08-18,14,Whatsapp,Assíncrono,1,1
 hora,railson.freitas@meutudo.app,Averbação,2026-08-19,15,Whatsapp,Assíncrono,3,3
 hora,railson.freitas@meutudo.app,Triagem,2026-08-21,14,Whatsapp,Assíncrono,3,0
-hora,renata.barros@meutudo.app,Nível 2,2026-07-25,8,Whatsapp,Assíncrono,1,0
-hora,renata.barros@meutudo.app,Averbação,2026-07-25,10,Whatsapp,Assíncrono,1,0
 hora,renata.barros@meutudo.app,Nível 2,2026-07-27,8,Whatsapp,Assíncrono,16,16
 hora,renata.barros@meutudo.app,Nível 2,2026-07-27,9,0800,Assíncrono,1,1
 hora,renata.barros@meutudo.app,Nível 2,2026-07-27,9,Whatsapp,Assíncrono,16,10
@@ -177502,18 +176921,6 @@ hora,renata.barros@meutudo.app,Nível 2,2026-08-22,13,Whatsapp,Assíncrono,1,0
 hora,renata.barros@meutudo.app,Nível 2,2026-08-22,14,Whatsapp,Assíncrono,5,0
 hora,renata.barros@meutudo.app,Nível 2,2026-08-22,15,0800,Assíncrono,1,0
 hora,renata.barros@meutudo.app,Nível 2,2026-08-22,15,Whatsapp,Assíncrono,5,0
-hora,renata.cavalcante@meutudo.app,Nível 2,2026-07-25,8,Whatsapp,Assíncrono,4,4
-hora,renata.cavalcante@meutudo.app,Nível 2,2026-07-25,9,Whatsapp,Assíncrono,8,8
-hora,renata.cavalcante@meutudo.app,Nível 2,2026-07-25,10,0800,Assíncrono,1,1
-hora,renata.cavalcante@meutudo.app,Nível 2,2026-07-25,10,Whatsapp,Assíncrono,3,3
-hora,renata.cavalcante@meutudo.app,Nível 2,2026-07-25,11,0800,Assíncrono,1,1
-hora,renata.cavalcante@meutudo.app,Nível 2,2026-07-25,11,Whatsapp,Assíncrono,3,3
-hora,renata.cavalcante@meutudo.app,Nível 2,2026-07-25,12,Whatsapp,Assíncrono,7,7
-hora,renata.cavalcante@meutudo.app,Nível 2,2026-07-25,13,0800,Assíncrono,1,0
-hora,renata.cavalcante@meutudo.app,Nível 2,2026-07-25,13,Whatsapp,Assíncrono,4,4
-hora,renata.cavalcante@meutudo.app,Nível 2,2026-07-25,14,0800,Assíncrono,1,1
-hora,renata.cavalcante@meutudo.app,Nível 2,2026-07-25,14,Whatsapp,Assíncrono,2,2
-hora,renata.cavalcante@meutudo.app,Sem area,2026-07-25,14,Whatsapp,Síncrono,3,2
 hora,renata.cavalcante@meutudo.app,Nível 1,2026-07-27,8,Whatsapp,Síncrono,2,1
 hora,renata.cavalcante@meutudo.app,Sem area,2026-07-27,8,Sem canal,Síncrono,9,0
 hora,renata.cavalcante@meutudo.app,Sem area,2026-07-27,8,Whatsapp,Síncrono,6,3
@@ -177727,12 +177134,6 @@ hora,renata.cavalcante@meutudo.app,Sem area,2026-08-14,14,Sem canal,Síncrono,2,
 hora,renata.cavalcante@meutudo.app,Sem area,2026-08-14,14,Whatsapp,Síncrono,2,2
 hora,renata.cavalcante@meutudo.app,Nível 1,2026-08-14,15,Whatsapp,Assíncrono,6,6
 hora,renata.cavalcante@meutudo.app,Nível 2,2026-08-14,19,Whatsapp,Assíncrono,1,0
-hora,renata.serpa@meutudo.app,Sem area,2026-07-25,8,Sem canal,Síncrono,10,0
-hora,renata.serpa@meutudo.app,Sem area,2026-07-25,8,Whatsapp,Síncrono,7,4
-hora,renata.serpa@meutudo.app,Sem area,2026-07-25,9,Sem canal,Síncrono,10,0
-hora,renata.serpa@meutudo.app,Sem area,2026-07-25,9,Whatsapp,Síncrono,1,1
-hora,renata.serpa@meutudo.app,Sem area,2026-07-25,10,Whatsapp,Síncrono,4,2
-hora,renata.serpa@meutudo.app,Sem area,2026-07-25,11,Sem canal,Síncrono,2,0
 hora,renata.serpa@meutudo.app,Sem area,2026-07-27,8,Sem canal,Síncrono,2,0
 hora,renata.serpa@meutudo.app,Sem area,2026-07-27,8,Whatsapp,Síncrono,3,1
 hora,renata.serpa@meutudo.app,Sem area,2026-07-27,9,Sem canal,Síncrono,7,0
@@ -177875,7 +177276,6 @@ hora,renata.serpa@meutudo.app,Sem area,2026-08-22,8,Sem canal,Síncrono,6,0
 hora,renata.serpa@meutudo.app,Sem area,2026-08-22,8,Whatsapp,Síncrono,1,1
 hora,renata.serpa@meutudo.app,Sem area,2026-08-22,11,Sem canal,Síncrono,7,0
 hora,renata.serpa@meutudo.app,Sem area,2026-08-22,11,Whatsapp,Síncrono,3,2
-hora,ricardo.batalha@meutudo.app,Conciliação,2026-07-25,12,Whatsapp,Assíncrono,1,0
 hora,ricardo.batalha@meutudo.app,Nível 3,2026-07-27,8,Whatsapp,Assíncrono,1,0
 hora,ricardo.batalha@meutudo.app,Sem area,2026-07-27,9,Sem canal,Síncrono,1,0
 hora,ricardo.batalha@meutudo.app,Conciliação,2026-07-27,10,Whatsapp,Assíncrono,1,0
@@ -178385,15 +177785,6 @@ hora,ronaldo.ferreira@meutudo.app,Cobrança,2026-08-22,9,Whatsapp,Assíncrono,6,
 hora,ronaldo.ferreira@meutudo.app,Cobrança,2026-08-22,10,Whatsapp,Assíncrono,5,4
 hora,ronaldo.ferreira@meutudo.app,Cobrança,2026-08-22,11,Whatsapp,Assíncrono,6,3
 hora,ronaldo.ferreira@meutudo.app,Cobrança,2026-08-22,12,Whatsapp,Assíncrono,9,8
-hora,rosana.oliveira@meutudo.app,Nível 1,2026-07-25,9,Whatsapp,Assíncrono,6,6
-hora,rosana.oliveira@meutudo.app,Nível 1,2026-07-25,10,Whatsapp,Assíncrono,4,4
-hora,rosana.oliveira@meutudo.app,Nível 2,2026-07-25,10,Whatsapp,Assíncrono,1,1
-hora,rosana.oliveira@meutudo.app,Nível 1,2026-07-25,11,Whatsapp,Assíncrono,4,4
-hora,rosana.oliveira@meutudo.app,Nível 1,2026-07-25,12,Whatsapp,Assíncrono,5,4
-hora,rosana.oliveira@meutudo.app,Nível 1,2026-07-25,13,Whatsapp,Assíncrono,3,3
-hora,rosana.oliveira@meutudo.app,Nível 1,2026-07-25,14,Canal App,Assíncrono,5,5
-hora,rosana.oliveira@meutudo.app,Nível 1,2026-07-25,15,Canal App,Assíncrono,5,5
-hora,rosana.oliveira@meutudo.app,Nível 1,2026-07-25,15,Whatsapp,Assíncrono,5,5
 hora,rosana.oliveira@meutudo.app,Nível 1,2026-07-27,13,Whatsapp,Assíncrono,6,6
 hora,rosana.oliveira@meutudo.app,Nível 1,2026-07-27,14,Whatsapp,Assíncrono,11,11
 hora,rosana.oliveira@meutudo.app,Nível 3,2026-07-27,14,Whatsapp,Assíncrono,1,0
@@ -178623,16 +178014,6 @@ hora,rosana.oliveira@meutudo.app,Nível 2,2026-08-22,12,Whatsapp,Assíncrono,2,2
 hora,rosana.oliveira@meutudo.app,Nível 2,2026-08-22,13,Whatsapp,Assíncrono,5,5
 hora,rosana.oliveira@meutudo.app,Nível 2,2026-08-22,15,0800,Assíncrono,1,0
 hora,rosana.oliveira@meutudo.app,Nível 2,2026-08-22,15,Whatsapp,Assíncrono,3,2
-hora,sabrina.cunha@meutudo.app,Cobrança,2026-07-25,8,Whatsapp,Assíncrono,4,3
-hora,sabrina.cunha@meutudo.app,Sem area,2026-07-25,8,Sem canal,Síncrono,8,0
-hora,sabrina.cunha@meutudo.app,Sem area,2026-07-25,8,Whatsapp,Síncrono,2,1
-hora,sabrina.cunha@meutudo.app,Cobrança,2026-07-25,9,Whatsapp,Assíncrono,5,4
-hora,sabrina.cunha@meutudo.app,Cobrança,2026-07-25,10,Whatsapp,Assíncrono,6,5
-hora,sabrina.cunha@meutudo.app,Cobrança,2026-07-25,11,Whatsapp,Assíncrono,8,7
-hora,sabrina.cunha@meutudo.app,Cobrança,2026-07-25,12,Whatsapp,Assíncrono,4,4
-hora,sabrina.cunha@meutudo.app,Cobrança,2026-07-25,13,Whatsapp,Assíncrono,3,3
-hora,sabrina.cunha@meutudo.app,Cobrança,2026-07-25,14,Whatsapp,Assíncrono,10,10
-hora,sabrina.cunha@meutudo.app,Cobrança,2026-07-25,15,Whatsapp,Assíncrono,3,3
 hora,sabrina.cunha@meutudo.app,Sem area,2026-07-27,11,Sem canal,Síncrono,24,0
 hora,sabrina.cunha@meutudo.app,Sem area,2026-07-27,11,Whatsapp,Síncrono,14,6
 hora,sabrina.cunha@meutudo.app,Sem area,2026-07-27,12,Sem canal,Síncrono,20,0
@@ -179335,11 +178716,6 @@ hora,sarah.viana@meutudo.app,Cobrança,2026-08-21,18,Chat,Síncrono,2,1
 hora,sarah.viana@meutudo.app,Nível 2,2026-08-21,18,Whatsapp,Assíncrono,1,1
 hora,sarah.viana@meutudo.app,Sem area,2026-08-21,18,Chat,Síncrono,2,2
 hora,sarah.viana@meutudo.app,Sem area,2026-08-21,19,Chat,Síncrono,1,1
-hora,shamylle.lima@meutudo.app,Sem area,2026-07-25,9,Sem canal,Síncrono,3,0
-hora,shamylle.lima@meutudo.app,Sem area,2026-07-25,10,Sem canal,Síncrono,2,0
-hora,shamylle.lima@meutudo.app,Sem area,2026-07-25,11,Sem canal,Síncrono,3,0
-hora,shamylle.lima@meutudo.app,Sem area,2026-07-25,12,Sem canal,Síncrono,2,0
-hora,shamylle.lima@meutudo.app,Sem area,2026-07-25,14,Sem canal,Síncrono,1,0
 hora,shamylle.lima@meutudo.app,Sem area,2026-07-28,11,Sem canal,Síncrono,3,0
 hora,shamylle.lima@meutudo.app,Ouvidoria,2026-07-28,12,0800,Assíncrono,1,0
 hora,shamylle.lima@meutudo.app,Sem area,2026-07-28,12,Sem canal,Síncrono,4,0
@@ -180584,7 +179960,6 @@ hora,taynara.freitas@meutudo.app,Sem area,2026-08-07,17,Whatsapp,Síncrono,6,4
 hora,taynara.freitas@meutudo.app,Cobrança,2026-08-12,9,0800,Assíncrono,1,1
 hora,taynara.freitas@meutudo.app,Cobrança,2026-08-12,9,Whatsapp,Assíncrono,2,2
 hora,taynara.freitas@meutudo.app,Cobrança,2026-08-12,10,Whatsapp,Assíncrono,3,3
-hora,taynara.gomes@meutudo.app,Customer Atendimento,2026-07-25,9,0800,Assíncrono,1,0
 hora,taynara.gomes@meutudo.app,Conciliação,2026-07-27,9,Whatsapp,Assíncrono,1,0
 hora,taynara.gomes@meutudo.app,Customer Atendimento,2026-07-27,10,0800,Assíncrono,1,1
 hora,taynara.gomes@meutudo.app,Customer Atendimento,2026-07-27,10,Whatsapp,Assíncrono,1,1
@@ -180911,8 +180286,6 @@ hora,teste.teste@meutudo.app,Nível 2,2026-08-22,14,Whatsapp,Assíncrono,18,0
 hora,teste.teste@meutudo.app,Nível 2,2026-08-22,16,Whatsapp,Assíncrono,12,0
 hora,teste.teste@meutudo.app,Nível 2,2026-08-22,18,0800,Assíncrono,1,0
 hora,teste.teste@meutudo.app,Nível 2,2026-08-22,18,Whatsapp,Assíncrono,9,0
-hora,thays.oliveira@meutudo.app,Cobrança,2026-07-25,14,Whatsapp,Assíncrono,1,0
-hora,thays.oliveira@meutudo.app,Cobrança,2026-07-25,16,Whatsapp,Assíncrono,1,0
 hora,thays.oliveira@meutudo.app,Cobrança,2026-07-27,10,Whatsapp,Assíncrono,1,0
 hora,thays.oliveira@meutudo.app,Cobrança,2026-07-27,11,Whatsapp,Assíncrono,162,152
 hora,thays.oliveira@meutudo.app,Cobrança,2026-07-28,13,Whatsapp,Assíncrono,2,0
@@ -181313,18 +180686,6 @@ hora,thiago.cavalcante@meutudo.app,Sem area,2026-08-20,14,Whatsapp,Síncrono,4,4
 hora,thiago.cavalcante@meutudo.app,Sem area,2026-08-20,15,Whatsapp,Síncrono,1,1
 hora,thiago.cavalcante@meutudo.app,Sem area,2026-08-20,17,Sem canal,Síncrono,2,0
 hora,thiago.cavalcante@meutudo.app,Sem area,2026-08-20,18,Sem canal,Síncrono,1,0
-hora,thiago.silva@meutudo.app,Nível 2,2026-07-25,8,0800,Assíncrono,1,1
-hora,thiago.silva@meutudo.app,Nível 2,2026-07-25,8,Whatsapp,Assíncrono,9,8
-hora,thiago.silva@meutudo.app,Nível 2,2026-07-25,9,0800,Assíncrono,1,0
-hora,thiago.silva@meutudo.app,Nível 2,2026-07-25,9,Whatsapp,Assíncrono,10,10
-hora,thiago.silva@meutudo.app,Nível 2,2026-07-25,10,Whatsapp,Assíncrono,10,9
-hora,thiago.silva@meutudo.app,Conciliação,2026-07-25,11,Whatsapp,Assíncrono,1,0
-hora,thiago.silva@meutudo.app,Nível 2,2026-07-25,11,0800,Assíncrono,1,1
-hora,thiago.silva@meutudo.app,Nível 2,2026-07-25,11,Whatsapp,Assíncrono,8,8
-hora,thiago.silva@meutudo.app,Nível 2,2026-07-25,13,0800,Assíncrono,2,1
-hora,thiago.silva@meutudo.app,Nível 2,2026-07-25,13,Whatsapp,Assíncrono,9,9
-hora,thiago.silva@meutudo.app,Nível 2,2026-07-25,14,0800,Assíncrono,1,1
-hora,thiago.silva@meutudo.app,Nível 2,2026-07-25,14,Whatsapp,Assíncrono,7,6
 hora,thiago.silva@meutudo.app,Nível 2,2026-07-27,8,0800,Assíncrono,1,1
 hora,thiago.silva@meutudo.app,Nível 2,2026-07-27,8,Whatsapp,Assíncrono,10,8
 hora,thiago.silva@meutudo.app,Nível 2,2026-07-27,9,0800,Assíncrono,1,1
@@ -181703,25 +181064,6 @@ hora,thiago.silva@meutudo.app,Sem area,2026-08-22,14,Whatsapp,Síncrono,1,1
 hora,thiago.silva@meutudo.app,Tratamento em lote,2026-08-22,14,Whatsapp,Assíncrono,1,0
 hora,tom.olinda@meutudo.app,Ouvidoria,2026-07-30,10,Whatsapp,Assíncrono,1,0
 hora,tom.olinda@meutudo.app,Conciliação,2026-08-01,13,Whatsapp,Assíncrono,1,1
-hora,valeria.portela@meutudo.app,Nível 1,2026-07-25,8,Chat,Síncrono,1,0
-hora,valeria.portela@meutudo.app,Sem area,2026-07-25,8,Chat,Síncrono,3,0
-hora,valeria.portela@meutudo.app,Sem area,2026-07-25,8,Sem canal,Síncrono,3,0
-hora,valeria.portela@meutudo.app,Conciliação,2026-07-25,9,Chat,Assíncrono,1,0
-hora,valeria.portela@meutudo.app,Sem area,2026-07-25,9,Chat,Síncrono,2,2
-hora,valeria.portela@meutudo.app,Sem area,2026-07-25,9,Sem canal,Síncrono,1,0
-hora,valeria.portela@meutudo.app,Cobrança,2026-07-25,10,Chat,Síncrono,2,1
-hora,valeria.portela@meutudo.app,Sem area,2026-07-25,10,Chat,Síncrono,4,1
-hora,valeria.portela@meutudo.app,Sem area,2026-07-25,10,Sem canal,Síncrono,4,0
-hora,valeria.portela@meutudo.app,Cobrança,2026-07-25,12,Chat,Síncrono,1,0
-hora,valeria.portela@meutudo.app,Nível 2,2026-07-25,12,Chat,Síncrono,4,2
-hora,valeria.portela@meutudo.app,Sem area,2026-07-25,12,Chat,Síncrono,1,0
-hora,valeria.portela@meutudo.app,Sem area,2026-07-25,12,Sem canal,Síncrono,2,0
-hora,valeria.portela@meutudo.app,Nível 1,2026-07-25,13,Chat,Síncrono,4,1
-hora,valeria.portela@meutudo.app,Sem area,2026-07-25,13,Chat,Síncrono,2,1
-hora,valeria.portela@meutudo.app,Sem area,2026-07-25,13,Sem canal,Síncrono,4,0
-hora,valeria.portela@meutudo.app,Nível 1,2026-07-25,14,Chat,Síncrono,1,0
-hora,valeria.portela@meutudo.app,Sem area,2026-07-25,14,Chat,Síncrono,4,2
-hora,valeria.portela@meutudo.app,Sem area,2026-07-25,14,Sem canal,Síncrono,3,0
 hora,valeria.portela@meutudo.app,Nível 1,2026-07-27,8,Chat,Síncrono,3,1
 hora,valeria.portela@meutudo.app,Nível 3,2026-07-27,8,Chat,Síncrono,1,0
 hora,valeria.portela@meutudo.app,Sem area,2026-07-27,8,Sem canal,Síncrono,18,0
@@ -182075,16 +181417,6 @@ hora,valeria.portela@meutudo.app,Sem area,2026-08-22,13,Chat,Síncrono,5,5
 hora,valeria.portela@meutudo.app,Conciliação,2026-08-22,14,Chat,Síncrono,1,0
 hora,valeria.portela@meutudo.app,Sem area,2026-08-22,14,Chat,Síncrono,1,1
 hora,valeria.portela@meutudo.app,Sem area,2026-08-22,14,Sem canal,Síncrono,3,0
-hora,vanessa.maneco@meutudo.app,Nível 2,2026-07-25,8,0800,Assíncrono,1,1
-hora,vanessa.maneco@meutudo.app,Nível 2,2026-07-25,8,Whatsapp,Assíncrono,5,5
-hora,vanessa.maneco@meutudo.app,Nível 2,2026-07-25,9,0800,Assíncrono,1,1
-hora,vanessa.maneco@meutudo.app,Nível 2,2026-07-25,9,Whatsapp,Assíncrono,5,5
-hora,vanessa.maneco@meutudo.app,Nível 2,2026-07-25,10,Whatsapp,Assíncrono,6,6
-hora,vanessa.maneco@meutudo.app,Nível 2,2026-07-25,11,Whatsapp,Assíncrono,5,5
-hora,vanessa.maneco@meutudo.app,Nível 2,2026-07-25,13,Whatsapp,Assíncrono,5,5
-hora,vanessa.maneco@meutudo.app,Performance de pagamento,2026-07-25,13,0800,Assíncrono,1,0
-hora,vanessa.maneco@meutudo.app,Nível 2,2026-07-25,14,0800,Assíncrono,1,1
-hora,vanessa.maneco@meutudo.app,Nível 2,2026-07-25,14,Whatsapp,Assíncrono,4,4
 hora,vanessa.maneco@meutudo.app,Nível 2,2026-07-26,11,Whatsapp,Assíncrono,1,0
 hora,vanessa.maneco@meutudo.app,Nível 2,2026-07-27,8,Whatsapp,Assíncrono,1,1
 hora,vanessa.maneco@meutudo.app,Nível 2,2026-07-27,9,0800,Assíncrono,1,1
@@ -182735,11 +182067,6 @@ hora,vitoria.coelho@meutudo.app,Sem area,2026-08-21,11,Sem canal,Síncrono,6,0
 hora,vitoria.coelho@meutudo.app,Sem area,2026-08-21,13,Sem canal,Síncrono,1,0
 hora,vitoria.coelho@meutudo.app,Sem area,2026-08-21,14,Sem canal,Síncrono,8,0
 hora,vitoria.coelho@meutudo.app,Sem area,2026-08-21,15,Sem canal,Síncrono,1,0
-hora,wellerson.freitas@meutudo.app,Sem area,2026-07-25,8,Sem canal,Síncrono,22,0
-hora,wellerson.freitas@meutudo.app,Sem area,2026-07-25,9,Sem canal,Síncrono,12,0
-hora,wellerson.freitas@meutudo.app,Sem area,2026-07-25,10,Sem canal,Síncrono,10,0
-hora,wellerson.freitas@meutudo.app,Sem area,2026-07-25,11,Sem canal,Síncrono,7,0
-hora,wellerson.freitas@meutudo.app,Sem area,2026-07-25,13,Sem canal,Síncrono,9,0
 hora,wellerson.freitas@meutudo.app,Sem area,2026-07-27,11,Sem canal,Síncrono,20,0
 hora,wellerson.freitas@meutudo.app,Sem area,2026-07-27,12,Sem canal,Síncrono,9,0
 hora,wellerson.freitas@meutudo.app,Sem area,2026-07-27,13,Sem canal,Síncrono,4,0
@@ -183037,15 +182364,6 @@ hora,wellington.santos@meutudo.app,Nível 1,2026-08-21,13,0800,Assíncrono,1,0
 hora,wellington.santos@meutudo.app,Sem area,2026-08-21,14,Sem canal,Síncrono,1,0
 hora,wellington.santos@meutudo.app,Nível 3,2026-08-21,17,0800,Assíncrono,1,0
 hora,wellington.santos@meutudo.app,Nível 1,2026-08-22,8,0800,Assíncrono,1,0
-hora,wellington.silva@meutudo.app,Cobrança,2026-07-25,8,0800,Assíncrono,1,1
-hora,wellington.silva@meutudo.app,Cobrança,2026-07-25,8,Whatsapp,Assíncrono,4,4
-hora,wellington.silva@meutudo.app,Sem area,2026-07-25,8,Whatsapp,Síncrono,4,0
-hora,wellington.silva@meutudo.app,Cobrança,2026-07-25,9,Whatsapp,Assíncrono,10,9
-hora,wellington.silva@meutudo.app,Cobrança,2026-07-25,10,Whatsapp,Assíncrono,7,6
-hora,wellington.silva@meutudo.app,Cobrança,2026-07-25,11,Whatsapp,Assíncrono,8,7
-hora,wellington.silva@meutudo.app,Cobrança,2026-07-25,13,Whatsapp,Assíncrono,4,4
-hora,wellington.silva@meutudo.app,Cobrança,2026-07-25,14,Whatsapp,Assíncrono,3,3
-hora,wellington.silva@meutudo.app,Cobrança,2026-07-25,15,Whatsapp,Assíncrono,6,5
 hora,wellington.silva@meutudo.app,Cobrança,2026-07-26,20,Whatsapp,Assíncrono,1,0
 hora,wellington.silva@meutudo.app,Cobrança,2026-07-27,10,Whatsapp,Assíncrono,1,0
 hora,wellington.silva@meutudo.app,Nível 2,2026-07-27,14,Whatsapp,Assíncrono,1,0
@@ -183321,19 +182639,6 @@ hora,winnie.alencar@meutudo.app,Cobrança,2026-08-07,14,Whatsapp,Assíncrono,1,0
 hora,winnie.alencar@meutudo.app,Conciliação,2026-08-07,14,Whatsapp,Assíncrono,1,0
 hora,winnie.alencar@meutudo.app,Nível 2,2026-08-07,14,Whatsapp,Assíncrono,2,0
 hora,winnie.alencar@meutudo.app,Nível 3,2026-08-11,11,Whatsapp,Assíncrono,1,0
-hora,yaskara.nascimento@meutudo.app,Conciliação,2026-07-25,8,Whatsapp,Assíncrono,1,0
-hora,yaskara.nascimento@meutudo.app,Nível 1,2026-07-25,8,Whatsapp,Assíncrono,4,4
-hora,yaskara.nascimento@meutudo.app,Nível 1,2026-07-25,9,Whatsapp,Assíncrono,7,7
-hora,yaskara.nascimento@meutudo.app,Nível 1,2026-07-25,10,0800,Assíncrono,1,1
-hora,yaskara.nascimento@meutudo.app,Nível 1,2026-07-25,10,Canal App,Assíncrono,1,1
-hora,yaskara.nascimento@meutudo.app,Nível 1,2026-07-25,10,Whatsapp,Assíncrono,8,7
-hora,yaskara.nascimento@meutudo.app,Nível 1,2026-07-25,11,0800,Assíncrono,2,2
-hora,yaskara.nascimento@meutudo.app,Nível 1,2026-07-25,11,Whatsapp,Assíncrono,6,5
-hora,yaskara.nascimento@meutudo.app,Nível 1,2026-07-25,12,Whatsapp,Assíncrono,1,1
-hora,yaskara.nascimento@meutudo.app,Nível 1,2026-07-25,13,0800,Assíncrono,1,1
-hora,yaskara.nascimento@meutudo.app,Nível 1,2026-07-25,13,Whatsapp,Assíncrono,6,6
-hora,yaskara.nascimento@meutudo.app,Nível 1,2026-07-25,14,Canal App,Assíncrono,10,10
-hora,yaskara.nascimento@meutudo.app,Nível 1,2026-07-25,14,Whatsapp,Assíncrono,4,3
 hora,yaskara.nascimento@meutudo.app,Nível 1,2026-07-27,8,Canal App,Assíncrono,1,1
 hora,yaskara.nascimento@meutudo.app,Nível 1,2026-07-27,8,Whatsapp,Assíncrono,6,6
 hora,yaskara.nascimento@meutudo.app,Nível 1,2026-07-27,9,Canal App,Assíncrono,1,1
@@ -183651,19 +182956,6 @@ hora,yaskara.nascimento@meutudo.app,Nível 1,2026-08-22,13,Whatsapp,Assíncrono,
 hora,yaskara.nascimento@meutudo.app,Nível 1,2026-08-22,14,Whatsapp,Assíncrono,8,7
 hora,yaskara.nascimento@meutudo.app,Nível 3,2026-08-22,14,Whatsapp,Assíncrono,1,0
 hora,yaskara.nascimento@meutudo.app,Pós-transacional,2026-08-22,14,Whatsapp,Assíncrono,1,0
-hora,yharla.matos@meutudo.app,Nível 2,2026-07-25,9,0800,Assíncrono,3,3
-hora,yharla.matos@meutudo.app,Nível 2,2026-07-25,9,Whatsapp,Assíncrono,9,9
-hora,yharla.matos@meutudo.app,Conciliação,2026-07-25,10,Whatsapp,Assíncrono,1,0
-hora,yharla.matos@meutudo.app,Nível 2,2026-07-25,10,Whatsapp,Assíncrono,9,8
-hora,yharla.matos@meutudo.app,Nível 2,2026-07-25,11,Whatsapp,Assíncrono,10,10
-hora,yharla.matos@meutudo.app,Nível 2,2026-07-25,12,0800,Assíncrono,2,2
-hora,yharla.matos@meutudo.app,Nível 2,2026-07-25,12,Whatsapp,Assíncrono,6,6
-hora,yharla.matos@meutudo.app,Nível 2,2026-07-25,13,0800,Assíncrono,2,2
-hora,yharla.matos@meutudo.app,Nível 2,2026-07-25,13,Whatsapp,Assíncrono,2,2
-hora,yharla.matos@meutudo.app,Conciliação,2026-07-25,14,Whatsapp,Assíncrono,1,0
-hora,yharla.matos@meutudo.app,Nível 2,2026-07-25,14,Whatsapp,Assíncrono,4,4
-hora,yharla.matos@meutudo.app,Nível 2,2026-07-25,15,0800,Assíncrono,2,2
-hora,yharla.matos@meutudo.app,Nível 2,2026-07-25,15,Whatsapp,Assíncrono,9,9
 hora,yharla.matos@meutudo.app,Nível 2,2026-07-27,13,0800,Assíncrono,1,1
 hora,yharla.matos@meutudo.app,Nível 2,2026-07-27,13,Whatsapp,Assíncrono,8,8
 hora,yharla.matos@meutudo.app,Conciliação,2026-07-27,14,Whatsapp,Assíncrono,1,0
@@ -183950,21 +183242,6 @@ hora,yharla.matos@meutudo.app,Nível 1,2026-08-22,12,Whatsapp,Assíncrono,6,5
 hora,yharla.matos@meutudo.app,Nível 2,2026-08-22,12,Whatsapp,Assíncrono,1,0
 hora,yharla.matos@meutudo.app,Nível 1,2026-08-22,14,Whatsapp,Assíncrono,8,8
 hora,yharla.matos@meutudo.app,Nível 1,2026-08-22,15,Whatsapp,Assíncrono,11,11
-hora,yuri.souza@meutudo.app,Nível 1,2026-07-25,9,Whatsapp,Assíncrono,1,0
-hora,yuri.souza@meutudo.app,Sem area,2026-07-25,9,Sem canal,Síncrono,1,0
-hora,yuri.souza@meutudo.app,Sem area,2026-07-25,9,Whatsapp,Síncrono,7,6
-hora,yuri.souza@meutudo.app,Sem area,2026-07-25,10,Whatsapp,Síncrono,5,5
-hora,yuri.souza@meutudo.app,Nível 1,2026-07-25,11,Whatsapp,Síncrono,2,1
-hora,yuri.souza@meutudo.app,Sem area,2026-07-25,11,Sem canal,Síncrono,3,0
-hora,yuri.souza@meutudo.app,Sem area,2026-07-25,11,Whatsapp,Síncrono,5,5
-hora,yuri.souza@meutudo.app,Sem area,2026-07-25,12,Sem canal,Síncrono,1,0
-hora,yuri.souza@meutudo.app,Sem area,2026-07-25,12,Whatsapp,Síncrono,3,3
-hora,yuri.souza@meutudo.app,Nível 1,2026-07-25,14,Whatsapp,Síncrono,6,3
-hora,yuri.souza@meutudo.app,Nível 2,2026-07-25,14,Whatsapp,Assíncrono,1,0
-hora,yuri.souza@meutudo.app,Sem area,2026-07-25,14,Sem canal,Síncrono,1,0
-hora,yuri.souza@meutudo.app,Sem area,2026-07-25,14,Whatsapp,Síncrono,6,6
-hora,yuri.souza@meutudo.app,Sem area,2026-07-25,15,Sem canal,Síncrono,2,0
-hora,yuri.souza@meutudo.app,Sem area,2026-07-25,15,Whatsapp,Síncrono,3,2
 hora,yuri.souza@meutudo.app,Nível 3,2026-07-27,9,Whatsapp,Assíncrono,1,0
 hora,yuri.souza@meutudo.app,Nível 1,2026-07-27,10,Whatsapp,Síncrono,4,2
 hora,yuri.souza@meutudo.app,Sem area,2026-07-27,10,Sem canal,Síncrono,4,0
@@ -231509,7 +230786,7 @@ mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,5733,133,46,19,12,7,0
 mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,550,9,2,4,7,7,15,13,113`,
   EMBEDDED_CSAT_CSV: `tipo_atendimento,total_avaliacoes,avaliacoes_4_5,avaliacoes_3,avaliacoes_1_2,csat_percentual,nota_media
 humano,74213,50391,8171,15651,67.9005026073599,3.760600079976265
-concierge,13639,7415,1286,5499,54.36615587653054,3.2426550598476607`,
+concierge,13654,7424,1287,5504,54.372345100336894,3.2429822878700683`,
 };
 
 async function __decodeGzipBase64(embeddedText){
