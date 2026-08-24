@@ -441,7 +441,7 @@ button.prod-legend-item.off{opacity:.38;text-decoration:line-through}
 let EMBEDDED_MASTER_CSV = '';
 let EMBEDDED_MASTER_CONVENIO_CSV = '';
 const EMBEDDED_MASTER_CONVENIO_BASELINE_CSV = EMBEDDED_MASTER_CONVENIO_CSV;
-const PANEL_UPDATED_AT = `24/08/2026, 07:30:06`;
+const PANEL_UPDATED_AT = `24/08/2026, 08:30:06`;
 
 let EMBEDDED_EXEC_ANALISE = '';
 let EMBEDDED_AGENTES_CANAL_CSV = '';
@@ -25935,17 +25935,17 @@ const __EMBEDDED_GZIP = {
 2026-08-22,REFIN,direto,9,6,0,1,3,5,6,0,3,0,0,9,9,,0,4,7,5,3,0,1,0,1,0,9,0,9,9,,0,,0
 2026-08-22,SEM PRODUTO,concierge,207,0,0,0,207,0,0,0,190,0,17,169,136,,0,,0,207,190,0,0,0,0,0,207,0,169,136,,0,,0
 2026-08-22,SEM PRODUTO,direto,177,21,0,0,156,21,21,0,156,0,0,151,45,,0,12747,18,161,156,0,5,0,0,0,177,0,151,45,,0,,0`,
-  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 706470 tickets, com 98.5% resolvidos no total. O tempo médio de resolução é de 0.1h.
+  EMBEDDED_EXEC_ANALISE: `- Resumo executivo: Foram registrados 706470 tickets, com 98.5% resolvidos e 10406 em aberto. O tempo médio de resolução é de 0.1h.
 
-- Destaque positivo: A IA atendeu 1733548 interações, com 80.0% resolvidas apenas por ela. Isso demonstra a eficácia do sistema automatizado.
+- Destaque positivo: A IA atendeu 1733548 interações, com 80.0% resolvidas apenas por ela. Isso demonstra eficiência no atendimento automatizado.
 
-- Principal ponto de atenção: O Funil Concierge apresenta um FCR de 86.0%, inferior ao FCR de 65.8% do Funil Direto. Isso indica uma oportunidade de melhoria no atendimento Concierge.
+- Principal ponto de atenção: O FCR no funil Concierge é de 86.0%, enquanto no Direto é de 65.8%. Essa diferença de 20.2 pontos percentuais indica uma oportunidade de melhoria.
 
-- Comparativo Concierge vs Direto: O Funil Concierge teve 98.0% de tickets resolvidos, enquanto o Funil Direto alcançou 99.5%. Além disso, o SLA do Concierge é de 56.8%, contra 76.0% do Direto.
+- Comparativo Concierge vs Direto: O funil Concierge apresenta 98.0% de tickets resolvidos, enquanto o Direto tem 99.5%. Além disso, o SLA do Concierge é 56.8%, contra 76.0% do Direto.
 
-- Hipótese de causa: A diferença no FCR e SLA pode estar relacionada à complexidade dos tickets no Concierge, que pode exigir mais tempo e recursos. Isso pode impactar a eficiência do atendimento.
+- Hipótese de causa: A maior complexidade dos tickets no Concierge pode estar impactando negativamente o FCR e o SLA. Isso sugere que os atendimentos são mais desafiadores nesse canal.
 
-- Recomendação prática: Implementar treinamentos focados na equipe do Concierge para melhorar a taxa de resolução e o FCR. Além disso, revisar processos para otimizar o tempo de resposta e resolução.`,
+- Recomendação prática: Implementar treinamentos focados para a equipe do Concierge visando melhorar o FCR e o SLA. Além disso, revisar processos para simplificar atendimentos mais complexos.`,
   EMBEDDED_AGENTES_CANAL_CSV: ``,
   EMBEDDED_MASTER_HOURLY_CSV: `hora_ref,area_resolvedora,encaminhados,resolvidos,fechados,abandonos,em_aberto,concluidos,fcr_base,fcr_ok,aguardando,em_tratativa,pendente_cliente,sla_base,sla_ok,tempo_tratativa_sum,tempo_tratativa_cnt,tempo_resolucao_sum,tempo_resolucao_cnt
 2026-05-01T00:00:00.000Z,,26,26,26,0,0,0,26,24,0,0,0,9,8,,0,,0
@@ -131275,10 +131275,9 @@ dia,analia.januario@meutudo.app,Sem area,2026-08-20,,Sem canal,Síncrono,19,0
 dia,analia.januario@meutudo.app,Cobrança,2026-08-21,,Chat,Síncrono,3,0
 dia,analia.januario@meutudo.app,Nível 1,2026-08-21,,Chat,Assíncrono,1,0
 dia,analia.januario@meutudo.app,Nível 1,2026-08-21,,Chat,Síncrono,3,1
-dia,analia.januario@meutudo.app,Nível 2,2026-08-21,,Chat,Síncrono,2,0
 dia,analia.januario@meutudo.app,Sem area,2026-08-21,,Canal App,Síncrono,1,0
 dia,analia.januario@meutudo.app,Sem area,2026-08-21,,Chat,Síncrono,20,17
-dia,analia.januario@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,33,0
+dia,analia.januario@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,35,0
 dia,analia.januario@meutudo.app,Nível 2,2026-08-22,,Chat,Assíncrono,1,0
 dia,andre.alves@meutudo.app,Conciliação,2026-07-28,,Whatsapp,Assíncrono,1,0
 dia,andre.alves@meutudo.app,Nível 2,2026-07-28,,0800,Assíncrono,1,1
@@ -133628,7 +133627,7 @@ dia,deneson.varela@meutudo.app,Sem area,2026-08-19,,Chat,Síncrono,10,7
 dia,deneson.varela@meutudo.app,Sem area,2026-08-19,,Sem canal,Síncrono,45,0
 dia,deneson.varela@meutudo.app,Nível 1,2026-08-20,,Chat,Síncrono,7,3
 dia,deneson.varela@meutudo.app,Nível 1,2026-08-20,,Whatsapp,Assíncrono,6,6
-dia,deneson.varela@meutudo.app,Nível 2,2026-08-20,,Chat,Síncrono,12,5
+dia,deneson.varela@meutudo.app,Nível 2,2026-08-20,,Chat,Síncrono,12,3
 dia,deneson.varela@meutudo.app,Pagamento,2026-08-20,,Whatsapp,Assíncrono,1,0
 dia,deneson.varela@meutudo.app,Sem area,2026-08-20,,Chat,Síncrono,10,5
 dia,deneson.varela@meutudo.app,Sem area,2026-08-20,,Sem canal,Síncrono,22,0
@@ -137516,7 +137515,7 @@ dia,karen.gadelha@meutudo.app,Sem area,2026-08-19,,Sem canal,Síncrono,29,0
 dia,karen.gadelha@meutudo.app,Sem area,2026-08-19,,Whatsapp,Síncrono,73,36
 dia,karen.gadelha@meutudo.app,Sem area,2026-08-20,,Whatsapp,Síncrono,82,35
 dia,karen.gadelha@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,22,0
-dia,karen.gadelha@meutudo.app,Sem area,2026-08-21,,Whatsapp,Síncrono,47,20
+dia,karen.gadelha@meutudo.app,Sem area,2026-08-21,,Whatsapp,Síncrono,51,20
 dia,karla.layane@meutudo.app,Nível 1,2026-07-27,,0800,Assíncrono,2,2
 dia,karla.layane@meutudo.app,Nível 1,2026-07-27,,Canal App,Assíncrono,13,13
 dia,karla.layane@meutudo.app,Nível 1,2026-07-27,,Whatsapp,Assíncrono,73,69
@@ -139509,7 +139508,7 @@ dia,maria.sousa@meutudo.app,Nível 1,2026-08-21,,Whatsapp,Síncrono,11,3
 dia,maria.sousa@meutudo.app,Nível 2,2026-08-21,,Whatsapp,Síncrono,6,3
 dia,maria.sousa@meutudo.app,Nível 3,2026-08-21,,Whatsapp,Síncrono,2,0
 dia,maria.sousa@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,20,0
-dia,maria.sousa@meutudo.app,Sem area,2026-08-21,,Whatsapp,Síncrono,12,12
+dia,maria.sousa@meutudo.app,Sem area,2026-08-21,,Whatsapp,Síncrono,12,11
 dia,maria.sousa@meutudo.app,Cobrança,2026-08-22,,Whatsapp,Síncrono,2,1
 dia,maria.sousa@meutudo.app,Conciliação,2026-08-22,,Whatsapp,Síncrono,2,0
 dia,maria.sousa@meutudo.app,Nível 1,2026-08-22,,Whatsapp,Síncrono,4,0
@@ -139625,9 +139624,9 @@ dia,mariaeduarda.farias@meutudo.app,Sem area,2026-08-19,,Sem canal,Síncrono,53,
 dia,mariaeduarda.farias@meutudo.app,Sem area,2026-08-19,,Whatsapp,Síncrono,7,4
 dia,mariaeduarda.farias@meutudo.app,Sem area,2026-08-20,,Sem canal,Síncrono,24,0
 dia,mariaeduarda.farias@meutudo.app,Sem area,2026-08-20,,Whatsapp,Síncrono,6,3
-dia,mariaeduarda.farias@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,14,0
+dia,mariaeduarda.farias@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,15,0
 dia,mariaeduarda.farias@meutudo.app,Sem area,2026-08-21,,Whatsapp,Síncrono,19,11
-dia,mariaeduarda.farias@meutudo.app,Sem area,2026-08-22,,Sem canal,Síncrono,5,0
+dia,mariaeduarda.farias@meutudo.app,Sem area,2026-08-22,,Sem canal,Síncrono,6,0
 dia,mariaeduarda.farias@meutudo.app,Sem area,2026-08-22,,Whatsapp,Síncrono,6,3
 dia,mariana.rodrigues@meutudo.app,Sem area,2026-07-27,,Sem canal,Síncrono,69,0
 dia,mariana.rodrigues@meutudo.app,Sem area,2026-07-27,,Whatsapp,Síncrono,51,25
@@ -140244,7 +140243,7 @@ dia,mauricyo.furtado@meutudo.app,Sem area,2026-08-19,,Sem canal,Síncrono,25,0
 dia,mauricyo.furtado@meutudo.app,Nível 2,2026-08-20,,Faleconosco,Síncrono,25,12
 dia,mauricyo.furtado@meutudo.app,Sem area,2026-08-20,,Faleconosco,Síncrono,17,10
 dia,mauricyo.furtado@meutudo.app,Sem area,2026-08-20,,Sem canal,Síncrono,23,0
-dia,mauricyo.furtado@meutudo.app,Nível 2,2026-08-21,,Faleconosco,Síncrono,11,3
+dia,mauricyo.furtado@meutudo.app,Nível 2,2026-08-21,,Faleconosco,Síncrono,13,3
 dia,mauricyo.furtado@meutudo.app,Sem area,2026-08-21,,Faleconosco,Síncrono,16,11
 dia,mauricyo.furtado@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,29,0
 dia,mayane.santana@meutudo.app,Reclame aqui,2026-07-26,,Reclame Aqui,Assíncrono,1,0
@@ -141027,7 +141026,7 @@ dia,pedro.alves@meutudo.app,Nível 1,2026-08-20,,Whatsapp,Assíncrono,56,52
 dia,pedro.alves@meutudo.app,Nível 3,2026-08-20,,Whatsapp,Assíncrono,1,1
 dia,pedro.alves@meutudo.app,Nível 1,2026-08-21,,Whatsapp,Assíncrono,8,8
 dia,pedro.alves@meutudo.app,Prevenção a Fraude,2026-08-21,,Whatsapp,Assíncrono,1,0
-dia,pedro.alves@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,23,0
+dia,pedro.alves@meutudo.app,Sem area,2026-08-21,,Sem canal,Síncrono,25,0
 dia,pedro.alves@meutudo.app,Sem area,2026-08-21,,Whatsapp,Síncrono,52,32
 dia,prislane.gomes@meutudo.app,Sem area,2026-07-28,,Sem canal,Síncrono,62,0
 dia,prislane.gomes@meutudo.app,Sem area,2026-07-28,,Whatsapp,Síncrono,2,1
@@ -141190,7 +141189,7 @@ dia,rafael.ramos@meutudo.app,Nível 1,2026-08-19,,Chat,Síncrono,2,1
 dia,rafael.ramos@meutudo.app,Nível 3,2026-08-19,,Chat,Assíncrono,1,0
 dia,rafael.ramos@meutudo.app,Nível 3,2026-08-19,,Chat,Síncrono,2,1
 dia,rafael.ramos@meutudo.app,Nível 3,2026-08-19,,Whatsapp,Assíncrono,1,1
-dia,rafael.ramos@meutudo.app,Sem area,2026-08-19,,Chat,Síncrono,13,13
+dia,rafael.ramos@meutudo.app,Sem area,2026-08-19,,Chat,Síncrono,13,12
 dia,rafael.ramos@meutudo.app,Sem area,2026-08-19,,Sem canal,Síncrono,33,0
 dia,rafael.ramos@meutudo.app,Cobrança,2026-08-20,,Chat,Síncrono,2,1
 dia,rafael.ramos@meutudo.app,Conciliação,2026-08-20,,Chat,Assíncrono,2,0
@@ -146686,9 +146685,8 @@ hora,analia.januario@meutudo.app,Cobrança,2026-08-21,11,Chat,Síncrono,3,0
 hora,analia.januario@meutudo.app,Nível 1,2026-08-21,11,Chat,Síncrono,3,1
 hora,analia.januario@meutudo.app,Sem area,2026-08-21,11,Chat,Síncrono,3,3
 hora,analia.januario@meutudo.app,Sem area,2026-08-21,11,Sem canal,Síncrono,7,0
-hora,analia.januario@meutudo.app,Nível 2,2026-08-21,12,Chat,Síncrono,2,0
 hora,analia.januario@meutudo.app,Sem area,2026-08-21,12,Chat,Síncrono,2,2
-hora,analia.januario@meutudo.app,Sem area,2026-08-21,12,Sem canal,Síncrono,4,0
+hora,analia.januario@meutudo.app,Sem area,2026-08-21,12,Sem canal,Síncrono,6,0
 hora,analia.januario@meutudo.app,Sem area,2026-08-21,13,Chat,Síncrono,2,2
 hora,analia.januario@meutudo.app,Sem area,2026-08-21,13,Sem canal,Síncrono,2,0
 hora,analia.januario@meutudo.app,Sem area,2026-08-21,15,Chat,Síncrono,4,3
@@ -153021,7 +153019,7 @@ hora,deneson.varela@meutudo.app,Sem area,2026-08-19,17,Chat,Síncrono,1,1
 hora,deneson.varela@meutudo.app,Sem area,2026-08-19,17,Sem canal,Síncrono,10,0
 hora,deneson.varela@meutudo.app,Sem area,2026-08-19,18,Chat,Assíncrono,1,0
 hora,deneson.varela@meutudo.app,Sem area,2026-08-19,18,Sem canal,Síncrono,2,0
-hora,deneson.varela@meutudo.app,Nível 2,2026-08-20,12,Chat,Síncrono,10,4
+hora,deneson.varela@meutudo.app,Nível 2,2026-08-20,12,Chat,Síncrono,10,2
 hora,deneson.varela@meutudo.app,Sem area,2026-08-20,12,Chat,Síncrono,2,2
 hora,deneson.varela@meutudo.app,Sem area,2026-08-20,12,Sem canal,Síncrono,16,0
 hora,deneson.varela@meutudo.app,Nível 1,2026-08-20,13,Chat,Síncrono,2,1
@@ -164030,8 +164028,8 @@ hora,karen.gadelha@meutudo.app,Sem area,2026-08-21,13,Whatsapp,Síncrono,7,4
 hora,karen.gadelha@meutudo.app,Sem area,2026-08-21,15,Sem canal,Síncrono,11,0
 hora,karen.gadelha@meutudo.app,Sem area,2026-08-21,15,Whatsapp,Síncrono,11,2
 hora,karen.gadelha@meutudo.app,Sem area,2026-08-21,16,Sem canal,Síncrono,4,0
-hora,karen.gadelha@meutudo.app,Sem area,2026-08-21,16,Whatsapp,Síncrono,10,3
-hora,karen.gadelha@meutudo.app,Sem area,2026-08-21,17,Whatsapp,Síncrono,2,0
+hora,karen.gadelha@meutudo.app,Sem area,2026-08-21,16,Whatsapp,Síncrono,12,3
+hora,karen.gadelha@meutudo.app,Sem area,2026-08-21,17,Whatsapp,Síncrono,4,0
 hora,karla.layane@meutudo.app,Nível 1,2026-07-27,8,Whatsapp,Assíncrono,11,10
 hora,karla.layane@meutudo.app,Nível 2,2026-07-27,8,Whatsapp,Assíncrono,3,3
 hora,karla.layane@meutudo.app,Nível 1,2026-07-27,9,0800,Assíncrono,2,2
@@ -169932,7 +169930,7 @@ hora,maria.sousa@meutudo.app,Sem area,2026-08-20,19,Whatsapp,Síncrono,4,4
 hora,maria.sousa@meutudo.app,Cobrança,2026-08-21,12,Whatsapp,Síncrono,2,1
 hora,maria.sousa@meutudo.app,Nível 1,2026-08-21,12,Whatsapp,Síncrono,2,1
 hora,maria.sousa@meutudo.app,Sem area,2026-08-21,12,Sem canal,Síncrono,10,0
-hora,maria.sousa@meutudo.app,Sem area,2026-08-21,12,Whatsapp,Síncrono,4,4
+hora,maria.sousa@meutudo.app,Sem area,2026-08-21,12,Whatsapp,Síncrono,4,3
 hora,maria.sousa@meutudo.app,Nível 1,2026-08-21,13,Whatsapp,Síncrono,4,0
 hora,maria.sousa@meutudo.app,Sem area,2026-08-21,13,Sem canal,Síncrono,4,0
 hora,maria.sousa@meutudo.app,Sem area,2026-08-21,13,Whatsapp,Síncrono,2,2
@@ -170365,7 +170363,7 @@ hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-21,12,Sem canal,Síncrono,
 hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-21,13,Sem canal,Síncrono,1,0
 hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-21,14,Whatsapp,Síncrono,2,2
 hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-21,15,Sem canal,Síncrono,1,0
-hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-21,16,Sem canal,Síncrono,3,0
+hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-21,16,Sem canal,Síncrono,4,0
 hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-21,17,Whatsapp,Síncrono,5,3
 hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-21,18,Sem canal,Síncrono,2,0
 hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-21,18,Whatsapp,Síncrono,1,1
@@ -170374,7 +170372,7 @@ hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-21,19,Whatsapp,Síncrono,3
 hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-22,10,Whatsapp,Síncrono,2,1
 hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-22,11,Sem canal,Síncrono,2,0
 hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-22,11,Whatsapp,Síncrono,2,1
-hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-22,12,Sem canal,Síncrono,3,0
+hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-22,12,Sem canal,Síncrono,4,0
 hora,mariaeduarda.farias@meutudo.app,Sem area,2026-08-22,13,Whatsapp,Síncrono,2,1
 hora,mariana.rodrigues@meutudo.app,Sem area,2026-07-27,11,Sem canal,Síncrono,16,0
 hora,mariana.rodrigues@meutudo.app,Sem area,2026-07-27,11,Whatsapp,Síncrono,2,2
@@ -172286,7 +172284,7 @@ hora,mauricyo.furtado@meutudo.app,Sem area,2026-08-21,10,Faleconosco,Síncrono,7
 hora,mauricyo.furtado@meutudo.app,Sem area,2026-08-21,10,Sem canal,Síncrono,3,0
 hora,mauricyo.furtado@meutudo.app,Sem area,2026-08-21,11,Faleconosco,Síncrono,3,2
 hora,mauricyo.furtado@meutudo.app,Sem area,2026-08-21,11,Sem canal,Síncrono,6,0
-hora,mauricyo.furtado@meutudo.app,Nível 2,2026-08-21,14,Faleconosco,Síncrono,2,0
+hora,mauricyo.furtado@meutudo.app,Nível 2,2026-08-21,14,Faleconosco,Síncrono,4,0
 hora,mauricyo.furtado@meutudo.app,Sem area,2026-08-21,14,Sem canal,Síncrono,6,0
 hora,mauricyo.furtado@meutudo.app,Nível 2,2026-08-21,15,Faleconosco,Síncrono,3,1
 hora,mauricyo.furtado@meutudo.app,Sem area,2026-08-21,15,Faleconosco,Síncrono,2,0
@@ -174471,7 +174469,7 @@ hora,pedro.alves@meutudo.app,Sem area,2026-08-21,12,Sem canal,Síncrono,2,0
 hora,pedro.alves@meutudo.app,Sem area,2026-08-21,12,Whatsapp,Síncrono,12,8
 hora,pedro.alves@meutudo.app,Sem area,2026-08-21,13,Sem canal,Síncrono,1,0
 hora,pedro.alves@meutudo.app,Sem area,2026-08-21,13,Whatsapp,Síncrono,4,3
-hora,pedro.alves@meutudo.app,Sem area,2026-08-21,15,Sem canal,Síncrono,9,0
+hora,pedro.alves@meutudo.app,Sem area,2026-08-21,15,Sem canal,Síncrono,11,0
 hora,pedro.alves@meutudo.app,Sem area,2026-08-21,15,Whatsapp,Síncrono,5,3
 hora,pedro.alves@meutudo.app,Sem area,2026-08-21,16,Whatsapp,Síncrono,12,7
 hora,pedro.alves@meutudo.app,Sem area,2026-08-21,17,Whatsapp,Síncrono,2,1
@@ -174938,7 +174936,7 @@ hora,rafael.ramos@meutudo.app,Sem area,2026-08-19,10,Chat,Síncrono,3,3
 hora,rafael.ramos@meutudo.app,Sem area,2026-08-19,10,Sem canal,Síncrono,6,0
 hora,rafael.ramos@meutudo.app,Conciliação,2026-08-19,11,Chat,Assíncrono,1,0
 hora,rafael.ramos@meutudo.app,Nível 3,2026-08-19,11,Chat,Síncrono,2,1
-hora,rafael.ramos@meutudo.app,Sem area,2026-08-19,11,Chat,Síncrono,3,3
+hora,rafael.ramos@meutudo.app,Sem area,2026-08-19,11,Chat,Síncrono,3,2
 hora,rafael.ramos@meutudo.app,Sem area,2026-08-19,11,Sem canal,Síncrono,1,0
 hora,rafael.ramos@meutudo.app,Nível 3,2026-08-19,12,Whatsapp,Assíncrono,1,1
 hora,rafael.ramos@meutudo.app,Sem area,2026-08-19,12,Sem canal,Síncrono,5,0
@@ -215115,6 +215113,7 @@ adelaide.silva@meutudo.app,2026-08-20,Presente
 adelaide.silva@meutudo.app,2026-08-21,Presente
 adelaide.silva@meutudo.app,2026-08-22,DSR/Folga
 adelaide.silva@meutudo.app,2026-08-23,DOM
+adelaide.silva@meutudo.app,2026-08-24,Atestado
 adelaide.silva@meutudo.app,2026-08-30,DOM
 alisson.sousa@meutudo.app,2026-08-01,Falta Injus.
 alisson.sousa@meutudo.app,2026-08-02,DOM
@@ -215169,6 +215168,7 @@ ariany.azevedo@meutudo.app,2026-08-20,Presente
 ariany.azevedo@meutudo.app,2026-08-21,Presente
 ariany.azevedo@meutudo.app,2026-08-22,DSR/Folga
 ariany.azevedo@meutudo.app,2026-08-23,DOM
+ariany.azevedo@meutudo.app,2026-08-24,Presente
 ariany.azevedo@meutudo.app,2026-08-30,DOM
 brenda.sousa@meutudo.app,2026-08-01,Presente
 brenda.sousa@meutudo.app,2026-08-02,DOM
@@ -215339,6 +215339,7 @@ elysius.oliveira@meutudo.app,2026-08-20,Presente
 elysius.oliveira@meutudo.app,2026-08-21,Presente
 elysius.oliveira@meutudo.app,2026-08-22,DSR/Folga
 elysius.oliveira@meutudo.app,2026-08-23,DOM
+elysius.oliveira@meutudo.app,2026-08-24,Presente
 elysius.oliveira@meutudo.app,2026-08-30,DOM
 erika.moraes@meutudo.app,2026-08-01,DSR/Folga
 erika.moraes@meutudo.app,2026-08-02,DOM
@@ -215462,6 +215463,7 @@ juliana.tenorio@meutudo.app,2026-08-20,Presente
 juliana.tenorio@meutudo.app,2026-08-21,Presente
 juliana.tenorio@meutudo.app,2026-08-22,Falta Injus.
 juliana.tenorio@meutudo.app,2026-08-23,DOM
+juliana.tenorio@meutudo.app,2026-08-24,Presente
 juliana.tenorio@meutudo.app,2026-08-30,DOM
 juliana.sousa@meutudo.app,2026-08-01,Atestado
 juliana.sousa@meutudo.app,2026-08-02,DOM
@@ -215485,6 +215487,7 @@ juliana.sousa@meutudo.app,2026-08-20,Presente
 juliana.sousa@meutudo.app,2026-08-21,Presente
 juliana.sousa@meutudo.app,2026-08-22,DSR/Folga
 juliana.sousa@meutudo.app,2026-08-23,DOM
+juliana.sousa@meutudo.app,2026-08-24,Falta Injus.
 juliana.sousa@meutudo.app,2026-08-30,DOM
 kamilla.lopes@meutudo.app,2026-08-01,DSR/Folga
 kamilla.lopes@meutudo.app,2026-08-02,DOM
@@ -215508,6 +215511,7 @@ kamilla.lopes@meutudo.app,2026-08-20,Presente
 kamilla.lopes@meutudo.app,2026-08-21,Presente
 kamilla.lopes@meutudo.app,2026-08-22,Presente
 kamilla.lopes@meutudo.app,2026-08-23,DOM
+kamilla.lopes@meutudo.app,2026-08-24,Presente
 kamilla.lopes@meutudo.app,2026-08-30,DOM
 karla.layane@meutudo.app,2026-08-01,DSR/Folga
 karla.layane@meutudo.app,2026-08-02,DOM
@@ -215531,6 +215535,7 @@ karla.layane@meutudo.app,2026-08-20,Presente
 karla.layane@meutudo.app,2026-08-21,Presente
 karla.layane@meutudo.app,2026-08-22,Presente
 karla.layane@meutudo.app,2026-08-23,DOM
+karla.layane@meutudo.app,2026-08-24,Presente
 karla.layane@meutudo.app,2026-08-30,DOM
 karla.lima@meutudo.app,2026-08-01,Presente
 karla.lima@meutudo.app,2026-08-02,DOM
@@ -215554,6 +215559,7 @@ karla.lima@meutudo.app,2026-08-20,Presente
 karla.lima@meutudo.app,2026-08-21,Presente
 karla.lima@meutudo.app,2026-08-22,DSR/Folga
 karla.lima@meutudo.app,2026-08-23,DOM
+karla.lima@meutudo.app,2026-08-24,Presente
 karla.lima@meutudo.app,2026-08-30,DOM
 lalissa.matos@meutudo.app,2026-08-01,Presente
 lalissa.matos@meutudo.app,2026-08-02,DOM
@@ -215622,6 +215628,7 @@ magna.silva@meutudo.app,2026-08-20,Presente
 magna.silva@meutudo.app,2026-08-21,Presente
 magna.silva@meutudo.app,2026-08-22,DSR/Folga
 magna.silva@meutudo.app,2026-08-23,DOM
+magna.silva@meutudo.app,2026-08-24,Atestado
 magna.silva@meutudo.app,2026-08-30,DOM
 marilia.franca@meutudo.app,2026-08-01,Presente
 marilia.franca@meutudo.app,2026-08-02,DOM
@@ -215645,6 +215652,7 @@ marilia.franca@meutudo.app,2026-08-20,Presente
 marilia.franca@meutudo.app,2026-08-21,Presente
 marilia.franca@meutudo.app,2026-08-22,DSR/Folga
 marilia.franca@meutudo.app,2026-08-23,DOM
+marilia.franca@meutudo.app,2026-08-24,Presente
 marilia.franca@meutudo.app,2026-08-30,DOM
 marilucia.sousa@meutudo.app,2026-08-02,DOM
 marilucia.sousa@meutudo.app,2026-08-03,Férias
@@ -215689,6 +215697,7 @@ mikaely.araujo@meutudo.app,2026-08-20,Presente
 mikaely.araujo@meutudo.app,2026-08-21,Presente
 mikaely.araujo@meutudo.app,2026-08-22,DSR/Folga
 mikaely.araujo@meutudo.app,2026-08-23,DOM
+mikaely.araujo@meutudo.app,2026-08-24,Presente
 mikaely.araujo@meutudo.app,2026-08-30,DOM
 renata.cavalcante@meutudo.app,2026-08-01,DSR/Folga
 renata.cavalcante@meutudo.app,2026-08-02,DOM
@@ -215784,6 +215793,7 @@ wellington.santos@meutudo.app,2026-08-20,Presente
 wellington.santos@meutudo.app,2026-08-21,Presente
 wellington.santos@meutudo.app,2026-08-22,DSR/Folga
 wellington.santos@meutudo.app,2026-08-23,DOM
+wellington.santos@meutudo.app,2026-08-24,Presente
 wellington.santos@meutudo.app,2026-08-30,DOM
 yaskara.nascimento@meutudo.app,2026-08-01,DSR/Folga
 yaskara.nascimento@meutudo.app,2026-08-02,DOM
@@ -215807,6 +215817,7 @@ yaskara.nascimento@meutudo.app,2026-08-20,Presente
 yaskara.nascimento@meutudo.app,2026-08-21,Presente
 yaskara.nascimento@meutudo.app,2026-08-22,Presente
 yaskara.nascimento@meutudo.app,2026-08-23,DOM
+yaskara.nascimento@meutudo.app,2026-08-24,Presente
 yaskara.nascimento@meutudo.app,2026-08-30,DOM
 alessandra.ribeiro@meutudo.app,2026-08-01,Licença
 alessandra.ribeiro@meutudo.app,2026-08-02,DOM
@@ -215975,6 +215986,7 @@ larissa.barbosa@meutudo.app,2026-08-20,Presente
 larissa.barbosa@meutudo.app,2026-08-21,Presente
 larissa.barbosa@meutudo.app,2026-08-22,DSR/Folga
 larissa.barbosa@meutudo.app,2026-08-23,DOM
+larissa.barbosa@meutudo.app,2026-08-24,Presente
 larissa.barbosa@meutudo.app,2026-08-30,DOM
 brena.lopes@meutudo.app,2026-08-01,Presente
 brena.lopes@meutudo.app,2026-08-02,DOM
@@ -216090,6 +216102,7 @@ cristian.mateus@meutudo.app,2026-08-20,Presente
 cristian.mateus@meutudo.app,2026-08-21,Presente
 cristian.mateus@meutudo.app,2026-08-22,DSR/Folga
 cristian.mateus@meutudo.app,2026-08-23,DOM
+cristian.mateus@meutudo.app,2026-08-24,Presente
 cristian.mateus@meutudo.app,2026-08-30,DOM
 fabricio.cruz@meutudo.app,2026-08-01,DSR/Folga
 fabricio.cruz@meutudo.app,2026-08-02,DOM
@@ -216252,6 +216265,7 @@ luana.alencar@meutudo.app,2026-08-20,Presente
 luana.alencar@meutudo.app,2026-08-21,Presente
 luana.alencar@meutudo.app,2026-08-22,Presente
 luana.alencar@meutudo.app,2026-08-23,DOM
+luana.alencar@meutudo.app,2026-08-24,Presente
 luana.alencar@meutudo.app,2026-08-30,DOM
 matheus.sales@meutudo.app,2026-08-01,DSR/Folga
 matheus.sales@meutudo.app,2026-08-02,DOM
@@ -216351,6 +216365,7 @@ renata.barros@meutudo.app,2026-08-20,Presente
 renata.barros@meutudo.app,2026-08-21,Presente
 renata.barros@meutudo.app,2026-08-22,DSR/Folga
 renata.barros@meutudo.app,2026-08-23,DOM
+renata.barros@meutudo.app,2026-08-24,Presente
 renata.barros@meutudo.app,2026-08-30,DOM
 rosana.oliveira@meutudo.app,2026-08-01,DSR/Folga
 rosana.oliveira@meutudo.app,2026-08-02,DOM
@@ -216397,6 +216412,7 @@ sarah.costa@meutudo.app,2026-08-20,Presente
 sarah.costa@meutudo.app,2026-08-21,Presente
 sarah.costa@meutudo.app,2026-08-22,DSR/Folga
 sarah.costa@meutudo.app,2026-08-23,DOM
+sarah.costa@meutudo.app,2026-08-24,Presente
 sarah.costa@meutudo.app,2026-08-30,DOM
 sarah.viana@meutudo.app,2026-08-01,Presente
 sarah.viana@meutudo.app,2026-08-02,DOM
@@ -216496,6 +216512,7 @@ vanessa.maneco@meutudo.app,2026-08-20,Presente
 vanessa.maneco@meutudo.app,2026-08-21,Presente
 vanessa.maneco@meutudo.app,2026-08-22,Presente
 vanessa.maneco@meutudo.app,2026-08-23,DOM
+vanessa.maneco@meutudo.app,2026-08-24,Presente
 vanessa.maneco@meutudo.app,2026-08-30,DOM
 yharla.matos@meutudo.app,2026-08-01,DSR/Folga
 yharla.matos@meutudo.app,2026-08-02,DOM
@@ -216593,6 +216610,7 @@ elandia.rocha@meutudo.app,2026-08-20,Presente
 elandia.rocha@meutudo.app,2026-08-21,Presente
 elandia.rocha@meutudo.app,2026-08-22,DSR/Folga
 elandia.rocha@meutudo.app,2026-08-23,DOM
+elandia.rocha@meutudo.app,2026-08-24,Presente
 elandia.rocha@meutudo.app,2026-08-30,DOM
 fernanda.morais@meutudo.app,2026-08-01,Presente
 fernanda.morais@meutudo.app,2026-08-02,DOM
@@ -216616,6 +216634,7 @@ fernanda.morais@meutudo.app,2026-08-20,Presente
 fernanda.morais@meutudo.app,2026-08-21,Presente
 fernanda.morais@meutudo.app,2026-08-22,DSR/Folga
 fernanda.morais@meutudo.app,2026-08-23,DOM
+fernanda.morais@meutudo.app,2026-08-24,Presente
 fernanda.morais@meutudo.app,2026-08-30,DOM
 graziela.cardozo@meutudo.app,2026-08-01,DSR/Folga
 graziela.cardozo@meutudo.app,2026-08-02,DOM
@@ -216639,6 +216658,7 @@ graziela.cardozo@meutudo.app,2026-08-20,Férias
 graziela.cardozo@meutudo.app,2026-08-21,Férias
 graziela.cardozo@meutudo.app,2026-08-22,Férias
 graziela.cardozo@meutudo.app,2026-08-23,DOM
+graziela.cardozo@meutudo.app,2026-08-24,Presente
 graziela.cardozo@meutudo.app,2026-08-30,DOM
 janaina.andrade@meutudo.app,2026-08-01,DSR/Folga
 janaina.andrade@meutudo.app,2026-08-02,DOM
@@ -216662,6 +216682,7 @@ janaina.andrade@meutudo.app,2026-08-20,Presente
 janaina.andrade@meutudo.app,2026-08-21,Falta Injus.
 janaina.andrade@meutudo.app,2026-08-22,DSR/Folga
 janaina.andrade@meutudo.app,2026-08-23,DOM
+janaina.andrade@meutudo.app,2026-08-24,Presente
 janaina.andrade@meutudo.app,2026-08-30,DOM
 jardenia.soares@meutudo.app,2026-08-01,DSR/Folga
 jardenia.soares@meutudo.app,2026-08-02,DOM
@@ -216685,6 +216706,7 @@ jardenia.soares@meutudo.app,2026-08-20,Presente
 jardenia.soares@meutudo.app,2026-08-21,Presente
 jardenia.soares@meutudo.app,2026-08-22,Presente
 jardenia.soares@meutudo.app,2026-08-23,DOM
+jardenia.soares@meutudo.app,2026-08-24,Presente
 jardenia.soares@meutudo.app,2026-08-30,DOM
 jefferson.gurgel@meutudo.app,2026-08-01,Presente
 jefferson.gurgel@meutudo.app,2026-08-02,DOM
@@ -216911,6 +216933,7 @@ maria.costa@meutudo.app,2026-08-20,Presente
 maria.costa@meutudo.app,2026-08-21,Presente
 maria.costa@meutudo.app,2026-08-22,Presente
 maria.costa@meutudo.app,2026-08-23,DOM
+maria.costa@meutudo.app,2026-08-24,Presente
 maria.costa@meutudo.app,2026-08-30,DOM
 edilene.costa@meutudo.app,2026-08-01,DSR/Folga
 edilene.costa@meutudo.app,2026-08-02,DOM
@@ -216934,6 +216957,7 @@ edilene.costa@meutudo.app,2026-08-20,Presente
 edilene.costa@meutudo.app,2026-08-21,Presente
 edilene.costa@meutudo.app,2026-08-22,Presente
 edilene.costa@meutudo.app,2026-08-23,DOM
+edilene.costa@meutudo.app,2026-08-24,Presente
 edilene.costa@meutudo.app,2026-08-30,DOM
 maria.eloisa@meutudo.app,2026-08-01,Presente
 maria.eloisa@meutudo.app,2026-08-02,DOM
@@ -217003,6 +217027,7 @@ mayara.moreira@meutudo.app,2026-08-20,Presente
 mayara.moreira@meutudo.app,2026-08-21,Presente
 mayara.moreira@meutudo.app,2026-08-22,DSR/Folga
 mayara.moreira@meutudo.app,2026-08-23,DOM
+mayara.moreira@meutudo.app,2026-08-24,Atestado
 mayara.moreira@meutudo.app,2026-08-30,DOM
 monicke.damasceno@meutudo.app,2026-08-01,Presente
 monicke.damasceno@meutudo.app,2026-08-02,DOM
@@ -217026,6 +217051,7 @@ monicke.damasceno@meutudo.app,2026-08-20,Presente
 monicke.damasceno@meutudo.app,2026-08-21,Presente
 monicke.damasceno@meutudo.app,2026-08-22,DSR/Folga
 monicke.damasceno@meutudo.app,2026-08-23,DOM
+monicke.damasceno@meutudo.app,2026-08-24,Presente
 monicke.damasceno@meutudo.app,2026-08-30,DOM
 rafaele.santos@meutudo.app,2026-08-01,DSR/Folga
 rafaele.santos@meutudo.app,2026-08-02,DOM
@@ -217072,6 +217098,7 @@ sofia.aguiar@meutudo.app,2026-08-20,Presente
 sofia.aguiar@meutudo.app,2026-08-21,Presente
 sofia.aguiar@meutudo.app,2026-08-22,DSR/Folga
 sofia.aguiar@meutudo.app,2026-08-23,DOM
+sofia.aguiar@meutudo.app,2026-08-24,Presente
 sofia.aguiar@meutudo.app,2026-08-30,DOM
 thiago.silva@meutudo.app,2026-08-01,DSR/Folga
 thiago.silva@meutudo.app,2026-08-02,DOM
@@ -217095,6 +217122,7 @@ thiago.silva@meutudo.app,2026-08-20,Presente
 thiago.silva@meutudo.app,2026-08-21,Presente
 thiago.silva@meutudo.app,2026-08-22,Presente
 thiago.silva@meutudo.app,2026-08-23,DOM
+thiago.silva@meutudo.app,2026-08-24,Presente
 thiago.silva@meutudo.app,2026-08-30,DOM
 thyfane.gadelha@meutudo.app,2026-08-01,Férias
 thyfane.gadelha@meutudo.app,2026-08-02,DOM
@@ -217143,6 +217171,7 @@ valeria.portela@meutudo.app,2026-08-20,Presente
 valeria.portela@meutudo.app,2026-08-21,Presente
 valeria.portela@meutudo.app,2026-08-22,Presente
 valeria.portela@meutudo.app,2026-08-23,DOM
+valeria.portela@meutudo.app,2026-08-24,Presente
 valeria.portela@meutudo.app,2026-08-30,DOM
 yuri.souza@meutudo.app,2026-08-01,DSR/Folga
 yuri.souza@meutudo.app,2026-08-02,DOM
@@ -217317,6 +217346,7 @@ flavio.silva@meutudo.app,2026-08-20,Presente
 flavio.silva@meutudo.app,2026-08-21,Presente
 flavio.silva@meutudo.app,2026-08-22,DSR/Folga
 flavio.silva@meutudo.app,2026-08-23,DOM
+flavio.silva@meutudo.app,2026-08-24,Presente
 flavio.silva@meutudo.app,2026-08-30,DOM
 francisca.lima@meutudo.app,2026-08-01,Presente
 francisca.lima@meutudo.app,2026-08-02,DOM
@@ -217504,6 +217534,7 @@ matheus.carvalho@meutudo.app,2026-08-20,Presente
 matheus.carvalho@meutudo.app,2026-08-21,Presente
 matheus.carvalho@meutudo.app,2026-08-22,DSR/Folga
 matheus.carvalho@meutudo.app,2026-08-23,DOM
+matheus.carvalho@meutudo.app,2026-08-24,Presente
 matheus.carvalho@meutudo.app,2026-08-30,DOM
 mayane.santana@meutudo.app,2026-08-01,DSR/Folga
 mayane.santana@meutudo.app,2026-08-02,DOM
@@ -217528,6 +217559,7 @@ mayane.santana@meutudo.app,2026-08-20,Presente
 mayane.santana@meutudo.app,2026-08-21,Presente
 mayane.santana@meutudo.app,2026-08-22,DSR/Folga
 mayane.santana@meutudo.app,2026-08-23,DOM
+mayane.santana@meutudo.app,2026-08-24,Presente
 mayane.santana@meutudo.app,2026-08-29,DSR/Folga
 mayane.santana@meutudo.app,2026-08-30,DOM
 mirielen.nascimento@meutudo.app,2026-08-01,DSR/Folga
@@ -222585,35 +222617,35 @@ direto,Play Store,2
 concierge,Canal App,2
 direto,NPS,1`,
   EMBEDDED_SINCRONO_CSV: `nivel_periodo,dia,convenio,origem,buscou_atendimento,entrantes_unicos,direcionados_fila,atendidos,tickets_abertos,tickets_resolvidos,tickets_fechados_gpt,tickets_fechados_humano,tickets_gpt,tickets_humano,avaliacoes_csat,avaliacoes_csat_4_5,avaliacoes_csat_3,avaliacoes_csat_1_2,tma_soma,tma_contagem,tme_soma,tme_contagem,tmr_soma,tmr_contagem,tmpr_soma,tmpr_contagem
-ano,2026-01-01T00:00:00.000Z,CARD,__TODAS_ORIGENS__,5512,2452,5450,4722,2643,2137,121,2016,123,2520,688,541,52,95,8290062.0,8216,9723439.0,9732,1084135.0,7263,975283.829000,7201
+ano,2026-01-01T00:00:00.000Z,CARD,__TODAS_ORIGENS__,5513,2453,5450,4722,2643,2137,121,2016,123,2520,688,541,52,95,8290062.0,8217,9723439.0,9733,1084135.0,7263,975283.829000,7201
 ano,2026-01-01T00:00:00.000Z,CARD,receptivo,5133,2274,5133,4514,2643,2137,121,2016,123,2520,688,541,52,95,8136434.0,7745,9536340.0,9233,1084135.0,7263,975283.829000,7201
-ano,2026-01-01T00:00:00.000Z,CARD,sem origem,379,268,317,208,0,0,0,0,0,0,0,0,0,0,153628.0,471,187099.0,499,0.0,0,0.000000,0
-ano,2026-01-01T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,947271,455655,397647,377406,230295,201152,164437,36715,165986,64309,57452,43951,5316,8186,8.61116553E8,1057899,4.275835644E9,1187272,1.365031E8,537085,246408517.729000,554178
-ano,2026-01-01T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,371890,240839,77788,70386,53102,28744,3565,25179,3576,49526,11451,10153,488,811,3.4025086E8,435388,5.36421883E8,466168,3.266459E7,158253,67121516.532000,157262
-ano,2026-01-01T00:00:00.000Z,CONSIGNADO PRIVADO,receptivo,333723,152377,260921,258983,164051,161075,152099,8976,153622,10429,44281,32341,4726,7214,4.23406012E8,365722,3.494589949E9,447352,9.8131941E7,350844,177111912.862000,368920
-ano,2026-01-01T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,52851,28494,49727,38983,5917,4203,1808,2395,1813,4104,908,790,50,68,7.1534776E7,66225,2.39804408E8,80448,2340528.0,15199,1643540.454000,15193
+ano,2026-01-01T00:00:00.000Z,CARD,sem origem,380,269,317,208,0,0,0,0,0,0,0,0,0,0,153628.0,472,187099.0,500,0.0,0,0.000000,0
+ano,2026-01-01T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,947292,455663,397649,377407,230295,201618,164437,37181,165986,64309,57452,43951,5316,8186,8.61271666E8,1057925,4.276184391E9,1187298,1.36572809E8,537234,246945226.880000,554358
+ano,2026-01-01T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,371892,240839,77790,70387,53102,29207,3565,25642,3576,49526,11451,10153,488,811,3.40405973E8,435395,5.36770625E8,466175,3.269988E7,158393,67480942.476000,157394
+ano,2026-01-01T00:00:00.000Z,CONSIGNADO PRIVADO,receptivo,333723,152377,260921,258983,164051,161078,152099,8979,153622,10429,44281,32341,4726,7214,4.23406012E8,365722,3.494589949E9,447352,9.816636E7,350853,177289196.069000,368968
+ano,2026-01-01T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,52870,28503,49727,38983,5917,4203,1808,2395,1813,4104,908,790,50,68,7.1534776E7,66244,2.39804413E8,80467,2340528.0,15199,1643540.454000,15193
 ano,2026-01-01T00:00:00.000Z,CONSIGNADO PRIVADO,{{trigger.parent.parameters..flowtype}},188807,148058,9211,9054,7225,7130,6965,165,6975,250,812,667,52,93,2.5924905E7,190564,5019404.0,193304,3366041.0,12789,531547.881000,12803
-ano,2026-01-01T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,85515,60162,62213,57039,37919,34674,30219,4455,30617,7302,8979,6825,753,1401,1.42472414E8,107178,3.38743311E8,125020,1.7384184E7,87150,21490420.542000,85984
-ano,2026-01-01T00:00:00.000Z,FGTS,ativo,23287,19005,9217,8304,5142,3263,313,2950,316,4826,2222,1833,150,239,7.5211431E7,36834,9.1556032E7,41194,6319512.0,24518,18542100.398000,23386
+ano,2026-01-01T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,85518,60165,62213,57039,37919,34754,30219,4535,30617,7302,8979,6825,753,1401,1.42472414E8,107181,3.38743312E8,125023,1.7384192E7,87152,21595580.874000,85986
+ano,2026-01-01T00:00:00.000Z,FGTS,ativo,23289,19007,9217,8304,5142,3343,313,3030,316,4826,2222,1833,150,239,7.5211431E7,36836,9.1556032E7,41196,6319520.0,24520,18647260.730000,23388
 ano,2026-01-01T00:00:00.000Z,FGTS,receptivo,55261,40438,46518,44035,32766,31403,29905,1498,30300,2466,6751,4989,603,1159,5.9021681E7,62291,2.27158721E8,74010,1.1045726E7,62554,2929332.707000,62520
-ano,2026-01-01T00:00:00.000Z,FGTS,sem origem,6941,3310,6478,4700,11,8,1,7,1,10,6,3,0,3,8239302.0,8027,2.0028548E7,9790,18946.0,78,18987.437000,78
+ano,2026-01-01T00:00:00.000Z,FGTS,sem origem,6942,3311,6478,4700,11,8,1,7,1,10,6,3,0,3,8239302.0,8028,2.0028549E7,9791,18946.0,78,18987.437000,78
 ano,2026-01-01T00:00:00.000Z,FGTS,{{trigger.parent.parameters..flowtype}},26,23,0,0,0,0,0,0,0,0,0,0,0,0,0.0,26,10.0,26,0.0,0,0.000000,0
-ano,2026-01-01T00:00:00.000Z,INSS,__TODAS_ORIGENS__,93736,33103,79255,64405,28731,25877,18957,6920,19144,9587,11090,7514,1363,2213,1.84097502E8,136782,3.94796264E8,154835,1.7900827E7,92003,31233145.306000,89650
-ano,2026-01-01T00:00:00.000Z,INSS,ativo,18385,10916,13065,11804,6730,4555,500,4055,509,6221,3426,2891,236,299,1.14839305E8,45637,2.05945586E8,52401,1.0981141E7,42609,26026018.418000,40331
+ano,2026-01-01T00:00:00.000Z,INSS,__TODAS_ORIGENS__,93777,33122,79257,64407,28731,25924,18957,6967,19144,9587,11090,7514,1363,2213,1.84272397E8,136826,3.9514307E8,154879,1.7902556E7,92011,31444034.220000,89658
+ano,2026-01-01T00:00:00.000Z,INSS,ativo,18403,10926,13067,11806,6730,4602,500,4102,509,6221,3426,2891,236,299,1.150142E8,45658,2.06292384E8,52422,1.098287E7,42617,26236907.332000,40339
 ano,2026-01-01T00:00:00.000Z,INSS,receptivo,61989,21894,58482,46637,21987,21311,18457,2854,18634,3353,7657,4618,1126,1913,5.9841903E7,76120,1.61336813E8,85470,6912738.0,49351,5203694.589000,49276
-ano,2026-01-01T00:00:00.000Z,INSS,sem origem,13358,5307,7708,5964,14,11,0,11,1,13,7,5,1,1,9416294.0,15021,2.7513863E7,16960,6948.0,43,3432.299000,43
+ano,2026-01-01T00:00:00.000Z,INSS,sem origem,13381,5318,7708,5964,14,11,0,11,1,13,7,5,1,1,9416294.0,15044,2.7513871E7,16983,6948.0,43,3432.299000,43
 ano,2026-01-01T00:00:00.000Z,INSS,{{trigger.parent.parameters..flowtype}},4,4,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4,2.0,4,0.0,0,0.000000,0
-ano,2026-01-01T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,530885,273851,114965,94861,62598,55039,7,55032,7,62591,14932,7983,1673,5276,2.22736998E8,570569,6.065830779E9,610105,3.8644538E7,156812,39456924.018000,163713
-ano,2026-01-01T00:00:00.000Z,OUTROS,ativo,274479,148472,1075,846,291,145,7,138,7,284,94,79,9,6,3234382.0,276195,4872838.0,276097,311640.0,1113,929895.093000,1093
-ano,2026-01-01T00:00:00.000Z,OUTROS,receptivo,232722,145376,102572,87877,62291,54885,0,54885,0,62291,14836,7902,1664,5270,2.09830498E8,269904,5.831760349E9,312625,3.8230225E7,155225,38391854.781000,162119
+ano,2026-01-01T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,531648,274141,114985,94862,62597,56180,7,56173,7,62590,14932,7983,1673,5276,2.22740485E8,571336,6.066179806E9,610871,3.8679516E7,157075,39496545.043000,163976
+ano,2026-01-01T00:00:00.000Z,OUTROS,ativo,275215,148780,1075,846,291,146,7,139,7,284,94,79,9,6,3234382.0,276935,4873089.0,276837,306886.0,1113,929895.093000,1093
+ano,2026-01-01T00:00:00.000Z,OUTROS,receptivo,232731,145377,102574,87878,62290,56025,0,56025,0,62290,14836,7902,1664,5270,2.09833985E8,269913,5.832109117E9,312633,3.8269957E7,155488,38431475.806000,162382
 ano,2026-01-01T00:00:00.000Z,OUTROS,sem origem,16753,1747,4402,3559,16,9,0,9,0,16,2,2,0,0,8056968.0,17529,5.5615509E7,14060,102673.0,474,135174.144000,501
-ano,2026-01-01T00:00:00.000Z,OUTROS,store,6916,63,6916,2579,0,0,0,0,0,0,0,0,0,0,1615150.0,6925,1.73582059E8,7307,0.0,0,0.000000,0
+ano,2026-01-01T00:00:00.000Z,OUTROS,store,6934,63,6934,2579,0,0,0,0,0,0,0,0,0,0,1615150.0,6943,1.73582067E8,7325,0.0,0,0.000000,0
 ano,2026-01-01T00:00:00.000Z,OUTROS,{{trigger.parent.parameters..flowtype}},15,4,0,0,0,0,0,0,0,0,0,0,0,0,0.0,16,24.0,16,0.0,0,0.000000,0
-ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,1662705,630590,659316,598424,362012,318719,213741,104978,215877,146135,93141,66814,9157,17171,1.418713529E9,1880644,1.1084929437E10,2086964,2.11516784E8,880313,339564291.424000,900726
-ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,688041,329925,101145,91340,65265,36707,4385,32322,4408,60857,17193,14956,883,1355,5.33535978E8,794054,8.38796339E8,835860,5.0276883E7,226493,112619530.441000,222072
-ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,688615,289166,473413,442037,283564,270651,200582,70069,202679,80885,74213,50391,8171,15651,7.60236528E8,781782,9.724382172E9,928690,1.55404765E8,625237,224612078.768000,650036
-ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,90281,37472,68631,53414,5958,4231,1809,2422,1815,4143,923,800,51,72,9.7400968E7,107273,3.43149427E8,121757,2469095.0,15794,1801134.334000,15815
-ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,6916,63,6916,2579,0,0,0,0,0,0,0,0,0,0,1615150.0,6925,1.73582059E8,7307,0.0,0,0.000000,0
+ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,1663534,630747,659340,598428,362011,320451,213741,106710,215877,146134,93141,66814,9157,17171,1.419047024E9,1881485,1.1085974018E10,2087804,2.11623208E8,880735,340456670.846000,901179
+ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,688799,330095,101149,91343,65265,37298,4385,32913,4408,60857,17193,14956,883,1355,5.33865986E8,794824,8.3949213E8,836630,5.0309156E7,226643,113295005.631000,222214
+ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,688624,289167,473415,442038,283563,271792,200582,71210,202679,80884,74213,50391,8171,15651,7.60240015E8,781791,9.72473094E9,928698,1.55478916E8,625509,224828983.000000,650347
+ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,90325,37492,68631,53414,5958,4231,1809,2422,1815,4143,923,800,51,72,9.7400968E7,107317,3.43149441E8,121801,2469095.0,15794,1801134.334000,15815
+ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,6934,63,6934,2579,0,0,0,0,0,0,0,0,0,0,1615150.0,6943,1.73582067E8,7325,0.0,0,0.000000,0
 ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,{{trigger.parent.parameters..flowtype}},188852,148081,9211,9054,7225,7130,6965,165,6975,250,812,667,52,93,2.5924905E7,190610,5019440.0,193350,3366041.0,12789,531547.881000,12803
 dia,2026-04-01T00:00:00.000Z,CARD,__TODAS_ORIGENS__,225,193,225,214,164,140,0,140,0,164,39,32,1,6,434735.0,340,203066.0,422,46459.0,384,65137.283000,384
 dia,2026-04-01T00:00:00.000Z,CARD,receptivo,225,193,225,214,164,140,0,140,0,164,39,32,1,6,434735.0,340,203066.0,422,46459.0,384,65137.283000,384
@@ -225767,8 +225799,8 @@ dia,2026-08-09T00:00:00.000Z,__TODOS_PRODUTOS__,store,9,0,9,0,0,0,0,0,0,0,0,0,0,
 dia,2026-08-10T00:00:00.000Z,CARD,__TODAS_ORIGENS__,9,6,9,9,0,0,0,0,0,0,2,1,0,1,5372.0,9,1535.0,10,0.0,0,0.000000,0
 dia,2026-08-10T00:00:00.000Z,CARD,receptivo,5,2,5,5,0,0,0,0,0,0,2,1,0,1,3693.0,5,787.0,6,0.0,0,0.000000,0
 dia,2026-08-10T00:00:00.000Z,CARD,sem origem,4,4,4,4,0,0,0,0,0,0,0,0,0,0,1679.0,4,748.0,4,0.0,0,0.000000,0
-dia,2026-08-10T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,8165,7827,1049,933,521,244,0,244,0,521,69,58,9,2,6408735.0,9139,1.9979148E7,9515,885490.0,2028,1517273.351000,2139
-dia,2026-08-10T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,7869,7659,830,745,517,241,0,241,0,517,68,57,9,2,5698457.0,8768,2660634.0,9043,414413.0,1898,439183.298000,1904
+dia,2026-08-10T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,8165,7827,1049,933,521,244,0,244,0,521,69,58,9,2,6408735.0,9139,1.9979148E7,9515,885521.0,2028,1513144.121000,2136
+dia,2026-08-10T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,7869,7659,830,745,517,241,0,241,0,517,68,57,9,2,5698457.0,8768,2660634.0,9043,414444.0,1898,435054.068000,1901
 dia,2026-08-10T00:00:00.000Z,CONSIGNADO PRIVADO,receptivo,110,6,110,110,4,3,0,3,0,4,1,1,0,0,665572.0,151,1.7281084E7,243,470195.0,124,1078090.053000,235
 dia,2026-08-10T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,186,166,109,78,0,0,0,0,0,0,0,0,0,0,44706.0,220,37430.0,229,882.0,6,0.000000,0
 dia,2026-08-10T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,1915,1864,146,137,74,35,0,35,0,74,13,11,2,0,1263388.0,2237,303235.0,2313,124231.0,500,135765.859000,500
@@ -225783,8 +225815,8 @@ dia,2026-08-10T00:00:00.000Z,OUTROS,ativo,3456,2378,7,6,4,0,0,0,0,4,0,0,0,0,1146
 dia,2026-08-10T00:00:00.000Z,OUTROS,receptivo,1003,897,978,908,646,605,0,605,0,646,265,206,16,43,2566694.0,1478,1.6001267E7,1905,432256.0,1767,340662.110000,1810
 dia,2026-08-10T00:00:00.000Z,OUTROS,sem origem,23,13,21,13,0,0,0,0,0,0,0,0,0,0,5178.0,26,1210161.0,11,0.0,0,0.000000,0
 dia,2026-08-10T00:00:00.000Z,OUTROS,store,53,0,53,23,0,0,0,0,0,0,0,0,0,0,16850.0,53,3046798.0,57,0.0,0,0.000000,0
-dia,2026-08-10T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,14968,12257,2388,2137,1283,910,0,910,0,1283,372,292,28,52,1.130522E7,16889,4.0712854E7,17802,1480202.0,4501,2060811.217000,4655
-dia,2026-08-10T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,13360,11162,1060,954,633,302,0,302,0,633,98,79,12,7,7808261.0,14720,3124139.0,15108,576265.0,2600,642022.218000,2606
+dia,2026-08-10T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,14968,12257,2388,2137,1283,910,0,910,0,1283,372,292,28,52,1.130522E7,16889,4.0712854E7,17802,1480233.0,4501,2056681.987000,4652
+dia,2026-08-10T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,13360,11162,1060,954,633,302,0,302,0,633,98,79,12,7,7808261.0,14720,3124139.0,15108,576296.0,2600,637892.988000,2603
 dia,2026-08-10T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,1140,922,1115,1044,650,608,0,608,0,650,274,213,16,45,3246293.0,1658,3.3286064E7,2181,902451.0,1891,1418752.163000,2045
 dia,2026-08-10T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,415,262,160,116,0,0,0,0,0,0,0,0,0,0,233816.0,458,1255853.0,456,1486.0,10,36.836000,4
 dia,2026-08-10T00:00:00.000Z,__TODOS_PRODUTOS__,store,53,0,53,23,0,0,0,0,0,0,0,0,0,0,16850.0,53,3046798.0,57,0.0,0,0.000000,0
@@ -225923,48 +225955,48 @@ dia,2026-08-16T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,26,17,4,0,0,0,0,0,0,0
 dia,2026-08-16T00:00:00.000Z,__TODOS_PRODUTOS__,store,21,0,21,0,0,0,0,0,0,0,0,0,0,0,0.0,21,5.0,21,0.0,0,0.000000,0
 dia,2026-08-17T00:00:00.000Z,CARD,__TODAS_ORIGENS__,4,5,4,4,0,0,0,0,0,0,0,0,0,0,5280.0,6,183.0,8,0.0,0,0.000000,0
 dia,2026-08-17T00:00:00.000Z,CARD,sem origem,4,5,4,4,0,0,0,0,0,0,0,0,0,0,5280.0,6,183.0,8,0.0,0,0.000000,0
-dia,2026-08-17T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,4959,4595,1093,979,561,0,0,0,0,561,60,54,3,3,5908261.0,5566,8000532.0,6027,1271732.0,1855,1577507.706000,1907
-dia,2026-08-17T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,4698,4482,862,771,560,0,0,0,0,560,59,53,3,3,5130655.0,5271,1909054.0,5622,294046.0,1677,283857.738000,1681
-dia,2026-08-17T00:00:00.000Z,CONSIGNADO PRIVADO,receptivo,139,1,139,139,1,0,0,0,0,1,1,1,0,0,737891.0,145,6054986.0,250,977686.0,178,1293649.968000,226
+dia,2026-08-17T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,4959,4595,1093,979,561,233,0,233,0,561,60,54,3,3,5908261.0,5566,8000532.0,6027,1271732.0,1855,1577507.706000,1907
+dia,2026-08-17T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,4698,4482,862,771,560,232,0,232,0,560,59,53,3,3,5130655.0,5271,1909054.0,5622,294046.0,1677,283857.738000,1681
+dia,2026-08-17T00:00:00.000Z,CONSIGNADO PRIVADO,receptivo,139,1,139,139,1,1,0,1,0,1,1,1,0,0,737891.0,145,6054986.0,250,977686.0,178,1293649.968000,226
 dia,2026-08-17T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,122,112,92,69,0,0,0,0,0,0,0,0,0,0,39715.0,150,36492.0,155,0.0,0,0.000000,0
-dia,2026-08-17T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,129,101,116,103,53,0,0,0,0,53,14,12,2,0,916330.0,277,126520.0,319,60718.0,264,49245.893000,264
-dia,2026-08-17T00:00:00.000Z,FGTS,ativo,115,87,111,100,53,0,0,0,0,53,14,12,2,0,914417.0,261,126478.0,303,60718.0,264,49245.893000,264
+dia,2026-08-17T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,129,101,116,103,53,29,0,29,0,53,14,12,2,0,916330.0,277,126520.0,319,60718.0,264,49245.893000,264
+dia,2026-08-17T00:00:00.000Z,FGTS,ativo,115,87,111,100,53,29,0,29,0,53,14,12,2,0,914417.0,261,126478.0,303,60718.0,264,49245.893000,264
 dia,2026-08-17T00:00:00.000Z,FGTS,sem origem,14,14,5,3,0,0,0,0,0,0,0,0,0,0,1913.0,16,42.0,16,0.0,0,0.000000,0
-dia,2026-08-17T00:00:00.000Z,INSS,__TODAS_ORIGENS__,319,191,151,123,37,0,0,0,0,37,28,23,1,4,1574723.0,488,112050.0,551,57954.0,189,343048.893000,229
-dia,2026-08-17T00:00:00.000Z,INSS,ativo,112,79,93,77,37,0,0,0,0,37,15,12,0,3,1549779.0,264,96966.0,321,57450.0,186,342731.808000,226
+dia,2026-08-17T00:00:00.000Z,INSS,__TODAS_ORIGENS__,319,191,151,123,37,25,0,25,0,37,28,23,1,4,1574723.0,488,112050.0,551,57954.0,189,343048.893000,229
+dia,2026-08-17T00:00:00.000Z,INSS,ativo,112,79,93,77,37,25,0,25,0,37,15,12,0,3,1549779.0,264,96966.0,321,57450.0,186,342731.808000,226
 dia,2026-08-17T00:00:00.000Z,INSS,receptivo,34,29,34,31,0,0,0,0,0,0,13,11,1,1,17152.0,40,6373.0,45,504.0,3,317.085000,3
 dia,2026-08-17T00:00:00.000Z,INSS,sem origem,173,85,24,15,0,0,0,0,0,0,0,0,0,0,7792.0,184,8711.0,185,0.0,0,0.000000,0
-dia,2026-08-17T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,2836,2159,1125,1025,665,7,0,7,0,665,289,193,26,70,2652855.0,3389,9844750.0,3766,537679.0,1876,349544.635000,1916
+dia,2026-08-17T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,2836,2159,1125,1025,665,599,0,599,0,665,289,193,26,70,2652855.0,3389,9844750.0,3766,537679.0,1876,349544.635000,1916
 dia,2026-08-17T00:00:00.000Z,OUTROS,ativo,1724,1219,24,22,3,1,0,1,0,3,1,1,0,0,26005.0,1746,7046.0,1737,3373.0,23,1543.320000,23
-dia,2026-08-17T00:00:00.000Z,OUTROS,receptivo,1042,962,1032,961,662,6,0,6,0,662,288,192,26,70,2542905.0,1571,8231184.0,1979,534306.0,1853,348001.315000,1893
+dia,2026-08-17T00:00:00.000Z,OUTROS,receptivo,1042,962,1032,961,662,598,0,598,0,662,288,192,26,70,2542905.0,1571,8231184.0,1979,534306.0,1853,348001.315000,1893
 dia,2026-08-17T00:00:00.000Z,OUTROS,sem origem,39,18,38,24,0,0,0,0,0,0,0,0,0,0,74865.0,41,1038.0,16,0.0,0,0.000000,0
 dia,2026-08-17T00:00:00.000Z,OUTROS,store,31,0,31,18,0,0,0,0,0,0,0,0,0,0,9080.0,31,1605482.0,34,0.0,0,0.000000,0
-dia,2026-08-17T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,8246,6609,2488,2233,1316,7,0,7,0,1316,391,282,32,77,1.1057449E7,9726,1.8084035E7,10671,1928083.0,4184,2319347.127000,4316
-dia,2026-08-17T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,6649,5468,1090,970,653,1,0,1,0,653,89,78,5,6,7620856.0,7542,2139544.0,7983,415587.0,2150,677378.759000,2194
-dia,2026-08-17T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,1214,988,1204,1130,663,6,0,6,0,663,302,204,27,71,3297948.0,1756,1.4292543E7,2274,1512496.0,2034,1641968.368000,2122
+dia,2026-08-17T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,8246,6609,2488,2233,1316,886,0,886,0,1316,391,282,32,77,1.1057449E7,9726,1.8084035E7,10671,1928083.0,4184,2319347.127000,4316
+dia,2026-08-17T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,6649,5468,1090,970,653,287,0,287,0,653,89,78,5,6,7620856.0,7542,2139544.0,7983,415587.0,2150,677378.759000,2194
+dia,2026-08-17T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,1214,988,1204,1130,663,599,0,599,0,663,302,204,27,71,3297948.0,1756,1.4292543E7,2274,1512496.0,2034,1641968.368000,2122
 dia,2026-08-17T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,352,223,163,115,0,0,0,0,0,0,0,0,0,0,129565.0,397,46466.0,380,0.0,0,0.000000,0
 dia,2026-08-17T00:00:00.000Z,__TODOS_PRODUTOS__,store,31,0,31,18,0,0,0,0,0,0,0,0,0,0,9080.0,31,1605482.0,34,0.0,0,0.000000,0
 dia,2026-08-18T00:00:00.000Z,CARD,__TODAS_ORIGENS__,2,2,2,2,0,0,0,0,0,0,0,0,0,0,1647.0,2,504.0,2,0.0,0,0.000000,0
 dia,2026-08-18T00:00:00.000Z,CARD,sem origem,2,2,2,2,0,0,0,0,0,0,0,0,0,0,1647.0,2,504.0,2,0.0,0,0.000000,0
-dia,2026-08-18T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,4749,4408,1020,935,554,0,0,0,0,554,65,48,9,8,5476137.0,5321,5085860.0,5775,1226356.0,1826,1470756.573000,1864
-dia,2026-08-18T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,4519,4309,840,761,552,0,0,0,0,552,65,48,9,8,4774743.0,5079,3248508.0,5440,298843.0,1666,293742.886000,1669
-dia,2026-08-18T00:00:00.000Z,CONSIGNADO PRIVADO,receptivo,119,3,119,119,2,0,0,0,0,2,0,0,0,0,671003.0,120,1832275.0,206,927513.0,160,1177013.687000,195
+dia,2026-08-18T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,4749,4408,1020,935,554,233,0,233,0,554,65,48,9,8,5476137.0,5321,5085860.0,5775,1226356.0,1826,1470756.573000,1864
+dia,2026-08-18T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,4519,4309,840,761,552,231,0,231,0,552,65,48,9,8,4774743.0,5079,3248508.0,5440,298843.0,1666,293742.886000,1669
+dia,2026-08-18T00:00:00.000Z,CONSIGNADO PRIVADO,receptivo,119,3,119,119,2,2,0,2,0,2,0,0,0,0,671003.0,120,1832275.0,206,927513.0,160,1177013.687000,195
 dia,2026-08-18T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,111,100,61,55,0,0,0,0,0,0,0,0,0,0,30391.0,122,5077.0,129,0.0,0,0.000000,0
-dia,2026-08-18T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,995,957,138,131,69,1,0,1,0,69,14,11,2,1,880012.0,1189,274630.0,1276,75305.0,401,98380.852000,401
-dia,2026-08-18T00:00:00.000Z,FGTS,ativo,982,947,134,127,69,1,0,1,0,69,14,11,2,1,876617.0,1176,274336.0,1262,75305.0,401,98380.852000,401
+dia,2026-08-18T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,995,957,138,131,69,49,0,49,0,69,14,11,2,1,880012.0,1189,274630.0,1276,75305.0,401,98380.852000,401
+dia,2026-08-18T00:00:00.000Z,FGTS,ativo,982,947,134,127,69,49,0,49,0,69,14,11,2,1,876617.0,1176,274336.0,1262,75305.0,401,98380.852000,401
 dia,2026-08-18T00:00:00.000Z,FGTS,sem origem,13,10,4,4,0,0,0,0,0,0,0,0,0,0,3395.0,13,294.0,14,0.0,0,0.000000,0
-dia,2026-08-18T00:00:00.000Z,INSS,__TODAS_ORIGENS__,309,202,125,105,32,0,0,0,0,32,15,12,2,1,1003329.0,439,1160413.0,494,71550.0,229,187175.605000,229
-dia,2026-08-18T00:00:00.000Z,INSS,ativo,147,113,88,72,32,0,0,0,0,32,12,10,2,0,989415.0,268,1155572.0,320,71550.0,229,187175.605000,229
+dia,2026-08-18T00:00:00.000Z,INSS,__TODAS_ORIGENS__,309,202,125,105,32,23,0,23,0,32,15,12,2,1,1003329.0,439,1160413.0,494,71550.0,229,187175.605000,229
+dia,2026-08-18T00:00:00.000Z,INSS,ativo,147,113,88,72,32,23,0,23,0,32,12,10,2,0,989415.0,268,1155572.0,320,71550.0,229,187175.605000,229
 dia,2026-08-18T00:00:00.000Z,INSS,receptivo,19,13,19,16,0,0,0,0,0,0,3,2,0,1,6619.0,21,2231.0,22,0.0,0,0.000000,0
 dia,2026-08-18T00:00:00.000Z,INSS,sem origem,143,76,18,17,0,0,0,0,0,0,0,0,0,0,7295.0,150,2610.0,152,0.0,0,0.000000,0
-dia,2026-08-18T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,2809,2209,919,846,597,5,0,5,0,597,219,146,12,61,2356892.0,3343,2192002.0,3661,384210.0,1674,290980.537000,1687
-dia,2026-08-18T00:00:00.000Z,OUTROS,ativo,1895,1425,15,13,5,0,0,0,0,5,0,0,0,0,10574.0,1915,16347.0,1908,1309.0,13,1098.015000,13
-dia,2026-08-18T00:00:00.000Z,OUTROS,receptivo,858,799,849,802,592,5,0,5,0,592,219,146,12,61,2330949.0,1371,1955070.0,1716,382901.0,1661,289882.522000,1674
+dia,2026-08-18T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,2809,2209,919,846,597,550,0,550,0,597,219,146,12,61,2356892.0,3343,2192002.0,3661,384210.0,1674,290980.537000,1687
+dia,2026-08-18T00:00:00.000Z,OUTROS,ativo,1895,1425,15,13,5,1,0,1,0,5,0,0,0,0,10574.0,1915,16347.0,1908,1309.0,13,1098.015000,13
+dia,2026-08-18T00:00:00.000Z,OUTROS,receptivo,858,799,849,802,592,549,0,549,0,592,219,146,12,61,2330949.0,1371,1955070.0,1716,382901.0,1661,289882.522000,1674
 dia,2026-08-18T00:00:00.000Z,OUTROS,sem origem,26,18,25,21,0,0,0,0,0,0,0,0,0,0,10137.0,27,74.0,5,0.0,0,0.000000,0
 dia,2026-08-18T00:00:00.000Z,OUTROS,store,30,0,30,10,0,0,0,0,0,0,0,0,0,0,5232.0,30,220511.0,32,0.0,0,0.000000,0
-dia,2026-08-18T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,8862,7290,2202,2019,1250,6,0,6,0,1250,313,217,25,71,9718017.0,10294,8713409.0,11208,1757421.0,4130,2047293.567000,4181
-dia,2026-08-18T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,7543,6346,1077,973,658,1,0,1,0,658,91,69,13,9,6651349.0,8438,4694763.0,8930,447007.0,2309,580397.358000,2312
-dia,2026-08-18T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,994,813,985,937,592,5,0,5,0,592,222,148,12,62,3008571.0,1512,3789576.0,1944,1310414.0,1821,1466896.209000,1869
+dia,2026-08-18T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,8862,7290,2202,2019,1250,853,0,853,0,1250,313,217,25,71,9718017.0,10294,8713409.0,11208,1757421.0,4130,2047293.567000,4181
+dia,2026-08-18T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,7543,6346,1077,973,658,304,0,304,0,658,91,69,13,9,6651349.0,8438,4694763.0,8930,447007.0,2309,580397.358000,2312
+dia,2026-08-18T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,994,813,985,937,592,549,0,549,0,592,222,148,12,62,3008571.0,1512,3789576.0,1944,1310414.0,1821,1466896.209000,1869
 dia,2026-08-18T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,295,196,110,99,0,0,0,0,0,0,0,0,0,0,52865.0,314,8559.0,302,0.0,0,0.000000,0
 dia,2026-08-18T00:00:00.000Z,__TODOS_PRODUTOS__,store,30,0,30,10,0,0,0,0,0,0,0,0,0,0,5232.0,30,220511.0,32,0.0,0,0.000000,0
 dia,2026-08-19T00:00:00.000Z,CARD,__TODAS_ORIGENS__,8,9,8,8,0,0,0,0,0,0,0,0,0,0,8231.0,10,1829.0,10,0.0,0,0.000000,0
@@ -225974,21 +226006,21 @@ dia,2026-08-19T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,4853,4582,688,
 dia,2026-08-19T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,4664,4509,534,481,331,0,0,0,0,331,33,31,1,1,3182597.0,5053,3524516.0,5278,217504.0,1098,223590.387000,1091
 dia,2026-08-19T00:00:00.000Z,CONSIGNADO PRIVADO,receptivo,105,1,105,105,1,0,0,0,0,1,0,0,0,0,736053.0,105,2608925.0,185,1017512.0,120,1277850.006000,161
 dia,2026-08-19T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,84,72,49,41,0,0,0,0,0,0,0,0,0,0,20074.0,92,7444.0,93,0.0,0,0.000000,0
-dia,2026-08-19T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,904,855,154,142,79,0,0,0,0,79,47,41,5,1,873433.0,1421,429688.0,1258,56142.0,482,146170.069000,488
-dia,2026-08-19T00:00:00.000Z,FGTS,ativo,889,841,151,139,79,0,0,0,0,79,47,41,5,1,871936.0,1405,429599.0,1241,56142.0,482,146170.069000,488
+dia,2026-08-19T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,904,855,154,142,79,2,0,2,0,79,47,41,5,1,873433.0,1421,429688.0,1258,56142.0,482,146170.069000,488
+dia,2026-08-19T00:00:00.000Z,FGTS,ativo,889,841,151,139,79,2,0,2,0,79,47,41,5,1,871936.0,1405,429599.0,1241,56142.0,482,146170.069000,488
 dia,2026-08-19T00:00:00.000Z,FGTS,sem origem,15,14,3,3,0,0,0,0,0,0,0,0,0,0,1497.0,16,89.0,17,0.0,0,0.000000,0
-dia,2026-08-19T00:00:00.000Z,INSS,__TODAS_ORIGENS__,399,238,124,107,33,1,0,1,0,33,30,22,4,4,928985.0,596,48940.0,510,62884.0,144,125816.715000,144
-dia,2026-08-19T00:00:00.000Z,INSS,ativo,192,159,77,64,32,1,0,1,0,32,15,11,2,2,909114.0,386,42130.0,297,62641.0,143,125652.970000,143
+dia,2026-08-19T00:00:00.000Z,INSS,__TODAS_ORIGENS__,399,238,124,107,33,2,0,2,0,33,30,22,4,4,928985.0,596,48940.0,510,62884.0,144,125816.715000,144
+dia,2026-08-19T00:00:00.000Z,INSS,ativo,192,159,77,64,32,2,0,2,0,32,15,11,2,2,909114.0,386,42130.0,297,62641.0,143,125652.970000,143
 dia,2026-08-19T00:00:00.000Z,INSS,receptivo,30,21,30,26,1,0,0,0,0,1,15,11,2,2,11846.0,31,3095.0,33,243.0,1,163.745000,1
 dia,2026-08-19T00:00:00.000Z,INSS,sem origem,177,61,17,17,0,0,0,0,0,0,0,0,0,0,8025.0,179,3715.0,180,0.0,0,0.000000,0
-dia,2026-08-19T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,2873,2173,856,771,533,2,0,2,0,533,203,141,15,47,1866162.0,3218,5143825.0,3493,309237.0,1353,298137.397000,1377
+dia,2026-08-19T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,2873,2173,856,771,533,5,0,5,0,533,203,141,15,47,1866162.0,3218,5143825.0,3493,309237.0,1353,298137.397000,1377
 dia,2026-08-19T00:00:00.000Z,OUTROS,ativo,2007,1516,11,8,1,0,0,0,0,1,0,0,0,0,96859.0,2020,3126.0,2018,2487.0,9,10401.400000,9
-dia,2026-08-19T00:00:00.000Z,OUTROS,receptivo,779,665,758,707,532,2,0,2,0,532,203,141,15,47,1753126.0,1109,4608184.0,1428,306738.0,1342,287675.507000,1366
+dia,2026-08-19T00:00:00.000Z,OUTROS,receptivo,779,665,758,707,532,5,0,5,0,532,203,141,15,47,1753126.0,1109,4608184.0,1428,306738.0,1342,287675.507000,1366
 dia,2026-08-19T00:00:00.000Z,OUTROS,sem origem,60,27,60,41,0,0,0,0,0,0,0,0,0,0,10746.0,62,463.0,20,12.0,2,60.490000,2
 dia,2026-08-19T00:00:00.000Z,OUTROS,store,27,0,27,15,0,0,0,0,0,0,0,0,0,0,5431.0,27,532052.0,27,0.0,0,0.000000,0
-dia,2026-08-19T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,9037,7311,1830,1655,977,3,0,3,0,977,313,235,25,53,7615535.0,10495,1.1765167E7,10827,1663279.0,3197,2071564.574000,3261
-dia,2026-08-19T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,7752,6505,773,692,443,1,0,1,0,443,95,83,8,4,5060506.0,8864,3999371.0,8834,338774.0,1732,505814.826000,1731
-dia,2026-08-19T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,916,689,895,840,534,2,0,2,0,534,218,152,17,49,2505276.0,1247,7220435.0,1648,1324493.0,1463,1565689.258000,1528
+dia,2026-08-19T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,9037,7311,1830,1655,977,9,0,9,0,977,313,235,25,53,7615535.0,10495,1.1765167E7,10827,1663279.0,3197,2071564.574000,3261
+dia,2026-08-19T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,7752,6505,773,692,443,4,0,4,0,443,95,83,8,4,5060506.0,8864,3999371.0,8834,338774.0,1732,505814.826000,1731
+dia,2026-08-19T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,916,689,895,840,534,5,0,5,0,534,218,152,17,49,2505276.0,1247,7220435.0,1648,1324493.0,1463,1565689.258000,1528
 dia,2026-08-19T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,342,177,135,108,0,0,0,0,0,0,0,0,0,0,44322.0,357,13309.0,318,12.0,2,60.490000,2
 dia,2026-08-19T00:00:00.000Z,__TODOS_PRODUTOS__,store,27,0,27,15,0,0,0,0,0,0,0,0,0,0,5431.0,27,532052.0,27,0.0,0,0.000000,0
 dia,2026-08-20T00:00:00.000Z,CARD,__TODAS_ORIGENS__,3,3,2,2,0,0,0,0,0,0,1,0,0,1,948.0,3,371.0,3,0.0,0,0.000000,0
@@ -226005,62 +226037,93 @@ dia,2026-08-20T00:00:00.000Z,INSS,__TODAS_ORIGENS__,360,227,128,115,29,0,0,0,0,2
 dia,2026-08-20T00:00:00.000Z,INSS,ativo,148,120,71,65,29,0,0,0,0,29,17,17,0,0,791901.0,478,210727.0,287,121304.0,185,244320.514000,185
 dia,2026-08-20T00:00:00.000Z,INSS,receptivo,38,30,38,33,0,0,0,0,0,0,10,10,0,0,12431.0,43,6225.0,44,0.0,0,0.000000,0
 dia,2026-08-20T00:00:00.000Z,INSS,sem origem,174,79,19,17,0,0,0,0,0,0,0,0,0,0,6455.0,176,5635.0,176,0.0,0,0.000000,0
-dia,2026-08-20T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,3093,2315,748,659,464,0,0,0,0,464,154,101,15,38,1626372.0,3473,2447391.0,3754,267120.0,1275,269704.679000,1284
+dia,2026-08-20T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,3093,2315,748,659,464,3,0,3,0,464,154,101,15,38,1626372.0,3473,2447391.0,3754,267120.0,1275,269704.679000,1284
 dia,2026-08-20T00:00:00.000Z,OUTROS,ativo,2316,1788,5,5,1,0,0,0,0,1,1,0,1,0,2263.0,2323,672.0,2321,145.0,3,146.456000,3
-dia,2026-08-20T00:00:00.000Z,OUTROS,receptivo,703,551,670,619,463,0,0,0,0,463,153,101,14,38,1605825.0,1076,2319218.0,1378,266975.0,1272,269558.223000,1281
+dia,2026-08-20T00:00:00.000Z,OUTROS,receptivo,703,551,670,619,463,3,0,3,0,463,153,101,14,38,1605825.0,1076,2319218.0,1378,266975.0,1272,269558.223000,1281
 dia,2026-08-20T00:00:00.000Z,OUTROS,sem origem,47,13,46,22,0,0,0,0,0,0,0,0,0,0,5645.0,47,682.0,25,0.0,0,0.000000,0
 dia,2026-08-20T00:00:00.000Z,OUTROS,store,27,0,27,13,0,0,0,0,0,0,0,0,0,0,12639.0,27,126819.0,30,0.0,0,0.000000,0
-dia,2026-08-20T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,8699,6910,1745,1573,928,0,0,0,0,928,246,185,16,45,5956653.0,10596,1.9749404E7,10617,1698040.0,3133,2338765.800000,3205
+dia,2026-08-20T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,8699,6910,1745,1573,928,3,0,3,0,928,246,185,16,45,5956653.0,10596,1.9749404E7,10617,1698040.0,3133,2338765.800000,3205
 dia,2026-08-20T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,7443,6202,736,668,464,0,0,0,0,464,82,74,2,6,3400099.0,8946,1.2055619E7,8565,430639.0,1711,550121.142000,1713
-dia,2026-08-20T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,869,582,836,780,464,0,0,0,0,464,164,111,14,39,2494334.0,1250,7542774.0,1664,1267401.0,1422,1788644.658000,1492
+dia,2026-08-20T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,869,582,836,780,464,3,0,3,0,464,164,111,14,39,2494334.0,1250,7542774.0,1664,1267401.0,1422,1788644.658000,1492
 dia,2026-08-20T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,360,197,146,112,0,0,0,0,0,0,0,0,0,0,49581.0,373,24192.0,358,0.0,0,0.000000,0
 dia,2026-08-20T00:00:00.000Z,__TODOS_PRODUTOS__,store,27,0,27,13,0,0,0,0,0,0,0,0,0,0,12639.0,27,126819.0,30,0.0,0,0.000000,0
 dia,2026-08-21T00:00:00.000Z,CARD,__TODAS_ORIGENS__,4,3,3,3,0,0,0,0,0,0,0,0,0,0,1372.0,6,453.0,6,0.0,0,0.000000,0
 dia,2026-08-21T00:00:00.000Z,CARD,sem origem,4,3,3,3,0,0,0,0,0,0,0,0,0,0,1372.0,6,453.0,6,0.0,0,0.000000,0
-dia,2026-08-21T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,2568,2319,863,739,434,0,0,0,0,434,69,65,1,3,2444212.0,3002,7586744.0,3387,853073.0,1302,1432545.504000,1377
-dia,2026-08-21T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,2354,2243,692,571,434,0,0,0,0,434,69,65,1,3,1605523.0,2780,2851281.0,3068,213029.0,1196,236103.021000,1208
+dia,2026-08-21T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,2570,2319,865,740,434,1,0,1,0,434,69,65,1,3,2599325.0,3008,7762878.0,3393,865832.0,1314,1658530.588000,1386
+dia,2026-08-21T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,2356,2243,694,572,434,1,0,1,0,434,69,65,1,3,1760636.0,2786,3027415.0,3074,225788.0,1208,462088.105000,1217
 dia,2026-08-21T00:00:00.000Z,CONSIGNADO PRIVADO,receptivo,122,0,122,122,0,0,0,0,0,0,0,0,0,0,812550.0,122,4730291.0,215,640044.0,106,1196442.483000,169
 dia,2026-08-21T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,92,79,49,46,0,0,0,0,0,0,0,0,0,0,26139.0,100,5172.0,104,0.0,0,0.000000,0
-dia,2026-08-21T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,1898,1875,141,82,54,0,0,0,0,54,16,15,1,0,305474.0,2034,728097.0,2088,31064.0,206,36131.181000,206
-dia,2026-08-21T00:00:00.000Z,FGTS,ativo,1893,1870,140,81,54,0,0,0,0,54,16,15,1,0,305189.0,2029,727799.0,2083,31064.0,206,36131.181000,206
+dia,2026-08-21T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,1898,1875,141,82,54,1,0,1,0,54,16,15,1,0,305474.0,2034,728097.0,2088,31072.0,208,141291.513000,208
+dia,2026-08-21T00:00:00.000Z,FGTS,ativo,1893,1870,140,81,54,1,0,1,0,54,16,15,1,0,305189.0,2029,727799.0,2083,31072.0,208,141291.513000,208
 dia,2026-08-21T00:00:00.000Z,FGTS,sem origem,5,5,1,1,0,0,0,0,0,0,0,0,0,0,285.0,5,298.0,5,0.0,0,0.000000,0
-dia,2026-08-21T00:00:00.000Z,INSS,__TODAS_ORIGENS__,303,202,91,82,24,0,0,0,0,24,19,17,0,2,792302.0,349,99121.0,393,83126.0,115,320609.017000,125
-dia,2026-08-21T00:00:00.000Z,INSS,ativo,141,125,56,50,24,0,0,0,0,24,11,10,0,1,775372.0,182,96595.0,223,83126.0,115,320609.017000,125
+dia,2026-08-21T00:00:00.000Z,INSS,__TODAS_ORIGENS__,305,202,93,83,24,0,0,0,0,24,19,17,0,2,793123.0,351,273186.0,395,83921.0,119,477559.691000,129
+dia,2026-08-21T00:00:00.000Z,INSS,ativo,143,125,58,51,24,0,0,0,0,24,11,10,0,1,776193.0,184,270660.0,225,83921.0,119,477559.691000,129
 dia,2026-08-21T00:00:00.000Z,INSS,receptivo,19,17,19,18,0,0,0,0,0,0,8,7,0,1,9539.0,21,921.0,22,0.0,0,0.000000,0
 dia,2026-08-21T00:00:00.000Z,INSS,sem origem,143,66,16,14,0,0,0,0,0,0,0,0,0,0,7391.0,146,1605.0,148,0.0,0,0.000000,0
-dia,2026-08-21T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,3346,2043,869,785,432,0,0,0,0,432,162,110,13,39,2170997.0,3667,4016418.0,4072,327300.0,1490,344714.483000,1495
-dia,2026-08-21T00:00:00.000Z,OUTROS,ativo,2495,1478,65,59,36,0,0,0,0,36,12,10,0,2,237727.0,2554,119893.0,2583,36350.0,136,60025.540000,136
-dia,2026-08-21T00:00:00.000Z,OUTROS,receptivo,779,590,732,685,396,0,0,0,0,396,150,100,13,37,1913745.0,1040,3541676.0,1440,290950.0,1354,284688.943000,1359
+dia,2026-08-21T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,3348,2044,871,786,431,1,0,1,0,431,162,110,13,39,2174484.0,3668,4192578.0,4072,328231.0,1489,350685.052000,1494
+dia,2026-08-21T00:00:00.000Z,OUTROS,ativo,2495,1478,65,59,36,0,0,0,0,36,12,10,0,2,237727.0,2554,119893.0,2583,31596.0,136,60025.540000,136
+dia,2026-08-21T00:00:00.000Z,OUTROS,receptivo,781,591,734,686,395,1,0,1,0,395,150,100,13,37,1917232.0,1041,3717836.0,1440,296635.0,1353,290659.512000,1358
 dia,2026-08-21T00:00:00.000Z,OUTROS,sem origem,33,15,33,25,0,0,0,0,0,0,0,0,0,0,9554.0,34,268.0,8,0.0,0,0.000000,0
 dia,2026-08-21T00:00:00.000Z,OUTROS,store,39,0,39,16,0,0,0,0,0,0,0,0,0,0,9971.0,39,354581.0,41,0.0,0,0.000000,0
-dia,2026-08-21T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,8119,5975,1967,1691,944,0,0,0,0,944,266,207,15,44,5714357.0,9058,1.2430833E7,9946,1294563.0,3113,2134000.185000,3203
-dia,2026-08-21T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,6883,5282,953,761,548,0,0,0,0,548,108,100,2,6,2923811.0,7545,3795568.0,7957,363569.0,1653,652868.759000,1675
-dia,2026-08-21T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,920,605,873,825,396,0,0,0,0,396,158,107,13,38,2735834.0,1183,8272888.0,1677,930994.0,1460,1481131.426000,1528
+dia,2026-08-21T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,8125,5976,1973,1694,943,3,0,3,0,943,266,207,15,44,5873778.0,9067,1.2957192E7,9954,1309056.0,3130,2628066.844000,3217
+dia,2026-08-21T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,6887,5282,957,763,548,2,0,2,0,548,108,100,2,6,3079745.0,7553,4145767.0,7965,372377.0,1671,1140964.849000,1690
+dia,2026-08-21T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,922,606,875,826,395,1,0,1,0,395,158,107,13,38,2739321.0,1184,8449048.0,1677,936679.0,1459,1487101.995000,1527
 dia,2026-08-21T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,277,163,102,89,0,0,0,0,0,0,0,0,0,0,44741.0,291,7796.0,271,0.0,0,0.000000,0
 dia,2026-08-21T00:00:00.000Z,__TODOS_PRODUTOS__,store,39,0,39,16,0,0,0,0,0,0,0,0,0,0,9971.0,39,354581.0,41,0.0,0,0.000000,0
 dia,2026-08-22T00:00:00.000Z,CARD,__TODAS_ORIGENS__,1,1,1,1,0,0,0,0,0,0,0,0,0,0,392.0,1,6.0,1,0.0,0,0.000000,0
 dia,2026-08-22T00:00:00.000Z,CARD,sem origem,1,1,1,1,0,0,0,0,0,0,0,0,0,0,392.0,1,6.0,1,0.0,0,0.000000,0
-dia,2026-08-22T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,121,70,101,96,36,0,0,0,0,36,6,4,1,1,269513.0,189,7257481.0,229,0.0,0,13380.562000,2
-dia,2026-08-22T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,53,42,52,49,36,0,0,0,0,36,6,4,1,1,135529.0,118,4346741.0,134,0.0,0,13380.562000,2
-dia,2026-08-22T00:00:00.000Z,CONSIGNADO PRIVADO,receptivo,38,0,38,38,0,0,0,0,0,0,0,0,0,0,128966.0,38,2909745.0,62,0.0,0,0.000000,0
-dia,2026-08-22T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,30,28,11,9,0,0,0,0,0,0,0,0,0,0,5018.0,33,995.0,33,0.0,0,0.000000,0
+dia,2026-08-22T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,124,72,101,96,36,0,0,0,0,36,6,4,1,1,269513.0,192,7257482.0,232,56919.0,137,328233.859000,176
+dia,2026-08-22T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,53,42,52,49,36,0,0,0,0,36,6,4,1,1,135529.0,118,4346741.0,134,22500.0,128,150950.652000,128
+dia,2026-08-22T00:00:00.000Z,CONSIGNADO PRIVADO,receptivo,38,0,38,38,0,0,0,0,0,0,0,0,0,0,128966.0,38,2909745.0,62,34419.0,9,177283.207000,48
+dia,2026-08-22T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,33,30,11,9,0,0,0,0,0,0,0,0,0,0,5018.0,36,996.0,36,0.0,0,0.000000,0
 dia,2026-08-22T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0.0,6,2.0,6,0.0,0,0.000000,0
 dia,2026-08-22T00:00:00.000Z,FGTS,ativo,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3,1.0,3,0.0,0,0.000000,0
 dia,2026-08-22T00:00:00.000Z,FGTS,sem origem,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3,1.0,3,0.0,0,0.000000,0
-dia,2026-08-22T00:00:00.000Z,INSS,__TODAS_ORIGENS__,75,56,23,18,3,0,0,0,0,3,3,2,1,0,40760.0,79,7950.0,88,0.0,0,0.000000,0
-dia,2026-08-22T00:00:00.000Z,INSS,ativo,31,27,12,9,3,0,0,0,0,3,3,2,1,0,36511.0,35,7659.0,42,0.0,0,0.000000,0
+dia,2026-08-22T00:00:00.000Z,INSS,__TODAS_ORIGENS__,79,60,23,19,3,0,0,0,0,3,3,2,1,0,214834.0,85,8074.0,94,934.0,4,53938.240000,4
+dia,2026-08-22T00:00:00.000Z,INSS,ativo,34,30,12,10,3,0,0,0,0,3,3,2,1,0,210585.0,40,7783.0,47,934.0,4,53938.240000,4
 dia,2026-08-22T00:00:00.000Z,INSS,receptivo,4,4,4,2,0,0,0,0,0,0,0,0,0,0,1188.0,4,82.0,5,0.0,0,0.000000,0
-dia,2026-08-22T00:00:00.000Z,INSS,sem origem,40,26,7,7,0,0,0,0,0,0,0,0,0,0,3061.0,40,209.0,41,0.0,0,0.000000,0
-dia,2026-08-22T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,781,619,154,134,102,0,0,0,0,102,41,30,1,10,278375.0,864,9022.0,912,0.0,0,0.000000,0
-dia,2026-08-22T00:00:00.000Z,OUTROS,ativo,620,500,1,0,0,0,0,0,0,0,0,0,0,0,0.0,624,201.0,624,0.0,0,0.000000,0
-dia,2026-08-22T00:00:00.000Z,OUTROS,receptivo,145,123,137,133,102,0,0,0,0,102,41,30,1,10,277462.0,224,8673.0,273,0.0,0,0.000000,0
+dia,2026-08-22T00:00:00.000Z,INSS,sem origem,41,27,7,7,0,0,0,0,0,0,0,0,0,0,3061.0,41,209.0,42,0.0,0,0.000000,0
+dia,2026-08-22T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,918,717,155,134,102,0,0,0,0,102,41,30,1,10,278375.0,1002,9071.0,1050,34047.0,264,33650.456000,264
+dia,2026-08-22T00:00:00.000Z,OUTROS,ativo,756,598,1,0,0,0,0,0,0,0,0,0,0,0,0.0,761,249.0,761,0.0,0,0.000000,0
+dia,2026-08-22T00:00:00.000Z,OUTROS,receptivo,145,123,137,133,102,0,0,0,0,102,41,30,1,10,277462.0,224,8673.0,273,34047.0,264,33650.456000,264
 dia,2026-08-22T00:00:00.000Z,OUTROS,sem origem,3,1,3,1,0,0,0,0,0,0,0,0,0,0,913.0,3,144.0,2,0.0,0,0.000000,0
-dia,2026-08-22T00:00:00.000Z,OUTROS,store,13,0,13,0,0,0,0,0,0,0,0,0,0,0,0.0,13,4.0,13,0.0,0,0.000000,0
-dia,2026-08-22T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,984,735,279,249,141,0,0,0,0,141,50,36,3,11,589040.0,1139,7274461.0,1236,0.0,0,13380.562000,2
-dia,2026-08-22T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,707,560,65,58,39,0,0,0,0,39,9,6,2,1,172040.0,780,4354602.0,803,0.0,0,13380.562000,2
-dia,2026-08-22T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,187,127,179,173,102,0,0,0,0,102,41,30,1,10,407616.0,266,2918500.0,340,0.0,0,0.000000,0
-dia,2026-08-22T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,77,57,22,18,0,0,0,0,0,0,0,0,0,0,9384.0,80,1355.0,80,0.0,0,0.000000,0
-dia,2026-08-22T00:00:00.000Z,__TODOS_PRODUTOS__,store,13,0,13,0,0,0,0,0,0,0,0,0,0,0,0.0,13,4.0,13,0.0,0,0.000000,0
+dia,2026-08-22T00:00:00.000Z,OUTROS,store,14,0,14,0,0,0,0,0,0,0,0,0,0,0,0.0,14,5.0,14,0.0,0,0.000000,0
+dia,2026-08-22T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,1128,839,280,250,141,0,0,0,0,141,50,36,3,11,763114.0,1286,7274635.0,1383,91900.0,405,415822.555000,444
+dia,2026-08-22T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,846,661,65,59,39,0,0,0,0,39,9,6,2,1,346114.0,922,4354774.0,945,23434.0,132,204888.892000,132
+dia,2026-08-22T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,187,127,179,173,102,0,0,0,0,102,41,30,1,10,407616.0,266,2918500.0,340,68466.0,273,210933.663000,312
+dia,2026-08-22T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,81,60,22,18,0,0,0,0,0,0,0,0,0,0,9384.0,84,1356.0,84,0.0,0,0.000000,0
+dia,2026-08-22T00:00:00.000Z,__TODOS_PRODUTOS__,store,14,0,14,0,0,0,0,0,0,0,0,0,0,0,0.0,14,5.0,14,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,CARD,__TODAS_ORIGENS__,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0.0,1,0.0,1,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,CARD,sem origem,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0.0,1,0.0,1,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,15,14,1,0,0,0,0,0,0,0,0,0,0,0,0.0,15,172612.0,15,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0.0,1,172608.0,1,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,14,13,0,0,0,0,0,0,0,0,0,0,0,0,0.0,14,4.0,14,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3,1.0,3,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,FGTS,ativo,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0.0,2,0.0,2,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,FGTS,sem origem,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0.0,1,1.0,1,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,INSS,__TODAS_ORIGENS__,28,18,1,0,0,0,0,0,0,0,0,0,0,0,0.0,28,172615.0,28,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,INSS,ativo,10,10,1,0,0,0,0,0,0,0,0,0,0,0,0.0,10,172608.0,10,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,INSS,sem origem,18,8,0,0,0,0,0,0,0,0,0,0,0,0,0.0,18,7.0,18,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,540,382,18,0,0,0,0,0,0,0,0,0,0,0,0.0,543,172794.0,543,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,OUTROS,ativo,515,381,0,0,0,0,0,0,0,0,0,0,0,0,0.0,518,179.0,518,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,OUTROS,receptivo,8,1,1,0,0,0,0,0,0,0,0,0,0,0,0.0,8,172608.0,8,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,OUTROS,store,17,0,17,0,0,0,0,0,0,0,0,0,0,0,0.0,17,7.0,17,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,587,416,20,0,0,0,0,0,0,0,0,0,0,0,0.0,590,518022.0,590,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,528,393,2,0,0,0,0,0,0,0,0,0,0,0,0.0,531,345395.0,531,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,8,1,1,0,0,0,0,0,0,0,0,0,0,0,0.0,8,172608.0,8,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,34,23,0,0,0,0,0,0,0,0,0,0,0,0,0.0,34,12.0,34,0.0,0,0.000000,0
+dia,2026-08-23T00:00:00.000Z,__TODOS_PRODUTOS__,store,17,0,17,0,0,0,0,0,0,0,0,0,0,0,0.0,17,7.0,17,0.0,0,0.000000,0
+dia,2026-08-24T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0.0,2,0.0,2,0.0,0,0.000000,0
+dia,2026-08-24T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0.0,2,0.0,2,0.0,0,0.000000,0
+dia,2026-08-24T00:00:00.000Z,INSS,__TODAS_ORIGENS__,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0.0,8,2.0,8,0.0,0,0.000000,0
+dia,2026-08-24T00:00:00.000Z,INSS,ativo,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4,1.0,4,0.0,0,0.000000,0
+dia,2026-08-24T00:00:00.000Z,INSS,sem origem,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4,1.0,4,0.0,0,0.000000,0
+dia,2026-08-24T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,85,75,0,0,0,0,0,0,0,0,0,0,0,0,0.0,85,24.0,85,0.0,0,0.000000,0
+dia,2026-08-24T00:00:00.000Z,OUTROS,ativo,85,75,0,0,0,0,0,0,0,0,0,0,0,0,0.0,85,24.0,85,0.0,0,0.000000,0
+dia,2026-08-24T00:00:00.000Z,OUTROS,sem origem,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0,0.0,0,0.0,0,0.000000,0
+dia,2026-08-24T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,95,85,0,0,0,0,0,0,0,0,0,0,0,0,0.0,95,26.0,95,0.0,0,0.000000,0
+dia,2026-08-24T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,89,79,0,0,0,0,0,0,0,0,0,0,0,0,0.0,89,25.0,89,0.0,0,0.000000,0
+dia,2026-08-24T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0.0,6,1.0,6,0.0,0,0.000000,0
 mes,2026-04-01T00:00:00.000Z,CARD,__TODAS_ORIGENS__,3473,1773,3473,3131,2062,1666,80,1586,81,1981,552,436,49,67,6354405.0,5446,4993353.0,6543,857240.0,5714,762417.381000,5652
 mes,2026-04-01T00:00:00.000Z,CARD,receptivo,3473,1773,3473,3131,2062,1666,80,1586,81,1981,552,436,49,67,6354405.0,5446,4993353.0,6543,857240.0,5714,762417.381000,5652
 mes,2026-04-01T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,342392,161700,255997,247948,152165,142127,125467,16660,126760,25405,39662,29845,3985,5833,4.12876416E8,392471,2.227809508E9,471283,6.2515988E7,335808,63297179.620000,340614
@@ -226169,60 +226232,60 @@ mes,2026-07-01T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,22539,13421,22199,1917
 mes,2026-07-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,11447,6533,7312,5424,1351,1093,520,573,522,829,296,272,12,12,6530059.0,13770,1.1303371E7,13965,559944.0,3684,344145.231000,3684
 mes,2026-07-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,1119,3,1119,451,0,0,0,0,0,0,0,0,0,0,346406.0,1119,2.5873404E7,1185,0.0,0,0.000000,0
 mes,2026-07-01T00:00:00.000Z,__TODOS_PRODUTOS__,{{trigger.parent.parameters..flowtype}},37931,36599,80,66,45,31,3,28,3,42,9,9,0,0,147372.0,38210,729618.0,38243,24140.0,166,23299.446000,166
-mes,2026-08-01T00:00:00.000Z,CARD,__TODAS_ORIGENS__,86,65,68,59,0,0,0,0,0,0,8,6,0,2,47328.0,100,15501.0,108,0.0,0,0.000000,0
+mes,2026-08-01T00:00:00.000Z,CARD,__TODAS_ORIGENS__,87,66,68,59,0,0,0,0,0,0,8,6,0,2,47328.0,101,15501.0,109,0.0,0,0.000000,0
 mes,2026-08-01T00:00:00.000Z,CARD,receptivo,22,8,22,17,0,0,0,0,0,0,8,6,0,2,14880.0,24,4667.0,27,0.0,0,0.000000,0
-mes,2026-08-01T00:00:00.000Z,CARD,sem origem,64,57,46,42,0,0,0,0,0,0,0,0,0,0,32448.0,76,10834.0,81,0.0,0,0.000000,0
-mes,2026-08-01T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,134959,111223,14584,12647,6661,2160,0,2160,0,6661,909,782,47,80,7.4085186E7,146414,3.37653438E8,152448,1.0845114E7,24101,28118084.663000,26321
-mes,2026-08-01T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,130294,109674,10787,9296,6569,2117,0,2117,0,6569,898,773,47,78,5.964899E7,141066,7.4598258E7,145355,4366200.0,22682,5534824.117000,22628
-mes,2026-08-01T00:00:00.000Z,CONSIGNADO PRIVADO,receptivo,2378,38,2378,2245,35,26,0,26,0,35,7,6,0,1,1.3628956E7,2636,2.62568466E8,4261,6444126.0,1227,22548492.316000,3507
-mes,2026-08-01T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,2287,1707,1419,1106,57,17,0,17,0,57,4,3,0,1,807240.0,2712,486714.0,2832,34788.0,192,34768.230000,186
-mes,2026-08-01T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,12508,11693,1822,1595,917,314,0,314,0,917,279,236,19,24,1.4038928E7,16100,7872254.0,16305,935046.0,5066,1468416.129000,4988
-mes,2026-08-01T00:00:00.000Z,FGTS,ativo,12289,11516,1751,1533,909,309,0,309,0,909,274,234,19,21,1.368871E7,15849,7841223.0,16025,916992.0,4993,1449624.776000,4915
-mes,2026-08-01T00:00:00.000Z,FGTS,sem origem,219,179,71,62,8,5,0,5,0,8,5,2,0,3,350218.0,251,31031.0,280,18054.0,73,18791.353000,73
-mes,2026-08-01T00:00:00.000Z,INSS,__TODAS_ORIGENS__,5873,2952,2013,1672,535,266,0,266,1,534,379,315,22,42,1.5363456E7,8609,6995351.0,8965,1166024.0,3399,2186795.201000,3375
-mes,2026-08-01T00:00:00.000Z,INSS,ativo,2249,1585,1234,1020,525,258,0,258,1,524,231,191,13,27,1.4972732E7,4806,6625930.0,5109,1160667.0,3364,2183602.965000,3340
+mes,2026-08-01T00:00:00.000Z,CARD,sem origem,65,58,46,42,0,0,0,0,0,0,0,0,0,0,32448.0,77,10834.0,82,0.0,0,0.000000,0
+mes,2026-08-01T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,134980,111234,14586,12648,6661,2626,0,2626,0,6661,909,782,47,80,7.4240299E7,146440,3.38002185E8,152474,1.0914823E7,24250,28654793.814000,26501
+mes,2026-08-01T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,130296,109674,10789,9297,6569,2580,0,2580,0,6569,898,773,47,78,5.9804103E7,141073,7.4947E7,145362,4401490.0,22822,5894250.061000,22760
+mes,2026-08-01T00:00:00.000Z,CONSIGNADO PRIVADO,receptivo,2378,38,2378,2245,35,29,0,29,0,35,7,6,0,1,1.3628956E7,2636,2.62568466E8,4261,6478545.0,1236,22725775.523000,3555
+mes,2026-08-01T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,2306,1718,1419,1106,57,17,0,17,0,57,4,3,0,1,807240.0,2731,486719.0,2851,34788.0,192,34768.230000,186
+mes,2026-08-01T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,12511,11696,1822,1595,917,394,0,394,0,917,279,236,19,24,1.4038928E7,16103,7872255.0,16308,935054.0,5068,1573576.461000,4990
+mes,2026-08-01T00:00:00.000Z,FGTS,ativo,12291,11518,1751,1533,909,389,0,389,0,909,274,234,19,21,1.368871E7,15851,7841223.0,16027,917000.0,4995,1554785.108000,4917
+mes,2026-08-01T00:00:00.000Z,FGTS,sem origem,220,180,71,62,8,5,0,5,0,8,5,2,0,3,350218.0,252,31032.0,281,18054.0,73,18791.353000,73
+mes,2026-08-01T00:00:00.000Z,INSS,__TODAS_ORIGENS__,5914,2973,2015,1674,535,313,0,313,1,534,379,315,22,42,1.5538351E7,8653,7342157.0,9009,1167753.0,3407,2397684.115000,3383
+mes,2026-08-01T00:00:00.000Z,INSS,ativo,2267,1595,1236,1022,525,305,0,305,1,524,231,191,13,27,1.5147627E7,4827,6972728.0,5130,1162396.0,3372,2394491.879000,3348
 mes,2026-08-01T00:00:00.000Z,INSS,receptivo,412,243,412,360,3,1,0,1,0,3,144,121,8,15,172640.0,468,69786.0,502,956.0,6,908.424000,6
-mes,2026-08-01T00:00:00.000Z,INSS,sem origem,3212,1213,367,292,7,7,0,7,0,7,4,3,1,0,218084.0,3335,299635.0,3354,4401.0,29,2283.812000,29
-mes,2026-08-01T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,90565,56901,18081,15975,11038,7624,0,7624,0,11038,4124,2934,290,900,4.4320545E7,99388,2.10487049E8,106270,6898919.0,29978,6302272.894000,30572
-mes,2026-08-01T00:00:00.000Z,OUTROS,ativo,72450,46024,249,198,72,13,0,13,0,72,21,17,2,2,592148.0,72914,265113.0,72900,60328.0,295,93578.949000,289
-mes,2026-08-01T00:00:00.000Z,OUTROS,receptivo,16854,12835,16590,15180,10956,7606,0,7606,0,10956,4103,2917,288,898,4.2347746E7,25091,1.98854272E8,32287,6812760.0,29572,6109459.071000,30164
+mes,2026-08-01T00:00:00.000Z,INSS,sem origem,3235,1224,367,292,7,7,0,7,0,7,4,3,1,0,218084.0,3358,299643.0,3377,4401.0,29,2283.812000,29
+mes,2026-08-01T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,91328,57318,18101,15976,11037,8765,0,8765,0,11037,4124,2934,290,900,4.4324032E7,100155,2.10836076E8,107036,6933897.0,30241,6341893.919000,30835
+mes,2026-08-01T00:00:00.000Z,OUTROS,ativo,73186,46445,249,198,72,14,0,14,0,72,21,17,2,2,592148.0,73654,265364.0,73640,55574.0,295,93578.949000,289
+mes,2026-08-01T00:00:00.000Z,OUTROS,receptivo,16863,12836,16592,15181,10955,8746,0,8746,0,10955,4103,2917,288,898,4.2351233E7,25100,1.9920304E8,32295,6852492.0,29835,6149080.096000,30427
 mes,2026-08-01T00:00:00.000Z,OUTROS,sem origem,541,214,522,365,10,5,0,5,0,10,0,0,0,0,1242112.0,662,1236885.0,342,25831.0,111,99234.874000,119
-mes,2026-08-01T00:00:00.000Z,OUTROS,store,720,0,720,232,0,0,0,0,0,0,0,0,0,0,138539.0,721,1.0130779E7,741,0.0,0,0.000000,0
-mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,243985,153747,36562,31947,19146,10361,0,10361,1,19145,5699,4273,378,1048,1.47855443E8,270611,5.63023593E8,284096,1.9845103E7,62544,38075568.887000,65256
-mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,217282,141710,14021,12047,8075,2697,0,2697,1,8074,1424,1215,81,128,8.890258E7,234635,8.9330524E7,239389,6504187.0,31334,9261630.807000,31172
-mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,19660,13081,19396,17801,10989,7630,0,7630,0,10989,4262,3050,296,916,5.6164222E7,28219,4.61497191E8,37077,1.3257842E7,30805,28658859.811000,33677
-mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,6323,3121,2425,1867,82,34,0,34,0,82,13,8,1,4,2650102.0,7036,2065099.0,6889,83074.0,405,155078.269000,407
-mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,720,0,720,232,0,0,0,0,0,0,0,0,0,0,138539.0,721,1.0130779E7,741,0.0,0,0.000000,0`,
+mes,2026-08-01T00:00:00.000Z,OUTROS,store,738,0,738,232,0,0,0,0,0,0,0,0,0,0,138539.0,739,1.0130787E7,759,0.0,0,0.000000,0
+mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,244814,154069,36586,31951,19145,12093,0,12093,1,19144,5699,4273,378,1048,1.48188938E8,271452,5.64068174E8,284936,1.9951527E7,62966,38967948.309000,65709
+mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,218040,142013,14025,12050,8075,3288,0,3288,1,8074,1424,1215,81,128,8.9232588E7,235405,9.0026315E7,240159,6536460.0,31484,9937105.997000,31314
+mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,19669,13082,19398,17802,10988,8771,0,8771,0,10988,4262,3050,296,916,5.6167709E7,28228,4.61845959E8,37085,1.3331993E7,31077,28875764.043000,33988
+mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,6367,3145,2425,1867,82,34,0,34,0,82,13,8,1,4,2650102.0,7080,2065113.0,6933,83074.0,405,155078.269000,407
+mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,738,0,738,232,0,0,0,0,0,0,0,0,0,0,138539.0,739,1.0130787E7,759,0.0,0,0.000000,0`,
   EMBEDDED_RANGE_SINCRONO_CSV: `nivel_periodo,dia,convenio,origem,faixa_0_10min,faixa_10_20min,faixa_20_30min,faixa_30_40min,faixa_40_50min,faixa_50_60min,faixa_1_2h,faixa_2_3h,faixa_mais_3h
-ano,2026-01-01T00:00:00.000Z,CARD,__TODAS_ORIGENS__,3829,629,334,173,149,117,308,83,54
+ano,2026-01-01T00:00:00.000Z,CARD,__TODAS_ORIGENS__,3830,629,334,173,149,117,308,83,54
 ano,2026-01-01T00:00:00.000Z,CARD,receptivo,3522,594,310,166,145,116,308,83,54
-ano,2026-01-01T00:00:00.000Z,CARD,sem origem,307,35,24,7,4,1,0,0,0
-ano,2026-01-01T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,876640,16740,10549,6914,4940,3731,9601,3736,30661
-ano,2026-01-01T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,337767,11998,7908,4910,3433,2594,6385,1484,4705
+ano,2026-01-01T00:00:00.000Z,CARD,sem origem,308,35,24,7,4,1,0,0,0
+ano,2026-01-01T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,876660,16740,10549,6914,4941,3731,9601,3736,30662
+ano,2026-01-01T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,337768,11998,7908,4910,3434,2594,6385,1484,4706
 ano,2026-01-01T00:00:00.000Z,CONSIGNADO PRIVADO,receptivo,315885,379,326,311,270,354,1812,1919,23688
-ano,2026-01-01T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,34726,4239,2185,1632,1178,733,1358,319,2216
+ano,2026-01-01T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,34745,4239,2185,1632,1178,733,1358,319,2216
 ano,2026-01-01T00:00:00.000Z,CONSIGNADO PRIVADO,{{trigger.parent.parameters..flowtype}},188262,124,130,61,59,50,46,14,52
-ano,2026-01-01T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,77890,1325,740,513,424,464,1014,472,3067
-ano,2026-01-01T00:00:00.000Z,FGTS,ativo,21001,816,515,352,289,385,544,139,651
+ano,2026-01-01T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,77893,1325,740,513,424,464,1014,472,3067
+ano,2026-01-01T00:00:00.000Z,FGTS,ativo,21003,816,515,352,289,385,544,139,651
 ano,2026-01-01T00:00:00.000Z,FGTS,receptivo,52356,87,62,50,52,39,318,294,2217
-ano,2026-01-01T00:00:00.000Z,FGTS,sem origem,4507,422,163,111,83,40,152,39,199
+ano,2026-01-01T00:00:00.000Z,FGTS,sem origem,4508,422,163,111,83,40,152,39,199
 ano,2026-01-01T00:00:00.000Z,FGTS,{{trigger.parent.parameters..flowtype}},26,0,0,0,0,0,0,0,0
-ano,2026-01-01T00:00:00.000Z,INSS,__TODAS_ORIGENS__,76955,5148,2223,1007,701,630,1745,940,2909
-ano,2026-01-01T00:00:00.000Z,INSS,ativo,15751,1127,672,412,386,394,1080,658,1283
+ano,2026-01-01T00:00:00.000Z,INSS,__TODAS_ORIGENS__,76994,5148,2224,1007,701,630,1745,940,2910
+ano,2026-01-01T00:00:00.000Z,INSS,ativo,15767,1127,673,412,386,394,1080,658,1284
 ano,2026-01-01T00:00:00.000Z,INSS,receptivo,50290,3308,1238,419,190,164,528,260,1382
-ano,2026-01-01T00:00:00.000Z,INSS,sem origem,10910,713,313,176,125,72,137,22,244
+ano,2026-01-01T00:00:00.000Z,INSS,sem origem,10933,713,313,176,125,72,137,22,244
 ano,2026-01-01T00:00:00.000Z,INSS,{{trigger.parent.parameters..flowtype}},4,0,0,0,0,0,0,0,0
-ano,2026-01-01T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,480482,9638,6550,4232,1914,1104,2777,1761,23788
-ano,2026-01-01T00:00:00.000Z,OUTROS,ativo,273880,43,24,6,16,19,32,15,36
-ano,2026-01-01T00:00:00.000Z,OUTROS,receptivo,188632,9487,6472,4165,1854,1039,2597,1673,22107
+ano,2026-01-01T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,481243,9638,6550,4232,1914,1104,2778,1761,23789
+ano,2026-01-01T00:00:00.000Z,OUTROS,ativo,274616,43,24,6,16,19,32,15,36
+ano,2026-01-01T00:00:00.000Z,OUTROS,receptivo,188639,9487,6472,4165,1854,1039,2598,1673,22108
 ano,2026-01-01T00:00:00.000Z,OUTROS,sem origem,12995,17,3,3,4,4,7,4,185
-ano,2026-01-01T00:00:00.000Z,OUTROS,store,4960,91,51,58,40,42,141,69,1460
+ano,2026-01-01T00:00:00.000Z,OUTROS,store,4978,91,51,58,40,42,141,69,1460
 ano,2026-01-01T00:00:00.000Z,OUTROS,{{trigger.parent.parameters..flowtype}},15,0,0,0,0,0,0,0,0
-ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,1515683,33462,20384,12832,8123,6045,15435,6984,60443
-ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,648399,13984,9119,5680,4124,3392,8041,2296,6675
-ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,610572,13837,8396,5104,2506,1711,5553,4221,49412
-ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,63445,5426,2688,1929,1394,850,1654,384,2844
-ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,4960,91,51,58,40,42,141,69,1460
+ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,1516507,33462,20385,12832,8124,6045,15436,6984,60446
+ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,649154,13984,9120,5680,4125,3392,8041,2296,6677
+ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,610579,13837,8396,5104,2506,1711,5554,4221,49413
+ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,63489,5426,2688,1929,1394,850,1654,384,2844
+ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,4978,91,51,58,40,42,141,69,1460
 ano,2026-01-01T00:00:00.000Z,__TODOS_PRODUTOS__,{{trigger.parent.parameters..flowtype}},188307,124,130,61,59,50,46,14,52
 dia,2026-04-01T00:00:00.000Z,CARD,__TODAS_ORIGENS__,180,23,7,1,2,18,5,0,0
 dia,2026-04-01T00:00:00.000Z,CARD,receptivo,180,23,7,1,2,18,5,0,0
@@ -229623,50 +229686,80 @@ dia,2026-08-20T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,316,9,0,0,0,0,0,0,0
 dia,2026-08-20T00:00:00.000Z,__TODOS_PRODUTOS__,store,18,0,0,1,2,1,1,1,3
 dia,2026-08-21T00:00:00.000Z,CARD,__TODAS_ORIGENS__,4,0,0,0,0,0,0,0,0
 dia,2026-08-21T00:00:00.000Z,CARD,sem origem,4,0,0,0,0,0,0,0,0
-dia,2026-08-21T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,2198,84,47,53,33,93,48,25,64
-dia,2026-08-21T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,2106,74,33,50,25,87,22,14,20
+dia,2026-08-21T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,2199,84,47,53,34,93,48,25,65
+dia,2026-08-21T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,2107,74,33,50,26,87,22,14,21
 dia,2026-08-21T00:00:00.000Z,CONSIGNADO PRIVADO,receptivo,0,10,14,3,8,6,26,11,44
 dia,2026-08-21T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,92,0,0,0,0,0,0,0,0
 dia,2026-08-21T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,1832,12,1,0,1,56,1,0,2
 dia,2026-08-21T00:00:00.000Z,FGTS,ativo,1827,12,1,0,1,56,1,0,2
 dia,2026-08-21T00:00:00.000Z,FGTS,sem origem,5,0,0,0,0,0,0,0,0
-dia,2026-08-21T00:00:00.000Z,INSS,__TODAS_ORIGENS__,294,3,1,2,0,3,2,0,0
-dia,2026-08-21T00:00:00.000Z,INSS,ativo,134,2,1,2,0,3,2,0,0
+dia,2026-08-21T00:00:00.000Z,INSS,__TODAS_ORIGENS__,294,3,2,2,0,3,2,0,1
+dia,2026-08-21T00:00:00.000Z,INSS,ativo,134,2,2,2,0,3,2,0,1
 dia,2026-08-21T00:00:00.000Z,INSS,receptivo,19,0,0,0,0,0,0,0,0
 dia,2026-08-21T00:00:00.000Z,INSS,sem origem,141,1,0,0,0,0,0,0,0
-dia,2026-08-21T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,3045,137,61,22,21,8,18,7,49
+dia,2026-08-21T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,3045,137,61,22,21,8,19,7,50
 dia,2026-08-21T00:00:00.000Z,OUTROS,ativo,2474,5,1,0,6,3,2,4,0
-dia,2026-08-21T00:00:00.000Z,OUTROS,receptivo,542,131,60,22,14,4,12,2,43
+dia,2026-08-21T00:00:00.000Z,OUTROS,receptivo,542,131,60,22,14,4,13,2,44
 dia,2026-08-21T00:00:00.000Z,OUTROS,sem origem,4,0,0,0,0,0,0,0,0
 dia,2026-08-21T00:00:00.000Z,OUTROS,store,25,1,0,0,1,1,4,1,6
-dia,2026-08-21T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,7373,236,110,77,55,160,69,32,115
-dia,2026-08-21T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,6541,93,36,52,32,149,27,18,22
-dia,2026-08-21T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,561,141,74,25,22,10,38,13,87
+dia,2026-08-21T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,7374,236,111,77,56,160,70,32,118
+dia,2026-08-21T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,6542,93,37,52,33,149,27,18,24
+dia,2026-08-21T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,561,141,74,25,22,10,39,13,88
 dia,2026-08-21T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,246,1,0,0,0,0,0,0,0
 dia,2026-08-21T00:00:00.000Z,__TODOS_PRODUTOS__,store,25,1,0,0,1,1,4,1,6
 dia,2026-08-22T00:00:00.000Z,CARD,__TODAS_ORIGENS__,1,0,0,0,0,0,0,0,0
 dia,2026-08-22T00:00:00.000Z,CARD,sem origem,1,0,0,0,0,0,0,0,0
-dia,2026-08-22T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,49,3,0,0,1,1,2,0,77
+dia,2026-08-22T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,52,3,0,0,1,1,2,0,77
 dia,2026-08-22T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,19,2,0,0,0,1,0,0,44
 dia,2026-08-22T00:00:00.000Z,CONSIGNADO PRIVADO,receptivo,1,1,0,0,1,0,2,0,33
-dia,2026-08-22T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,29,0,0,0,0,0,0,0,0
+dia,2026-08-22T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,32,0,0,0,0,0,0,0,0
 dia,2026-08-22T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,6,0,0,0,0,0,0,0,0
 dia,2026-08-22T00:00:00.000Z,FGTS,ativo,3,0,0,0,0,0,0,0,0
 dia,2026-08-22T00:00:00.000Z,FGTS,sem origem,3,0,0,0,0,0,0,0,0
-dia,2026-08-22T00:00:00.000Z,INSS,__TODAS_ORIGENS__,74,0,0,0,0,1,0,0,0
-dia,2026-08-22T00:00:00.000Z,INSS,ativo,30,0,0,0,0,1,0,0,0
+dia,2026-08-22T00:00:00.000Z,INSS,__TODAS_ORIGENS__,78,0,0,0,0,1,0,0,0
+dia,2026-08-22T00:00:00.000Z,INSS,ativo,33,0,0,0,0,1,0,0,0
 dia,2026-08-22T00:00:00.000Z,INSS,receptivo,4,0,0,0,0,0,0,0,0
-dia,2026-08-22T00:00:00.000Z,INSS,sem origem,40,0,0,0,0,0,0,0,0
-dia,2026-08-22T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,778,1,0,0,0,0,0,0,0
-dia,2026-08-22T00:00:00.000Z,OUTROS,ativo,620,0,0,0,0,0,0,0,0
+dia,2026-08-22T00:00:00.000Z,INSS,sem origem,41,0,0,0,0,0,0,0,0
+dia,2026-08-22T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,915,1,0,0,0,0,0,0,0
+dia,2026-08-22T00:00:00.000Z,OUTROS,ativo,756,0,0,0,0,0,0,0,0
 dia,2026-08-22T00:00:00.000Z,OUTROS,receptivo,144,1,0,0,0,0,0,0,0
 dia,2026-08-22T00:00:00.000Z,OUTROS,sem origem,1,0,0,0,0,0,0,0,0
-dia,2026-08-22T00:00:00.000Z,OUTROS,store,13,0,0,0,0,0,0,0,0
-dia,2026-08-22T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,908,4,0,0,1,2,2,0,77
-dia,2026-08-22T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,672,2,0,0,0,2,0,0,44
+dia,2026-08-22T00:00:00.000Z,OUTROS,store,14,0,0,0,0,0,0,0,0
+dia,2026-08-22T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,1052,4,0,0,1,2,2,0,77
+dia,2026-08-22T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,811,2,0,0,0,2,0,0,44
 dia,2026-08-22T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,149,2,0,0,1,0,2,0,33
-dia,2026-08-22T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,74,0,0,0,0,0,0,0,0
-dia,2026-08-22T00:00:00.000Z,__TODOS_PRODUTOS__,store,13,0,0,0,0,0,0,0,0
+dia,2026-08-22T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,78,0,0,0,0,0,0,0,0
+dia,2026-08-22T00:00:00.000Z,__TODOS_PRODUTOS__,store,14,0,0,0,0,0,0,0,0
+dia,2026-08-23T00:00:00.000Z,CARD,__TODAS_ORIGENS__,1,0,0,0,0,0,0,0,0
+dia,2026-08-23T00:00:00.000Z,CARD,sem origem,1,0,0,0,0,0,0,0,0
+dia,2026-08-23T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,14,0,0,0,0,0,0,0,1
+dia,2026-08-23T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,0,0,0,0,0,0,0,0,1
+dia,2026-08-23T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,14,0,0,0,0,0,0,0,0
+dia,2026-08-23T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,3,0,0,0,0,0,0,0,0
+dia,2026-08-23T00:00:00.000Z,FGTS,ativo,2,0,0,0,0,0,0,0,0
+dia,2026-08-23T00:00:00.000Z,FGTS,sem origem,1,0,0,0,0,0,0,0,0
+dia,2026-08-23T00:00:00.000Z,INSS,__TODAS_ORIGENS__,27,0,0,0,0,0,0,0,1
+dia,2026-08-23T00:00:00.000Z,INSS,ativo,9,0,0,0,0,0,0,0,1
+dia,2026-08-23T00:00:00.000Z,INSS,sem origem,18,0,0,0,0,0,0,0,0
+dia,2026-08-23T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,539,0,0,0,0,0,0,0,1
+dia,2026-08-23T00:00:00.000Z,OUTROS,ativo,515,0,0,0,0,0,0,0,0
+dia,2026-08-23T00:00:00.000Z,OUTROS,receptivo,7,0,0,0,0,0,0,0,1
+dia,2026-08-23T00:00:00.000Z,OUTROS,store,17,0,0,0,0,0,0,0,0
+dia,2026-08-23T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,584,0,0,0,0,0,0,0,3
+dia,2026-08-23T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,526,0,0,0,0,0,0,0,2
+dia,2026-08-23T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,7,0,0,0,0,0,0,0,1
+dia,2026-08-23T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,34,0,0,0,0,0,0,0,0
+dia,2026-08-23T00:00:00.000Z,__TODOS_PRODUTOS__,store,17,0,0,0,0,0,0,0,0
+dia,2026-08-24T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,2,0,0,0,0,0,0,0,0
+dia,2026-08-24T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,2,0,0,0,0,0,0,0,0
+dia,2026-08-24T00:00:00.000Z,INSS,__TODAS_ORIGENS__,8,0,0,0,0,0,0,0,0
+dia,2026-08-24T00:00:00.000Z,INSS,ativo,4,0,0,0,0,0,0,0,0
+dia,2026-08-24T00:00:00.000Z,INSS,sem origem,4,0,0,0,0,0,0,0,0
+dia,2026-08-24T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,85,0,0,0,0,0,0,0,0
+dia,2026-08-24T00:00:00.000Z,OUTROS,ativo,85,0,0,0,0,0,0,0,0
+dia,2026-08-24T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,95,0,0,0,0,0,0,0,0
+dia,2026-08-24T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,89,0,0,0,0,0,0,0,0
+dia,2026-08-24T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,6,0,0,0,0,0,0,0,0
 mes,2026-04-01T00:00:00.000Z,CARD,__TODAS_ORIGENS__,2453,389,213,124,94,78,191,40,9
 mes,2026-04-01T00:00:00.000Z,CARD,receptivo,2453,389,213,124,94,78,191,40,9
 mes,2026-04-01T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,316476,5518,3040,2229,1682,1239,2951,2006,17304
@@ -229775,33 +229868,33 @@ mes,2026-07-01T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,13042,2626,1908,744,42
 mes,2026-07-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,9155,511,160,101,78,39,26,0,58
 mes,2026-07-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,788,12,10,14,8,13,37,12,225
 mes,2026-07-01T00:00:00.000Z,__TODOS_PRODUTOS__,{{trigger.parent.parameters..flowtype}},37890,9,6,4,2,0,7,3,14
-mes,2026-08-01T00:00:00.000Z,CARD,__TODAS_ORIGENS__,81,4,1,0,0,0,0,0,0
+mes,2026-08-01T00:00:00.000Z,CARD,__TODAS_ORIGENS__,82,4,1,0,0,0,0,0,0
 mes,2026-08-01T00:00:00.000Z,CARD,receptivo,21,1,0,0,0,0,0,0,0
-mes,2026-08-01T00:00:00.000Z,CARD,sem origem,60,3,1,0,0,0,0,0,0
-mes,2026-08-01T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,127469,1659,1150,766,647,681,1116,442,2608
-mes,2026-08-01T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,125110,1531,1084,737,619,657,988,369,788
+mes,2026-08-01T00:00:00.000Z,CARD,sem origem,61,3,1,0,0,0,0,0,0
+mes,2026-08-01T00:00:00.000Z,CONSIGNADO PRIVADO,__TODAS_ORIGENS__,127489,1659,1150,766,648,681,1116,442,2609
+mes,2026-08-01T00:00:00.000Z,CONSIGNADO PRIVADO,ativo,125111,1531,1084,737,620,657,988,369,789
 mes,2026-08-01T00:00:00.000Z,CONSIGNADO PRIVADO,receptivo,240,41,33,13,19,20,128,72,1820
-mes,2026-08-01T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,2119,87,33,16,9,4,0,1,0
-mes,2026-08-01T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,12128,141,102,78,57,176,16,2,33
-mes,2026-08-01T00:00:00.000Z,FGTS,ativo,11912,136,99,78,55,176,16,2,33
-mes,2026-08-01T00:00:00.000Z,FGTS,sem origem,216,5,3,0,2,0,0,0,0
-mes,2026-08-01T00:00:00.000Z,INSS,__TODAS_ORIGENS__,5580,156,61,30,26,115,32,8,23
-mes,2026-08-01T00:00:00.000Z,INSS,ativo,2033,100,52,27,25,113,32,8,22
+mes,2026-08-01T00:00:00.000Z,CONSIGNADO PRIVADO,sem origem,2138,87,33,16,9,4,0,1,0
+mes,2026-08-01T00:00:00.000Z,FGTS,__TODAS_ORIGENS__,12131,141,102,78,57,176,16,2,33
+mes,2026-08-01T00:00:00.000Z,FGTS,ativo,11914,136,99,78,55,176,16,2,33
+mes,2026-08-01T00:00:00.000Z,FGTS,sem origem,217,5,3,0,2,0,0,0,0
+mes,2026-08-01T00:00:00.000Z,INSS,__TODAS_ORIGENS__,5619,156,62,30,26,115,32,8,24
+mes,2026-08-01T00:00:00.000Z,INSS,ativo,2049,100,53,27,25,113,32,8,23
 mes,2026-08-01T00:00:00.000Z,INSS,receptivo,388,21,0,1,0,0,0,0,0
-mes,2026-08-01T00:00:00.000Z,INSS,sem origem,3159,35,9,2,1,2,0,0,1
-mes,2026-08-01T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,82853,2640,2076,1509,534,146,386,71,1316
-mes,2026-08-01T00:00:00.000Z,OUTROS,ativo,72326,12,6,1,8,6,2,4,1
-mes,2026-08-01T00:00:00.000Z,OUTROS,receptivo,9798,2616,2068,1503,519,132,369,54,1201
+mes,2026-08-01T00:00:00.000Z,INSS,sem origem,3182,35,9,2,1,2,0,0,1
+mes,2026-08-01T00:00:00.000Z,OUTROS,__TODAS_ORIGENS__,83614,2640,2076,1509,534,146,387,71,1317
+mes,2026-08-01T00:00:00.000Z,OUTROS,ativo,73062,12,6,1,8,6,2,4,1
+mes,2026-08-01T00:00:00.000Z,OUTROS,receptivo,9805,2616,2068,1503,519,132,370,54,1202
 mes,2026-08-01T00:00:00.000Z,OUTROS,sem origem,179,3,0,1,0,1,0,0,1
-mes,2026-08-01T00:00:00.000Z,OUTROS,store,550,9,2,4,7,7,15,13,113
-mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,228106,4599,3390,2383,1264,1118,1550,523,3980
-mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,211381,1779,1241,843,707,952,1038,383,844
-mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,10442,2678,2101,1517,538,152,497,126,3021
-mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,5733,133,46,19,12,7,0,1,2
-mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,550,9,2,4,7,7,15,13,113`,
+mes,2026-08-01T00:00:00.000Z,OUTROS,store,568,9,2,4,7,7,15,13,113
+mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,__TODAS_ORIGENS__,228930,4599,3391,2383,1265,1118,1551,523,3983
+mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,ativo,212136,1779,1242,843,708,952,1038,383,846
+mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,receptivo,10449,2678,2101,1517,538,152,498,126,3022
+mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,sem origem,5777,133,46,19,12,7,0,1,2
+mes,2026-08-01T00:00:00.000Z,__TODOS_PRODUTOS__,store,568,9,2,4,7,7,15,13,113`,
   EMBEDDED_CSAT_CSV: `tipo_atendimento,total_avaliacoes,avaliacoes_4_5,avaliacoes_3,avaliacoes_1_2,csat_percentual,nota_media
-humano,74213,50391,8171,15651,67.9005026073599,3.760600079976265
-concierge,13697,7444,1289,5525,54.34766737241732,3.2422542394491902`,
+humano,74213,50391,8171,15651,67.9005026073599,3.7605840922576816
+concierge,13698,7444,1289,5526,54.34369981019127,3.2419683834778175`,
 };
 
 async function __decodeGzipBase64(embeddedText){
